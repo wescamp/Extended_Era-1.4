@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2008-01-16 19:24+0100\n"
-"PO-Revision-Date: 2008-01-16 19:24+0100\n"
+"POT-Creation-Date: 2008-01-18 22:33+0100\n"
+"PO-Revision-Date: 2005-05-18 10:15+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "MIME-Version: 1.0\n"
@@ -103,8 +103,9 @@ msgid ""
 msgstr ""
 
 #: Extended_Era/abilities/dread.cfg:6 Extended_Era/abilities/dread.cfg:7
+#, fuzzy
 msgid "dread"
-msgstr ""
+msgstr "不死"
 
 #: Extended_Era/abilities/dread.cfg:9 Extended_Era/abilities/dread.cfg:11
 msgid ""
@@ -185,15 +186,15 @@ msgstr ""
 msgid "Chaos"
 msgstr ""
 
-#: Extended_Era/factions/dark_elves-xrpg.cfg:5
 #: Extended_Era/factions/dark_elves-extended.cfg:5
+#: Extended_Era/factions/dark_elves-xrpg.cfg:5
 msgid "Dark Elves"
 msgstr ""
 
-#: Extended_Era/factions/drakes-xrpg.cfg:5
 #: Extended_Era/factions/drakes-extended.cfg:5
+#: Extended_Era/factions/drakes-xrpg.cfg:5
 msgid "Drakes"
-msgstr ""
+msgstr "龙战士"
 
 #: Extended_Era/factions/dwarves-xrpg.cfg:5
 #: Extended_Era/factions/dwarves-extended.cfg:5
@@ -208,7 +209,7 @@ msgstr ""
 #: Extended_Era/factions/loyalists-extended.cfg:5
 #: Extended_Era/factions/loyalists-xrpg.cfg:5
 msgid "Loyalists"
-msgstr ""
+msgstr "忠诚者"
 
 #: Extended_Era/factions/merfolk-xrpg.cfg:5
 msgid "Merfolk"
@@ -219,26 +220,27 @@ msgid "Miscellanous"
 msgstr ""
 
 #: Extended_Era/factions/nagas-xrpg.cfg:5
+#, fuzzy
 msgid "Nagas"
-msgstr ""
+msgstr "尖牙武器"
 
-#: Extended_Era/factions/northerners-xrpg.cfg:5
 #: Extended_Era/factions/northerners-extended.cfg:5
+#: Extended_Era/factions/northerners-xrpg.cfg:5
 msgid "Northerners"
-msgstr ""
+msgstr "北方人"
 
 #: Extended_Era/factions/outlaws-extended.cfg:5
 #: Extended_Era/factions/outlaws-xrpg.cfg:5
 msgid "Outlaws"
 msgstr ""
 
-#: Extended_Era/factions/sidhe-extended.cfg:5
 #: Extended_Era/factions/sidhe-xrpg.cfg:5
+#: Extended_Era/factions/sidhe-extended.cfg:5
 msgid "Sidhe"
 msgstr ""
 
-#: Extended_Era/factions/steppe_orcs-xrpg.cfg:5
 #: Extended_Era/factions/steppe_orcs-extended.cfg:5
+#: Extended_Era/factions/steppe_orcs-xrpg.cfg:5
 msgid "Steppe Orcs"
 msgstr ""
 
@@ -247,10 +249,10 @@ msgstr ""
 msgid "Sylvans"
 msgstr ""
 
-#: Extended_Era/factions/undead-extended.cfg:5
 #: Extended_Era/factions/undead-xrpg.cfg:5
+#: Extended_Era/factions/undead-extended.cfg:5
 msgid "Undead"
-msgstr ""
+msgstr "不死"
 
 #: Extended_Era/races/aragwaithi.cfg:5
 msgid "race^Aragwaith Human"
@@ -447,8 +449,9 @@ msgid "race^Sidhe"
 msgstr ""
 
 #: Extended_Era/races/sidhe.cfg:15
+#, fuzzy
 msgid "race^Bear"
-msgstr ""
+msgstr "矛"
 
 #: Extended_Era/races/sidhe.cfg:16
 msgid "race+female^Bear"
@@ -486,84 +489,83 @@ msgstr ""
 msgid "Ancient Banner"
 msgstr ""
 
-#: Extended_Era/units/kalifa/Mubarizan.cfg:24
-#: Extended_Era/units/kalifa/Amir.cfg:23
-#: Extended_Era/units/kalifa/Immortal.cfg:32
-#: Extended_Era/units/kalifa/Arif.cfg:31
-#: Extended_Era/units/nagas/Abomination.cfg:46
-#: Extended_Era/units/aragwaith/Spearman.cfg:53
 #: Extended_Era/units/aragwaith/Silver_Shield.cfg:73
 #: Extended_Era/units/aragwaith/Lancer.cfg:72
-#: Extended_Era/units/aragwaith/Ancient_Banner.cfg:35
 #: Extended_Era/units/aragwaith/Scout.cfg:67
 #: Extended_Era/units/aragwaith/Guardian.cfg:29
-#: Extended_Era/units/aragwaith/Pikeman.cfg:28
 #: Extended_Era/units/aragwaith/Captain.cfg:34
+#: Extended_Era/units/aragwaith/Pikeman.cfg:28
 #: Extended_Era/units/aragwaith/Flagbearer.cfg:34
-#: Extended_Era/units/chaos/Soulhunter.cfg:47
-#: Extended_Era/units/chaos/Headhunter.cfg:38
+#: Extended_Era/units/aragwaith/Spearman.cfg:53
+#: Extended_Era/units/aragwaith/Ancient_Banner.cfg:35
 #: Extended_Era/units/chaos/Marauder.cfg:45
+#: Extended_Era/units/chaos/Headhunter.cfg:38
+#: Extended_Era/units/chaos/Soulhunter.cfg:47
+#: Extended_Era/units/nagas/Abomination.cfg:46
+#: Extended_Era/units/sidhe/Wanderer.cfg:27
+#: Extended_Era/units/sidhe/Wanderer.cfg:35
+#: Extended_Era/units/sidhe/Tracker.cfg:26
+#: Extended_Era/units/sidhe/Tracker.cfg:34
+#: Extended_Era/units/sidhe/Windrunner.cfg:27
+#: Extended_Era/units/sidhe/Windrunner.cfg:35
+#: Extended_Era/units/kalifa/Mubarizan.cfg:24
+#: Extended_Era/units/kalifa/Arif.cfg:31 Extended_Era/units/kalifa/Amir.cfg:23
+#: Extended_Era/units/kalifa/Immortal.cfg:32
+#: Extended_Era/units/steppe_orcs/Skewer.cfg:27
+#: Extended_Era/units/steppe_orcs/Spearman.cfg:24
 #: Extended_Era/units/dark_elves/Marshal.cfg:36
 #: Extended_Era/units/dark_elves/Marshal.cfg:44
 #: Extended_Era/units/dark_elves/Captain.cfg:35
 #: Extended_Era/units/dark_elves/Captain.cfg:43
-#: Extended_Era/units/sidhe/Wanderer.cfg:27
-#: Extended_Era/units/sidhe/Wanderer.cfg:35
-#: Extended_Era/units/sidhe/Windrunner.cfg:27
-#: Extended_Era/units/sidhe/Windrunner.cfg:35
-#: Extended_Era/units/sidhe/Tracker.cfg:26
-#: Extended_Era/units/sidhe/Tracker.cfg:34
-#: Extended_Era/units/steppe_orcs/Spearman.cfg:24
-#: Extended_Era/units/steppe_orcs/Skewer.cfg:27
 msgid "spear"
-msgstr ""
+msgstr "矛"
 
-#: Extended_Era/units/nagas/Depthprowler.cfg:54
-#: Extended_Era/units/nagas/Assassin.cfg:30
-#: Extended_Era/units/nagas/Abomination.cfg:29
-#: Extended_Era/units/nagas/Hunter.cfg:42
-#: Extended_Era/units/nagas/Depthstalker.cfg:54
-#: Extended_Era/units/aragwaith/Ancient_Banner.cfg:43
-#: Extended_Era/units/aragwaith/Swordsman.cfg:101
-#: Extended_Era/units/aragwaith/Greatbow.cfg:62
-#: Extended_Era/units/aragwaith/Shield_Guard.cfg:29
 #: Extended_Era/units/aragwaith/Guard.cfg:74
+#: Extended_Era/units/aragwaith/Greatbow.cfg:62
 #: Extended_Era/units/aragwaith/Captain.cfg:42
 #: Extended_Era/units/aragwaith/Flagbearer.cfg:42
-#: Extended_Era/units/chaos/Overlord.cfg:33
+#: Extended_Era/units/aragwaith/Swordsman.cfg:101
+#: Extended_Era/units/aragwaith/Shield_Guard.cfg:29
+#: Extended_Era/units/aragwaith/Ancient_Banner.cfg:43
+#: Extended_Era/units/chaos/Elite_Armorer.cfg:26
 #: Extended_Era/units/chaos/Invader.cfg:25
 #: Extended_Era/units/chaos/Blood_Knight.cfg:25
-#: Extended_Era/units/chaos/Knight.cfg:25
+#: Extended_Era/units/chaos/Overlord.cfg:33
 #: Extended_Era/units/chaos/Armorer.cfg:25
-#: Extended_Era/units/chaos/Elite_Armorer.cfg:26
-#: Extended_Era/units/dark_elves/Warrior.cfg:22
-#: Extended_Era/units/dark_elves/Lord.cfg:25
-#: Extended_Era/units/dark_elves/Marshal.cfg:27
-#: Extended_Era/units/dark_elves/Corsair.cfg:23
-#: Extended_Era/units/dark_elves/Fighter.cfg:29
-#: Extended_Era/units/dark_elves/Noble.cfg:22
-#: Extended_Era/units/dark_elves/High_Lord.cfg:26
-#: Extended_Era/units/dark_elves/Captain.cfg:26
-#: Extended_Era/units/sidhe/Warrior.cfg:23
-#: Extended_Era/units/sidhe/Veiledblade.cfg:25
-#: Extended_Era/units/sidhe/Whirlwind.cfg:26
-#: Extended_Era/units/sidhe/Snowdancer.cfg:22
-#: Extended_Era/units/sidhe/Tempest.cfg:22
-#: Extended_Era/units/sidhe/Wildblade.cfg:23
+#: Extended_Era/units/chaos/Knight.cfg:25
+#: Extended_Era/units/nagas/Hunter.cfg:42
+#: Extended_Era/units/nagas/Assassin.cfg:30
+#: Extended_Era/units/nagas/Depthstalker.cfg:54
+#: Extended_Era/units/nagas/Depthprowler.cfg:54
+#: Extended_Era/units/nagas/Abomination.cfg:29
+#: Extended_Era/units/sidhe/Warsinger.cfg:26
+#: Extended_Era/units/sidhe/Windlasher.cfg:22
 #: Extended_Era/units/sidhe/Wardancer.cfg:23
+#: Extended_Era/units/sidhe/Warrior.cfg:23
+#: Extended_Era/units/sidhe/Blizzardlord.cfg:23
+#: Extended_Era/units/sidhe/Tempest.cfg:22
 #: Extended_Era/units/sidhe/Raindancer.cfg:23
 #: Extended_Era/units/sidhe/Bladespinner.cfg:22
-#: Extended_Era/units/sidhe/Warmage.cfg:22
-#: Extended_Era/units/sidhe/Warsinger.cfg:26
+#: Extended_Era/units/sidhe/Snowdancer.cfg:22
+#: Extended_Era/units/sidhe/Veiledblade.cfg:25
 #: Extended_Era/units/sidhe/Herald.cfg:25
-#: Extended_Era/units/sidhe/Blizzardlord.cfg:23
+#: Extended_Era/units/sidhe/Whirlwind.cfg:26
 #: Extended_Era/units/sidhe/Stormlord.cfg:23
-#: Extended_Era/units/sidhe/Hoarfroster.cfg:22
+#: Extended_Era/units/sidhe/Warmage.cfg:22
+#: Extended_Era/units/sidhe/Wildblade.cfg:23
 #: Extended_Era/units/sidhe/Fury.cfg:23
-#: Extended_Era/units/sidhe/Windlasher.cfg:22
+#: Extended_Era/units/sidhe/Hoarfroster.cfg:22
 #: Extended_Era/units/sidhe/Shadowdancer.cfg:26
+#: Extended_Era/units/dark_elves/Warrior.cfg:22
+#: Extended_Era/units/dark_elves/Marshal.cfg:27
+#: Extended_Era/units/dark_elves/Captain.cfg:26
+#: Extended_Era/units/dark_elves/Noble.cfg:22
+#: Extended_Era/units/dark_elves/Corsair.cfg:23
+#: Extended_Era/units/dark_elves/Lord.cfg:25
+#: Extended_Era/units/dark_elves/High_Lord.cfg:26
+#: Extended_Era/units/dark_elves/Fighter.cfg:29
 msgid "sword"
-msgstr ""
+msgstr "剑"
 
 #: Extended_Era/units/aragwaith/Archer.cfg:5
 msgid "Archer"
@@ -577,22 +579,22 @@ msgid ""
 "and they are remarkably quick with their daggers."
 msgstr ""
 
-#: Extended_Era/units/aragwaith/Strongbow.cfg:47
 #: Extended_Era/units/aragwaith/Archer.cfg:85
-#: Extended_Era/units/steppe_orcs/Striker.cfg:28
+#: Extended_Era/units/aragwaith/Strongbow.cfg:47
 #: Extended_Era/units/steppe_orcs/Hunter.cfg:24
 #: Extended_Era/units/steppe_orcs/Flanker.cfg:25
+#: Extended_Era/units/steppe_orcs/Striker.cfg:28
 msgid "knife"
-msgstr ""
+msgstr "小刀"
 
-#: Extended_Era/units/nagas/Assassin.cfg:39
-#: Extended_Era/units/nagas/Hunter.cfg:51
-#: Extended_Era/units/aragwaith/Slayer.cfg:36
 #: Extended_Era/units/aragwaith/Greatbow.cfg:71
-#: Extended_Era/units/aragwaith/Strongbow.cfg:56
 #: Extended_Era/units/aragwaith/Archer.cfg:94
+#: Extended_Era/units/aragwaith/Slayer.cfg:36
+#: Extended_Era/units/aragwaith/Strongbow.cfg:56
+#: Extended_Era/units/nagas/Hunter.cfg:51
+#: Extended_Era/units/nagas/Assassin.cfg:39
 msgid "bow"
-msgstr ""
+msgstr "弓"
 
 #: Extended_Era/units/aragwaith/Captain.cfg:5
 #: Extended_Era/units/dark_elves/Captain.cfg:5
@@ -610,20 +612,21 @@ msgid ""
 "they no longer need to give orders to their mounts, those anticipate them."
 msgstr ""
 
-#: Extended_Era/units/kalifa/Elder_Falcon.cfg:26
-#: Extended_Era/units/kalifa/Falcon.cfg:24
-#: Extended_Era/units/bears/Bear.cfg:32 Extended_Era/units/bears/Young.cfg:31
 #: Extended_Era/units/aragwaith/Eagle_Master.cfg:27
 #: Extended_Era/units/aragwaith/Eagle_Rider.cfg:28
+#: Extended_Era/units/bears/Young.cfg:31 Extended_Era/units/bears/Bear.cfg:32
 #: Extended_Era/units/chaos/Winged_Daemon.cfg:33
+#: Extended_Era/units/kalifa/Falcon.cfg:24
+#: Extended_Era/units/kalifa/Elder_Falcon.cfg:26
 #: Extended_Era/units/dark_elves/Lizard_Rider.cfg:35
 msgid "claws"
-msgstr ""
+msgstr "爪击"
 
 #: Extended_Era/units/aragwaith/Eagle_Master.cfg:36
 #: Extended_Era/units/aragwaith/Eagle_Rider.cfg:37
+#, fuzzy
 msgid "prey crush"
-msgstr ""
+msgstr "压碎"
 
 #: Extended_Era/units/aragwaith/Eagle_Rider.cfg:5
 msgid "Eagle Rider"
@@ -674,7 +677,7 @@ msgstr ""
 
 #: Extended_Era/units/aragwaith/Lancer.cfg:5
 msgid "Lancer"
-msgstr ""
+msgstr "矛骑兵"
 
 #: Extended_Era/units/aragwaith/Longswordsman.cfg:5
 msgid "Longswordsman"
@@ -689,14 +692,15 @@ msgid ""
 "with equal grace and skill."
 msgstr ""
 
-#: Extended_Era/units/aragwaith/Swordmaster.cfg:81
 #: Extended_Era/units/aragwaith/Longswordsman.cfg:64
+#: Extended_Era/units/aragwaith/Swordmaster.cfg:81
+#, fuzzy
 msgid "longsword"
-msgstr ""
+msgstr "剑"
 
 #: Extended_Era/units/aragwaith/Pikeman.cfg:5
 msgid "Pikeman"
-msgstr ""
+msgstr "长矛兵"
 
 #: Extended_Era/units/aragwaith/Scout.cfg:5
 msgid "Scout"
@@ -750,26 +754,26 @@ msgid ""
 "Special Notes:"
 msgstr ""
 
+#: Extended_Era/units/orcs/Warlock.cfg:26
+#: Extended_Era/units/orcs/Witch_Doctor.cfg:28
+#: Extended_Era/units/orcs/Shaman.cfg:28
+#: Extended_Era/units/aragwaith/Warlock.cfg:30
 #: Extended_Era/units/aragwaith/Sorcerer.cfg:30
 #: Extended_Era/units/aragwaith/Wizard.cfg:27
-#: Extended_Era/units/aragwaith/Warlock.cfg:30
 #: Extended_Era/units/chaos/Magus.cfg:41
-#: Extended_Era/units/chaos/Invoker.cfg:27
 #: Extended_Era/units/chaos/Demonologist.cfg:30
-#: Extended_Era/units/outlaws/Queen.cfg:95
-#: Extended_Era/units/outlaws/Princess.cfg:92
-#: Extended_Era/units/orcs/Witch_Doctor.cfg:28
-#: Extended_Era/units/orcs/Warlock.cfg:26
-#: Extended_Era/units/orcs/Shaman.cfg:28
+#: Extended_Era/units/chaos/Invoker.cfg:27
 #: Extended_Era/units/steppe_orcs/Icewind_Master.cfg:34
 #: Extended_Era/units/steppe_orcs/Icewind_Herder.cfg:36
 #: Extended_Era/units/steppe_orcs/Icewind_Drover.cfg:34
+#: Extended_Era/units/outlaws/Princess.cfg:92
+#: Extended_Era/units/outlaws/Queen.cfg:95
 msgid "staff"
-msgstr ""
+msgstr "棍"
 
+#: Extended_Era/units/aragwaith/Warlock.cfg:39
 #: Extended_Era/units/aragwaith/Sorcerer.cfg:39
 #: Extended_Era/units/aragwaith/Wizard.cfg:36
-#: Extended_Era/units/aragwaith/Warlock.cfg:39
 msgid "mage-bolt"
 msgstr ""
 
@@ -789,7 +793,7 @@ msgstr ""
 
 #: Extended_Era/units/aragwaith/Spearman.cfg:5
 msgid "Spearman"
-msgstr ""
+msgstr "矛兵"
 
 #: Extended_Era/units/aragwaith/Spearman.cfg:20
 msgid ""
@@ -878,8 +882,9 @@ msgid "female^Wizard"
 msgstr ""
 
 #: Extended_Era/units/bears/Bear.cfg:5
+#, fuzzy
 msgid "Bear"
-msgstr ""
+msgstr "矛"
 
 #: Extended_Era/units/bears/Bear.cfg:18
 msgid ""
@@ -891,7 +896,7 @@ msgid ""
 "bulk of an angry, advancing bear."
 msgstr ""
 
-#: Extended_Era/units/bears/Bear.cfg:23 Extended_Era/units/bears/Young.cfg:22
+#: Extended_Era/units/bears/Young.cfg:22 Extended_Era/units/bears/Bear.cfg:23
 msgid "bearhug"
 msgstr ""
 
@@ -914,12 +919,12 @@ msgstr ""
 msgid "Abomination"
 msgstr ""
 
-#: Extended_Era/units/chaos/Abomination.cfg:26
-#: Extended_Era/units/chaos/Greater_Mutation.cfg:25
 #: Extended_Era/units/chaos/Lesser_Mutation.cfg:25
+#: Extended_Era/units/chaos/Greater_Mutation.cfg:25
+#: Extended_Era/units/chaos/Abomination.cfg:26
 #: Extended_Era/units/woses/Shaman.cfg:33
 msgid "crush"
-msgstr ""
+msgstr "压碎"
 
 #: Extended_Era/units/chaos/Armorer.cfg:5
 msgid "Doom Guard"
@@ -934,10 +939,10 @@ msgid ""
 "enemy."
 msgstr ""
 
-#: Extended_Era/units/chaos/Armorer.cfg:36
 #: Extended_Era/units/chaos/Elite_Armorer.cfg:37
-#: Extended_Era/units/dark_elves/Lord.cfg:34
+#: Extended_Era/units/chaos/Armorer.cfg:36
 #: Extended_Era/units/dark_elves/Noble.cfg:31
+#: Extended_Era/units/dark_elves/Lord.cfg:34
 #: Extended_Era/units/dark_elves/High_Lord.cfg:35
 msgid "shield"
 msgstr ""
@@ -954,33 +959,33 @@ msgid ""
 "Chaos."
 msgstr ""
 
+#: Extended_Era/units/chaos/Greater_Daemon.cfg:26
+#: Extended_Era/units/chaos/Marauder.cfg:37
+#: Extended_Era/units/chaos/Blood_Knight.cfg:34
+#: Extended_Era/units/chaos/Lesser_Daemon.cfg:25
+#: Extended_Era/units/chaos/Overlord.cfg:42
+#: Extended_Era/units/chaos/Chaos_Daemon.cfg:25
+#: Extended_Era/units/chaos/Knight.cfg:34
+#: Extended_Era/units/chaos/Soulhunter.cfg:38
+#: Extended_Era/units/dwarves/Axemaster.cfg:31
+#: Extended_Era/units/dwarves/Axemaster.cfg:39
+#: Extended_Era/units/dwarves/Runner.cfg:30
+#: Extended_Era/units/dwarves/Runner.cfg:38
+#: Extended_Era/units/dwarves/Axethrower.cfg:30
+#: Extended_Era/units/dwarves/Axethrower.cfg:38
 #: Extended_Era/units/kalifa/Ghazi.cfg:23
 #: Extended_Era/units/kalifa/Ahadath.cfg:23
 #: Extended_Era/units/kalifa/Elite_Ghazi.cfg:23
-#: Extended_Era/units/dwarves/Runner.cfg:30
-#: Extended_Era/units/dwarves/Runner.cfg:38
-#: Extended_Era/units/dwarves/Axemaster.cfg:31
-#: Extended_Era/units/dwarves/Axemaster.cfg:39
-#: Extended_Era/units/dwarves/Axethrower.cfg:30
-#: Extended_Era/units/dwarves/Axethrower.cfg:38
-#: Extended_Era/units/chaos/Overlord.cfg:42
-#: Extended_Era/units/chaos/Blood_Knight.cfg:34
-#: Extended_Era/units/chaos/Soulhunter.cfg:38
-#: Extended_Era/units/chaos/Marauder.cfg:37
-#: Extended_Era/units/chaos/Chaos_Daemon.cfg:25
-#: Extended_Era/units/chaos/Knight.cfg:34
-#: Extended_Era/units/chaos/Lesser_Daemon.cfg:25
-#: Extended_Era/units/chaos/Greater_Daemon.cfg:26
 msgid "axe"
-msgstr ""
+msgstr "斧"
 
 #: Extended_Era/units/chaos/Chaos_Daemon.cfg:5
 msgid "Chaos Daemon"
 msgstr ""
 
-#: Extended_Era/units/chaos/Chaos_Daemon.cfg:20
-#: Extended_Era/units/chaos/Lesser_Daemon.cfg:20
 #: Extended_Era/units/chaos/Greater_Daemon.cfg:21
+#: Extended_Era/units/chaos/Lesser_Daemon.cfg:20
+#: Extended_Era/units/chaos/Chaos_Daemon.cfg:20
 msgid ""
 "The lesser demons are the gift of the Gods of Chaos to those who have shown "
 "to be worthy enough to recieve aid from their sides, though barely any "
@@ -988,12 +993,12 @@ msgid ""
 "a battle due to the combination of their nible movement and tough fighting..."
 msgstr ""
 
-#: Extended_Era/units/chaos/Chaos_Daemon.cfg:34
+#: Extended_Era/units/chaos/Greater_Daemon.cfg:35
 #: Extended_Era/units/chaos/Lesser_Daemon.cfg:33
 #: Extended_Era/units/chaos/Winged_Daemon.cfg:42
-#: Extended_Era/units/chaos/Greater_Daemon.cfg:35
+#: Extended_Era/units/chaos/Chaos_Daemon.cfg:34
 msgid "fireball"
-msgstr ""
+msgstr "火球"
 
 #: Extended_Era/units/chaos/Chaos_Daemon.cfg:113
 msgid "female^Chaos Demon"
@@ -1012,8 +1017,8 @@ msgid ""
 msgstr ""
 
 #: Extended_Era/units/chaos/Magus.cfg:50
-#: Extended_Era/units/chaos/Invoker.cfg:36
 #: Extended_Era/units/chaos/Demonologist.cfg:39
+#: Extended_Era/units/chaos/Invoker.cfg:36
 msgid "chaos blast"
 msgstr ""
 
@@ -1041,15 +1046,17 @@ msgstr ""
 msgid "Evil Crab"
 msgstr ""
 
-#: Extended_Era/units/chaos/Hell_Crab.cfg:27
 #: Extended_Era/units/chaos/Evil_Crab.cfg:26
+#: Extended_Era/units/chaos/Hell_Crab.cfg:27
+#, fuzzy
 msgid "pincers"
-msgstr ""
+msgstr "刺"
 
-#: Extended_Era/units/chaos/Hell_Crab.cfg:35
 #: Extended_Era/units/chaos/Evil_Crab.cfg:34
+#: Extended_Era/units/chaos/Hell_Crab.cfg:35
+#, fuzzy
 msgid "evil eye"
-msgstr ""
+msgstr "近战"
 
 #: Extended_Era/units/chaos/Greater_Daemon.cfg:5
 msgid "Greater Daemon"
@@ -1074,11 +1081,11 @@ msgid ""
 "fear and message of daemonic invasions."
 msgstr ""
 
-#: Extended_Era/units/chaos/Soulhunter.cfg:30
-#: Extended_Era/units/chaos/Headhunter.cfg:30
 #: Extended_Era/units/chaos/Marauder.cfg:29
+#: Extended_Era/units/chaos/Headhunter.cfg:30
+#: Extended_Era/units/chaos/Soulhunter.cfg:30
 msgid "club"
-msgstr ""
+msgstr "木棒"
 
 #: Extended_Era/units/chaos/Hell_Crab.cfg:5
 msgid "Hell Crab"
@@ -1100,7 +1107,7 @@ msgstr ""
 #: Extended_Era/units/chaos/Hound_Rabid.cfg:25
 #: Extended_Era/units/chaos/Hound.cfg:25
 msgid "fangs"
-msgstr ""
+msgstr "尖牙武器"
 
 #: Extended_Era/units/chaos/Hound_Flesh.cfg:5
 msgid "Flesh Hound"
@@ -1119,7 +1126,7 @@ msgstr ""
 #: Extended_Era/units/chaos/Hound_Flesh.cfg:26
 #: Extended_Era/units/trolls/Shaman.cfg:32
 msgid "fist"
-msgstr ""
+msgstr "拳头"
 
 #: Extended_Era/units/chaos/Hound_Rabid.cfg:5
 msgid "Rabid Hound"
@@ -1266,21 +1273,21 @@ msgid ""
 "feared and admired for their beauty and cruelty."
 msgstr ""
 
-#: Extended_Era/units/kalifa/Ekim.cfg:29
-#: Extended_Era/units/kalifa/Ghulam.cfg:36
-#: Extended_Era/units/kalifa/Life_Guard.cfg:32
-#: Extended_Era/units/kalifa/Ghaznid.cfg:31
-#: Extended_Era/units/kalifa/Ghulam_al_Rami.cfg:29
-#: Extended_Era/units/kalifa/Ekim_Haram.cfg:31
-#: Extended_Era/units/nagas/Abomination.cfg:38
-#: Extended_Era/units/nagas/Warden.cfg:28
 #: Extended_Era/units/nagas/Guardian.cfg:28
 #: Extended_Era/units/nagas/Sentinel.cfg:29
+#: Extended_Era/units/nagas/Warden.cfg:28
+#: Extended_Era/units/nagas/Abomination.cfg:38
+#: Extended_Era/units/kalifa/Life_Guard.cfg:32
+#: Extended_Era/units/kalifa/Ghulam.cfg:36
+#: Extended_Era/units/kalifa/Ekim_Haram.cfg:31
+#: Extended_Era/units/kalifa/Ghulam_al_Rami.cfg:29
+#: Extended_Era/units/kalifa/Ekim.cfg:29
+#: Extended_Era/units/kalifa/Ghaznid.cfg:31
 #: Extended_Era/units/dark_elves/Enchantress.cfg:23
 #: Extended_Era/units/dark_elves/Sorceress.cfg:26
 #: Extended_Era/units/dark_elves/Cleric.cfg:27
 msgid "mace"
-msgstr ""
+msgstr "锤"
 
 #: Extended_Era/units/dark_elves/Enchantress.cfg:31
 #: Extended_Era/units/dark_elves/Sorceress.cfg:34
@@ -1314,7 +1321,7 @@ msgstr ""
 
 #: Extended_Era/units/dark_elves/Fighter.cfg:5
 msgid "Fighter"
-msgstr ""
+msgstr "战士"
 
 #: Extended_Era/units/dark_elves/Fighter.cfg:24
 msgid ""
@@ -1348,19 +1355,19 @@ msgid ""
 msgstr ""
 
 #: Extended_Era/units/dwarves/Flamethower.cfg:32
-#: Extended_Era/units/dark_elves/Stalker.cfg:27
 #: Extended_Era/units/dark_elves/Hunter.cfg:27
 #: Extended_Era/units/dark_elves/Shadow.cfg:26
+#: Extended_Era/units/dark_elves/Stalker.cfg:27
 msgid "dagger"
-msgstr ""
+msgstr "匕首"
 
-#: Extended_Era/units/dark_elves/Stalker.cfg:39
 #: Extended_Era/units/dark_elves/Hunter.cfg:36
 #: Extended_Era/units/dark_elves/Shadow.cfg:38
-#: Extended_Era/units/outlaws/Raider.cfg:46
+#: Extended_Era/units/dark_elves/Stalker.cfg:39
 #: Extended_Era/units/outlaws/Brigand.cfg:38
+#: Extended_Era/units/outlaws/Raider.cfg:46
 msgid "crossbow"
-msgstr ""
+msgstr "弩弓"
 
 #: Extended_Era/units/dark_elves/Lizard_Master.cfg:5
 msgid "Lizard Master"
@@ -1380,7 +1387,7 @@ msgstr ""
 
 #: Extended_Era/units/dark_elves/Lizard_Master.cfg:36
 msgid "bite"
-msgstr ""
+msgstr "咬击"
 
 #: Extended_Era/units/dark_elves/Lizard_Rider.cfg:5
 msgid "Lizard Rider"
@@ -1396,7 +1403,7 @@ msgstr ""
 
 #: Extended_Era/units/dark_elves/Lord.cfg:5
 msgid "Lord"
-msgstr ""
+msgstr "君主"
 
 #: Extended_Era/units/dark_elves/Lord.cfg:20
 msgid ""
@@ -1432,7 +1439,7 @@ msgstr ""
 
 #: Extended_Era/units/dark_elves/Shadow.cfg:5
 msgid "Shadow"
-msgstr ""
+msgstr "影者"
 
 #: Extended_Era/units/dark_elves/Shadow.cfg:21
 msgid ""
@@ -1453,9 +1460,9 @@ msgid ""
 "Their mighty cold blast can freeze any foe that dares to cross their path."
 msgstr ""
 
+#: Extended_Era/units/dark_elves/Warlock.cfg:36
 #: Extended_Era/units/dark_elves/Sorcerer.cfg:24
 #: Extended_Era/units/dark_elves/Wizard.cfg:24
-#: Extended_Era/units/dark_elves/Warlock.cfg:36
 msgid "dark wave"
 msgstr ""
 
@@ -1497,12 +1504,12 @@ msgstr ""
 
 #: Extended_Era/units/dark_elves/Warlock.cfg:24
 msgid "touch"
-msgstr ""
+msgstr "触碰"
 
-#: Extended_Era/units/dark_elves/Warrior.cfg:5
 #: Extended_Era/units/sidhe/Warrior.cfg:5
+#: Extended_Era/units/dark_elves/Warrior.cfg:5
 msgid "Warrior"
-msgstr ""
+msgstr "战士"
 
 #: Extended_Era/units/dark_elves/Warrior.cfg:17
 msgid ""
@@ -1535,23 +1542,23 @@ msgid ""
 "he carves into his weapons and armor deflect the blows of his enemies."
 msgstr ""
 
-#: Extended_Era/units/dwarves/Steamwheel.cfg:22
-#: Extended_Era/units/dwarves/Runesmith.cfg:25
-#: Extended_Era/units/dwarves/Thunderwheel.cfg:22
-#: Extended_Era/units/dwarves/Arcanister.cfg:26
-#: Extended_Era/units/dwarves/Warwheel.cfg:23
 #: Extended_Era/units/dwarves/Runemaster.cfg:25
+#: Extended_Era/units/dwarves/Thunderwheel.cfg:22
+#: Extended_Era/units/dwarves/Steamwheel.cfg:22
+#: Extended_Era/units/dwarves/Arcanister.cfg:26
+#: Extended_Era/units/dwarves/Runesmith.cfg:25
+#: Extended_Era/units/dwarves/Warwheel.cfg:23
 msgid ""
 "\n"
 "\n"
 "Special Notes:"
 msgstr ""
 
-#: Extended_Era/units/dwarves/Runesmith.cfg:30
-#: Extended_Era/units/dwarves/Arcanister.cfg:31
 #: Extended_Era/units/dwarves/Runemaster.cfg:30
+#: Extended_Era/units/dwarves/Arcanister.cfg:31
+#: Extended_Era/units/dwarves/Runesmith.cfg:30
 msgid "hammer"
-msgstr ""
+msgstr "锤"
 
 #: Extended_Era/units/dwarves/Axemaster.cfg:5
 msgid "Dwarvish Axemaster"
@@ -1611,7 +1618,7 @@ msgstr ""
 
 #: Extended_Era/units/dwarves/Runemaster.cfg:5
 msgid "Dwarvish Runemaster"
-msgstr ""
+msgstr "矮人雕刻大师"
 
 #: Extended_Era/units/dwarves/Runemaster.cfg:23
 msgid ""
@@ -1667,11 +1674,11 @@ msgid ""
 "genies, thus they are called 'Steamwheels'."
 msgstr ""
 
-#: Extended_Era/units/dwarves/Steamwheel.cfg:35
 #: Extended_Era/units/dwarves/Thunderwheel.cfg:35
+#: Extended_Era/units/dwarves/Steamwheel.cfg:35
 #: Extended_Era/units/dwarves/Warwheel.cfg:36
 msgid "slam"
-msgstr ""
+msgstr "猛击"
 
 #: Extended_Era/units/dwarves/Thunderwheel.cfg:5
 msgid "Thunderwheel"
@@ -1706,21 +1713,22 @@ msgid ""
 "of champions can face these creatures and survive."
 msgstr ""
 
-#: Extended_Era/units/ice_wyrms/Frost.cfg:23
+#: Extended_Era/units/ice_wyrms/Ice.cfg:23
 #: Extended_Era/units/ice_wyrms/Boreal.cfg:24
 #: Extended_Era/units/ice_wyrms/Rime.cfg:24
-#: Extended_Era/units/ice_wyrms/Ice.cfg:23
+#: Extended_Era/units/ice_wyrms/Frost.cfg:23
 #: Extended_Era/units/ice_wyrms/Mistral.cfg:23
 msgid "tail"
 msgstr ""
 
-#: Extended_Era/units/ice_wyrms/Frost.cfg:32
+#: Extended_Era/units/ice_wyrms/Ice.cfg:32
 #: Extended_Era/units/ice_wyrms/Boreal.cfg:33
 #: Extended_Era/units/ice_wyrms/Rime.cfg:33
-#: Extended_Era/units/ice_wyrms/Ice.cfg:32
+#: Extended_Era/units/ice_wyrms/Frost.cfg:32
 #: Extended_Era/units/ice_wyrms/Mistral.cfg:32
+#, fuzzy
 msgid "cold breath"
-msgstr ""
+msgstr "火息术"
 
 #: Extended_Era/units/ice_wyrms/Frost.cfg:5
 msgid "Frost Wyrm"
@@ -1781,15 +1789,15 @@ msgid ""
 "excell in hilly terrain."
 msgstr ""
 
-#: Extended_Era/units/kalifa/Naffatun.cfg:37
+#: Extended_Era/units/kalifa/Rami_al_Nuri.cfg:42
+#: Extended_Era/units/kalifa/Rami.cfg:41
 #: Extended_Era/units/kalifa/Mamluk.cfg:34
 #: Extended_Era/units/kalifa/Ghazi.cfg:31
-#: Extended_Era/units/kalifa/Ahadath.cfg:31
 #: Extended_Era/units/kalifa/Karadis.cfg:33
-#: Extended_Era/units/kalifa/Rami.cfg:41
-#: Extended_Era/units/kalifa/Elite_Ghazi.cfg:31
 #: Extended_Era/units/kalifa/Ghulam_al_Rami.cfg:37
-#: Extended_Era/units/kalifa/Rami_al_Nuri.cfg:42
+#: Extended_Era/units/kalifa/Ahadath.cfg:31
+#: Extended_Era/units/kalifa/Elite_Ghazi.cfg:31
+#: Extended_Era/units/kalifa/Naffatun.cfg:37
 msgid "composite bow"
 msgstr ""
 
@@ -1804,11 +1812,11 @@ msgid ""
 "allows them to assault seemingly inpenetrable defenses."
 msgstr ""
 
+#: Extended_Era/units/kalifa/Rami_al_Nuri.cfg:24
 #: Extended_Era/units/kalifa/Mubarizan.cfg:35
+#: Extended_Era/units/kalifa/Rami.cfg:23 Extended_Era/units/kalifa/Arif.cfg:39
 #: Extended_Era/units/kalifa/Amir.cfg:31
 #: Extended_Era/units/kalifa/Immortal.cfg:40
-#: Extended_Era/units/kalifa/Rami.cfg:23 Extended_Era/units/kalifa/Arif.cfg:39
-#: Extended_Era/units/kalifa/Rami_al_Nuri.cfg:24
 msgid "long sword"
 msgstr ""
 
@@ -1822,11 +1830,11 @@ msgid ""
 "become very skilled in using their shield to tire and stun their enemies."
 msgstr ""
 
-#: Extended_Era/units/kalifa/Immortal.cfg:52
 #: Extended_Era/units/kalifa/Arif.cfg:51
-#: Extended_Era/units/steppe_orcs/Rigid.cfg:32
-#: Extended_Era/units/steppe_orcs/Stoic.cfg:33
+#: Extended_Era/units/kalifa/Immortal.cfg:52
 #: Extended_Era/units/steppe_orcs/Shieldbearer.cfg:32
+#: Extended_Era/units/steppe_orcs/Stoic.cfg:33
+#: Extended_Era/units/steppe_orcs/Rigid.cfg:32
 msgid "shield bash"
 msgstr ""
 
@@ -1861,8 +1869,8 @@ msgid ""
 "head clean off."
 msgstr ""
 
-#: Extended_Era/units/kalifa/Elder_Falcon.cfg:35
 #: Extended_Era/units/kalifa/Falcon.cfg:33
+#: Extended_Era/units/kalifa/Elder_Falcon.cfg:35
 msgid "beak"
 msgstr ""
 
@@ -1901,11 +1909,11 @@ msgid ""
 "many to flee in terror."
 msgstr ""
 
-#: Extended_Era/units/kalifa/Ghulam.cfg:28
 #: Extended_Era/units/kalifa/Life_Guard.cfg:24
+#: Extended_Era/units/kalifa/Ghulam.cfg:28
 #: Extended_Era/units/kalifa/Ghaznid.cfg:23
 msgid "lance"
-msgstr ""
+msgstr "长矛"
 
 #: Extended_Era/units/kalifa/Ghulam.cfg:5
 msgid "Ghulam"
@@ -2009,8 +2017,8 @@ msgid ""
 "uses in a land of many strange wonders..."
 msgstr ""
 
-#: Extended_Era/units/kalifa/Rami.cfg:32
 #: Extended_Era/units/kalifa/Rami_al_Nuri.cfg:33
+#: Extended_Era/units/kalifa/Rami.cfg:32
 msgid "fire arrow"
 msgstr ""
 
@@ -2036,8 +2044,8 @@ msgstr ""
 msgid "Naga Assassin"
 msgstr ""
 
-#: Extended_Era/units/nagas/Assassin.cfg:21
 #: Extended_Era/units/nagas/Hunter.cfg:19
+#: Extended_Era/units/nagas/Assassin.cfg:21
 msgid ""
 "Naga Hunters are Naga who are skilled at hunting with a bow. Since the naga "
 "are naturally resistant to poison, they have no qualms about hunting with "
@@ -2049,8 +2057,8 @@ msgstr ""
 msgid "Naga Depthprowler"
 msgstr ""
 
-#: Extended_Era/units/nagas/Depthprowler.cfg:23
 #: Extended_Era/units/nagas/Depthstalker.cfg:23
+#: Extended_Era/units/nagas/Depthprowler.cfg:23
 msgid ""
 "Some nagas, whether through cowardice or cunning, develop a knack for "
 "surviving in darker depths of the water. After special training, this "
@@ -2065,8 +2073,8 @@ msgstr ""
 msgid "Nagini Depthprowler"
 msgstr ""
 
-#: Extended_Era/units/nagas/Depthprowler.cfg:185
 #: Extended_Era/units/nagas/Depthstalker.cfg:185
+#: Extended_Era/units/nagas/Depthprowler.cfg:185
 msgid ""
 "female^Some nagas, whether through cowardice or cunning, develop a knack for "
 "surviving in darker depths of the water. After special training, this "
@@ -2142,11 +2150,11 @@ msgid ""
 "Special Notes:"
 msgstr ""
 
-#: Extended_Era/units/orcs/Witch_Doctor.cfg:37
 #: Extended_Era/units/orcs/Warlock.cfg:35
+#: Extended_Era/units/orcs/Witch_Doctor.cfg:37
 #: Extended_Era/units/orcs/Shaman.cfg:37
 msgid "curse"
-msgstr ""
+msgstr "诅咒"
 
 #: Extended_Era/units/orcs/Warlock.cfg:5
 msgid "Orcish Warlock"
@@ -2193,10 +2201,10 @@ msgid ""
 "plunder she finds on the road."
 msgstr ""
 
-#: Extended_Era/units/outlaws/Queen.cfg:104
 #: Extended_Era/units/outlaws/Princess.cfg:101
+#: Extended_Era/units/outlaws/Queen.cfg:104
 msgid "sling"
-msgstr ""
+msgstr "投石器"
 
 #: Extended_Era/units/outlaws/Queen.cfg:4
 msgid "female^Outlaw Queen"
@@ -2236,11 +2244,11 @@ msgstr ""
 #: Extended_Era/units/outlaws/Shadow_Mage.cfg:34
 #: Extended_Era/units/outlaws/Rogue_Mage.cfg:31
 msgid "short sword"
-msgstr ""
+msgstr "短剑"
 
 #: Extended_Era/units/outlaws/Rogue_Mage.cfg:40
 msgid "missile"
-msgstr ""
+msgstr "魔法飞弹"
 
 #: Extended_Era/units/outlaws/Shadow_Lord.cfg:5
 msgid "Shadow Lord"
@@ -2289,8 +2297,8 @@ msgid ""
 "fellows loyal and obedient to the nobility and train new recruits."
 msgstr ""
 
-#: Extended_Era/units/sidhe/Snowdancer.cfg:31
 #: Extended_Era/units/sidhe/Blizzardlord.cfg:32
+#: Extended_Era/units/sidhe/Snowdancer.cfg:31
 #: Extended_Era/units/sidhe/Hoarfroster.cfg:31
 msgid "snow wind"
 msgstr ""
@@ -2317,8 +2325,9 @@ msgid ""
 msgstr ""
 
 #: Extended_Era/units/sidhe/Hoarfroster.cfg:5
+#, fuzzy
 msgid "Hoarfroster"
-msgstr ""
+msgstr "咬击"
 
 #: Extended_Era/units/sidhe/Hoarfroster.cfg:17
 msgid ""
@@ -2343,13 +2352,13 @@ msgid ""
 msgstr ""
 
 #: Extended_Era/units/sidhe/Thunderblade.cfg:35
+#: Extended_Era/units/sidhe/Windlasher.cfg:31
 #: Extended_Era/units/sidhe/Tempest.cfg:31
 #: Extended_Era/units/sidhe/Raindancer.cfg:32
-#: Extended_Era/units/sidhe/Warmage.cfg:31
 #: Extended_Era/units/sidhe/Stormlord.cfg:32
-#: Extended_Era/units/sidhe/Windlasher.cfg:31
+#: Extended_Era/units/sidhe/Warmage.cfg:31
 msgid "lightning"
-msgstr ""
+msgstr "闪电"
 
 #: Extended_Era/units/sidhe/Shadowdancer.cfg:5
 msgid "Shadowdancer"
@@ -2363,8 +2372,9 @@ msgid ""
 msgstr ""
 
 #: Extended_Era/units/sidhe/Snowdancer.cfg:5
+#, fuzzy
 msgid "Snowdancer"
-msgstr ""
+msgstr "矛骑兵"
 
 #: Extended_Era/units/sidhe/Snowdancer.cfg:17
 msgid ""
@@ -2388,14 +2398,14 @@ msgid ""
 "whisper in the wind the words that chill the hearts of their ennemies."
 msgstr ""
 
+#: Extended_Era/units/sidhe/Spirit_Forefather.cfg:27
 #: Extended_Era/units/sidhe/Spirit_Ancestor.cfg:26
 #: Extended_Era/units/sidhe/Spirit_Warrior.cfg:26
-#: Extended_Era/units/sidhe/Spirit_Forefather.cfg:27
 msgid "ancient blade"
 msgstr ""
 
-#: Extended_Era/units/sidhe/Spirit_Ancestor.cfg:35
 #: Extended_Era/units/sidhe/Spirit_Forefather.cfg:36
+#: Extended_Era/units/sidhe/Spirit_Ancestor.cfg:35
 msgid "requiem"
 msgstr ""
 
@@ -2594,9 +2604,9 @@ msgstr ""
 
 #: Extended_Era/units/steppe_orcs/Warrior.cfg:24
 #: Extended_Era/units/steppe_orcs/Bladesman.cfg:24
+#: Extended_Era/units/steppe_orcs/Khan.cfg:43
 #: Extended_Era/units/steppe_orcs/Massif.cfg:25
 #: Extended_Era/units/steppe_orcs/Vanguard.cfg:41
-#: Extended_Era/units/steppe_orcs/Khan.cfg:43
 msgid "battle axe"
 msgstr ""
 
@@ -2612,9 +2622,9 @@ msgid ""
 "tolerated, if grudgingly."
 msgstr ""
 
-#: Extended_Era/units/steppe_orcs/Striker.cfg:40
 #: Extended_Era/units/steppe_orcs/Hunter.cfg:33
 #: Extended_Era/units/steppe_orcs/Flanker.cfg:34
+#: Extended_Era/units/steppe_orcs/Striker.cfg:40
 msgid "harpoon"
 msgstr ""
 
@@ -2657,8 +2667,9 @@ msgstr ""
 #: Extended_Era/units/steppe_orcs/Icewind_Master.cfg:43
 #: Extended_Era/units/steppe_orcs/Icewind_Herder.cfg:45
 #: Extended_Era/units/steppe_orcs/Icewind_Drover.cfg:43
+#, fuzzy
 msgid "frostbite"
-msgstr ""
+msgstr "咬击"
 
 #: Extended_Era/units/steppe_orcs/Icewind_Herder.cfg:5
 msgid "Icewind Herder"
@@ -2726,10 +2737,10 @@ msgid ""
 "only effects enemies of equal or lesser level."
 msgstr ""
 
-#: Extended_Era/units/steppe_orcs/Spearhead.cfg:26
-#: Extended_Era/units/steppe_orcs/Vanguard.cfg:29
 #: Extended_Era/units/steppe_orcs/Juggernaut.cfg:27
+#: Extended_Era/units/steppe_orcs/Spearhead.cfg:26
 #: Extended_Era/units/steppe_orcs/Khan.cfg:31
+#: Extended_Era/units/steppe_orcs/Vanguard.cfg:29
 msgid "flail"
 msgstr ""
 
@@ -2850,8 +2861,9 @@ msgid ""
 msgstr ""
 
 #: Extended_Era/units/steppe_orcs/Savage.cfg:45
+#, fuzzy
 msgid "frenzy"
-msgstr ""
+msgstr "火"
 
 #: Extended_Era/units/steppe_orcs/Shieldbearer.cfg:5
 msgid "Steppe Shieldbearer"
@@ -2906,8 +2918,9 @@ msgid ""
 msgstr ""
 
 #: Extended_Era/units/steppe_orcs/Spearman.cfg:5
+#, fuzzy
 msgid "Steppe Spearman"
-msgstr ""
+msgstr "矛兵"
 
 #: Extended_Era/units/steppe_orcs/Spearman.cfg:19
 msgid ""
@@ -2966,8 +2979,9 @@ msgid ""
 msgstr ""
 
 #: Extended_Era/units/steppe_orcs/Warrior.cfg:5
+#, fuzzy
 msgid "Steppe Warrior"
-msgstr ""
+msgstr "战士"
 
 #: Extended_Era/units/steppe_orcs/Warrior.cfg:19
 msgid ""
@@ -2980,8 +2994,9 @@ msgid ""
 msgstr ""
 
 #: Extended_Era/units/sylvan_fairies/Dryad.cfg:4
+#, fuzzy
 msgid "Dryad"
-msgstr ""
+msgstr "不死"
 
 #: Extended_Era/units/sylvan_fairies/Spirit.cfg:35
 #: Extended_Era/units/sylvan_fairies/Dryad.cfg:21
@@ -2995,15 +3010,16 @@ msgid ""
 msgstr ""
 
 #: Extended_Era/units/sylvan_fairies/Sprite.cfg:26
-#: Extended_Era/units/sylvan_fairies/Spirit.cfg:42
 #: Extended_Era/units/sylvan_fairies/Faerie.cfg:26
+#: Extended_Era/units/sylvan_fairies/Spirit.cfg:42
 #: Extended_Era/units/sylvan_fairies/Dryad.cfg:28
+#, fuzzy
 msgid "fire aura"
-msgstr ""
+msgstr "火"
 
 #: Extended_Era/units/sylvan_fairies/Sprite.cfg:36
-#: Extended_Era/units/sylvan_fairies/Spirit.cfg:55
 #: Extended_Era/units/sylvan_fairies/Faerie.cfg:36
+#: Extended_Era/units/sylvan_fairies/Spirit.cfg:55
 #: Extended_Era/units/sylvan_fairies/Dryad.cfg:38
 msgid "mystic fire"
 msgstr ""
@@ -3027,8 +3043,9 @@ msgid "Faerie Spirit"
 msgstr ""
 
 #: Extended_Era/units/sylvan_fairies/Sprite.cfg:4
+#, fuzzy
 msgid "Sprite"
-msgstr ""
+msgstr "咬击"
 
 #: Extended_Era/units/trolls/Shaman.cfg:4
 msgid "Troll Shaman"
@@ -3059,4 +3076,35 @@ msgstr ""
 
 #: Extended_Era/units/woses/Shaman.cfg:42
 msgid "entangle"
-msgstr ""
+msgstr "缠绕"
+
+#, fuzzy
+#~ msgid "cipher"
+#~ msgstr "战士"
+
+#, fuzzy
+#~ msgid "purge"
+#~ msgstr "诅咒"
+
+#, fuzzy
+#~ msgid "polearm"
+#~ msgstr "矛"
+
+#, fuzzy
+#~ msgid "death"
+#~ msgstr "不死"
+
+#~ msgid "pierce"
+#~ msgstr "刺"
+
+#~ msgid "blade"
+#~ msgstr "剑"
+
+#~ msgid "impact"
+#~ msgstr "冲击"
+
+#~ msgid "cold"
+#~ msgstr "冰"
+
+#~ msgid "leadership"
+#~ msgstr "领导能力"
