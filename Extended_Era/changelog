@@ -1,3 +1,18 @@
+1/3/2008 v x.33.0 (unstable)
+    - Fixed AMLAs to match the new 1.3.14 default one (with 150 XP)
+    - Dark Elves:
+    	- Changed the damage type for the Warlock touch attck from cold to arcane
+    - Frost Wyrms:
+    	- Fixed Frost and Mistral Wyrms advancement that were swapped
+    - Sidhe:
+    	- Replaced the warrior movetype by the mage movetype and renamed it 'sidhefoot'
+    	- Increased the Warrior HP from 30 to 32
+    	- Increased the Bladespinner HP from 46 to 49
+     	- Increased the Herald HP from 46 to 48
+    	- Increased the Warsinger HP from 58 to 63
+   - Steppe orcs:
+    	- Increased the Stoic XP from 10 to 22
+
 5/1/2008 v x.32.0 (unstable)
     - Drop the outlaws units to enable L3 advancement since they are enabled by default in 1.3.13
     - Upgraded the race definitions for 1.3.13
@@ -20,9 +35,6 @@
     - Add a script that define a macro to detect the presence of the Era
     - Update the [race] tags to match 1.3.8+ WML
     - Update unit .cfg to use the new 1.3.8+ [attack_anim] WML tag
-( 
-    Done: Aragwaithi, Bears, Chaos, Dark Elves, Dwarves, Kalifa, Nagas, Orcs, Outlaws, Sidhe, Steppe Orcs, Sylvan Fairies, Trolls, Windsong, Woses, Wyrms
-)
     - Use the new 1.3.7 tag [base_unit] for duplicated units
     - Removed the Kalifa Era & The Steppe Era
     - Translation updates are now handled directly by Wescamp-i18n
