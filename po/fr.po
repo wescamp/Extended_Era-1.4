@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2008-01-18 22:33+0100\n"
+"POT-Creation-Date: 2008-03-17 14:10+0100\n"
 "PO-Revision-Date: 2007-06-19 23:39+0200\n"
 "Last-Translator: Benoît Timbert <benoit.timbert@free.fr>\n"
 "Language-Team: Équipe de traduction française <wesnoth@ml.free.fr>\n"
@@ -11,6 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
+#. leadership
 #: Extended_Era/abilities/allied_leadership.cfg:10
 #: Extended_Era/abilities/allied_leadership.cfg:31
 #: Extended_Era/abilities/allied_leadership.cfg:65
@@ -19,6 +20,7 @@ msgstr ""
 msgid "allied leadership"
 msgstr "commandement allié"
 
+#. leadership
 #: Extended_Era/abilities/allied_leadership.cfg:14
 #: Extended_Era/abilities/allied_leadership.cfg:35
 #: Extended_Era/abilities/allied_leadership.cfg:69
@@ -41,12 +43,14 @@ msgstr ""
 "Les attaques des unités alliées aux côtés du commandant feront 25% de dégâts "
 "supplémentaires pour chaque niveau d'écart entre elles et lui."
 
+#. resistance
 #: Extended_Era/abilities/allied_protection.cfg:11
 #: Extended_Era/abilities/allied_protection.cfg:34
 #: Extended_Era/abilities/allied_protection.cfg:60
 msgid "allied protection"
 msgstr "protection alliée"
 
+#. resistance
 #: Extended_Era/abilities/allied_protection.cfg:13
 #: Extended_Era/abilities/allied_protection.cfg:36
 #: Extended_Era/abilities/allied_protection.cfg:62
@@ -60,10 +64,12 @@ msgstr ""
 "Les unités amies adjacentes à cette unité reçoivent un bonus de +20 % à "
 "toutes leurs résistances (jusqu'à un maximum de 50 %)."
 
+#. damage
 #: Extended_Era/abilities/attack_only.cfg:8
 msgid "attack only"
 msgstr "offensif uniquement"
 
+#. damage
 #: Extended_Era/abilities/attack_only.cfg:10
 msgid ""
 "Attack only:\n"
@@ -72,11 +78,20 @@ msgstr ""
 "Offensif uniquement :\n"
 "Cette arme ne peut être utilisée qu'en attaque."
 
+#: Extended_Era/abilities/attack_only.cfg:17
+#, fuzzy
+msgid " One attack of this unit cannot be used to defend."
+msgstr ""
+"Offensif uniquement :\n"
+"Cette arme ne peut être utilisée qu'en attaque."
+
+#. hides
 #: Extended_Era/abilities/cavestalk.cfg:5
 #: Extended_Era/abilities/cavestalk.cfg:10
 msgid "cavestalk"
 msgstr "troglodyte"
 
+#. hides
 #: Extended_Era/abilities/cavestalk.cfg:9
 #: Extended_Era/abilities/cavestalk.cfg:14
 msgid ""
@@ -93,10 +108,19 @@ msgstr ""
 "Les ennemis ne peuvent voir ou attaquer cette unité quand elle est dans les "
 "cavernes, sauf si elle les attaque ou s'ils se déplacent juste à ses côtés."
 
+#: Extended_Era/abilities/cavestalk.cfg:29
+msgid ""
+" In underground terrain (except lit underground), this unit's ambush skill "
+"renders it invisible to enemies unless it is immediately adjacent or has "
+"revealed itself by attacking."
+msgstr ""
+
+#. damage
 #: Extended_Era/abilities/defend_only.cfg:8
 msgid "defend only"
 msgstr "défensif uniquement"
 
+#. damage
 #: Extended_Era/abilities/defend_only.cfg:10
 msgid ""
 "Defend only:\n"
@@ -105,10 +129,16 @@ msgstr ""
 "Défensif uniquement :\n"
 "Cette arme ne peut être utilisée qu'en défense."
 
+#: Extended_Era/abilities/defend_only.cfg:16
+msgid " One attack of this unit can only be used to defend."
+msgstr ""
+
+#. skirmisher
 #: Extended_Era/abilities/distract.cfg:6
 msgid "distract"
 msgstr ""
 
+#. skirmisher
 #: Extended_Era/abilities/distract.cfg:8
 msgid ""
 "Distract:\n"
@@ -118,14 +148,16 @@ msgstr ""
 
 #: Extended_Era/abilities/distract.cfg:17
 msgid ""
-"This unit is capable of distracting oponents, allowing friendly unis to "
+" This unit is capable of distracting opponents, allowing friendly units to "
 "trespass their Zones of Control and move unhindered around them."
 msgstr ""
 
+#. damage
 #: Extended_Era/abilities/dread.cfg:6 Extended_Era/abilities/dread.cfg:7
 msgid "dread"
 msgstr "effroi"
 
+#. damage
 #: Extended_Era/abilities/dread.cfg:9 Extended_Era/abilities/dread.cfg:11
 #, fuzzy
 msgid ""
@@ -137,12 +169,24 @@ msgstr ""
 "L'unité qui utilise cette capacité en attaque reçoit un tiers de dégâts de "
 "moins durant la riposte de son adversaire."
 
+#: Extended_Era/abilities/dread.cfg:19
+#, fuzzy
+msgid ""
+" The dread attack of this unit, when used offensively scare the defender, "
+"lowering the damage of his retaliation."
+msgstr ""
+"Effroi :\n"
+"L'unité qui utilise cette capacité en attaque reçoit un tiers de dégâts de "
+"moins durant la riposte de son adversaire."
+
+#. resistance
 #: Extended_Era/abilities/protection.cfg:9
 #: Extended_Era/abilities/protection.cfg:31
 #: Extended_Era/abilities/protection.cfg:56
 msgid "protection"
 msgstr "protection"
 
+#. resistance
 #: Extended_Era/abilities/protection.cfg:11
 #: Extended_Era/abilities/protection.cfg:33
 #: Extended_Era/abilities/protection.cfg:58
@@ -156,11 +200,20 @@ msgstr ""
 "Les unités adjacentes de cette équipe à cette unité reçoivent un bonus de "
 "+20 % à toutes leurs résistances (jusqu'à un maximum de 50 %)."
 
+#: Extended_Era/abilities/protection.cfg:79
+msgid ""
+" The importance of this unit motivate friendly units next to it to defend "
+"better, taking less damage in combat, though this only applies to units of "
+"lower level."
+msgstr ""
+
+#. regenerate
 #: Extended_Era/abilities/sylvan_spark.cfg:10
 #: Extended_Era/abilities/sylvan_spark.cfg:13
 msgid "sylvan spark"
 msgstr "esprit des bois"
 
+#. regenerate
 #: Extended_Era/abilities/sylvan_spark.cfg:12
 #: Extended_Era/abilities/sylvan_spark.cfg:15
 msgid ""
@@ -173,11 +226,19 @@ msgstr ""
 "une forêt d'arbres ou de champignons. Elle éliminera le poison au lieu de se "
 "soigner en cas d'empoisonnement."
 
+#: Extended_Era/abilities/sylvan_spark.cfg:34
+msgid ""
+" This unit regenerates in forest, which allows it to heal, through not as "
+"much as stationed in a village."
+msgstr ""
+
+#. leadership
 #: Extended_Era/abilities/terror.cfg:8 Extended_Era/abilities/terror.cfg:44
 #: Extended_Era/abilities/terror.cfg:94
 msgid "terror"
 msgstr "terreur"
 
+#. leadership
 #: Extended_Era/abilities/terror.cfg:12 Extended_Era/abilities/terror.cfg:48
 #: Extended_Era/abilities/terror.cfg:98
 msgid ""
@@ -198,132 +259,179 @@ msgstr ""
 "15% de dégâts en moins, et encore 15% de moins pour chaque niveau d'écart "
 "entre eux et elle."
 
+#: Extended_Era/abilities/terror.cfg:154
+msgid ""
+" The terror skill of this unit scare ennemy units next to it so they deal "
+"less damage in combat, though this only applies to units of lower or equal "
+"level."
+msgstr ""
+
+#. era
 #: Extended_Era/eras/default+extended+eom.cfg:18
 msgid "Extended Era + Era of Myths + Default"
 msgstr ""
 
+#. era
 #: Extended_Era/eras/default+extended.cfg:6
 #, fuzzy
 msgid "Extended Era + Default"
 msgstr "Étendu"
 
+#. era
 #: Extended_Era/eras/extended.cfg:6
 msgid "Extended Era"
 msgstr "Étendu"
 
+#. era
 #: Extended_Era/eras/xrpg.cfg:6
 msgid "Extended RPG"
 msgstr "Étendu (JdR)"
 
+#. multiplayer_side: type=Aragwaith Flagbearer
+#. multiplayer_side: type=Aragwaith Swordsman
 #: Extended_Era/factions/aragwaithi-extended.cfg:5
 #: Extended_Era/factions/aragwaithi-xrpg.cfg:5
 msgid "Aragwaith"
 msgstr "Aragwaith"
 
+#. multiplayer_side: type=Chaos Magus
+#. multiplayer_side: type=Lesser Daemon
 #: Extended_Era/factions/chaos-extended.cfg:5
 #: Extended_Era/factions/chaos-xrpg.cfg:5
 msgid "Chaos"
 msgstr "Chaos"
 
+#. multiplayer_side: type=Dark Elf Captain
+#. multiplayer_side: type=XRPG Dark Elf Noble
 #: Extended_Era/factions/dark_elves-extended.cfg:5
 #: Extended_Era/factions/dark_elves-xrpg.cfg:5
 msgid "Dark Elves"
 msgstr "Elfes des ténèbres"
 
+#. multiplayer_side: type=Drake Flare
+#. multiplayer_side: type=XRPG Drake Burner
 #: Extended_Era/factions/drakes-extended.cfg:5
 #: Extended_Era/factions/drakes-xrpg.cfg:5
 msgid "Drakes"
 msgstr "Dracans"
 
+#. multiplayer_side: type=XE Dwarvish Fighter
+#. multiplayer_side: type=Dwarvish Steelclad
 #: Extended_Era/factions/dwarves-xrpg.cfg:5
 #: Extended_Era/factions/dwarves-extended.cfg:5
 msgid "Dwarves"
 msgstr "Nains"
 
+#. multiplayer_side: type=Kalifa Ahadath
+#. multiplayer_side: type=Kalifa Ghazi
 #: Extended_Era/factions/kalifa-xrpg.cfg:5
 #: Extended_Era/factions/kalifa-extended.cfg:5
 msgid "Kalifa"
 msgstr "Khalifat"
 
+#. multiplayer_side: type=Lieutenant
+#. multiplayer_side: type=XRPG Sergeant
 #: Extended_Era/factions/loyalists-extended.cfg:5
 #: Extended_Era/factions/loyalists-xrpg.cfg:5
 msgid "Loyalists"
 msgstr "Loyalistes"
 
+#. multiplayer_side: type=Mermaid Initiate
 #: Extended_Era/factions/merfolk-xrpg.cfg:5
 msgid "Merfolk"
 msgstr "Ondins"
 
+#. multiplayer_side: type=Giant Scorpion
 #: Extended_Era/factions/misc-xrpg.cfg:5
 msgid "Miscellanous"
 msgstr "Divers"
 
+#. multiplayer_side: type=XE Naga Fighter
 #: Extended_Era/factions/nagas-xrpg.cfg:5
 msgid "Nagas"
 msgstr "Nagas"
 
+#. multiplayer_side: type=Orcish Warrior
+#. multiplayer_side: type=Orcish Grunt
 #: Extended_Era/factions/northerners-extended.cfg:5
 #: Extended_Era/factions/northerners-xrpg.cfg:5
 msgid "Northerners"
 msgstr "Nordiques"
 
+#. multiplayer_side: type=Rogue
+#. multiplayer_side: type=Thief
 #: Extended_Era/factions/outlaws-extended.cfg:5
 #: Extended_Era/factions/outlaws-xrpg.cfg:5
 msgid "Outlaws"
 msgstr "Hors-la-loi"
 
+#. multiplayer_side: type=Sidhe Raindancer
+#. multiplayer_side: type=Sidhe Warmage
 #: Extended_Era/factions/sidhe-xrpg.cfg:5
 #: Extended_Era/factions/sidhe-extended.cfg:5
 #, fuzzy
 msgid "Sidhe"
 msgstr "Elfes Sidhs"
 
+#. multiplayer_side: type=Steppe Vanguard
+#. multiplayer_side: type=XRPG Steppe Spearhead
 #: Extended_Era/factions/steppe_orcs-extended.cfg:5
 #: Extended_Era/factions/steppe_orcs-xrpg.cfg:5
 msgid "Steppe Orcs"
 msgstr "Orcs des steppes"
 
+#. multiplayer_side: type=XRPG Elvish Fighter
+#. multiplayer_side: type=Elvish Captain
 #: Extended_Era/factions/sylvans-xrpg.cfg:5
 #: Extended_Era/factions/sylvans-extended.cfg:5
 #, fuzzy
 msgid "Sylvans"
 msgstr "esprit des bois"
 
+#. multiplayer_side: type=XE Dark Adept
+#. multiplayer_side: type=XE Dark Sorcerer
 #: Extended_Era/factions/undead-xrpg.cfg:5
 #: Extended_Era/factions/undead-extended.cfg:5
 msgid "Undead"
 msgstr "Morts-vivants"
 
+#. race
 #: Extended_Era/races/aragwaithi.cfg:5
 #, fuzzy
 msgid "race^Aragwaith Human"
 msgstr "Aragwaith"
 
+#. race
 #: Extended_Era/races/aragwaithi.cfg:6
 #, fuzzy
 msgid "race+female^Aragwaith Human"
 msgstr "Aragwaith"
 
+#. race
 #: Extended_Era/races/aragwaithi.cfg:7
 #, fuzzy
 msgid "race^Aragwaithi"
 msgstr "Aragwaith"
 
+#. race
 #: Extended_Era/races/chaos.cfg:5
 #, fuzzy
 msgid "race^Demon"
 msgstr "Démon majeur"
 
+#. race
 #: Extended_Era/races/chaos.cfg:6
 #, fuzzy
 msgid "race+female^Demon"
 msgstr "Démon majeur"
 
+#. race
 #: Extended_Era/races/chaos.cfg:7
 #, fuzzy
 msgid "race^Demons"
 msgstr "Démon majeur"
 
+#. race
 #: Extended_Era/races/chaos.cfg:10
 #, fuzzy
 msgid ""
@@ -373,6 +481,7 @@ msgstr ""
 "Thammuz,Turiel,Urobach,Valac,Valefar,Vapula,Vassago,Verrine,Vine,Vual,Xaphan,"
 "Yeqon,Yeter'el,Yomiel,Zagan,Zaqiel,Zepar"
 
+#. race
 #: Extended_Era/races/chaos.cfg:11
 #, fuzzy
 msgid ""
@@ -390,44 +499,53 @@ msgstr ""
 "Satana,Sheol,Selène,Sonnielion,Stheno,Sycorax,Taweret,Tzitzimime,Unsere,Uzza,"
 "Verrier,Vepar"
 
+#. race
 #: Extended_Era/races/dark-elves.cfg:5
 #, fuzzy
 msgid "race^Dark Elf"
 msgstr "Elfes des ténèbres"
 
+#. race
 #: Extended_Era/races/dark-elves.cfg:6
 #, fuzzy
 msgid "race+female^Dark Elf"
 msgstr "Elfes des ténèbres"
 
+#. race
 #: Extended_Era/races/dark-elves.cfg:7
 #, fuzzy
 msgid "race^Dark Elves"
 msgstr "Elfes des ténèbres"
 
+#. trait
 #: Extended_Era/races/dwarves.cfg:7
 msgid "armored"
 msgstr "armuré"
 
+#. trait
 #: Extended_Era/races/dwarves.cfg:8
 msgid "(+15% to all resistances, -1 movement)"
 msgstr "(+15% à toutes les résistances, -1 mouvement)"
 
+#. race
 #: Extended_Era/races/kalifa.cfg:5
 #, fuzzy
 msgid "race^Kalifa Human"
 msgstr "Khalifat"
 
+#. race
 #: Extended_Era/races/kalifa.cfg:6
 #, fuzzy
 msgid "race+female^Kalifa Human"
 msgstr "Khalifat"
 
+#. race
 #: Extended_Era/races/kalifa.cfg:7
 #, fuzzy
 msgid "race+plural^Kalifa"
 msgstr "Khalifat"
 
+#. race
 #: Extended_Era/races/kalifa.cfg:10
 msgid ""
 "Aban,Abbas,Abbud,Abdul-'Adl,Abdul-Ahad,Abdul-Alim,Abdul-Aliyy,Abdul-Azim,"
@@ -580,80 +698,97 @@ msgstr ""
 "Yusuf,Zafar,Zafir,Zahid,Zahir,Zayd,Zaim,Zayn,Zarif,Zakarriya,Zaki,Zakwan,"
 "Ziyad,Zubayr,Zuhayr"
 
+#. race
 #: Extended_Era/races/kalifa.cfg:15
 #, fuzzy
 msgid "race^Falcon"
 msgstr "Faucon"
 
+#. race
 #: Extended_Era/races/kalifa.cfg:16
 #, fuzzy
 msgid "race+female^Falcon"
 msgstr "Faucon"
 
+#. race
 #: Extended_Era/races/kalifa.cfg:17
 #, fuzzy
 msgid "race^Falcons"
 msgstr "Faucon"
 
+#. race
 #: Extended_Era/races/sidhe.cfg:5
 msgid "race^Sidhe Elf"
 msgstr ""
 
+#. race
 #: Extended_Era/races/sidhe.cfg:6
 msgid "race+female^Sidhe Elf"
 msgstr ""
 
+#. race
 #: Extended_Era/races/sidhe.cfg:7
 msgid "race^Sidhe"
 msgstr ""
 
+#. race
 #: Extended_Era/races/sidhe.cfg:15
 #, fuzzy
 msgid "race^Bear"
 msgstr "Traqueur"
 
+#. race
 #: Extended_Era/races/sidhe.cfg:16
 #, fuzzy
 msgid "race+female^Bear"
 msgstr "Magicien"
 
+#. race
 #: Extended_Era/races/sidhe.cfg:17
 msgid "race^Bears"
 msgstr ""
 
+#. race
 #: Extended_Era/races/sylvans.cfg:5
 #, fuzzy
 msgid "race^Fairy"
 msgstr "Khalifat"
 
+#. race
 #: Extended_Era/races/sylvans.cfg:6
 #, fuzzy
 msgid "race+female^Fairy"
 msgstr "Magicien"
 
+#. race
 #: Extended_Era/races/sylvans.cfg:7
 msgid "race^Fairies"
 msgstr ""
 
+#. race
 #: Extended_Era/races/wyrm-ice.cfg:5
 #, fuzzy
 msgid "race^Wyrm"
 msgstr "Traqueur"
 
+#. race
 #: Extended_Era/races/wyrm-ice.cfg:6
 #, fuzzy
 msgid "race+female^Wyrm"
 msgstr "Magicien"
 
+#. race
 #: Extended_Era/races/wyrm-ice.cfg:7
 msgid "race^Wyrms"
 msgstr ""
 
+#. unit: race=aragwaith
 #: Extended_Era/units/aragwaith/Ancient_Banner.cfg:5
 #, fuzzy
 msgid "Ancient Banner"
 msgstr "lame ancestrale"
 
+#. attack: type=pierce
 #: Extended_Era/units/aragwaith/Silver_Shield.cfg:73
 #: Extended_Era/units/aragwaith/Lancer.cfg:72
 #: Extended_Era/units/aragwaith/Scout.cfg:67
@@ -685,6 +820,7 @@ msgstr "lame ancestrale"
 msgid "spear"
 msgstr "lance"
 
+#. attack: type=blade
 #: Extended_Era/units/aragwaith/Guard.cfg:74
 #: Extended_Era/units/aragwaith/Greatbow.cfg:62
 #: Extended_Era/units/aragwaith/Captain.cfg:42
@@ -732,10 +868,12 @@ msgstr "lance"
 msgid "sword"
 msgstr "épée"
 
+#. unit: race=aragwaith
 #: Extended_Era/units/aragwaith/Archer.cfg:5
 msgid "Archer"
 msgstr "Archer"
 
+#. unit: race=aragwaith
 #: Extended_Era/units/aragwaith/Archer.cfg:18
 msgid ""
 "The Aragwaithi are a noble people, fragile in body, but their training makes "
@@ -748,6 +886,7 @@ msgstr ""
 "Leurs archers ne font pas exception. Leur habileté à l'arc est comparable à "
 "celle des elfes et ils sont d'une rapidité exceptionnelle avec leurs dagues."
 
+#. attack: type=blade
 #: Extended_Era/units/aragwaith/Archer.cfg:85
 #: Extended_Era/units/aragwaith/Strongbow.cfg:47
 #: Extended_Era/units/steppe_orcs/Hunter.cfg:24
@@ -756,6 +895,7 @@ msgstr ""
 msgid "knife"
 msgstr "couteau"
 
+#. attack: type=pierce
 #: Extended_Era/units/aragwaith/Greatbow.cfg:71
 #: Extended_Era/units/aragwaith/Archer.cfg:94
 #: Extended_Era/units/aragwaith/Slayer.cfg:36
@@ -765,15 +905,19 @@ msgstr "couteau"
 msgid "bow"
 msgstr "arc"
 
+#. unit: race=aragwaith
+#. unit: race=dark elf
 #: Extended_Era/units/aragwaith/Captain.cfg:5
 #: Extended_Era/units/dark_elves/Captain.cfg:5
 msgid "Captain"
 msgstr "Capitaine"
 
+#. unit: race=aragwaith
 #: Extended_Era/units/aragwaith/Eagle_Master.cfg:5
 msgid "Eagle Master"
 msgstr "Maître des aigles"
 
+#. unit: race=aragwaith
 #: Extended_Era/units/aragwaith/Eagle_Master.cfg:19
 msgid ""
 "With experience, Eagle riders become more skilled and the relation with "
@@ -785,6 +929,7 @@ msgstr ""
 "seul. Les maitres des aigles n'ont ainsi plus besoin de donner d'ordres à "
 "leur monture, qui les anticipe."
 
+#. attack: type=blade
 #: Extended_Era/units/aragwaith/Eagle_Master.cfg:27
 #: Extended_Era/units/aragwaith/Eagle_Rider.cfg:28
 #: Extended_Era/units/bears/Young.cfg:31 Extended_Era/units/bears/Bear.cfg:32
@@ -795,15 +940,18 @@ msgstr ""
 msgid "claws"
 msgstr "griffes"
 
+#. attack: type=impact
 #: Extended_Era/units/aragwaith/Eagle_Master.cfg:36
 #: Extended_Era/units/aragwaith/Eagle_Rider.cfg:37
 msgid "prey crush"
 msgstr "broyage de proie"
 
+#. unit: race=aragwaith
 #: Extended_Era/units/aragwaith/Eagle_Rider.cfg:5
 msgid "Eagle Rider"
 msgstr "Chevaucheur d'aigle"
 
+#. unit: race=aragwaith
 #: Extended_Era/units/aragwaith/Eagle_Rider.cfg:20
 msgid ""
 "Some Aragwaithi youths take young eagles as a pet. These are not the common "
@@ -817,14 +965,17 @@ msgstr ""
 "servir de monture à leur meilleur ami, dont le jeune compagnon apprend l'art "
 "de monter ces oiseaux géants."
 
+#. unit: race=aragwaith
 #: Extended_Era/units/aragwaith/Flagbearer.cfg:5
 msgid "Flagbearer"
 msgstr "Porte-étendard"
 
+#. unit: race=aragwaith
 #: Extended_Era/units/aragwaith/Greatbow.cfg:5
 msgid "Greatbow"
 msgstr "Grand-arc"
 
+#. unit: race=aragwaith
 #: Extended_Era/units/aragwaith/Greatbow.cfg:19
 msgid ""
 "Finally moving on from the dirk and dagger to the sword, the Greatbow is "
@@ -842,10 +993,12 @@ msgstr ""
 "arcs. La force incroyable nécessaire pour les bander rend leur utilisation "
 "dangereuse pour tout autre que leur propriétaire."
 
+#. unit: race=aragwaith
 #: Extended_Era/units/aragwaith/Guard.cfg:5
 msgid "Guard"
 msgstr "Garde"
 
+#. unit: race=aragwaith
 #: Extended_Era/units/aragwaith/Guard.cfg:24
 msgid ""
 "Chosen from the toughest Swordsmen, Guards willingly forgo some of thier "
@@ -859,18 +1012,22 @@ msgstr ""
 "leurs fonctions militaires des temps des guerres, leur rôle reste toujours "
 "le même : protéger les enchanteurs nobles."
 
+#. unit: race=aragwaith
 #: Extended_Era/units/aragwaith/Guardian.cfg:5
 msgid "Guardian"
 msgstr "Gardien"
 
+#. unit: race=aragwaith
 #: Extended_Era/units/aragwaith/Lancer.cfg:5
 msgid "Lancer"
 msgstr "Lancier"
 
+#. unit: race=aragwaith
 #: Extended_Era/units/aragwaith/Longswordsman.cfg:5
 msgid "Longswordsman"
 msgstr "Escrimeur"
 
+#. unit: race=aragwaith
 #: Extended_Era/units/aragwaith/Longswordsman.cfg:18
 msgid ""
 "While Aragwaithi Swordsmen seem uncannily skilled to blade-wielders of other "
@@ -884,23 +1041,28 @@ msgstr ""
 "pour parer et pour frapper d'estoc et de taille qu'ils ont préféré porter "
 "une épée plus longue, toujours et encore maniée avec aisance et grâce."
 
+#. attack: type=blade
 #: Extended_Era/units/aragwaith/Longswordsman.cfg:64
 #: Extended_Era/units/aragwaith/Swordmaster.cfg:81
 msgid "longsword"
 msgstr "épée longue"
 
+#. unit: race=aragwaith
 #: Extended_Era/units/aragwaith/Pikeman.cfg:5
 msgid "Pikeman"
 msgstr "Piquier"
 
+#. unit: race=aragwaith
 #: Extended_Era/units/aragwaith/Scout.cfg:5
 msgid "Scout"
 msgstr "Éclaireur"
 
+#. unit: race=aragwaith
 #: Extended_Era/units/aragwaith/Shield_Guard.cfg:5
 msgid "Shield Guard"
 msgstr "Garde bouclier"
 
+#. unit: race=aragwaith
 #: Extended_Era/units/aragwaith/Shield_Guard.cfg:24
 msgid ""
 "These warriors wear the old shields of their ancients. These ancients could "
@@ -917,14 +1079,17 @@ msgstr ""
 "brandir le bouclier des anciens en hommage à la vie de ces gens courageux, à "
 "leur honneur et à leur sacrifice."
 
+#. unit: race=aragwaith
 #: Extended_Era/units/aragwaith/Silver_Shield.cfg:5
 msgid "Silver Shield"
 msgstr "Bouclier d'argent"
 
+#. unit: race=aragwaith
 #: Extended_Era/units/aragwaith/Slayer.cfg:5
 msgid "Slayer"
 msgstr "Massacreur"
 
+#. unit: race=aragwaith
 #: Extended_Era/units/aragwaith/Slayer.cfg:22
 msgid ""
 "While improving only marginally on the power of their bow, the Slayer "
@@ -937,14 +1102,17 @@ msgstr ""
 "ainsi sa capacité au combat au corps à corps. Il n'est pas aussi acharné que "
 "d'autres aussi compétents que lui, mais bien plus mortel."
 
+#. attack: type=blade
 #: Extended_Era/units/aragwaith/Slayer.cfg:28
 msgid "glaive"
 msgstr "vouge"
 
+#. unit: race=aragwaith
 #: Extended_Era/units/aragwaith/Sorcerer.cfg:5
 msgid "Aragwaith^Sorcerer"
 msgstr "Sorcier"
 
+#. unit: race=aragwaith
 #: Extended_Era/units/aragwaith/Sorcerer.cfg:21
 msgid ""
 "Sorcerers are like the wind they can stand in front of you and one second "
@@ -961,6 +1129,7 @@ msgstr ""
 "\n"
 "Remarque :"
 
+#. attack: type=impact
 #: Extended_Era/units/orcs/Warlock.cfg:26
 #: Extended_Era/units/orcs/Witch_Doctor.cfg:28
 #: Extended_Era/units/orcs/Shaman.cfg:28
@@ -978,16 +1147,19 @@ msgstr ""
 msgid "staff"
 msgstr "bâton"
 
+#. attack: type=fire
 #: Extended_Era/units/aragwaith/Warlock.cfg:39
 #: Extended_Era/units/aragwaith/Sorcerer.cfg:39
 #: Extended_Era/units/aragwaith/Wizard.cfg:36
 msgid "mage-bolt"
 msgstr "rayon de magie"
 
+#. female
 #: Extended_Era/units/aragwaith/Sorcerer.cfg:100
 msgid "Aragwaith^Sorceress"
 msgstr "Sorcière"
 
+#. female
 #: Extended_Era/units/aragwaith/Sorcerer.cfg:105
 msgid ""
 "Sorceresses are like the wind they can stand in front of you and one second "
@@ -1004,10 +1176,12 @@ msgstr ""
 "\n"
 "Remarque :"
 
+#. unit: race=aragwaith
 #: Extended_Era/units/aragwaith/Spearman.cfg:5
 msgid "Spearman"
 msgstr "Porte-lance"
 
+#. unit: race=aragwaith
 #: Extended_Era/units/aragwaith/Spearman.cfg:20
 msgid ""
 "The less dextrous and stronger Aragwaith take up the spear. Useful in "
@@ -1024,10 +1198,12 @@ msgstr ""
 "\n"
 "Remarque :"
 
+#. unit: race=aragwaith
 #: Extended_Era/units/aragwaith/Strongbow.cfg:5
 msgid "Strongbow"
 msgstr "Puissant-arc"
 
+#. unit: race=aragwaith
 #: Extended_Era/units/aragwaith/Strongbow.cfg:17
 msgid ""
 "By wielding a stronger bow and training almost constantly, the Aragwaith "
@@ -1040,10 +1216,12 @@ msgstr ""
 "et manie de façon bien plus efficace ses couteaux plus longs que les dagues "
 "de l'archer standard."
 
+#. unit: race=aragwaith
 #: Extended_Era/units/aragwaith/Swordmaster.cfg:5
 msgid "Swordmaster"
 msgstr "Maître des épées"
 
+#. unit: race=aragwaith
 #: Extended_Era/units/aragwaith/Swordmaster.cfg:20
 msgid ""
 "Swordmasters do not come into their title lightly. They have endured years "
@@ -1062,10 +1240,12 @@ msgstr ""
 "et doivent leur inculquer les fières traditions martiales aragwaithi. Même "
 "les gardes royaux de Wesnoth les respectent."
 
+#. unit: race=aragwaith
 #: Extended_Era/units/aragwaith/Swordsman.cfg:43
 msgid "Swordsman"
 msgstr "Spadassin"
 
+#. unit: race=aragwaith
 #: Extended_Era/units/aragwaith/Swordsman.cfg:57
 #, fuzzy
 msgid ""
@@ -1080,10 +1260,12 @@ msgstr ""
 "cotte de mailles légère, ce qui est le mieux pour résister aux lames "
 "ennemies."
 
+#. unit: race=aragwaith
 #: Extended_Era/units/aragwaith/Warlock.cfg:5
 msgid "Aragwaith^Warlock"
 msgstr "Enchanteur"
 
+#. unit: race=aragwaith
 #: Extended_Era/units/aragwaith/Warlock.cfg:23
 #, fuzzy
 msgid ""
@@ -1102,10 +1284,12 @@ msgstr ""
 "\n"
 "Remarque :"
 
+#. female
 #: Extended_Era/units/aragwaith/Warlock.cfg:114
 msgid "female^Warlock"
 msgstr "Enchanteresse"
 
+#. female
 #: Extended_Era/units/aragwaith/Warlock.cfg:119
 #, fuzzy
 msgid ""
@@ -1125,18 +1309,22 @@ msgstr ""
 "\n"
 "Remarque :"
 
+#. unit: race=aragwaith
 #: Extended_Era/units/aragwaith/Wizard.cfg:5
 msgid "Aragwaith^Wizard"
 msgstr "Magicien"
 
+#. female
 #: Extended_Era/units/aragwaith/Wizard.cfg:106
 msgid "female^Wizard"
 msgstr "Magicien"
 
+#. unit: race=bear
 #: Extended_Era/units/bears/Bear.cfg:5
 msgid "Bear"
 msgstr "Ours"
 
+#. unit: race=bear
 #: Extended_Era/units/bears/Bear.cfg:18
 msgid ""
 "Adult bears are known for going their own way; most bears would sooner flee "
@@ -1147,14 +1335,17 @@ msgid ""
 "bulk of an angry, advancing bear."
 msgstr ""
 
+#. attack: type=impact
 #: Extended_Era/units/bears/Young.cfg:22 Extended_Era/units/bears/Bear.cfg:23
 msgid "bearhug"
 msgstr "prise de l'ours"
 
+#. unit: race=bear
 #: Extended_Era/units/bears/Young.cfg:5
 msgid "Young Bear"
 msgstr "Jeune ours"
 
+#. unit: race=bear
 #: Extended_Era/units/bears/Young.cfg:17
 msgid ""
 "It's rare to see bears motivated enough to enter a fight in a meaningful "
@@ -1166,10 +1357,12 @@ msgid ""
 "impressive bulk defy its surprising agility in the forest."
 msgstr ""
 
+#. unit: race=demon
 #: Extended_Era/units/chaos/Abomination.cfg:5
 msgid "Abomination"
 msgstr "Abomination"
 
+#. attack: type=impact
 #: Extended_Era/units/chaos/Lesser_Mutation.cfg:25
 #: Extended_Era/units/chaos/Greater_Mutation.cfg:25
 #: Extended_Era/units/chaos/Abomination.cfg:26
@@ -1177,10 +1370,12 @@ msgstr "Abomination"
 msgid "crush"
 msgstr "écrasement"
 
+#. unit: race=human
 #: Extended_Era/units/chaos/Armorer.cfg:5
 msgid "Doom Guard"
 msgstr "Garde infernal"
 
+#. unit: race=human
 #: Extended_Era/units/chaos/Armorer.cfg:20
 msgid ""
 "Daemons know that, the only thing than can stop a tidal wave is a powerful "
@@ -1194,6 +1389,7 @@ msgstr ""
 "n'ont pas de soif de sang, mais ont transformé leur agressivité en loyauté "
 "fanatique ; eux n'attaquent pas, mais résistent à tout ennemi imaginable."
 
+#. attack: type=impact
 #: Extended_Era/units/chaos/Elite_Armorer.cfg:37
 #: Extended_Era/units/chaos/Armorer.cfg:36
 #: Extended_Era/units/dark_elves/Noble.cfg:31
@@ -1202,12 +1398,14 @@ msgstr ""
 msgid "shield"
 msgstr "bouclier"
 
+#. unit: race=human
 #: Extended_Era/units/chaos/Blood_Knight.cfg:5
 msgid "Blood Knight"
 msgstr "Chevalier des enfers"
 
 # Damien : il doit y avoir un pb dans la VO ; les Blood knight s'ouvrent les veines... pour progresser en Blood knights...
 # Benoît : voila, j'ai corrigé la version anglaise :)
+#. unit: race=human
 #: Extended_Era/units/chaos/Blood_Knight.cfg:20
 msgid ""
 "Ultimate mastery comes with the greatest sacrifice. Dark Knights open their "
@@ -1220,6 +1418,7 @@ msgstr ""
 "satisfait les seigneurs du chaos, ils les promeuvent au rang de chevalier "
 "des enfers, guerriers ultimes du chaos."
 
+#. attack: type=blade
 #: Extended_Era/units/chaos/Greater_Daemon.cfg:26
 #: Extended_Era/units/chaos/Marauder.cfg:37
 #: Extended_Era/units/chaos/Blood_Knight.cfg:34
@@ -1240,10 +1439,12 @@ msgstr ""
 msgid "axe"
 msgstr "hache"
 
+#. unit: race=demon
 #: Extended_Era/units/chaos/Chaos_Daemon.cfg:5
 msgid "Chaos Daemon"
 msgstr "Démon du chaos"
 
+#. unit: race=demon
 #: Extended_Era/units/chaos/Greater_Daemon.cfg:21
 #: Extended_Era/units/chaos/Lesser_Daemon.cfg:20
 #: Extended_Era/units/chaos/Chaos_Daemon.cfg:20
@@ -1258,6 +1459,7 @@ msgstr ""
 "humains, les démons mineurs peuvent facilement changer le cours d'une "
 "bataille car ils se déplacent agilement et sont des combattants féroces."
 
+#. attack: type=fire
 #: Extended_Era/units/chaos/Greater_Daemon.cfg:35
 #: Extended_Era/units/chaos/Lesser_Daemon.cfg:33
 #: Extended_Era/units/chaos/Winged_Daemon.cfg:42
@@ -1265,15 +1467,18 @@ msgstr ""
 msgid "fireball"
 msgstr "boule de feu"
 
+#. female
 #: Extended_Era/units/chaos/Chaos_Daemon.cfg:113
 #, fuzzy
 msgid "female^Chaos Demon"
 msgstr "Démon du chaos"
 
+#. unit: race=human
 #: Extended_Era/units/chaos/Demonologist.cfg:5
 msgid "Demonologist"
 msgstr "Possédé"
 
+#. unit: race=human
 #: Extended_Era/units/chaos/Demonologist.cfg:25
 msgid ""
 "The mastery of daemons lies in the changing into daemon oneself. "
@@ -1287,25 +1492,30 @@ msgstr ""
 "d'invocateurs et de magiciens. Ces créatures ont enfin réussi à atteindre "
 "l'extrême puissance de leurs seigneurs."
 
+#. attack: type=cold
 #: Extended_Era/units/chaos/Magus.cfg:50
 #: Extended_Era/units/chaos/Demonologist.cfg:39
 #: Extended_Era/units/chaos/Invoker.cfg:36
 msgid "chaos blast"
 msgstr "rafale de chaos"
 
+#. attack: type=fire
 #: Extended_Era/units/chaos/Demonologist.cfg:51
 msgid "infernal storm"
 msgstr "tempête infernale"
 
+#. female
 #: Extended_Era/units/chaos/Demonologist.cfg:170
 #, fuzzy
 msgid "female^Demonologist"
 msgstr "Possédé"
 
+#. unit: race=human
 #: Extended_Era/units/chaos/Elite_Armorer.cfg:5
 msgid "Hell Guardian"
 msgstr "Gardien des enfers"
 
+#. unit: race=human
 #: Extended_Era/units/chaos/Elite_Armorer.cfg:21
 msgid ""
 "Only the toughest of armorers are worthy of greatest armors, that are forged "
@@ -1317,37 +1527,45 @@ msgstr ""
 "forgées dans les gouffres ardents des enfers. Il parait que, si on le leur "
 "ordonne, ils peuvent résister à une avalanche sans reculer d'un pas."
 
+#. unit: race=demon
 #: Extended_Era/units/chaos/Evil_Crab.cfg:5
 msgid "Evil Crab"
 msgstr "Crabe infernal"
 
+#. attack: type=blade
 #: Extended_Era/units/chaos/Evil_Crab.cfg:26
 #: Extended_Era/units/chaos/Hell_Crab.cfg:27
 msgid "pincers"
 msgstr "pinces"
 
+#. attack: type=cold
 #: Extended_Era/units/chaos/Evil_Crab.cfg:34
 #: Extended_Era/units/chaos/Hell_Crab.cfg:35
 msgid "evil eye"
 msgstr "mauvail œil"
 
+#. unit: race=demon
 #: Extended_Era/units/chaos/Greater_Daemon.cfg:5
 msgid "Greater Daemon"
 msgstr "Démon majeur"
 
+#. female
 #: Extended_Era/units/chaos/Greater_Daemon.cfg:114
 #, fuzzy
 msgid "female^Greater Demon"
 msgstr "Démon majeur"
 
+#. unit: race=demon
 #: Extended_Era/units/chaos/Greater_Mutation.cfg:5
 msgid "Greater Mutation"
 msgstr "Horreur"
 
+#. unit: race=human
 #: Extended_Era/units/chaos/Headhunter.cfg:5
 msgid "Headhunter"
 msgstr "Chasseur de têtes"
 
+#. unit: race=human
 #: Extended_Era/units/chaos/Headhunter.cfg:25
 msgid ""
 "Given their souls to daemons, these lifeless scouts appear in the places, "
@@ -1358,20 +1576,24 @@ msgstr ""
 "les endroits qui seront envahis par le fléau infernal. Ce sont eux qui "
 "répandent la peur et les rumeurs d'invasions démoniaques."
 
+#. attack: type=impact
 #: Extended_Era/units/chaos/Marauder.cfg:29
 #: Extended_Era/units/chaos/Headhunter.cfg:30
 #: Extended_Era/units/chaos/Soulhunter.cfg:30
 msgid "club"
 msgstr "gourdin"
 
+#. unit: race=demon
 #: Extended_Era/units/chaos/Hell_Crab.cfg:5
 msgid "Hell Crab"
 msgstr "Crabe des enfers"
 
+#. unit: race=monster
 #: Extended_Era/units/chaos/Hound.cfg:5
 msgid "Hound"
 msgstr "Molosse"
 
+#. unit: race=monster
 #: Extended_Era/units/chaos/Hound.cfg:20
 msgid ""
 "Trained hunting dog are ferocious animals, eager to attack in an "
@@ -1380,16 +1602,19 @@ msgid ""
 "Special Notes:"
 msgstr ""
 
+#. attack: type=blade
 #: Extended_Era/units/chaos/Hound_Warp.cfg:28
 #: Extended_Era/units/chaos/Hound_Rabid.cfg:25
 #: Extended_Era/units/chaos/Hound.cfg:25
 msgid "fangs"
 msgstr "crocs"
 
+#. unit: race=monster
 #: Extended_Era/units/chaos/Hound_Flesh.cfg:5
 msgid "Flesh Hound"
 msgstr "Molosse de chair"
 
+#. unit: race=monster
 #: Extended_Era/units/chaos/Hound_Flesh.cfg:21
 msgid ""
 "A hound that becomes a host for a lesser daemon turns into a flesh hound. "
@@ -1400,15 +1625,18 @@ msgid ""
 "Special Notes:"
 msgstr ""
 
+#. attack: type=impact
 #: Extended_Era/units/chaos/Hound_Flesh.cfg:26
 #: Extended_Era/units/trolls/Shaman.cfg:32
 msgid "fist"
 msgstr "poing"
 
+#. unit: race=monster
 #: Extended_Era/units/chaos/Hound_Rabid.cfg:5
 msgid "Rabid Hound"
 msgstr "Molosse enragé"
 
+#. unit: race=monster
 #: Extended_Era/units/chaos/Hound_Rabid.cfg:20
 msgid ""
 "Dog infused with chaotic magic turn rabid. The magic degrades their mind and "
@@ -1417,10 +1645,12 @@ msgid ""
 "Special Notes:"
 msgstr ""
 
+#. unit: race=monster
 #: Extended_Era/units/chaos/Hound_Warp.cfg:5
 msgid "Warp Hound"
 msgstr "Molosse possédé"
 
+#. unit: race=monster
 #: Extended_Era/units/chaos/Hound_Warp.cfg:21
 msgid ""
 "With time, Rabid Hounds become mutated by the insidious magic of chaos "
@@ -1431,10 +1661,12 @@ msgid ""
 "Special Notes:"
 msgstr ""
 
+#. unit: race=human
 #: Extended_Era/units/chaos/Invader.cfg:5
 msgid "Invader"
 msgstr "Envahisseur"
 
+#. unit: race=human
 #: Extended_Era/units/chaos/Invader.cfg:19
 msgid ""
 "Chaos warriors share the common believe that any goverment and any god is "
@@ -1446,10 +1678,12 @@ msgstr ""
 "de seigneurs du chaos qui ne cherchent pas à masquer la vraie nature de leur "
 "règne et laissent leurs hommes affronter la dure réalité."
 
+#. unit: race=human
 #: Extended_Era/units/chaos/Invoker.cfg:5
 msgid "Invoker"
 msgstr "Invocateur"
 
+#. unit: race=human
 #: Extended_Era/units/chaos/Invoker.cfg:22
 msgid ""
 "You can spot them at the first line of Chaos flood. Standing with small "
@@ -1466,15 +1700,18 @@ msgstr ""
 "mortels, mais eux n'ont plus d'âme : ils l'ont vendue à leurs Dieux "
 "démoniaques."
 
+#. female
 #: Extended_Era/units/chaos/Invoker.cfg:116
 #, fuzzy
 msgid "female^Invoker"
 msgstr "Invocateur"
 
+#. unit: race=human
 #: Extended_Era/units/chaos/Knight.cfg:5
 msgid "Dark Knight"
 msgstr "Chevalier noir"
 
+#. unit: race=human
 #: Extended_Era/units/chaos/Knight.cfg:16
 msgid ""
 "Tougher than the averange chaos follower, the Dark Knight attempts to "
@@ -1486,23 +1723,28 @@ msgstr ""
 "désorienter ses adversaires en tenant une arme différente dans chaque main. "
 "Combattant tenance, il sait adapter son type de combat à la situation."
 
+#. unit: race=demon
 #: Extended_Era/units/chaos/Lesser_Daemon.cfg:5
 msgid "Lesser Daemon"
 msgstr "Démon mineur"
 
+#. female
 #: Extended_Era/units/chaos/Lesser_Daemon.cfg:106
 #, fuzzy
 msgid "female^Lesser Demon"
 msgstr "Démon mineur"
 
+#. unit: race=demon
 #: Extended_Era/units/chaos/Lesser_Mutation.cfg:5
 msgid "Lesser Mutation"
 msgstr "Aberration"
 
+#. unit: race=human
 #: Extended_Era/units/chaos/Magus.cfg:5
 msgid "Magus"
 msgstr "Démoniste"
 
+#. unit: race=human
 #: Extended_Era/units/chaos/Magus.cfg:24
 msgid ""
 "It is they, who rally with the larger groups of chaos warriors, supporting "
@@ -1520,27 +1762,33 @@ msgstr ""
 "rebrousser chemin mais désirent plutôt perdre leur humanité et pénétrer au "
 "cœur du Chaos."
 
+#. female
 #: Extended_Era/units/chaos/Magus.cfg:146
 #, fuzzy
 msgid "female^Magus"
 msgstr "Magicien"
 
+#. unit: race=human
 #: Extended_Era/units/chaos/Marauder.cfg:5
 msgid "Marauder"
 msgstr "Maraudeur"
 
+#. unit: race=human
 #: Extended_Era/units/chaos/Overlord.cfg:5
 msgid "Overlord"
 msgstr "Seigneur des enfers"
 
+#. unit: race=human
 #: Extended_Era/units/chaos/Soulhunter.cfg:5
 msgid "Soulhunter"
 msgstr "Chasseur d'âmes"
 
+#. unit: race=demon
 #: Extended_Era/units/chaos/Winged_Daemon.cfg:5
 msgid "Winged Daemon"
 msgstr "Démon ailé"
 
+#. unit: race=demon
 #: Extended_Era/units/chaos/Winged_Daemon.cfg:28
 msgid ""
 "Some daemons are given with power, some are given with speed. Winged Daemons "
@@ -1553,11 +1801,13 @@ msgstr ""
 "toujours un malin plaisir à apparaître et frapper soudainement là où on ne "
 "les attend pas."
 
+#. female
 #: Extended_Era/units/chaos/Winged_Daemon.cfg:116
 #, fuzzy
 msgid "female^Winged Demon"
 msgstr "Démon ailé"
 
+#. unit: race=dark elf
 #: Extended_Era/units/dark_elves/Captain.cfg:21
 msgid ""
 "These Elves have been an example to their fellow soldiers, and have gained "
@@ -1570,10 +1820,12 @@ msgstr ""
 "ils utiliseront toujours leurs épées et leurs courtes lances pour défendre "
 "au mieux la Reine Mère."
 
+#. unit: race=dark elf
 #: Extended_Era/units/dark_elves/Cleric.cfg:5
 msgid "female^Cleric"
 msgstr "Clerc"
 
+#. unit: race=dark elf
 #: Extended_Era/units/dark_elves/Cleric.cfg:22
 msgid ""
 "A Cleric is adapt at both their magical abilities and the use of their "
@@ -1586,6 +1838,7 @@ msgstr ""
 "assouvir leurs plaisirs sadiques. Horriblement séduisantes, elles sont à la "
 "fois craintes et admirées pour leur beauté et leur cruauté."
 
+#. attack: type=impact
 #: Extended_Era/units/nagas/Guardian.cfg:28
 #: Extended_Era/units/nagas/Sentinel.cfg:29
 #: Extended_Era/units/nagas/Warden.cfg:28
@@ -1602,16 +1855,19 @@ msgstr ""
 msgid "mace"
 msgstr "massue"
 
+#. attack: type=fire
 #: Extended_Era/units/dark_elves/Enchantress.cfg:31
 #: Extended_Era/units/dark_elves/Sorceress.cfg:34
 #: Extended_Era/units/dark_elves/Cleric.cfg:35
 msgid "magic torture"
 msgstr "torture magique"
 
+#. unit: race=dark elf
 #: Extended_Era/units/dark_elves/Corsair.cfg:5
 msgid "Corsair"
 msgstr "Corsaire"
 
+#. unit: race=dark elf
 #: Extended_Era/units/dark_elves/Corsair.cfg:18
 msgid ""
 "No single being can stand before a Dark Elf Corsair. If you every see one, "
@@ -1622,10 +1878,12 @@ msgstr ""
 "en voyez un, fuyez. Ils peuvent tailler une barbe de nain en pointe avec "
 "leurs épées aiguisées comme des rasoirs."
 
+#. unit: race=dark elf
 #: Extended_Era/units/dark_elves/Enchantress.cfg:5
 msgid "female^Enchantress"
 msgstr "Enchanteresse"
 
+#. unit: race=dark elf
 #: Extended_Era/units/dark_elves/Enchantress.cfg:18
 msgid ""
 "The women of the Dark Elves often join the Order of the Clerics at a very "
@@ -1640,10 +1898,12 @@ msgstr ""
 "l'apprentissage des techniques de torture. L'enseignement dispensé par les "
 "clercs pourra les faire devenir de puissantes sorcières."
 
+#. unit: race=dark elf
 #: Extended_Era/units/dark_elves/Fighter.cfg:5
 msgid "Fighter"
 msgstr "Combattant"
 
+#. unit: race=dark elf
 #: Extended_Era/units/dark_elves/Fighter.cfg:24
 msgid ""
 "The initiates in their House army, many Fighters die because of lack of "
@@ -1654,11 +1914,13 @@ msgstr ""
 "d'entrainement. Les elfes des ténèbres pensent que seuls les plus valeureux "
 "ont l'honneur de combattre pour la Reine Mère."
 
+#. unit: race=dark elf
 #: Extended_Era/units/dark_elves/High_Lord.cfg:5
 msgid "High Lord"
 msgstr "Haut seigneur"
 
 # Damien : plutôt que traduire directement ' keep their hair combed' par 'gardent leurs cheveux bien peignés, trop bizarre, j'ai préféré une formule dont l'idée est qu'ils prennent soin d'eux
+#. unit: race=dark elf
 #: Extended_Era/units/dark_elves/High_Lord.cfg:21
 msgid ""
 "When in his castle, the High Lord watches his slaves, feeds the lizards, and "
@@ -1676,10 +1938,12 @@ msgstr ""
 "Leurs hommes les suivent sans peur car ils savent que rien ne leur résistera "
 "s'ils suivent les ordres de leurs seigneurs."
 
+#. unit: race=dark elf
 #: Extended_Era/units/dark_elves/Hunter.cfg:5
 msgid "Hunter"
 msgstr "Chasseur"
 
+#. unit: race=dark elf
 #: Extended_Era/units/dark_elves/Hunter.cfg:21
 msgid ""
 "Lurking in the ever dark depths of the caves, the Hunters move around with "
@@ -1688,6 +1952,7 @@ msgstr ""
 "Les chasseurs rôdent dans les cavernes profondes où l'obscurité est "
 "éternelle, sans un bruit... sauf celui que fait la corde de leur arbalète."
 
+#. attack: type=blade
 #: Extended_Era/units/dwarves/Flamethower.cfg:32
 #: Extended_Era/units/dark_elves/Hunter.cfg:27
 #: Extended_Era/units/dark_elves/Shadow.cfg:26
@@ -1695,6 +1960,7 @@ msgstr ""
 msgid "dagger"
 msgstr "dague"
 
+#. attack: type=pierce
 #: Extended_Era/units/dark_elves/Hunter.cfg:36
 #: Extended_Era/units/dark_elves/Shadow.cfg:38
 #: Extended_Era/units/dark_elves/Stalker.cfg:39
@@ -1703,10 +1969,12 @@ msgstr "dague"
 msgid "crossbow"
 msgstr "arbalète"
 
+#. unit: race=dark elf
 #: Extended_Era/units/dark_elves/Lizard_Master.cfg:5
 msgid "Lizard Master"
 msgstr "Maître des lézards"
 
+#. unit: race=dark elf
 #: Extended_Era/units/dark_elves/Lizard_Master.cfg:19
 msgid ""
 "Though the Lizards are not as fast as horses, they are much more powerful. "
@@ -1717,19 +1985,23 @@ msgstr ""
 "puissants : bien des nains se sont fait couper en deux par leurs puissantes "
 "mâchoires. Ce serait une bonne idée de recruter quelques-unes de ces unités."
 
+#. attack: type=pierce
 #: Extended_Era/units/dark_elves/Lizard_Rider.cfg:23
 #: Extended_Era/units/dark_elves/Lizard_Master.cfg:24
 msgid "deathlance"
 msgstr "lance de mort"
 
+#. attack: type=blade
 #: Extended_Era/units/dark_elves/Lizard_Master.cfg:36
 msgid "bite"
 msgstr "morsure"
 
+#. unit: race=dark elf
 #: Extended_Era/units/dark_elves/Lizard_Rider.cfg:5
 msgid "Lizard Rider"
 msgstr "Chevaucheur de lézard"
 
+#. unit: race=dark elf
 #: Extended_Era/units/dark_elves/Lizard_Rider.cfg:18
 msgid ""
 "From childhood, they have been training with their beast, feeding it, "
@@ -1742,10 +2014,12 @@ msgstr ""
 "l'inconnu et d'aller là où nul autre elfe n'est allé auparavant. Un jour, "
 "ils deviendront maître des lézards."
 
+#. unit: race=dark elf
 #: Extended_Era/units/dark_elves/Lord.cfg:5
 msgid "Lord"
 msgstr "Seigneur"
 
+#. unit: race=dark elf
 #: Extended_Era/units/dark_elves/Lord.cfg:20
 msgid ""
 "Highly decorated, These men have gained the title of Lord through their "
@@ -1759,10 +2033,12 @@ msgstr ""
 "appliquent les lois d'une main de fer. Ils représentent un modèle de vie "
 "martiale exemplaire dans le monde des elfes des ténèbres."
 
+#. unit: race=dark elf
 #: Extended_Era/units/dark_elves/Marshal.cfg:5
 msgid "Marshal"
 msgstr "Maréchal"
 
+#. unit: race=dark elf
 #: Extended_Era/units/dark_elves/Marshal.cfg:22
 msgid ""
 "These Elves have proven themselves on and off the battle field with their "
@@ -1775,10 +2051,12 @@ msgstr ""
 "puissent plus devenir seigneurs, ils utiliseront toujours leurs épées et "
 "leurs courtes lances pour défendre au mieux la Reine Mère."
 
+#. unit: race=dark elf
 #: Extended_Era/units/dark_elves/Noble.cfg:5
 msgid "Noble"
 msgstr "Noble"
 
+#. unit: race=dark elf
 #: Extended_Era/units/dark_elves/Noble.cfg:17
 msgid ""
 "The young Lords are rash and brave. They have spent their entire childhood "
@@ -1791,10 +2069,12 @@ msgstr ""
 "meilleurs maréchaux. Ils portent des boucliers richement ornés qu'ils "
 "utilisent à la guerre pour combattre et encourager leur troupes."
 
+#. unit: race=dark elf
 #: Extended_Era/units/dark_elves/Shadow.cfg:5
 msgid "Shadow"
 msgstr "Ombre"
 
+#. unit: race=dark elf
 #: Extended_Era/units/dark_elves/Shadow.cfg:21
 msgid ""
 "Staying hidden safe in the shadows of the caves, they will hit you when you "
@@ -1805,10 +2085,12 @@ msgstr ""
 "y attendiez. Malgré leur fragilité, elles peuvent infliger progressivement "
 "de grands dégâts, drainant lentement la vie de leur victime."
 
+#. unit: race=dark elf
 #: Extended_Era/units/dark_elves/Sorcerer.cfg:5
 msgid "Dark Elf^Sorcerer"
 msgstr "Sorcier"
 
+#. unit: race=dark elf
 #: Extended_Era/units/dark_elves/Sorcerer.cfg:19
 msgid ""
 "Sorcerers are Wizards that have gone deeper into the studying of the arcane "
@@ -1821,17 +2103,20 @@ msgstr ""
 "voie des arts ténébreux des nécromanciens et des liches. Leur puissant jet "
 "froid peut geler n'importe quel ennemi croisant leur chemin."
 
+#. attack: type=cold
 #: Extended_Era/units/dark_elves/Warlock.cfg:36
 #: Extended_Era/units/dark_elves/Sorcerer.cfg:24
 #: Extended_Era/units/dark_elves/Wizard.cfg:24
 msgid "dark wave"
 msgstr "rafale des ténèbres"
 
+#. unit: race=dark elf
 #: Extended_Era/units/dark_elves/Sorceress.cfg:5
 msgid "Dark Elf^Sorceress"
 msgstr "Sorcière"
 
 # Damien : j'ai repris 'enchanteresse', pour éviter la phrase d'intro.
+#. unit: race=dark elf
 #: Extended_Era/units/dark_elves/Sorceress.cfg:21
 msgid ""
 "The women of the Dark Elves often join the Order of the Clerics at a very "
@@ -1845,10 +2130,12 @@ msgstr ""
 "leurs captifs encore et encore. Elles deviendront ensuite clercs, "
 "tortionnaires sadiques terriblement séduisantes."
 
+#. unit: race=dark elf
 #: Extended_Era/units/dark_elves/Stalker.cfg:5
 msgid "Stalker"
 msgstr "Rôdeur"
 
+#. unit: race=dark elf
 #: Extended_Era/units/dark_elves/Stalker.cfg:22
 msgid ""
 "Cunning, agile warriors, the Stalkers are powerful in both the use of their "
@@ -1859,10 +2146,12 @@ msgstr ""
 "poignard et de l'arbalète. Ils vivent camouflés dans les cavernes et seul le "
 "son d'un corps qui s'écroule lourdement vous avertira de leur présence."
 
+#. unit: race=dark elf
 #: Extended_Era/units/dark_elves/Warlock.cfg:5
 msgid "Dark Elf^Warlock"
 msgstr "Ensorceleur"
 
+#. unit: race=dark elf
 #: Extended_Era/units/dark_elves/Warlock.cfg:19
 msgid ""
 "The best of their kind, these Warlocks have immense power, rivaling even "
@@ -1875,15 +2164,19 @@ msgstr ""
 "secrets des arts des ténèbres et peuvent drainer la vie de leurs ennemis "
 "rien qu'en les touchant."
 
+#. attack: type=arcane
 #: Extended_Era/units/dark_elves/Warlock.cfg:24
 msgid "touch"
 msgstr "toucher"
 
+#. unit: race=sidhe
+#. unit: race=dark elf
 #: Extended_Era/units/sidhe/Warrior.cfg:5
 #: Extended_Era/units/dark_elves/Warrior.cfg:5
 msgid "Warrior"
 msgstr "Guerrier"
 
+#. unit: race=dark elf
 #: Extended_Era/units/dark_elves/Warrior.cfg:17
 msgid ""
 "These Warriors have devoted themselves totally to mastering the use of dual "
@@ -1894,10 +2187,12 @@ msgstr ""
 "équilibrées leur permettent de raser un nain de très très près. Peu sont "
 "ceux qui deviennent corsaires."
 
+#. unit: race=dark elf
 #: Extended_Era/units/dark_elves/Wizard.cfg:5
 msgid "Dark Elf^Wizard"
 msgstr "Magicien"
 
+#. unit: race=dark elf
 #: Extended_Era/units/dark_elves/Wizard.cfg:19
 msgid ""
 "Some Dark Elves prefer studying the arcane arts over close-combat. Usually "
@@ -1911,10 +2206,12 @@ msgstr ""
 "ils peuvent cependant infliger de terribles dégâts même s'ils manquent "
 "d'entrainement au corps à corps."
 
+#. unit: race=dwarf
 #: Extended_Era/units/dwarves/Arcanister.cfg:5
 msgid "Dwarvish Arcanister"
 msgstr "Maître des arcanes nain"
 
+#. unit: race=dwarf
 #: Extended_Era/units/dwarves/Arcanister.cfg:24
 msgid ""
 "The most powerful of all the runecrafters, the Dwarvish Arcanister destroys "
@@ -1928,6 +2225,7 @@ msgstr ""
 "tailler les runes reste inégalée, et les glyphes qu'il grave sur ses armes "
 "et son armure le protègent des coups ennemis. "
 
+#. unit: race=dwarf
 #: Extended_Era/units/dwarves/Runemaster.cfg:25
 #: Extended_Era/units/dwarves/Thunderwheel.cfg:22
 #: Extended_Era/units/dwarves/Steamwheel.cfg:22
@@ -1940,16 +2238,19 @@ msgid ""
 "Special Notes:"
 msgstr ""
 
+#. attack: type=impact
 #: Extended_Era/units/dwarves/Runemaster.cfg:30
 #: Extended_Era/units/dwarves/Arcanister.cfg:31
 #: Extended_Era/units/dwarves/Runesmith.cfg:30
 msgid "hammer"
 msgstr "marteau"
 
+#. unit: race=dwarf
 #: Extended_Era/units/dwarves/Axemaster.cfg:5
 msgid "Dwarvish Axemaster"
 msgstr "Maître des haches nain"
 
+#. unit: race=dwarf
 #: Extended_Era/units/dwarves/Axemaster.cfg:25
 msgid ""
 "The axemaster is something of a dwarvish oddity - fast, nimble, armored, and "
@@ -1961,10 +2262,12 @@ msgstr ""
 "pas les guerriers les plus puissants du royaume nain, mais ils sont "
 "néanmoins très respectés."
 
+#. unit: race=dwarf
 #: Extended_Era/units/dwarves/Axethrower.cfg:5
 msgid "Dwarvish Axethrower"
 msgstr "Lanceur de haches nain"
 
+#. unit: race=dwarf
 #: Extended_Era/units/dwarves/Axethrower.cfg:24
 msgid ""
 "Axethrowers have improved their skill hurling their bladed weapons while "
@@ -1974,10 +2277,12 @@ msgstr ""
 "ils ont conservé leur vitesse naturelle ; c'est une combinaison bien "
 "dangereuse."
 
+#. unit: race=dwarf
 #: Extended_Era/units/dwarves/Flamethower.cfg:5
 msgid "Dwarvish Flamethrower"
 msgstr "Incendiaire nain"
 
+#. unit: race=dwarf
 #: Extended_Era/units/dwarves/Flamethower.cfg:27
 msgid ""
 "It is said that the Dwarven Flamethrowers have strange staves of wood and "
@@ -1990,14 +2295,17 @@ msgstr ""
 "tirer des projectiles dans un bruit de tonnerre, leur arme crache des "
 "langues de feu continues."
 
+#. attack: type=fire
 #: Extended_Era/units/dwarves/Flamethower.cfg:41
 msgid "firestick"
 msgstr "bâton de feu"
 
+#. unit: race=dwarf
 #: Extended_Era/units/dwarves/Gyrocopter.cfg:5
 msgid "Gyrocopter"
 msgstr "Ornithoptère"
 
+#. unit: race=dwarf
 #: Extended_Era/units/dwarves/Gyrocopter.cfg:19
 msgid ""
 "Some dwarves have crafted strange machines they call 'Gyrocopters'. Capable "
@@ -2015,15 +2323,18 @@ msgstr ""
 "qui explosent dans un bruit de tonnerre. Personne ne sait quel étrange "
 "animal pond ces oeufs."
 
+#. attack: type=impact
 #: Extended_Era/units/dwarves/Gyrocopter.cfg:36
 #: Extended_Era/units/dwarves/Steamcopter.cfg:37
 msgid "bombs"
 msgstr "grenades"
 
+#. unit: race=dwarf
 #: Extended_Era/units/dwarves/Runemaster.cfg:5
 msgid "Dwarvish Runemaster"
 msgstr "Maître des runes nain"
 
+#. unit: race=dwarf
 #: Extended_Era/units/dwarves/Runemaster.cfg:23
 msgid ""
 "Except for those with almost supernatural skill, the highest rank a "
@@ -2039,10 +2350,12 @@ msgstr ""
 "leur arme ; et ils sont presque invincibles quand ils l'ont car leurs runes "
 "diminuent les dégâts causés par les coups ennemis. "
 
+#. unit: race=dwarf
 #: Extended_Era/units/dwarves/Runesmith.cfg:5
 msgid "Dwarvish Runesmith"
 msgstr "Forgeur de runes nain"
 
+#. unit: race=dwarf
 #: Extended_Era/units/dwarves/Runesmith.cfg:23
 msgid ""
 "Dwarvish runesmiths, now practiced at their craft, carve arcane runes into "
@@ -2055,11 +2368,13 @@ msgstr ""
 "la force des coups et protègent le forgeron des coups ennemis, dont les "
 "frappes n'atteignent l'armure qu'après avoir été adoucies et affaiblies."
 
+#. unit: race=dwarf
 #: Extended_Era/units/dwarves/Runner.cfg:5
 msgid "Dwarvish Runner"
 msgstr "Coureur nain"
 
 # Damien : j'ai un peu changé l'ordre de la phrase ; je voyais pas la logique entre l'endurance naturelle des nains et le lancer de haches...
+#. unit: race=dwarf
 #: Extended_Era/units/dwarves/Runner.cfg:24
 msgid ""
 "Those dwarves capable of moving quickly are made lightly-armored scouts.  "
@@ -2071,10 +2386,12 @@ msgstr ""
 "et ils sont entraînés à lancer des haches pour se défendre lors des "
 "patrouilles."
 
+#. unit: race=dwarf
 #: Extended_Era/units/dwarves/Steamcopter.cfg:5
 msgid "Steamcopter"
 msgstr "Vapocoptère"
 
+#. unit: race=dwarf
 #: Extended_Era/units/dwarves/Steamcopter.cfg:20
 msgid ""
 "With the aid of steam genies, Steamcopters are able to move faster and carry "
@@ -2084,10 +2401,12 @@ msgstr ""
 "déplacer plus vite que les ornithoptères, et il peuvent emporter plus de "
 "grenades."
 
+#. unit: race=dwarf
 #: Extended_Era/units/dwarves/Steamwheel.cfg:5
 msgid "Steamwheel"
 msgstr "Vaporouleur"
 
+#. unit: race=dwarf
 #: Extended_Era/units/dwarves/Steamwheel.cfg:20
 msgid ""
 "Some Dwarves use strange vehicles that can move fast without a horse. It is "
@@ -2099,16 +2418,19 @@ msgstr ""
 "par des génies de vapeur invisibles, c'est pourquoi on les appelle « "
 "Vaporouleurs »."
 
+#. attack: type=impact
 #: Extended_Era/units/dwarves/Thunderwheel.cfg:35
 #: Extended_Era/units/dwarves/Steamwheel.cfg:35
 #: Extended_Era/units/dwarves/Warwheel.cfg:36
 msgid "slam"
 msgstr "collision"
 
+#. unit: race=dwarf
 #: Extended_Era/units/dwarves/Thunderwheel.cfg:5
 msgid "Thunderwheel"
 msgstr "Foudrorouleur"
 
+#. unit: race=dwarf
 #: Extended_Era/units/dwarves/Thunderwheel.cfg:20
 msgid ""
 "With the help of one more steam genie, those noisy vehicles are able to move "
@@ -2117,10 +2439,12 @@ msgstr ""
 "Grâce à une espèce de génie de vapeur, ces véhicules bruyants se déplacent "
 "plus vite que des chevaux."
 
+#. unit: race=dwarf
 #: Extended_Era/units/dwarves/Warwheel.cfg:5
 msgid "Warwheel"
 msgstr "Rouleur de guerre"
 
+#. unit: race=dwarf
 #: Extended_Era/units/dwarves/Warwheel.cfg:21
 msgid ""
 "Warwheels are faster and more heavily armored than Steamwheels, and can "
@@ -2130,10 +2454,12 @@ msgstr ""
 "les vaporouleurs. Leur charge effrayante leur permet d'ouvrir de larges "
 "brèches dans les lignes ennemies."
 
+#. unit: race=wyrm
 #: Extended_Era/units/ice_wyrms/Boreal.cfg:5
 msgid "Boreal Wyrm"
 msgstr ""
 
+#. unit: race=wyrm
 #: Extended_Era/units/ice_wyrms/Boreal.cfg:19
 msgid ""
 "Ancient wyrms so rarely seen that many regard them as legends, Boreal Wyrms "
@@ -2143,6 +2469,7 @@ msgid ""
 "of champions can face these creatures and survive."
 msgstr ""
 
+#. attack: type=impact
 #: Extended_Era/units/ice_wyrms/Ice.cfg:23
 #: Extended_Era/units/ice_wyrms/Boreal.cfg:24
 #: Extended_Era/units/ice_wyrms/Rime.cfg:24
@@ -2152,6 +2479,7 @@ msgstr ""
 msgid "tail"
 msgstr "fléau"
 
+#. attack: type=cold
 #: Extended_Era/units/ice_wyrms/Ice.cfg:32
 #: Extended_Era/units/ice_wyrms/Boreal.cfg:33
 #: Extended_Era/units/ice_wyrms/Rime.cfg:33
@@ -2161,10 +2489,12 @@ msgstr "fléau"
 msgid "cold breath"
 msgstr "souffle ardent"
 
+#. unit: race=wyrm
 #: Extended_Era/units/ice_wyrms/Frost.cfg:5
 msgid "Frost Wyrm"
 msgstr ""
 
+#. unit: race=wyrm
 #: Extended_Era/units/ice_wyrms/Frost.cfg:18
 msgid ""
 "Ice wyrms that live in the sea become more serpentine, turning into Frost "
@@ -2173,10 +2503,12 @@ msgid ""
 "to pummel their enemies."
 msgstr ""
 
+#. unit: race=wyrm
 #: Extended_Era/units/ice_wyrms/Ice.cfg:5
 msgid "Ice Wyrm"
 msgstr ""
 
+#. unit: race=wyrm
 #: Extended_Era/units/ice_wyrms/Ice.cfg:18
 msgid ""
 "Cold-blooded reptiles from the north, ice wyrms are the youngling form of "
@@ -2188,10 +2520,12 @@ msgid ""
 "natural environment has made them ill-suited to face fire."
 msgstr ""
 
+#. unit: race=wyrm
 #: Extended_Era/units/ice_wyrms/Mistral.cfg:5
 msgid "Mistral Wyrm"
 msgstr ""
 
+#. unit: race=wyrm
 #: Extended_Era/units/ice_wyrms/Mistral.cfg:18
 msgid ""
 "Ice Wyrms that dwell high in the mountains eventually grow wings and become "
@@ -2199,10 +2533,12 @@ msgid ""
 "capable than Ice Wyrms. One would do well to avoid these creatures."
 msgstr ""
 
+#. unit: race=wyrm
 #: Extended_Era/units/ice_wyrms/Rime.cfg:5
 msgid "Rime Wyrm"
 msgstr ""
 
+#. unit: race=wyrm
 #: Extended_Era/units/ice_wyrms/Rime.cfg:19
 msgid ""
 "Unlike humans, wyrms only grow stronger and more powerful with age. Rime "
@@ -2210,10 +2546,12 @@ msgid ""
 "attack."
 msgstr ""
 
+#. unit: race=kalifa
 #: Extended_Era/units/kalifa/Ahadath.cfg:5
 msgid "Ahadath"
 msgstr "Ahadath"
 
+#. unit: race=kalifa
 #: Extended_Era/units/kalifa/Ahadath.cfg:18
 msgid ""
 "The Kalifa uses these Hillmen as their foot force.  The are versatile and "
@@ -2222,6 +2560,7 @@ msgstr ""
 "Les Khalifats utilisent ces hommes des collines comme fantassins polyvalents "
 "et excellents en terrains montueux."
 
+#. attack: type=pierce
 #: Extended_Era/units/kalifa/Rami_al_Nuri.cfg:42
 #: Extended_Era/units/kalifa/Rami.cfg:41
 #: Extended_Era/units/kalifa/Mamluk.cfg:34
@@ -2234,10 +2573,12 @@ msgstr ""
 msgid "composite bow"
 msgstr "arc composite"
 
+#. unit: race=kalifa
 #: Extended_Era/units/kalifa/Amir.cfg:5
 msgid "Amir"
 msgstr "Amir"
 
+#. unit: race=kalifa
 #: Extended_Era/units/kalifa/Amir.cfg:18
 msgid ""
 "The Amir form the backbone of any Kalifa foot advance.  They are often sent "
@@ -2249,6 +2590,7 @@ msgstr ""
 "ennemis, et leur valeur et leur habileté à l'épée leur permet d'assaillir "
 "des défenses apparemment impénétrables."
 
+#. attack: type=blade
 #: Extended_Era/units/kalifa/Rami_al_Nuri.cfg:24
 #: Extended_Era/units/kalifa/Mubarizan.cfg:35
 #: Extended_Era/units/kalifa/Rami.cfg:23 Extended_Era/units/kalifa/Arif.cfg:39
@@ -2257,10 +2599,12 @@ msgstr ""
 msgid "long sword"
 msgstr "épée longue"
 
+#. unit: race=kalifa
 #: Extended_Era/units/kalifa/Arif.cfg:5
 msgid "Arif"
 msgstr "Arif"
 
+#. unit: race=kalifa
 #: Extended_Era/units/kalifa/Arif.cfg:18
 msgid ""
 "The Arif are made up of the more defensive minded Amir veterans.  They have "
@@ -2270,6 +2614,7 @@ msgstr ""
 "devenus très adroits pour utiliser leur bouclier pour fatiguer et assommer "
 "leur ennemis."
 
+#. attack: type=impact
 #: Extended_Era/units/kalifa/Arif.cfg:51
 #: Extended_Era/units/kalifa/Immortal.cfg:52
 #: Extended_Era/units/steppe_orcs/Shieldbearer.cfg:32
@@ -2278,10 +2623,12 @@ msgstr ""
 msgid "shield bash"
 msgstr "coup de bouclier"
 
+#. unit: race=kalifa
 #: Extended_Era/units/kalifa/Ekim.cfg:5
 msgid "Ekim"
 msgstr "Ekim"
 
+#. unit: race=kalifa
 #: Extended_Era/units/kalifa/Ekim.cfg:24
 msgid ""
 "Ekim use their knowledge of ancient medicine and herbal concoctions to "
@@ -2291,10 +2638,12 @@ msgstr ""
 "d'herbes pour permettre aux soldats des Khalifats de revenir rapidement en "
 "première ligne."
 
+#. unit: race=kalifa
 #: Extended_Era/units/kalifa/Ekim_Haram.cfg:5
 msgid "Ekim Haram"
 msgstr "Ekim-haram"
 
+#. unit: race=kalifa
 #: Extended_Era/units/kalifa/Ekim_Haram.cfg:26
 msgid ""
 "These sages have reached the absolute epitome medical knowledge and freely "
@@ -2304,10 +2653,12 @@ msgstr ""
 "sans restriction, leurs mélanges médicinaux, sans en craindre les effets "
 "secondaires."
 
+#. unit: race=falcon
 #: Extended_Era/units/kalifa/Elder_Falcon.cfg:5
 msgid "Elder Falcon"
 msgstr "Faucon vétéran"
 
+#. unit: race=falcon
 #: Extended_Era/units/kalifa/Elder_Falcon.cfg:21
 msgid ""
 "These falcons have been through many perils and somehow managed to surivive "
@@ -2317,15 +2668,18 @@ msgstr ""
 "Ces faucons ont survécu à beaucoup d'épreuves. Leur attaque en piqué peut "
 "être si rapide qu'on raconte qu'elle peut trancher net la tête d'un ennemi."
 
+#. attack: type=pierce
 #: Extended_Era/units/kalifa/Falcon.cfg:33
 #: Extended_Era/units/kalifa/Elder_Falcon.cfg:35
 msgid "beak"
 msgstr "bec"
 
+#. unit: race=kalifa
 #: Extended_Era/units/kalifa/Elite_Ghazi.cfg:5
 msgid "Elite Ghazi"
 msgstr "Ghazi d'élite"
 
+#. unit: race=kalifa
 #: Extended_Era/units/kalifa/Elite_Ghazi.cfg:18
 msgid ""
 "The Elite Ghazi are simply heros among their people.  Winner of countless "
@@ -2334,14 +2688,17 @@ msgstr ""
 "Les ghazis d'élite, vainqueurs d'innombrables combats et symboles "
 "prémonitoires de victoire, sont tout bonnement des héros de leur peuple."
 
+#. unit: race=falcon
 #: Extended_Era/units/kalifa/Falcon.cfg:5
 msgid "Falcon"
 msgstr "Faucon"
 
+#. unit: race=kalifa
 #: Extended_Era/units/kalifa/Ghazi.cfg:5
 msgid "Ghazi"
 msgstr "Ghazi"
 
+#. unit: race=kalifa
 #: Extended_Era/units/kalifa/Ghazi.cfg:18
 msgid ""
 "The Ghazi rise from only the most talented and fiercest fighters among the "
@@ -2350,10 +2707,12 @@ msgstr ""
 "Les ghazis sont recrutés parmi les plus talentueux et les plus âpres "
 "combattants ahadaths."
 
+#. unit: race=kalifa
 #: Extended_Era/units/kalifa/Ghaznid.cfg:5
 msgid "Ghaznid"
 msgstr "Ghaznid"
 
+#. unit: race=kalifa
 #: Extended_Era/units/kalifa/Ghaznid.cfg:18
 msgid ""
 "A Ghaznid charge is a fearsome thing to behold.  A huge weight of man, "
@@ -2364,16 +2723,19 @@ msgstr ""
 "composée d'un homme, d'un cheval et de métal, a provoqué la déroute de "
 "nombreux hommes terrifiés."
 
+#. attack: type=pierce
 #: Extended_Era/units/kalifa/Life_Guard.cfg:24
 #: Extended_Era/units/kalifa/Ghulam.cfg:28
 #: Extended_Era/units/kalifa/Ghaznid.cfg:23
 msgid "lance"
 msgstr "lance"
 
+#. unit: race=kalifa
 #: Extended_Era/units/kalifa/Ghulam.cfg:5
 msgid "Ghulam"
 msgstr "Ghulam"
 
+#. unit: race=kalifa
 #: Extended_Era/units/kalifa/Ghulam.cfg:19
 msgid ""
 "The Ghulam wear truly heavy armor, and thus close with a single high impact "
@@ -2384,10 +2746,12 @@ msgstr ""
 "de sa pauvre monture, il commence donc par charger violemment à la lance "
 "puis passe à l'utilisation de sa fidèle massue."
 
+#. unit: race=kalifa
 #: Extended_Era/units/kalifa/Ghulam_al_Rami.cfg:5
 msgid "Ghulam al Rami"
 msgstr "Ghulam-al-rami"
 
+#. unit: race=kalifa
 #: Extended_Era/units/kalifa/Ghulam_al_Rami.cfg:20
 msgid ""
 "Ghulam al Rami combine the some fo the best features of the karadis and the "
@@ -2401,10 +2765,12 @@ msgstr ""
 "avec une impunité relative. Les ghulams-al-rami utilisent aussi assez bien "
 "leur lourde massue au corps à corps."
 
+#. unit: race=kalifa
 #: Extended_Era/units/kalifa/Immortal.cfg:5
 msgid "Immortal"
 msgstr "Immortel"
 
+#. unit: race=kalifa
 #: Extended_Era/units/kalifa/Immortal.cfg:19
 msgid ""
 "These Arif have become so skilled that thier foes wonder whether they can "
@@ -2413,10 +2779,12 @@ msgstr ""
 "Ces arifs sont devenus tellement habiles que leurs ennemis se demandent "
 "s'ils peuvent vraiment mourir."
 
+#. unit: race=kalifa
 #: Extended_Era/units/kalifa/Karadis.cfg:5
 msgid "Karadis"
 msgstr "Karadis"
 
+#. unit: race=kalifa
 #: Extended_Era/units/kalifa/Karadis.cfg:19
 msgid ""
 "Karadis are excellent horsemen and few can shoot as well from horseback as "
@@ -2428,25 +2796,30 @@ msgstr ""
 "distance, puis fuir en profitant de leur vitesse supérieure pour éviter "
 "toute contre-attaque trop puissante."
 
+#. attack: type=blade
 #: Extended_Era/units/kalifa/Mamluk.cfg:25
 #: Extended_Era/units/kalifa/Karadis.cfg:24
 msgid "cavalry sword"
 msgstr "épée de cavalerie"
 
+#. unit: race=kalifa
 #: Extended_Era/units/kalifa/Life_Guard.cfg:5
 msgid "Life Guard"
 msgstr "Sauveur"
 
+#. unit: race=kalifa
 #: Extended_Era/units/kalifa/Life_Guard.cfg:19
 msgid ""
 "Only the greatest mounter warriors in the land are taken into the Life Guard."
 msgstr ""
 "Seuls les meilleurs combattants à cheval intègrent la garde des sauveurs."
 
+#. unit: race=kalifa
 #: Extended_Era/units/kalifa/Mamluk.cfg:5
 msgid "Mamluk"
 msgstr "Mamelouk"
 
+#. unit: race=kalifa
 #: Extended_Era/units/kalifa/Mamluk.cfg:20
 msgid ""
 "Mamluks are the absolute best shots from among the Karadis and are allotted "
@@ -2455,10 +2828,12 @@ msgstr ""
 "Les mamelouk sont les meilleurs archers des karadis et reçoivent les "
 "meilleurs chevaux pour ne pas gâcher ce talent."
 
+#. unit: race=kalifa
 #: Extended_Era/units/kalifa/Mubarizan.cfg:5
 msgid "Mubarizan"
 msgstr "Mubarizan"
 
+#. unit: race=kalifa
 #: Extended_Era/units/kalifa/Mubarizan.cfg:19
 msgid ""
 "Mubarizan take pride in always manning the front lines of an offensive.  "
@@ -2469,22 +2844,27 @@ msgstr ""
 "lors d'une offensive. Ils prennent souvent des châteaux lourdement fortifiés "
 "et infligent régulièrement de lourdes pertes à l'ennemi."
 
+#. unit: race=kalifa
 #: Extended_Era/units/kalifa/Naffatun.cfg:5
 msgid "Naffatun"
 msgstr "Naffatun"
 
+#. unit: race=kalifa
 #: Extended_Era/units/kalifa/Naffatun.cfg:23
 msgid "Naffutun use naptha to show their enemies true fear."
 msgstr "Les naffutuns utilisent la naphte pour terroriser leurs ennemis."
 
+#. attack: type=fire
 #: Extended_Era/units/kalifa/Naffatun.cfg:28
 msgid "naptha throw"
 msgstr "lancer de napthe"
 
+#. unit: race=kalifa
 #: Extended_Era/units/kalifa/Rami.cfg:5
 msgid "Rami"
 msgstr "Rami"
 
+#. unit: race=kalifa
 #: Extended_Era/units/kalifa/Rami.cfg:18
 msgid ""
 "Rami frequently use burning arrows to set fire to enemy fortifications and "
@@ -2496,15 +2876,18 @@ msgstr ""
 "adverses. Ces techniques peuvent être utilisées de bien d'autres façons dans "
 "cet étrange pays."
 
+#. attack: type=fire
 #: Extended_Era/units/kalifa/Rami_al_Nuri.cfg:33
 #: Extended_Era/units/kalifa/Rami.cfg:32
 msgid "fire arrow"
 msgstr "flèche enflammée"
 
+#. unit: race=kalifa
 #: Extended_Era/units/kalifa/Rami_al_Nuri.cfg:5
 msgid "Rami al Nuri"
 msgstr "Rami-al-nuri"
 
+#. unit: race=kalifa
 #: Extended_Era/units/kalifa/Rami_al_Nuri.cfg:19
 msgid ""
 "The maelstrom created by even a few Rami al Nuri can turn the tide of many a "
@@ -2513,19 +2896,23 @@ msgstr ""
 "Le maelström produit par seulement quelques ramis-al-nuri peut changer le "
 "cours de nombreuses batailles. Utilisez-les à bon escient."
 
+#. unit: race=naga
 #: Extended_Era/units/nagas/Abomination.cfg:5
 #, fuzzy
 msgid "Naga Abomination"
 msgstr "Abomination"
 
+#. unit: race=naga
 #: Extended_Era/units/nagas/Abomination.cfg:24
 msgid "These heavy fighters are elite forces of the nagas."
 msgstr ""
 
+#. unit: race=naga
 #: Extended_Era/units/nagas/Assassin.cfg:5
 msgid "Naga Assassin"
 msgstr "Assassin naga"
 
+#. unit: race=naga
 #: Extended_Era/units/nagas/Hunter.cfg:19
 #: Extended_Era/units/nagas/Assassin.cfg:21
 msgid ""
@@ -2539,11 +2926,13 @@ msgstr ""
 "flèches empoisonnées. Ces aiguilles de deux pieds enduites d'un venin "
 "puissant peuvent, parait-il, abattre tout type de proie."
 
+#. unit: race=naga
 #: Extended_Era/units/nagas/Depthprowler.cfg:5
 #, fuzzy
 msgid "Naga Depthprowler"
 msgstr "Rôdeur des profondeurs naga"
 
+#. unit: race=naga
 #: Extended_Era/units/nagas/Depthstalker.cfg:23
 #: Extended_Era/units/nagas/Depthprowler.cfg:23
 msgid ""
@@ -2562,11 +2951,13 @@ msgstr ""
 "appréciés comme gardiens de nids, où ils surveillent les oeufs pondus dans "
 "des cavernes secrètes."
 
+#. female
 #: Extended_Era/units/nagas/Depthprowler.cfg:180
 #, fuzzy
 msgid "Nagini Depthprowler"
 msgstr "Rôdeuse des profondeurs naga"
 
+#. female
 #: Extended_Era/units/nagas/Depthstalker.cfg:185
 #: Extended_Era/units/nagas/Depthprowler.cfg:185
 #, fuzzy
@@ -2586,18 +2977,22 @@ msgstr ""
 "appréciés comme gardiens de nids, où ils surveillent les oeufs pondus dans "
 "des cavernes secrètes."
 
+#. unit: race=naga
 #: Extended_Era/units/nagas/Depthstalker.cfg:5
 msgid "Naga Depthstalker"
 msgstr "Rôdeur des profondeurs naga"
 
+#. female
 #: Extended_Era/units/nagas/Depthstalker.cfg:180
 msgid "Nagini Depthstalker"
 msgstr "Rôdeuse des profondeurs naga"
 
+#. unit: race=naga
 #: Extended_Era/units/nagas/Guardian.cfg:5
 msgid "Naga Guardian"
 msgstr "Gardien naga"
 
+#. unit: race=naga
 #: Extended_Era/units/nagas/Guardian.cfg:23
 msgid ""
 "These heavy fighters are slower and more heavily armored than most naga and "
@@ -2609,14 +3004,17 @@ msgstr ""
 "écraser leurs ennemis. Ils surveillent principalement les avant-postes nagas "
 "mais participent parfois à des raids offensif."
 
+#. unit: race=naga
 #: Extended_Era/units/nagas/Hunter.cfg:5
 msgid "Naga Hunter"
 msgstr "Chasseur naga"
 
+#. unit: race=naga
 #: Extended_Era/units/nagas/Sentinel.cfg:5
 msgid "Naga Sentinel"
 msgstr "Sentinelle naga"
 
+#. unit: race=naga
 #: Extended_Era/units/nagas/Sentinel.cfg:24
 msgid ""
 "These heavy fighters are elite guards of the naga, choosen by their "
@@ -2632,10 +3030,12 @@ msgstr ""
 "leur civilisation. Ces nagas sont souvent inconnus à Wesnoth car ils ne sont "
 "visibles que dans les villes nagas."
 
+#. unit: race=naga
 #: Extended_Era/units/nagas/Warden.cfg:5
 msgid "Naga Warden"
 msgstr "Gardien-chef naga"
 
+#. unit: race=naga
 #: Extended_Era/units/nagas/Warden.cfg:23
 msgid ""
 "These heavy fighters are the elite guards of the naga. They are slower and "
@@ -2648,10 +3048,12 @@ msgstr ""
 "d'énormes masses pour écraser leurs ennemis. Ils surveillent principalement "
 "les avant-postes nagas, mais participent parfois à des raids."
 
+#. unit: race=orc
 #: Extended_Era/units/orcs/Shaman.cfg:5
 msgid "Orcish Shaman"
 msgstr "Chaman orc"
 
+#. unit: race=orc
 #: Extended_Era/units/orcs/Witch_Doctor.cfg:23
 #: Extended_Era/units/orcs/Shaman.cfg:22
 #, fuzzy
@@ -2672,16 +3074,19 @@ msgstr ""
 "sont de bon lanceurs de sorts et peuvent maudire leur ennemis, drainant leur "
 "vie."
 
+#. attack: type=cold
 #: Extended_Era/units/orcs/Warlock.cfg:35
 #: Extended_Era/units/orcs/Witch_Doctor.cfg:37
 #: Extended_Era/units/orcs/Shaman.cfg:37
 msgid "curse"
 msgstr "malédiction"
 
+#. unit: race=orc
 #: Extended_Era/units/orcs/Warlock.cfg:5
 msgid "Orcish Warlock"
 msgstr "Sorcier orc"
 
+#. unit: race=orc
 #: Extended_Era/units/orcs/Warlock.cfg:21
 msgid ""
 "Orcish Shamans are the guardians of orcish magic. Respected among orcish "
@@ -2696,14 +3101,17 @@ msgstr ""
 "turbulente. Bien que physiquement fragiles (pour des orcs), les chamans orcs "
 "sont de bon lanceurs de sorts et peuvent maudire leur ennemis."
 
+#. unit: race=orc
 #: Extended_Era/units/orcs/Witch_Doctor.cfg:5
 msgid "Orcish Witch Doctor"
 msgstr "Marabout orc"
 
+#. unit: race=human
 #: Extended_Era/units/outlaws/Brigand.cfg:5
 msgid "Brigand"
 msgstr "Maraudeur"
 
+#. unit: race=human
 #: Extended_Era/units/outlaws/Brigand.cfg:18
 msgid ""
 "Mounted and wielding wicked-looking sickles, brigands left behind the "
@@ -2716,15 +3124,18 @@ msgstr ""
 "fréquentées de Wesnoth et pour voler les voyageurs. Ils portent des "
 "arbalètes grossières, mais ils ne sont pas très doués avec."
 
+#. attack: type=blade
 #: Extended_Era/units/outlaws/Brigand.cfg:30
 msgid "sickle"
 msgstr "faucille"
 
+#. unit: race=human
 #: Extended_Era/units/outlaws/Princess.cfg:4
 #, fuzzy
 msgid "female^Outlaw Princess"
 msgstr "Clerc"
 
+#. unit: race=human
 #: Extended_Era/units/outlaws/Princess.cfg:23
 msgid ""
 "A noble by birth, the Outlaw Princess has learnt swordplay with the greatest "
@@ -2733,15 +3144,18 @@ msgid ""
 "plunder she finds on the road."
 msgstr ""
 
+#. attack: type=impact
 #: Extended_Era/units/outlaws/Princess.cfg:101
 #: Extended_Era/units/outlaws/Queen.cfg:104
 msgid "sling"
 msgstr "fronde"
 
+#. unit: race=human
 #: Extended_Era/units/outlaws/Queen.cfg:4
 msgid "female^Outlaw Queen"
 msgstr ""
 
+#. unit: race=human
 #: Extended_Era/units/outlaws/Queen.cfg:26
 msgid ""
 "A noble by birth, the Outlaw Queen has learnt swordplay with the greatest "
@@ -2752,10 +3166,12 @@ msgid ""
 "that goal."
 msgstr ""
 
+#. unit: race=human
 #: Extended_Era/units/outlaws/Raider.cfg:5
 msgid "Raider"
 msgstr "Pilleur"
 
+#. unit: race=human
 #: Extended_Era/units/outlaws/Raider.cfg:33
 msgid ""
 "After a four or five robbings any Brigands that last that long will usually "
@@ -2771,51 +3187,63 @@ msgstr ""
 "temps de fabriquer, d'acheter ou de voler une meilleure arbalète, et la "
 "pratique a amélioré leur habileté et leur précision."
 
+#. attack: type=blade
 #: Extended_Era/units/outlaws/Raider.cfg:37
 msgid "sabre"
 msgstr "sabre"
 
+#. unit: race=human
 #: Extended_Era/units/outlaws/Rogue_Mage.cfg:5
 msgid "Rogue Mage"
 msgstr "Mage renégat"
 
+#. attack: type=blade
 #: Extended_Era/units/outlaws/Shadow_Mage.cfg:34
 #: Extended_Era/units/outlaws/Rogue_Mage.cfg:31
 msgid "short sword"
 msgstr "épée courte"
 
+#. attack: type=cold
 #: Extended_Era/units/outlaws/Rogue_Mage.cfg:40
 msgid "missile"
 msgstr "missile"
 
+#. unit: race=human
 #: Extended_Era/units/outlaws/Shadow_Lord.cfg:5
 msgid "Shadow Lord"
 msgstr "Seigneur de l'ombre"
 
+#. attack: type=blade
 #: Extended_Era/units/outlaws/Shadow_Lord.cfg:74
 msgid "astral blade"
 msgstr "lame astrale"
 
+#. attack: type=cold
 #: Extended_Era/units/outlaws/Shadow_Lord.cfg:86
 msgid "shadow bolt"
 msgstr "rayon d'ombre"
 
+#. attack: type=impact
 #: Extended_Era/units/outlaws/Shadow_Lord.cfg:98
 msgid "shadow blast"
 msgstr "rafale d'ombre"
 
+#. unit: race=human
 #: Extended_Era/units/outlaws/Shadow_Mage.cfg:5
 msgid "Shadow Mage"
 msgstr "Mage de l'ombre"
 
+#. attack: type=cold
 #: Extended_Era/units/outlaws/Shadow_Mage.cfg:46
 msgid "ice blast"
 msgstr "rafale de glace"
 
+#. unit: race=sidhe
 #: Extended_Era/units/sidhe/Bladespinner.cfg:5
 msgid "Bladespinner"
 msgstr "Tournelame"
 
+#. unit: race=sidhe
 #: Extended_Era/units/sidhe/Bladespinner.cfg:17
 msgid ""
 "The better warriors of the sidhe are known as bladespinners. They can, it is "
@@ -2825,10 +3253,12 @@ msgstr ""
 "peuvent toucher trois fois un homme avant que celui-ci n'ait eu le temps de "
 "dégainer son arme."
 
+#. unit: race=sidhe
 #: Extended_Era/units/sidhe/Blizzardlord.cfg:5
 msgid "Blizzardlord"
 msgstr "Maître-blizzard"
 
+#. unit: race=sidhe
 #: Extended_Era/units/sidhe/Blizzardlord.cfg:18
 msgid ""
 "The Sidhe nobility, though not accepting commoners into their ranks, "
@@ -2844,16 +3274,19 @@ msgstr ""
 "maîtres-blizzard fassent en sorte que ceux de leur confrérie restent fidèles "
 "et dociles, et entraîneront leur nouvelles recrues."
 
+#. attack: type=cold
 #: Extended_Era/units/sidhe/Blizzardlord.cfg:32
 #: Extended_Era/units/sidhe/Snowdancer.cfg:31
 #: Extended_Era/units/sidhe/Hoarfroster.cfg:31
 msgid "snow wind"
 msgstr "vent de neige"
 
+#. unit: race=sidhe
 #: Extended_Era/units/sidhe/Fury.cfg:5
 msgid "Fury"
 msgstr "Furie"
 
+#. unit: race=sidhe
 #: Extended_Era/units/sidhe/Fury.cfg:18
 msgid ""
 "The fury is a peculiar sidhe warrior, half-mystic half crazed. In the heat "
@@ -2864,10 +3297,12 @@ msgstr ""
 "lancera à cœur perdu dans la bataille, combattant jusqu'à sa mort ou jusqu'à "
 "celle de son adversaire."
 
+#. unit: race=sidhe
 #: Extended_Era/units/sidhe/Herald.cfg:5
 msgid "Herald"
 msgstr "Héraut"
 
+#. unit: race=sidhe
 #: Extended_Era/units/sidhe/Herald.cfg:20
 msgid ""
 "The Heralds are sidhe who go out onto the battlefield, singing the warrior "
@@ -2876,10 +3311,12 @@ msgstr ""
 "Les hérauts sidhs entonnent des chants guerriers en allant à la bataille, "
 "galvanisant ainsi ceux qui avancent."
 
+#. unit: race=sidhe
 #: Extended_Era/units/sidhe/Hoarfroster.cfg:5
 msgid "Hoarfroster"
 msgstr "Givreur"
 
+#. unit: race=sidhe
 #: Extended_Era/units/sidhe/Hoarfroster.cfg:17
 msgid ""
 "Some Sidhe commoners long for the prestige of their magic-using betters. "
@@ -2894,10 +3331,12 @@ msgstr ""
 "de leur forces. Cependant, ils découvrent qu'il peuvent néanmoins contrôler "
 "un autre élément : la glace. Cela leur suffit pour revendiquer la grandeur."
 
+#. unit: race=sidhe
 #: Extended_Era/units/sidhe/Raindancer.cfg:5
 msgid "Raindancer"
 msgstr "Danseur de pluie"
 
+#. unit: race=sidhe
 #: Extended_Era/units/sidhe/Raindancer.cfg:18
 msgid ""
 "The sidhe nobility are powerful mages. They have concentrated their powers "
@@ -2913,6 +3352,7 @@ msgstr ""
 "les études et sont plus enclins à améliorer leur maîtrise de l'épée que leur "
 "magie."
 
+#. attack: type=fire
 #: Extended_Era/units/sidhe/Thunderblade.cfg:35
 #: Extended_Era/units/sidhe/Windlasher.cfg:31
 #: Extended_Era/units/sidhe/Tempest.cfg:31
@@ -2922,10 +3362,12 @@ msgstr ""
 msgid "lightning"
 msgstr "éclair"
 
+#. unit: race=sidhe
 #: Extended_Era/units/sidhe/Shadowdancer.cfg:5
 msgid "Shadowdancer"
 msgstr "Danseur de l'ombre"
 
+#. unit: race=sidhe
 #: Extended_Era/units/sidhe/Shadowdancer.cfg:21
 msgid ""
 "Some may look down upon the shadowdancer's specialty, but they would be well "
@@ -2936,10 +3378,12 @@ msgstr ""
 "seraient bien avisés de ne pas le demander quand il y en a un à coté... "
 "s'ils ne veulent pas se retrouver avec une épée plantée dans le dos."
 
+#. unit: race=sidhe
 #: Extended_Era/units/sidhe/Snowdancer.cfg:5
 msgid "Snowdancer"
 msgstr "Danseur des neiges"
 
+#. unit: race=sidhe
 #: Extended_Era/units/sidhe/Snowdancer.cfg:17
 msgid ""
 "The Sidhe nobility do not lightly accept the fact that some among their "
@@ -2957,10 +3401,12 @@ msgstr ""
 "rang de Danseur des neiges comme récompense aux givreurs excellant à la fois "
 "dans leur art et dans la fidélité."
 
+#. unit: race=undead
 #: Extended_Era/units/sidhe/Spirit_Ancestor.cfg:5
 msgid "Sidhe Ancestor"
 msgstr "Ancêtre sidh"
 
+#. unit: race=undead
 #: Extended_Era/units/sidhe/Spirit_Ancestor.cfg:21
 msgid ""
 "Revered warriors of old roam through the woods of the sidhe, visible only "
@@ -2974,22 +3420,26 @@ msgstr ""
 "comme si elles n'avaient jamais existé et leur voix peut murmurer dans le "
 "vent des mots capables de glacer le cœur des ennemis."
 
+#. attack: type=arcane
 #: Extended_Era/units/sidhe/Spirit_Forefather.cfg:27
 #: Extended_Era/units/sidhe/Spirit_Ancestor.cfg:26
 #: Extended_Era/units/sidhe/Spirit_Warrior.cfg:26
 msgid "ancient blade"
 msgstr "lame ancestrale"
 
+#. attack: type=cold
 #: Extended_Era/units/sidhe/Spirit_Forefather.cfg:36
 #: Extended_Era/units/sidhe/Spirit_Ancestor.cfg:35
 msgid "requiem"
 msgstr "requiem"
 
+#. unit: race=undead
 #: Extended_Era/units/sidhe/Spirit_Forefather.cfg:5
 msgid "Sidhe Forefather"
 msgstr "Patriarche sidh"
 
 # Damien : j'ai mis feuillage pour donner l'impression diffuse que donne l'anglais.
+#. unit: race=undead
 #: Extended_Era/units/sidhe/Spirit_Forefather.cfg:22
 msgid ""
 "The greatest warriors of the sidhe are far from gone. When you hear their "
@@ -3000,10 +3450,12 @@ msgstr ""
 "leurs lames en argent seront toutes proches quand vous entendrez leur chant "
 "funèbre résonner dans le feuillage des arbres."
 
+#. unit: race=undead
 #: Extended_Era/units/sidhe/Spirit_Warrior.cfg:5
 msgid "Warrior Spirit"
 msgstr "Esprit guerrier"
 
+#. unit: race=undead
 #: Extended_Era/units/sidhe/Spirit_Warrior.cfg:21
 msgid ""
 "The great sidhe warriors of times past are not quite gone. They roam through "
@@ -3015,10 +3467,12 @@ msgstr ""
 "à rééditer les prouesses martiales réalisées par le passé, et la mort ne "
 "pourra pas les en empêcher..."
 
+#. unit: race=sidhe
 #: Extended_Era/units/sidhe/Stormlord.cfg:5
 msgid "Stormlord"
 msgstr "Maître-ouragan"
 
+#. unit: race=sidhe
 #: Extended_Era/units/sidhe/Stormlord.cfg:18
 msgid ""
 "The stormlord has spent his entire life studying magic. He has given up "
@@ -3031,10 +3485,12 @@ msgstr ""
 "pour cela que beaucoup d'elfes sidhs se méfient de lui et surtout le "
 "craignent. Et si un sidh craint quelqu'un ..."
 
+#. unit: race=sidhe
 #: Extended_Era/units/sidhe/Tempest.cfg:5
 msgid "Tempest"
 msgstr "Mage-tempête"
 
+#. unit: race=sidhe
 #: Extended_Era/units/sidhe/Tempest.cfg:17
 msgid ""
 "Elder mages, seen as sages among the sidhe are given the name of tempest. "
@@ -3045,10 +3501,12 @@ msgstr ""
 "appelés mages-tempêtes. Ils invoquent aisément la foudre et utilisent une "
 "magie d'une puissance destructrice brute quasi inégalée."
 
+#. unit: race=sidhe
 #: Extended_Era/units/sidhe/Thunderblade.cfg:5
 msgid "Thunderblade"
 msgstr "Foudrelame"
 
+#. unit: race=sidhe
 #: Extended_Era/units/sidhe/Thunderblade.cfg:18
 msgid ""
 "When the first sidhe lord died in battle, the shards of his mighty sword "
@@ -3063,14 +3521,17 @@ msgstr ""
 "données aux sidhs qui ont prouvé leur valeur martiale et qui possèdent la "
 "magie caractéristique de la noblesse."
 
+#. attack: type=blade
 #: Extended_Era/units/sidhe/Thunderblade.cfg:23
 msgid "thunderblade"
 msgstr "épée-tonnerre"
 
+#. unit: race=sidhe
 #: Extended_Era/units/sidhe/Tracker.cfg:5
 msgid "Tracker"
 msgstr "Traqueur"
 
+#. unit: race=sidhe
 #: Extended_Era/units/sidhe/Tracker.cfg:21
 msgid ""
 "Among the finest scouts known, wild elf trackers are swift and versatile, "
@@ -3082,10 +3543,12 @@ msgstr ""
 "le combat à distance, effectués tous deux avec de courtes lances. Leur "
 "absence complète d'armure est toutefois un handicap."
 
+#. unit: race=sidhe
 #: Extended_Era/units/sidhe/Veiledblade.cfg:5
 msgid "Veiledblade"
 msgstr "Lame-perverse"
 
+#. unit: race=sidhe
 #: Extended_Era/units/sidhe/Veiledblade.cfg:20
 msgid ""
 "Not all sidhe like to fight up front. The shadowy veiledblades can slip in "
@@ -3096,10 +3559,12 @@ msgstr ""
 "perverses peuvent se glisser derrière les défenses ennemies et frapper "
 "furtivement, et souvent mortellement, un adversaire qui ne s'y attend pas."
 
+#. unit: race=sidhe
 #: Extended_Era/units/sidhe/Wanderer.cfg:5
 msgid "Wanderer"
 msgstr "Voyageur"
 
+#. unit: race=sidhe
 #: Extended_Era/units/sidhe/Wanderer.cfg:22
 msgid ""
 "The sidhe sometimes have more lonesome among them who prefer the tracking "
@@ -3115,10 +3580,12 @@ msgstr ""
 "toutefois un prix : ils combattent presque sans armure et succombent donc "
 "assez vite au corps à corps."
 
+#. unit: race=sidhe
 #: Extended_Era/units/sidhe/Wardancer.cfg:5
 msgid "Wardancer"
 msgstr "Danseur de guerre"
 
+#. unit: race=sidhe
 #: Extended_Era/units/sidhe/Wardancer.cfg:18
 msgid ""
 "Wardancers are legends among the sidhe. The skill of a bladespinner may seem "
@@ -3128,10 +3595,12 @@ msgstr ""
 "habileté surpasse de très loin celle, déjà incroyable, d'une lame "
 "virevoltante."
 
+#. unit: race=sidhe
 #: Extended_Era/units/sidhe/Warmage.cfg:5
 msgid "War Mage"
 msgstr "Mage de guerre"
 
+#. unit: race=sidhe
 #: Extended_Era/units/sidhe/Warmage.cfg:17
 msgid ""
 "Few sidhe are capable of staying away from battle for long. The war mages "
@@ -3145,6 +3614,7 @@ msgstr ""
 "corps à corps sont facilement comparables à celles des guerriers et leur "
 "magie les aide beaucoup."
 
+#. unit: race=sidhe
 #: Extended_Era/units/sidhe/Warrior.cfg:18
 msgid ""
 "The lithe and strong sidhe warriors are deadly swordsmen, capable of dealing "
@@ -3156,10 +3626,12 @@ msgstr ""
 "facilement. Leur seul point faible est leur fragilité due à leur dégoût des "
 "armures."
 
+#. unit: race=sidhe
 #: Extended_Era/units/sidhe/Warsinger.cfg:5
 msgid "Warsinger"
 msgstr "Barde guerrier"
 
+#. unit: race=sidhe
 #: Extended_Era/units/sidhe/Warsinger.cfg:21
 msgid ""
 "The Warsinger is a master of the songs of combat. A powerful warrior "
@@ -3169,10 +3641,12 @@ msgstr ""
 "puissants combattants, ils entrainent leur compagnons dans de véritables "
 "frénésies guerrières."
 
+#. unit: race=sidhe
 #: Extended_Era/units/sidhe/Whirlwind.cfg:5
 msgid "Whirlwind"
 msgstr "Tornade"
 
+#. unit: race=sidhe
 #: Extended_Era/units/sidhe/Whirlwind.cfg:21
 msgid ""
 "The whirlwind is a wildblade who has survived many battles. A legend in his "
@@ -3183,10 +3657,12 @@ msgstr ""
 "ni personne ne peut l'arrêter quand elle désire tuer quelqu'un. Vraie "
 "légende, elle est crainte par tous les sidhs qui redoutent sa rage."
 
+#. unit: race=sidhe
 #: Extended_Era/units/sidhe/Wildblade.cfg:5
 msgid "Wildblade"
 msgstr "Lame-folle"
 
+#. unit: race=sidhe
 #: Extended_Era/units/sidhe/Wildblade.cfg:18
 msgid ""
 "A wildblade, once its battle rage has started, is a terrifying thing to "
@@ -3197,10 +3673,12 @@ msgstr ""
 "Frappant à droite et à gauche, avec une force et détermination rare, elle ne "
 "se soucie ni de la douleur, ni de la mort."
 
+#. unit: race=sidhe
 #: Extended_Era/units/sidhe/Windlasher.cfg:5
 msgid "Windlasher"
 msgstr "Déchaîneur d'orages"
 
+#. unit: race=sidhe
 #: Extended_Era/units/sidhe/Windlasher.cfg:17
 msgid ""
 "The sidhe who dedicates himself to the windlasher's life will find it a hard "
@@ -3211,10 +3689,12 @@ msgstr ""
 "c'est difficile. Ils devront abandonner les armes pour se consacrer à la "
 "magie. Rares sont ceux qui empruntent cette voie, mais elle en vaut la peine."
 
+#. unit: race=sidhe
 #: Extended_Era/units/sidhe/Windrunner.cfg:5
 msgid "Windrunner"
 msgstr "Coureur des vents"
 
+#. unit: race=sidhe
 #: Extended_Era/units/sidhe/Windrunner.cfg:22
 msgid ""
 "The windrunners are the finest scouts available to the sidhe. Their speed is "
@@ -3226,10 +3706,12 @@ msgstr ""
 "corps, est stupéfiante. Ils peuvent cependant rapidement succomber lors d'un "
 "combat frontal."
 
+#. unit: race=orc
 #: Extended_Era/units/steppe_orcs/Bladesman.cfg:5
 msgid "Steppe Bladesman"
 msgstr "Porte-hache des steppes"
 
+#. unit: race=orc
 #: Extended_Era/units/steppe_orcs/Bladesman.cfg:19
 msgid ""
 "Those orcs who excell in the use of the battle axe are informally known to "
@@ -3244,6 +3726,7 @@ msgstr ""
 "sur leur passage. Ce qu'ils peuvent apprendre durant les batailles ne fait "
 "que renforcer ce que la nature leur a déjà donné."
 
+#. attack: type=blade
 #: Extended_Era/units/steppe_orcs/Warrior.cfg:24
 #: Extended_Era/units/steppe_orcs/Bladesman.cfg:24
 #: Extended_Era/units/steppe_orcs/Khan.cfg:43
@@ -3252,10 +3735,12 @@ msgstr ""
 msgid "battle axe"
 msgstr "hache de bataille"
 
+#. unit: race=goblin
 #: Extended_Era/units/steppe_orcs/Flanker.cfg:5
 msgid "Steppe Flanker"
 msgstr "Commando des steppes"
 
+#. unit: race=goblin
 #: Extended_Era/units/steppe_orcs/Flanker.cfg:20
 msgid ""
 "Some goblins have discovered that the skills gained on the hunt can be put "
@@ -3268,16 +3753,19 @@ msgstr ""
 "particulièrement bienvenus dans les groupes de raids, leur présence est "
 "tolérée, à regret, car ils s'avèrent indiscutablement efficaces."
 
+#. attack: type=pierce
 #: Extended_Era/units/steppe_orcs/Hunter.cfg:33
 #: Extended_Era/units/steppe_orcs/Flanker.cfg:34
 #: Extended_Era/units/steppe_orcs/Striker.cfg:40
 msgid "harpoon"
 msgstr "harpon"
 
+#. unit: race=goblin
 #: Extended_Era/units/steppe_orcs/Hunter.cfg:5
 msgid "Steppe Hunter"
 msgstr "Chasseur des steppes"
 
+#. unit: race=goblin
 #: Extended_Era/units/steppe_orcs/Hunter.cfg:19
 msgid ""
 "The cruel life on the steppes tends to weed out the weak early on and harden "
@@ -3295,10 +3783,12 @@ msgstr ""
 "victimes grâce à des harpons barbelés, facilitant ainsi l'hallali pour leurs "
 "frères orcs plus costauds."
 
+#. unit: race=orc
 #: Extended_Era/units/steppe_orcs/Icewind_Drover.cfg:5
 msgid "Icewind Drover"
 msgstr "Gardien du blizzard"
 
+#. unit: race=orc
 #: Extended_Era/units/steppe_orcs/Icewind_Drover.cfg:22
 #, fuzzy
 msgid ""
@@ -3333,16 +3823,19 @@ msgstr ""
 "Remarque : l'attaque glacée du gardien du blizzard est magique, et a "
 "toujours de fortes chances de toucher l'ennemi."
 
+#. attack: type=cold
 #: Extended_Era/units/steppe_orcs/Icewind_Master.cfg:43
 #: Extended_Era/units/steppe_orcs/Icewind_Herder.cfg:45
 #: Extended_Era/units/steppe_orcs/Icewind_Drover.cfg:43
 msgid "frostbite"
 msgstr "morsure glaciale"
 
+#. unit: race=orc
 #: Extended_Era/units/steppe_orcs/Icewind_Herder.cfg:5
 msgid "Icewind Herder"
 msgstr "Berger du blizzard"
 
+#. unit: race=orc
 #: Extended_Era/units/steppe_orcs/Icewind_Herder.cfg:24
 #, fuzzy
 msgid ""
@@ -3395,10 +3888,12 @@ msgstr ""
 "glaçant. Cette attaque magique a toujours de grandes chances de blesser "
 "l'ennemi."
 
+#. unit: race=orc
 #: Extended_Era/units/steppe_orcs/Icewind_Master.cfg:5
 msgid "Icewind Master"
 msgstr "Maître du blizzard"
 
+#. unit: race=orc
 #: Extended_Era/units/steppe_orcs/Icewind_Master.cfg:22
 #, fuzzy
 msgid ""
@@ -3422,10 +3917,12 @@ msgstr ""
 "Remarque : l'attaque glacée du maître du blizzard est de nature magique et a "
 "toujours de fortes chances de toucher l'ennemi."
 
+#. unit: race=orc
 #: Extended_Era/units/steppe_orcs/Juggernaut.cfg:5
 msgid "Steppe Juggernaut"
 msgstr "Mastodonte des steppes"
 
+#. unit: race=orc
 #: Extended_Era/units/steppe_orcs/Juggernaut.cfg:22
 #, fuzzy
 msgid ""
@@ -3451,6 +3948,7 @@ msgstr ""
 "dégâts fait par la riposte adverse ; cela n'est valable que pour les ennemis "
 "de niveau inférieur ou égal."
 
+#. attack: type=impact
 #: Extended_Era/units/steppe_orcs/Juggernaut.cfg:27
 #: Extended_Era/units/steppe_orcs/Spearhead.cfg:26
 #: Extended_Era/units/steppe_orcs/Khan.cfg:31
@@ -3458,10 +3956,12 @@ msgstr ""
 msgid "flail"
 msgstr "fléau"
 
+#. unit: race=orc
 #: Extended_Era/units/steppe_orcs/Khan.cfg:5
 msgid "Steppe Khan"
 msgstr "Khan des steppes"
 
+#. unit: race=orc
 #: Extended_Era/units/steppe_orcs/Khan.cfg:26
 #, fuzzy
 msgid ""
@@ -3498,10 +3998,12 @@ msgstr ""
 "l'attaque au fléau réduit les dégats causé par la riposte. Cela n'affecte "
 "que les ennemis de niveau inférieur ou égal."
 
+#. unit: race=orc
 #: Extended_Era/units/steppe_orcs/Massif.cfg:5
 msgid "Steppe Massif"
 msgstr "Barbare des steppes"
 
+#. unit: race=orc
 #: Extended_Era/units/steppe_orcs/Massif.cfg:20
 msgid ""
 "Clad in crude armour with full-face helms and swinging weapons too heavy for "
@@ -3514,10 +4016,12 @@ msgstr ""
 "continuellement leurs haches de bataille et obtiennent de redoutables "
 "résultats."
 
+#. unit: race=orc
 #: Extended_Era/units/steppe_orcs/Outcast.cfg:5
 msgid "Steppe Outcast"
 msgstr "Exclu des steppes"
 
+#. unit: race=orc
 #: Extended_Era/units/steppe_orcs/Outcast.cfg:22
 #, fuzzy
 msgid ""
@@ -3552,15 +4056,18 @@ msgstr ""
 "Remarque : l'attaque d'un exclus est considérée comme magique et a toujours "
 "de grandes chances de toucher."
 
+#. attack: type=cold
 #: Extended_Era/units/steppe_orcs/Outcast.cfg:27
 #: Extended_Era/units/steppe_orcs/Pariah.cfg:26
 msgid "frigid touch"
 msgstr "toucher glaçant"
 
+#. unit: race=orc
 #: Extended_Era/units/steppe_orcs/Pariah.cfg:4
 msgid "Steppe Pariah"
 msgstr "Paria des steppes"
 
+#. unit: race=orc
 #: Extended_Era/units/steppe_orcs/Pariah.cfg:21
 #, fuzzy
 msgid ""
@@ -3583,10 +4090,12 @@ msgstr ""
 "Remarque : La frappe d'un paria est une variante de magie et a toujours de "
 "grandes chances de toucher."
 
+#. unit: race=orc
 #: Extended_Era/units/steppe_orcs/Rigid.cfg:5
 msgid "Steppe Rigid"
 msgstr "Inflexible des steppes"
 
+#. unit: race=orc
 #: Extended_Era/units/steppe_orcs/Rigid.cfg:21
 #, fuzzy
 msgid ""
@@ -3613,10 +4122,12 @@ msgstr ""
 "manque d'armement ; mais ils sont capables de répliquer en frappant "
 "lourdement avec leur boucliers s'ils sont attaqués."
 
+#. unit: race=orc
 #: Extended_Era/units/steppe_orcs/Savage.cfg:5
 msgid "Steppe Savage"
 msgstr "Sauvage des steppes"
 
+#. unit: race=orc
 #: Extended_Era/units/steppe_orcs/Savage.cfg:22
 #, fuzzy
 msgid ""
@@ -3648,14 +4159,17 @@ msgstr ""
 "violente qui ne peut s'arrêter que par leur mort, ou par celle de leur "
 "adversaire."
 
+#. attack: type=impact
 #: Extended_Era/units/steppe_orcs/Savage.cfg:45
 msgid "frenzy"
 msgstr "frénésie"
 
+#. unit: race=orc
 #: Extended_Era/units/steppe_orcs/Shieldbearer.cfg:5
 msgid "Steppe Shieldbearer"
 msgstr "Porte-bouclier des steppes"
 
+#. unit: race=orc
 #: Extended_Era/units/steppe_orcs/Shieldbearer.cfg:21
 #, fuzzy
 msgid ""
@@ -3682,10 +4196,12 @@ msgstr ""
 "leur manque d'armement ; mais, s'ils sont attaqués, ils peuvent répliquer en "
 "frappant lourdement avec leur boucliers."
 
+#. unit: race=orc
 #: Extended_Era/units/steppe_orcs/Skewer.cfg:5
 msgid "Steppe Skewer"
 msgstr "Embrocheur des steppes"
 
+#. unit: race=orc
 #: Extended_Era/units/steppe_orcs/Skewer.cfg:22
 msgid ""
 "While orcs may not be renowned for their intellectual capacity, it is well "
@@ -3704,10 +4220,12 @@ msgstr ""
 "\n"
 "Remarque : "
 
+#. unit: race=orc
 #: Extended_Era/units/steppe_orcs/Spearhead.cfg:5
 msgid "Steppe Spearhead"
 msgstr "Fer de lance des steppes"
 
+#. unit: race=orc
 #: Extended_Era/units/steppe_orcs/Spearhead.cfg:21
 #, fuzzy
 msgid ""
@@ -3736,10 +4254,12 @@ msgstr ""
 "l'attaque au fléau réduit les dégats causé par la riposte. Cela n'affecte "
 "que les ennemis de niveau inférieur ou égal."
 
+#. unit: race=orc
 #: Extended_Era/units/steppe_orcs/Spearman.cfg:5
 msgid "Steppe Spearman"
 msgstr "Porte-lance des steppes"
 
+#. unit: race=orc
 #: Extended_Era/units/steppe_orcs/Spearman.cfg:19
 msgid ""
 "The orcs of the steppe learnt early on that their axes were simply not "
@@ -3755,10 +4275,12 @@ msgstr ""
 # Benoît : c'est Shieldbearer -> Rigid -> Stoic
 #  Stoïque ça avait l'air un peu faible en français à coté du reste, donc
 #  j'ai mis Muraille à la place
+#. unit: race=orc
 #: Extended_Era/units/steppe_orcs/Stoic.cfg:5
 msgid "Steppe Stoic"
 msgstr "Muraille des steppes"
 
+#. unit: race=orc
 #: Extended_Era/units/steppe_orcs/Stoic.cfg:22
 #, fuzzy
 msgid ""
@@ -3782,10 +4304,12 @@ msgstr ""
 "l'ennemi ; ils peuvent néanmoins répliquer en frappant brutalement avec leur "
 "bouclier s'ils sont attaqués."
 
+#. unit: race=goblin
 #: Extended_Era/units/steppe_orcs/Striker.cfg:5
 msgid "Steppe Striker"
 msgstr "Assassin des steppes"
 
+#. unit: race=goblin
 #: Extended_Era/units/steppe_orcs/Striker.cfg:23
 msgid ""
 "Rather then weaken foes for others to finish off, Strikers seek the killing "
@@ -3799,10 +4323,12 @@ msgstr ""
 "évitent donc l'endroit où la bataille fait rage, et cherchent plutôt à "
 "surprendre des adversaires inattentifs."
 
+#. unit: race=orc
 #: Extended_Era/units/steppe_orcs/Vanguard.cfg:5
 msgid "Steppe Vanguard"
 msgstr "Avant-garde des steppes"
 
+#. unit: race=orc
 #: Extended_Era/units/steppe_orcs/Vanguard.cfg:24
 #, fuzzy
 msgid ""
@@ -3830,10 +4356,12 @@ msgstr ""
 "l'attaque au fléau réduit les dégats causé par la riposte. Cela n'affecte "
 "que les ennemis de niveau inférieur ou égal."
 
+#. unit: race=orc
 #: Extended_Era/units/steppe_orcs/Warrior.cfg:5
 msgid "Steppe Warrior"
 msgstr "Guerrier des steppes"
 
+#. unit: race=orc
 #: Extended_Era/units/steppe_orcs/Warrior.cfg:19
 msgid ""
 "The rank and file Steppe Orc soldier epitomizes the qualities of his clan. "
@@ -3850,11 +4378,13 @@ msgstr ""
 "permanents, fait office d'entraînement. Les orcs des steppes sont peu connus "
 "pour leur finesse, et combattent avec de lourdes haches à deux mains."
 
+#. unit: race=fairy
 #: Extended_Era/units/sylvan_fairies/Dryad.cfg:4
 #, fuzzy
 msgid "Dryad"
 msgstr "effroi"
 
+#. unit: race=fairy
 #: Extended_Era/units/sylvan_fairies/Spirit.cfg:35
 #: Extended_Era/units/sylvan_fairies/Dryad.cfg:21
 msgid ""
@@ -3866,6 +4396,7 @@ msgid ""
 "Special Notes:"
 msgstr ""
 
+#. attack: type=fire
 #: Extended_Era/units/sylvan_fairies/Sprite.cfg:26
 #: Extended_Era/units/sylvan_fairies/Faerie.cfg:26
 #: Extended_Era/units/sylvan_fairies/Spirit.cfg:42
@@ -3874,6 +4405,7 @@ msgstr ""
 msgid "fire aura"
 msgstr "flèche enflammée"
 
+#. attack: type=fire
 #: Extended_Era/units/sylvan_fairies/Sprite.cfg:36
 #: Extended_Era/units/sylvan_fairies/Faerie.cfg:36
 #: Extended_Era/units/sylvan_fairies/Spirit.cfg:55
@@ -3881,10 +4413,12 @@ msgstr "flèche enflammée"
 msgid "mystic fire"
 msgstr ""
 
+#. unit: race=fairy
 #: Extended_Era/units/sylvan_fairies/Faerie.cfg:4
 msgid "Fire Faerie"
 msgstr ""
 
+#. unit: race=fairy
 #: Extended_Era/units/sylvan_fairies/Sprite.cfg:19
 #: Extended_Era/units/sylvan_fairies/Faerie.cfg:19
 msgid ""
@@ -3895,20 +4429,24 @@ msgid ""
 "whimsical personality make them fast friends to the elves.Special Notes:"
 msgstr ""
 
+#. unit: race=fairy
 #: Extended_Era/units/sylvan_fairies/Spirit.cfg:4
 #, fuzzy
 msgid "Faerie Spirit"
 msgstr "Esprit guerrier"
 
+#. unit: race=fairy
 #: Extended_Era/units/sylvan_fairies/Sprite.cfg:4
 #, fuzzy
 msgid "Sprite"
 msgstr "morsure"
 
+#. unit: race=troll
 #: Extended_Era/units/trolls/Shaman.cfg:4
 msgid "Troll Shaman"
 msgstr "Chaman troll"
 
+#. unit: race=troll
 #: Extended_Era/units/trolls/Shaman.cfg:25
 msgid ""
 "Troll shamans are the mystical leaders of the trolls. Though not as strong "
@@ -3919,14 +4457,17 @@ msgstr ""
 "les autres, leur vrai pouvoir réside dans leur maîtrise magique du feu "
 "qu'ils projettent par rafales pour carboniser leurs ennemis."
 
+#. attack: type=fire
 #: Extended_Era/units/trolls/Shaman.cfg:42
 msgid "flame blast"
 msgstr "rafale de feu"
 
+#. unit: race=wose
 #: Extended_Era/units/woses/Shaman.cfg:6
 msgid "Wose Shaman"
 msgstr "Chaman wose"
 
+#. unit: race=wose
 #: Extended_Era/units/woses/Shaman.cfg:28
 msgid ""
 "These woses are able to command forest plants such as vines and creepers to "
@@ -3939,6 +4480,7 @@ msgstr ""
 "\n"
 "Remarques :"
 
+#. attack: type=impact
 #: Extended_Era/units/woses/Shaman.cfg:42
 msgid "entangle"
 msgstr "enchevêtrement"
