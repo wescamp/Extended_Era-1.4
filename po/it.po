@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2008-04-02 16:56+0200\n"
-"PO-Revision-Date: 2007-12-31 17:48+0100\n"
+"PO-Revision-Date: 2008-04-18 20:29+0100\n"
 "Last-Translator: Brivido <brivido(at)gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -406,15 +406,13 @@ msgstr "Non-morto"
 
 #. [race]
 #: Extended_Era/races/aragwaithi.cfg:5
-#, fuzzy
 msgid "race^Aragwaith Human"
-msgstr "Aragwaithi"
+msgstr "Uomo aragwaithi"
 
 #. [race]
 #: Extended_Era/races/aragwaithi.cfg:6
-#, fuzzy
 msgid "race+female^Aragwaith Human"
-msgstr "Aragwaithi"
+msgstr "Donna aragwaithi"
 
 #. [race]
 #: Extended_Era/races/aragwaithi.cfg:7
@@ -423,15 +421,13 @@ msgstr "Aragwaithi"
 
 #. [race]
 #: Extended_Era/races/chaos.cfg:5
-#, fuzzy
 msgid "race^Demon"
-msgstr "Demoni"
+msgstr "Demone"
 
 #. [race]
 #: Extended_Era/races/chaos.cfg:6
-#, fuzzy
 msgid "race+female^Demon"
-msgstr "Demoni"
+msgstr "Demonessa"
 
 #. [race]
 #: Extended_Era/races/chaos.cfg:7
@@ -440,7 +436,6 @@ msgstr "Demoni"
 
 #. [race]
 #: Extended_Era/races/chaos.cfg:10
-#, fuzzy
 msgid ""
 "Abalam,Abbadon,Abigor,Adramalech,Agaliarept,Agares,Aim,Akvan,Aldebaran,"
 "Alocer,Amducious,Amdusias,Amon,Ananiel,Andhaka,Andras,Andrealphus,"
@@ -470,27 +465,26 @@ msgstr ""
 "Andromalius,Antares,Apep,Araqiel,Arioch,Armaros,Asael,Asag,Asb'el,Asmodeus,"
 "Astaroth,Azazel,Baal,Baalberith,Balam,Balberith,Babeal,Baphomet,Baraqel,"
 "Barbas,Barbatos,Batariel,Bathin,Beball,Beelzebub,Behamoth,Behemoth,Beleth,"
-"Belial,Beliel,Belphegore,Belzebuth,Beowulf,Berith,Beur,Bezaliel,Bifrons,"
-"Botis,Buer,Bune,Caim,Camal,Carniveau,Cerberus,Chamos,Chazaqiel,Corson,"
-"Daalberith,Dagon,Daniel,Dantalion,Decarabia,Demogorgon,Dumah,Eligos,"
-"Eurynomous,Fomalhaut,Flauros,Flereous,Focalor,Foras,Forcas,Forneus,Furcas,"
-"Furfur,Gaap,Gader'el,Glasya-Labolas,Gusion,Haagenti,Humbaba,Iblis,Ipos,Jutas,"
-"Juvart,Kabhanda,Karo,Kasadya,Kasdaye,Kimaris,Kobal,Kokabiel,Legion,Lempo,"
-"Leonard,Leraje,Lix Tetrax,Lucifer,Lucifuge Rofocale,Malphas,Malthus,Mammon,"
-"Marchocias,Maricha,Mastema,Melchom,Mephisto,Mephistopholes,Mesphito,Merihim,"
-"Moloch,Morax,Mulciber,Murmur,Naberius,Nebiros,Neqa'el,Nergal,Nisroch,Oeillet,"
-"Olivier,Orcus,Orias,Ornias,Orobas,Ose,Oulotep,Pan,Paimon,Pazuzu,Penemue,"
-"Phlegathon,Phenex,Pinem'e,Pithius,Piru,Pluto,Procell,Pruflas,Purson,Pytho,"
-"Pyhton,Rahab,Rahovart,Ramiel,Raum,Razakel,Regent,Regulus,Rimmon,Rhotomago,"
-"Ronove,Ronwe,Rosier,Sabnock,Saleos,Samael,Samigina,Samyaza,Sariel,Satan,"
-"Satanachia,Satariel,Seir,Shaitan,Shamsiel,Shax,Shezmu,Sidragasum,Sitri,"
-"Sonnillon,Soufflet,Stolas,Surgat,Tabaet,Tamiel,Tannin,Teeraal,Temeluchus,"
-"Thammuz,Turiel,Urobach,Valac,Valefar,Vapula,Vassago,Verrine,Vine,Vual,Xaphan,"
-"Yeqon,Yeter'el,Yomiel,Zagan,Zaqiel,Zepar"
+"Belial,Beliel,Belzebuth,Beowulf,Berith,Beur,Bezaliel,Bifrons,Botis,Buer,Bune,"
+"Caim,Camal,Carniveau,Cerberus,Chamos,Chazaqiel,Corson,Daalberith,Dagon,"
+"Daniel,Dantalion,Decarabia,Demogorgon,Dumah,Eligos,Eurynomous,Fomalhaut,"
+"Flauros,Flereous,Focalor,Foras,Forcas,Forneus,Furcas,Furfur,Gaap,Gader'el,"
+"Glasya-Labolas,Gusion,Haagenti,Humbaba,Iblis,Ipos,Jutas,Juvart,Kabhanda,Karo,"
+"Kasadya,Kasdaye,Kimaris,Kobal,Kokabiel,Legion,Lempo,Leonard,Leraje,Lix "
+"Tetrax,Lucifer,Lucifuge Rofocale,Malphas,Malthus,Mammon,Marchocias,Maricha,"
+"Mastema,Melchom,Mephisto,Mephistopholes,Mesphito,Merihim,Moloch,Morax,"
+"Mulciber,Murmur,Naberius,Nebiros,Neqa'el,Nergal,Nisroch,Oeillet,Olivier,"
+"Orcus,Orias,Ornias,Orobas,Ose,Oulotep,Pan,Paimon,Pazuzu,Penemue,Phlegathon,"
+"Phenex,Pinem'e,Pithius,Piru,Pluto,Procell,Pruflas,Purson,Pytho,Pyhton,Rahab,"
+"Rahovart,Ramiel,Raum,Razakel,Regent,Regulus,Rimmon,Rhotomago,Ronove,Ronwe,"
+"Rosier,Sabnock,Saleos,Samael,Samigina,Samyaza,Sariel,Satan,Satanachia,"
+"Satariel,Seir,Shaitan,Shamsiel,Shax,Shezmu,Sidragasum,Sitri,Sonnillon,"
+"Soufflet,Stolas,Surgat,Tabaet,Tamiel,Tannin,Teeraal,Temeluchus,Thammuz,"
+"Turiel,Urobach,Valac,Valefar,Vapula,Vassago,Verrine,Vine,Vual,Xaphan,Yeqon,"
+"Yeter'el,Yomiel,Zagan,Zaqiel,Zepar"
 
 #. [race]
 #: Extended_Era/races/chaos.cfg:11
-#, fuzzy
 msgid ""
 "Agiel,Agrat-bat-mahlaht,Ammit,Amy,Arkel,Ashtaroth,Astarte,Astoreth,Barbelo,"
 "Belphegore,Bruja,Delepitore,Eisheth Zenunil,Empusa,Euryale,Gordh,Gremory,"
@@ -500,23 +494,21 @@ msgid ""
 "Sycorax,Taweret,Tzitzimime,Unsere,Uzza,Verrier,Vepar,Xena,Ziusudra"
 msgstr ""
 "Agiel,Agrat-bat-mahlaht,Ammit,Amy,Arkel,Ashtaroth,Astarte,Astoreth,Barbelo,"
-"Bruja,Delepitore,Eisheth Zenunil,Empusa,Euryale,Gordh,Gremory,Gresil,Hecate,"
-"Kindite,Lamashtu,Lamia,Leviathan,Lilim,Lilin,Lilith,Lilitu,Mara,Medusa,"
-"Melchiresa,Melusine,Naamah,Neuralger,Onoskelis,Prosperpine,Rangda,Rusalka,"
-"Satana,Sheol,Selene,Sonnielion,Stheno,Sycorax,Taweret,Tzitzimime,Unsere,Uzza,"
-"Verrier,Vepar"
+"Belphegore,Bruja,Delepitore,Eisheth Zenunil,Empusa,Euryale,Gordh,Gremory,"
+"Gresil,Hecate,Ixtara,Kindite,Lamashtu,Lamia,Leviathan,Lilim,Lilin,Lilith,"
+"Lilitu,Lusana,Mara,Medusa,Melchiresa,Melusine,Mercedes,Naamah,Neuralger,"
+"Onoskelis,Prosperpine,Rangda,Rusalka,Satana,Sheol,Selene,Sonnielion,Stheno,"
+"Sycorax,Taweret,Tzitzimime,Unsere,Uzza,Verrier,Vepar,Xena,Ziusudra"
 
 #. [race]
 #: Extended_Era/races/dark-elves.cfg:5
-#, fuzzy
 msgid "race^Dark Elf"
-msgstr "Elfi neri"
+msgstr "Elfo nero"
 
 #. [race]
 #: Extended_Era/races/dark-elves.cfg:6
-#, fuzzy
 msgid "race+female^Dark Elf"
-msgstr "Elfi neri"
+msgstr "Elfa nera"
 
 #. [race]
 #: Extended_Era/races/dark-elves.cfg:7
@@ -535,19 +527,16 @@ msgstr "(+15% a tutte le resistenze, - 1 movimento)"
 
 #. [race]
 #: Extended_Era/races/kalifa.cfg:5
-#, fuzzy
 msgid "race^Kalifa Human"
-msgstr "Kalifa"
+msgstr "Uomo di Kalifa"
 
 #. [race]
 #: Extended_Era/races/kalifa.cfg:6
-#, fuzzy
 msgid "race+female^Kalifa Human"
-msgstr "Kalifa"
+msgstr "Donna di Kalifa"
 
 #. [race]
 #: Extended_Era/races/kalifa.cfg:7
-#, fuzzy
 msgid "race+plural^Kalifa"
 msgstr "Kalifa"
 
@@ -706,15 +695,13 @@ msgstr ""
 
 #. [race]
 #: Extended_Era/races/kalifa.cfg:15
-#, fuzzy
 msgid "race^Falcon"
-msgstr "Falchi"
+msgstr "Falco"
 
 #. [race]
 #: Extended_Era/races/kalifa.cfg:16
-#, fuzzy
 msgid "race+female^Falcon"
-msgstr "Falchi"
+msgstr "Falco"
 
 #. [race]
 #: Extended_Era/races/kalifa.cfg:17
@@ -723,15 +710,13 @@ msgstr "Falchi"
 
 #. [race]
 #: Extended_Era/races/sidhe.cfg:5
-#, fuzzy
 msgid "race^Sidhe Elf"
-msgstr "Sidhe"
+msgstr "Elfa sidhe"
 
 #. [race]
 #: Extended_Era/races/sidhe.cfg:6
-#, fuzzy
 msgid "race+female^Sidhe Elf"
-msgstr "Sidhe"
+msgstr "Elfa sidhe"
 
 #. [race]
 #: Extended_Era/races/sidhe.cfg:7
@@ -740,15 +725,13 @@ msgstr "Sidhe"
 
 #. [race]
 #: Extended_Era/races/sidhe.cfg:15
-#, fuzzy
 msgid "race^Bear"
-msgstr "Orsi"
+msgstr "Orso"
 
 #. [race]
 #: Extended_Era/races/sidhe.cfg:16
-#, fuzzy
 msgid "race+female^Bear"
-msgstr "Orsi"
+msgstr "Orse"
 
 #. [race]
 #: Extended_Era/races/sidhe.cfg:17
@@ -757,15 +740,13 @@ msgstr "Orsi"
 
 #. [race]
 #: Extended_Era/races/sylvans.cfg:5
-#, fuzzy
 msgid "race^Fairy"
-msgstr "Fate"
+msgstr "Fata"
 
 #. [race]
 #: Extended_Era/races/sylvans.cfg:6
-#, fuzzy
 msgid "race+female^Fairy"
-msgstr "Fate"
+msgstr "Fata"
 
 #. [race]
 #: Extended_Era/races/sylvans.cfg:7
@@ -774,15 +755,13 @@ msgstr "Fate"
 
 #. [race]
 #: Extended_Era/races/wyrm-ice.cfg:5
-#, fuzzy
 msgid "race^Wyrm"
-msgstr "Serpenti"
+msgstr "Serpente"
 
 #. [race]
 #: Extended_Era/races/wyrm-ice.cfg:6
-#, fuzzy
 msgid "race+female^Wyrm"
-msgstr "Serpenti"
+msgstr "Serpente"
 
 #. [race]
 #: Extended_Era/races/wyrm-ice.cfg:7
@@ -1458,9 +1437,8 @@ msgstr "palla di fuoco"
 
 #. [female]
 #: Extended_Era/units/chaos/Chaos_Daemon.cfg:113
-#, fuzzy
 msgid "female^Chaos Demon"
-msgstr "Demone del caos"
+msgstr "Demonessa del caos"
 
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Demonologist.cfg:5
@@ -1495,9 +1473,8 @@ msgstr "tempesta infernale"
 
 #. [female]
 #: Extended_Era/units/chaos/Demonologist.cfg:171
-#, fuzzy
 msgid "female^Demonologist"
-msgstr "Demonologo"
+msgstr "Demonologa"
 
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Doom_Guard.cfg:5
@@ -1552,9 +1529,8 @@ msgstr "Demone maggiore"
 
 #. [female]
 #: Extended_Era/units/chaos/Greater_Daemon.cfg:114
-#, fuzzy
 msgid "female^Greater Demon"
-msgstr "Demone maggiore"
+msgstr "Demonessa maggiore"
 
 #. [unit]: race=demon
 #: Extended_Era/units/chaos/Greater_Mutation.cfg:5
@@ -1721,9 +1697,8 @@ msgstr ""
 
 #. [female]
 #: Extended_Era/units/chaos/Invoker.cfg:116
-#, fuzzy
 msgid "female^Invoker"
-msgstr "Invocatore"
+msgstr "Invocattrice"
 
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Knight.cfg:5
@@ -1750,9 +1725,8 @@ msgstr "Demone minore"
 
 #. [female]
 #: Extended_Era/units/chaos/Lesser_Daemon.cfg:106
-#, fuzzy
 msgid "female^Lesser Demon"
-msgstr "Demone minore"
+msgstr "Demonessa minore"
 
 #. [unit]: race=demon
 #: Extended_Era/units/chaos/Lesser_Mutation.cfg:5
@@ -1821,9 +1795,8 @@ msgstr ""
 
 #. [female]
 #: Extended_Era/units/chaos/Winged_Daemon.cfg:116
-#, fuzzy
 msgid "female^Winged Demon"
-msgstr "Demone alato"
+msgstr "Demonessa alata"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Captain.cfg:21
