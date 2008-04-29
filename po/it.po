@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2008-04-02 16:56+0200\n"
-"PO-Revision-Date: 2008-04-18 20:29+0100\n"
+"PO-Revision-Date: 2008-04-26 13:43+0100\n"
 "Last-Translator: Brivido <brivido(at)gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -280,13 +280,12 @@ msgstr ""
 #. [era]
 #: Extended_Era/eras/default+extended+eom.cfg:18
 msgid "Extended Era + Era of Myths + Default"
-msgstr ""
+msgstr "Era estesa + Era dei miti + base"
 
 #. [era]
 #: Extended_Era/eras/default+extended.cfg:6
-#, fuzzy
 msgid "Extended Era + Default"
-msgstr "Era estesa"
+msgstr "Era estesa + base"
 
 #. [era]
 #: Extended_Era/eras/extended.cfg:6
@@ -1757,9 +1756,8 @@ msgstr ""
 
 #. [female]
 #: Extended_Era/units/chaos/Magus.cfg:147
-#, fuzzy
 msgid "female^Magus"
-msgstr "Maga"
+msgstr "Magia"
 
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Marauder.cfg:5
@@ -4339,292 +4337,3 @@ msgstr ""
 #: Extended_Era/units/woses/Shaman.cfg:42
 msgid "entangle"
 msgstr "intrappolamento"
-
-#~ msgid "counter"
-#~ msgstr "contrattacco"
-
-#~ msgid ""
-#~ "Counter:\n"
-#~ "When used defensively, this attack always has at least a 60% chance to "
-#~ "hit."
-#~ msgstr ""
-#~ "Contrattacco:\n"
-#~ "Quando viene usato in difesa, questo attacco ha sempre almeno il 60% di "
-#~ "probabilità di andare a segno."
-
-#~ msgid "dauntless"
-#~ msgstr "intrepido"
-
-#~ msgid ""
-#~ "Dauntless:\n"
-#~ "While attacking, this unit's resistances are doubled, up to a maximum of "
-#~ "50. Weaknesses are not affected."
-#~ msgstr ""
-#~ "Intrepido:\n"
-#~ " In attacco, le resistenze di questa unitàsono raddoppiate, fino a un "
-#~ "massimo di 50. Le debolezze non cambiano."
-
-#~ msgid "Windsong"
-#~ msgstr "Windsong"
-
-#~ msgid "incorporeal"
-#~ msgstr "incorporeo"
-
-#~ msgid "female^incorporeal"
-#~ msgstr "incorporea"
-
-#~ msgid "Immune to drain, poison and plague"
-#~ msgstr "Immune ad assorbimento, veleno e contagio"
-
-#~ msgid "race^Windsong"
-#~ msgstr "Windsong"
-
-#~ msgid ""
-#~ "Ana,Arala,Ala,Asare,Ashara,Athesa,Ama,Averana,Atharuna,Amoshe,Ahurena,"
-#~ "Alera,Ave,Arila,Ai,Atha,Ashe,Aru,Amasela,Aoshe,Amelara,Alura,Eva,Elena,"
-#~ "Esure,Ena,Ethe,Eme,Eira,Ela,Efara,Evina,Eshe,Ethara,Esaora,Eumane,Ehuva,"
-#~ "Ere,Emi,Eshi,Enemura,Sela,Sara,Sula,Salura,Sana,Semisha,Soshire,Suvana,"
-#~ "Sife,Saletha,Sitheri,Surei,Somile,Sahama,Salarema,Sea,Severa,Suthe,"
-#~ "Sithame,Ola,Omana,Osheura,Olena,Onethe,Ovenatha,Fira,Fesha,Fena,Felai,"
-#~ "Foma,Furava,Fusatha,Fala,Famia,Fesea,Fenoma,Fihama,Fama,Fia,Famori,Irena,"
-#~ "Ima,Ishama,Iolara,Imaha,Inithe,Imana,Isora,Ilameshe,Ila,Ishe,Ithoe,Ivie,"
-#~ "Imia,Iralura,Isanare,Ihama,Iri,Ithania,Isavora,Ila,Mana,Mia,Mara,Mura,"
-#~ "Masohe,Mushena,Malesa,Minaru,Minare,Monia,Mesere,Mulasha,Mathe,Minashema,"
-#~ "Mesa,Mirana,Mifa,Mivareshana,Une,Uara,Ushala,Uhima,Uthe,Unaluthe,Thesa,"
-#~ "Thema,Thirala,Thoshe,Thofara,Thami,Thise,Therama,Thila,Thama,Therasa,"
-#~ "Thurana,Thalia,Therana,Thomena,Thosa,Thene,Thime,Thamele,Theshia,Nai,Nama,"
-#~ "Norale,Nethala,Nisha,Nemene,Nefe,Navaru,Nula,Nusina,Naria,Nosua,Naomi,"
-#~ "Nahasa,Nila,Nuralena,Nema,Lisa,Lara,Loe,Lasama,Lemeshe,Lathia,Leshara,"
-#~ "Laisa,Line,Lenesa,Loma,Lura,Lesamia,Lehara,Lana,Lashe,Larena,Lotha,Limia,"
-#~ "Lania,Larie,Lafana,Lerava,Love,Rama,Runa,Rashe,Ria,Rovena,Riva,Rufa,"
-#~ "Rithia,Raina,Rava,Rashama,Rei,Rosha,Vena,Via,Velara,Veruna,Visha,Vana,"
-#~ "Vele,Veshere,Vanesa,Vithia,Hana,Haru,Heshia,Hia,Holaria,Hasha,Hena,Shara,"
-#~ "Shena,Shira,Shamane,Shefia,Shune,Shai,Shena,Shalia,Shasi,Shava,Shura"
-#~ msgstr ""
-#~ "Ana,Arala,Ala,Asare,Ashara,Athesa,Ama,Averana,Atharuna,Amoshe,Ahurena,"
-#~ "Alera,Ave,Arila,Ai,Atha,Ashe,Aru,Amasela,Aoshe,Amelara,Alura,Eva,Elena,"
-#~ "Esure,Ena,Ethe,Eme,Eira,Ela,Efara,Evina,Eshe,Ethara,Esaora,Eumane,Ehuva,"
-#~ "Ere,Emi,Eshi,Enemura,Sela,Sara,Sula,Salura,Sana,Semisha,Soshire,Suvana,"
-#~ "Sife,Saletha,Sitheri,Surei,Somile,Sahama,Salarema,Sea,Severa,Suthe,"
-#~ "Sithame,Ola,Omana,Osheura,Olena,Onethe,Ovenatha,Fira,Fesha,Fena,Felai,"
-#~ "Foma,Furava,Fusatha,Fala,Famia,Fesea,Fenoma,Fihama,Fama,Fia,Famori,Irena,"
-#~ "Ima,Ishama,Iolara,Imaha,Inithe,Imana,Isora,Ilameshe,Ila,Ishe,Ithoe,Ivie,"
-#~ "Imia,Iralura,Isanare,Ihama,Iri,Ithania,Isavora,Ila,Mana,Mia,Mara,Mura,"
-#~ "Masohe,Mushena,Malesa,Minaru,Minare,Monia,Mesere,Mulasha,Mathe,Minashema,"
-#~ "Mesa,Mirana,Mifa,Mivareshana,Une,Uara,Ushala,Uhima,Uthe,Unaluthe,Thesa,"
-#~ "Thema,Thirala,Thoshe,Thofara,Thami,Thise,Therama,Thila,Thama,Therasa,"
-#~ "Thurana,Thalia,Therana,Thomena,Thosa,Thene,Thime,Thamele,Theshia,Nai,Nama,"
-#~ "Norale,Nethala,Nisha,Nemene,Nefe,Navaru,Nula,Nusina,Naria,Nosua,Naomi,"
-#~ "Nahasa,Nila,Nuralena,Nema,Lisa,Lara,Loe,Lasama,Lemeshe,Lathia,Leshara,"
-#~ "Laisa,Line,Lenesa,Loma,Lura,Lesamia,Lehara,Lana,Lashe,Larena,Lotha,Limia,"
-#~ "Lania,Larie,Lafana,Lerava,Love,Rama,Runa,Rashe,Ria,Rovena,Riva,Rufa,"
-#~ "Rithia,Raina,Rava,Rashama,Rei,Rosha,Vena,Via,Velara,Veruna,Visha,Vana,"
-#~ "Vele,Veshere,Vanesa,Vithia,Hana,Haru,Heshia,Hia,Holaria,Hasha,Hena,Shara,"
-#~ "Shena,Shira,Shamane,Shefia,Shune,Shai,Shena,Shalia,Shasi,Shava,Shura"
-
-#~ msgid "race^Abstraction"
-#~ msgstr "Astrazione"
-
-#~ msgid ""
-#~ "Quite fragile in combat the Hounds of Chaos are directly affected by the "
-#~ "magic of the chaos mages, resulting in them listening to every word of "
-#~ "their commander which results in frenzied mindless killing machines, "
-#~ "though they're easily taken care of by a tougher adversary, their nimble "
-#~ "bodies allow them to penetrate far into enemy lines and severely damage "
-#~ "support units."
-#~ msgstr ""
-#~ "I segugi del caos sono abbastanza deboli in combattimento e sono "
-#~ "direttamente colpiti dalla magia dei maghi del caos, perciò ascoltano "
-#~ "ogni parola del loro comandante e ciò li rende delle furiose macchine "
-#~ "assassine senza cervello. Anche se un avversario più forte li può "
-#~ "facilmente gestire, i loro corpi agili gli permettono di penetrare in "
-#~ "profondità nelle linee nemiche e danneggiare gravemente le unità di "
-#~ "supporto."
-
-#~ msgid ""
-#~ "Touched by strange mutation, Flesh Hounds are strangely resembling more "
-#~ "humane beings. Walking on their rear legs, they are muscled berserkers "
-#~ "trained to feel the stench of blood and react like their hound "
-#~ "proprietors."
-#~ msgstr ""
-#~ "Colpiti da una strana mutazione i segugi di carne stranamente somigliano "
-#~ "di più a esseri umani. Camminano sulle loro zampe posteriori, sono "
-#~ "muscolosi forsennati addestrati a riconoscere l'odore del sangue e "
-#~ "reagire come i loro proprietari."
-
-#~ msgid ""
-#~ "Not just a hounds, turned into machines - but mindless bloodthirsty half-"
-#~ "daemons, twice larger than ordinary hounds. They charge only at the "
-#~ "commands of other daemonic beings, with the desire of bloodbath."
-#~ msgstr ""
-#~ "I segugi idrofobi non sono solo segugi, trasformati in machcine - ma "
-#~ "mezzi demoni, senza cervello e assetati di sangue, grossi il doppio di un "
-#~ "segugio normale. Caricano solo agli ordini di un altro essere demoniaco, "
-#~ "desiderosi di un bagno di sangue."
-
-#~ msgid "Windsong Arbiter"
-#~ msgstr "Arbitro degli Windong"
-
-#~ msgid "..."
-#~ msgstr "..."
-
-#~ msgid "scythe"
-#~ msgstr "falce"
-
-#~ msgid "cipher"
-#~ msgstr "cabala"
-
-#~ msgid "Windsong Ascendant"
-#~ msgstr "Antenato degli Windsong"
-
-#~ msgid "Windsong Courier"
-#~ msgstr "Corriere degli Windsong"
-
-#~ msgid "Windsong Dreadnought"
-#~ msgstr "Corazzata degli Windsong"
-
-#~ msgid "Windsong Emissary"
-#~ msgstr "Emissario degli Windsong"
-
-#~ msgid "Windsong Envoy"
-#~ msgstr "Inviato degli Windsong"
-
-#~ msgid "purge"
-#~ msgstr "epurazione"
-
-#~ msgid "Windsong Farstrider"
-#~ msgstr "Camminatore degli Windsong"
-
-#~ msgid "polearm"
-#~ msgstr "alabarda"
-
-#~ msgid "Windsong Gatekeeper"
-#~ msgstr "Custode delle porte degli Windsong"
-
-#~ msgid ""
-#~ "The Windsong Foundation, though hidden far in the arctic northern seas, "
-#~ "still represents too great a target to be left unguarded.  The "
-#~ "Gatekeepers have kept their cousins safe throughout the Age of Patience, "
-#~ "and they have no intention of ceasing their vigilance now.\n"
-#~ "\n"
-#~ "Devoting themselves to the study of combat, they have created a unique, "
-#~ "unarmed style which allows them to fight without removing their "
-#~ "ceremonial blindfolds."
-#~ msgstr ""
-#~ "La fondazione windsong, per quanto nascosta nei remoti mari artici "
-#~ "settentrionali, è ancora un bersaglio troppo importante per essere "
-#~ "lasciato incustodito. I custodi delle porte hanno tenuto i loro cugini al "
-#~ "sicuro durante l'era della pazienza e non hanno intenzione di smettere "
-#~ "ora con la loro vigilanza.\n"
-#~ "\n"
-#~ "Si sono votati allo studio del combattimento e hanno creato uno stile di "
-#~ "combattimento unico a mani nude che permette loro di combattere "
-#~ "nonostante ritualmente abbiano gli occhi bendati."
-
-#~ msgid "Windsong Harbinger"
-#~ msgstr "Messaggero degli Windsong"
-
-#~ msgid "sunburst"
-#~ msgstr "sprazzo di sole"
-
-#~ msgid "Windsong Herald"
-#~ msgstr "Araldo degli Windsong"
-
-#~ msgid "Windsong Heretic"
-#~ msgstr "Eretico degli Windsong"
-
-#~ msgid "Windsong Librarian"
-#~ msgstr "Custode dei libri degli Windsong"
-
-#~ msgid "Windsong Lorekeeper"
-#~ msgstr "Custode delle leggende degli Windsong"
-
-#~ msgid "Windsong Pathfinder"
-#~ msgstr "Apripista degli Windsong"
-
-#~ msgid "Windsong Prophetess"
-#~ msgstr "Profetessa degli Windsong"
-
-#~ msgid "Windsong Reaver"
-#~ msgstr "Predone degli Windsong"
-
-#~ msgid "Windsong Runeforger"
-#~ msgstr "Forgiatore di rune degli Windsong"
-
-#~ msgid "sorrow"
-#~ msgstr "rammarico"
-
-#~ msgid "memory"
-#~ msgstr "memoria"
-
-#~ msgid "death"
-#~ msgstr "morte"
-
-#~ msgid "Windsong Savant"
-#~ msgstr "Sapiente degli Windsong"
-
-#~ msgid "Windsong Scribe"
-#~ msgstr "Scriba degli Windsong"
-
-#~ msgid ""
-#~ "The scribes of the Windsong are those engaged in studying, as well as "
-#~ "contributing to, the vast libraries kept at the Foundation.\n"
-#~ "\n"
-#~ "With the coming of the Great Balancing, they have proven their worth in "
-#~ "combat, employing against their enemies an ancient -- and very effective "
-#~ "-- brand of magic known as the Cipher."
-#~ msgstr ""
-#~ "Gli scribi dei Windsong sono quelli impegnati nello studio e nella "
-#~ "collaborazione nelle grandi biblioteche della fondazione\n"
-#~ "\n"
-#~ "Con l'arrivo del “grande equilibrio”, hanno dato prova del loro valore "
-#~ "nel combattimento impiegando contro i loro nemici una antica -e molto "
-#~ "efficace- branca della magia nota come cabala."
-
-#~ msgid "Windsong Seeker"
-#~ msgstr "Cercatore degli Windsong"
-
-#~ msgid ""
-#~ "The name given to the Seekers comes from their role in the legend of the "
-#~ "Windsong's first appearance: they were tasked with searching the world "
-#~ "over for a suitable place to build the first Foundation.\n"
-#~ "\n"
-#~ "This tradition of exploration continues unabated, and the Seekers' great "
-#~ "speed and agility are easily put to use in times of war."
-#~ msgstr ""
-#~ "Il nome dei cercatori nasce dal loro ruolo nella leggende della prima "
-#~ "apparizione diei Windsong: erano incaricati di cercare per il mondo un "
-#~ "luogo adatto a costruire la prima fondazione\n"
-#~ "\n"
-#~ "La tradizione di esplorazione continua inesorabilmente e la grande "
-#~ "velocità e agilità dei cercatori trova spesso applicazione in questi "
-#~ "tempi di guerra."
-
-#~ msgid "Sky Crystal"
-#~ msgstr "Cristallo del cielo"
-
-#~ msgid "Sky Shard"
-#~ msgstr "Frammento del cielo"
-
-#~ msgid "Windsong Skyrunner"
-#~ msgstr "Corridore del cielo degli Windsong"
-
-#~ msgid "Windsong Stormbringer"
-#~ msgstr "Tempesta degli Windsong"
-
-#~ msgid "Windsong Weaver"
-#~ msgstr "Tessitore degli Windsong"
-
-#~ msgid ""
-#~ "Weavers fill a number of different roles in Windsong society: they are "
-#~ "the healers, the planners, the diviners, and, more recently, the military "
-#~ "leaders.  They pursue the art of archery, viewing it as a form of "
-#~ "meditation, and are aided in both everyday life and battle by an "
-#~ "accompanying spirit, bound to them at birth."
-#~ msgstr ""
-#~ "I tessitori ricoprono diversi ruoli nella società dei Windsong: sono "
-#~ "guaritori, progettisti, indovini e, più recentemente, comandanti "
-#~ "militari. Studiano l'arte del tiro con l'arco come una forma di "
-#~ "meditazione e sono assistiti sia nella vita di tutti i giorni sia in "
-#~ "battaglia da uno spirito che li accompagna, legato a loro fin dalla "
-#~ "nascita."
