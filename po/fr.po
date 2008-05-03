@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2008-05-01 16:19+0200\n"
-"PO-Revision-Date: 2008-05-03 00:07+0200\n"
+"PO-Revision-Date: 2008-05-03 22:37+0200\n"
 "Last-Translator: Benoît Timbert <benoit.timbert@free.fr>\n"
 "Language-Team: Équipe de traduction française <wesnoth@ml.free.fr>\n"
 "MIME-Version: 1.0\n"
@@ -1584,7 +1584,6 @@ msgstr "Crabe des enfers"
 
 #. [unit]: race=demon
 #: Extended_Era/units/chaos/Hell_Crab.cfg:23
-#, fuzzy
 msgid ""
 "Within each species there are often freakishly strong and powerful "
 "aberrations born through seemingly blind chance. Successful servants of "
@@ -1593,9 +1592,9 @@ msgid ""
 "Crabs carry inside them."
 msgstr ""
 "Dans chaque espèce, et en dépit de faibles probabilités, il naît souvent des "
-"aberrations bizarrement forte et puissantes. Les meilleurs serviteur du "
-"chaos peuvent observer leur corps grandir et se transformer alors que ces "
-"traits s'affirment davantage. Le crabe des enfers est une démonstration du "
+"aberrations étrangement fortes et puissantes. Les meilleurs serviteurs du "
+"chaos peuvent observer leur corps croître et se transformer alors que ces "
+"caractéristiques s'affirment davantage. Le crabe des enfers est un aperçu du "
 "potentiel que chaque crabe infernal a en lui."
 
 #. [unit]: race=human
@@ -2495,6 +2494,12 @@ msgid ""
 "rarer by the fact that Boreal Wyrms attack on sight. Only the most powerful "
 "of champions can face these creatures and survive."
 msgstr ""
+"Si rarement aperçues que beaucoup les considère comme des créatures de "
+"légende, les vouivres boréales sont des vouivres des vents qui on vécu plus "
+"d'un siècle. Le nombre d'observation de ces créatures méchamment puissantes "
+"et incroyablement rapides est d'autant plus réduit que les vouivres boréales "
+"attaquent à vue. Seul le plus puissant des champions peut affronter ces "
+"créatures et survivre."
 
 #. [attack]: type=impact
 #: Extended_Era/units/ice_wyrms/Ice.cfg:23
@@ -2512,12 +2517,12 @@ msgstr "queue"
 #: Extended_Era/units/ice_wyrms/Frost.cfg:32
 #: Extended_Era/units/ice_wyrms/Mistral.cfg:32
 msgid "cold breath"
-msgstr "souffle glacé"
+msgstr "souffle glaçant"
 
 #. [unit]: race=wyrm
 #: Extended_Era/units/ice_wyrms/Frost.cfg:5
 msgid "Frost Wyrm"
-msgstr "Vouivre du froid"
+msgstr "Vouivre du gel"
 
 #. [unit]: race=wyrm
 #: Extended_Era/units/ice_wyrms/Frost.cfg:18
@@ -2527,6 +2532,11 @@ msgid ""
 "freeze their enemies from afar. When cornered, they use their powerful tails "
 "to pummel their enemies."
 msgstr ""
+"Les vouivres des glaces vivant dans les mers deviennent plus sinueuses, se "
+"transformant ainsi en vouivre du gel. Nommées ainsi en raison du puissant "
+"souffle glaçant qu'elles émettent, les vouivres du gel préfèrent "
+"généralement congeler de loin leur ennemis. Lorsqu'elles sont acculées, "
+"elles utilisent leur puissante queue pour frapper leur ennemis."
 
 #. [unit]: race=wyrm
 #: Extended_Era/units/ice_wyrms/Ice.cfg:5
@@ -2544,11 +2554,20 @@ msgid ""
 "natural protection against a warrior's blade. It is fortunate that their "
 "natural environment has made them ill-suited to face fire."
 msgstr ""
+"Reptiles au sang froid du nord, les vouivres des glaces sont la forme "
+"juvénile de créatures pouvant vivre pendant des siècles. Malgré leur toute "
+"relative jeunesse, elle font déjà le double en taille d'un homme. "
+"Effrayantes à rencontrer, ces créatures sont capables de de foudroyer leur "
+"ennemis de leur souffle glaçant, ou de les fouetter avec leur queue. Pire, "
+"leur peau écaillée leur fournit une protection naturelle contre les armes "
+"des guerriers. Il est heureux que leur environnement naturel les a rendu "
+"très vulnérables au feu."
 
+# Benoît : Traduction non littérale, mais je pensais que ça irait mieux avec leur background
 #. [unit]: race=wyrm
 #: Extended_Era/units/ice_wyrms/Mistral.cfg:5
 msgid "Mistral Wyrm"
-msgstr "Vouivre du mistral"
+msgstr "Vouivre des vents"
 
 #. [unit]: race=wyrm
 #: Extended_Era/units/ice_wyrms/Mistral.cfg:18
@@ -2557,6 +2576,10 @@ msgid ""
 "capable of flight. Called Mistral Wyrms, they are far stronger and more "
 "capable than Ice Wyrms. One would do well to avoid these creatures."
 msgstr ""
+"Certaines vouivres des glaces vivant en haute montagne on des ailes qui "
+"poussent et deviennent capables de voler. Nommées vouivres des vents, elles "
+"sont bien plus fortes et compétentes que les vouivres des glaces. À éviter "
+"de préférence."
 
 #. [unit]: race=wyrm
 #: Extended_Era/units/ice_wyrms/Rime.cfg:5
@@ -2570,6 +2593,9 @@ msgid ""
 "wyrms are elder frost wyrms: stronger and capable of a more savage breath "
 "attack."
 msgstr ""
+"Contrairement aux humains, les vouivres deviennent seulement plus fortes et "
+"puissantes avec l'âge. Les vouivres du givre sont des vouivres du gel "
+"âgées : plus fortes et avec un souffle glaçant plus sauvage."
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Ahadath.cfg:5
@@ -4310,6 +4336,11 @@ msgid ""
 "cousins to the imp.  However, their protective attitude of nature and "
 "whimsical personality make them fast friends to the elves."
 msgstr ""
+"De nature espiègle, ces fées ardentes ont un caractère blagueur avec un sens "
+"de l'humour souvent décrit « de nymphe ». Bien que leur maîtrise du feu "
+"demeure un mystère, des rumeurs disent que ces fées seraient des cousines du "
+"diablotin. Toutefois leur attitude protectrice à l'égard de la nature et "
+"leur personnalité fantasque font d'elles de rapides alliés des elfes."
 
 #. [attack]: type=fire
 #: Extended_Era/units/sylvan_fairies/Sprite.cfg:26
