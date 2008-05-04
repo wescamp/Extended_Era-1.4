@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2008-05-01 16:19+0200\n"
-"PO-Revision-Date: 2008-05-03 22:37+0200\n"
+"PO-Revision-Date: 2008-05-04 23:37+0200\n"
 "Last-Translator: Benoît Timbert <benoit.timbert@free.fr>\n"
 "Language-Team: Équipe de traduction française <wesnoth@ml.free.fr>\n"
 "MIME-Version: 1.0\n"
@@ -40,8 +40,8 @@ msgstr ""
 "Cette unité peut commander les unités amies présentes à ses côtés et les "
 "rendre meilleures en combat.\n"
 "\n"
-"Les attaques des unités alliées aux côtés du commandant feront 25% de dégâts "
-"supplémentaires pour chaque niveau d'écart entre elles et lui."
+"Les attaques des unités alliées aux côtés du commandant feront 25 % de "
+"dégâts supplémentaires pour chaque niveau d'écart entre elles et lui."
 
 #. [resistance]
 #: Extended_Era/abilities/allied_protection.cfg:11
@@ -111,7 +111,7 @@ msgid ""
 "revealed itself by attacking."
 msgstr ""
 " La furtivité de cette unité lui permet de passer inaperçue de ses ennemis "
-"sans les sous-terrains (non éclairés) sauf s'ils sont présents dans les "
+"dans les sous-terrains (non éclairés) sauf s'ils sont présents dans les "
 "zones adjacentes ou si l'unité a révélé sa présence en attaquant."
 
 #. [damage]
@@ -137,7 +137,7 @@ msgstr " Une des attaques ne peut être utilisée que pour se défendre."
 msgid "distract"
 msgstr "distraction"
 
-# Benoît : Hmmm je devrais peut être revoir la V.O
+# Benoît : Hmmm je devrais peut être revoir la V.O
 #. [skirmisher]
 #: Extended_Era/abilities/distract.cfg:8
 msgid ""
@@ -155,8 +155,7 @@ msgid ""
 "trespass their Zones of Control and move unhindered around them."
 msgstr ""
 " Cette unité est capable de distraire les ennemis, permettant aux unités de "
-"son camp d'ignorer leur zone de contrôle et de se déplacer librement à "
-"proximité d'eux."
+"son camp d'ignorer les zones de contrôle et de se déplacer librement."
 
 #. [damage]
 #: Extended_Era/abilities/dread.cfg:6 Extended_Era/abilities/dread.cfg:7
@@ -171,16 +170,16 @@ msgid ""
 "in retaliation."
 msgstr ""
 "Effroi :\n"
-"L'unité qui utilise cette capacité en attaque reçoit un tiers de dégâts de "
-"moins durant la riposte de son adversaire."
+"L'unité qui attaque reçoit un tiers de dégâts de moins durant la riposte de "
+"son adversaire."
 
 #: Extended_Era/abilities/dread.cfg:19
 msgid ""
 " The dread attack of this unit, when used offensively scare the defender, "
 "lowering the damage of his retaliation."
 msgstr ""
-" L'attaque d'effroi de cette unité, lorsqu'elle est utilisée offensivement, "
-"effraye le défenseur ce qui diminue l'efficacité de sa riposte."
+" Lorsqu'elle est utilisée par l'attaquant, l'attaque d'effroi de cette unité "
+"effraye le défenseur, ce qui diminue l'efficacité de sa riposte."
 
 #. [resistance]
 #: Extended_Era/abilities/protection.cfg:9
@@ -199,9 +198,9 @@ msgid ""
 "resistances (up to a maximum of 50%)."
 msgstr ""
 "Protection :\n"
-"Les unités adjacentes de cette équipe à cette unité reçoivent un bonus de "
-"+20 % à toutes leurs résistances (jusqu'à un maximum de 50 %) si leur niveau "
-"est inférieur à celui de celle-ci."
+"Cette unité accorde un bonus de +20 % à toutes les résistances, et jusqu'à "
+"un maximum de 50 %, aux unités adjacentes de la même équipe et de niveau "
+"inférieur."
 
 #: Extended_Era/abilities/protection.cfg:79
 msgid ""
@@ -209,9 +208,9 @@ msgid ""
 "better, taking less damage in combat, though this only applies to units of "
 "lower level."
 msgstr ""
-" L'importance de cette unité motive les unités de cette équipe dans les "
-"parages à défendre mieux, subissant moins de dommages. Ceci ne s'applique "
-"néanmoins qu'aux unités de niveau inférieur."
+" L'importance de cette unité motive les unités voisines de l' équipe à mieux "
+"défendre, subissant moins de dégâts. Ceci ne s'applique néanmoins qu'aux "
+"unités de niveau inférieur."
 
 #. [regenerate]
 #: Extended_Era/abilities/sylvan_spark.cfg:10
@@ -264,7 +263,7 @@ msgstr ""
 "capacité de combat.\n"
 "\n"
 "Les attaques des ennemis à côté de l'unité avec la capacité « terreur » "
-"feront 15% de dégâts en moins, et encore 15% de moins pour chaque niveau "
+"feront 15 % de dégâts en moins, et encore 15 % de moins pour chaque niveau "
 "d'écart entre eux et elle."
 
 #: Extended_Era/abilities/terror.cfg:154
@@ -375,7 +374,7 @@ msgstr "Nordiques"
 msgid "Outlaws"
 msgstr "Hors-la-loi"
 
-# Benoît : visiblement en français c'est sans le e
+# Benoît : visiblement en français c'est sans le e ; Sidhe semble en fait être un nom de lieu. ; Mais on a finalement choisi de garder le e, créant ainsi une civilisation imaginaire.
 #. [multiplayer_side]: type=Sidhe Raindancer
 #. [multiplayer_side]: type=Sidhe Warmage
 #: Extended_Era/factions/sidhe-xrpg.cfg:5
@@ -523,7 +522,7 @@ msgstr "armuré"
 #. [trait]
 #: Extended_Era/races/dwarves.cfg:8
 msgid "(+15% to all resistances, -1 movement)"
-msgstr "(+15% à toutes les résistances, -1 mouvement)"
+msgstr "(+15 % à toutes les résistances, -1 mouvement)"
 
 #. [race]
 #: Extended_Era/races/kalifa.cfg:5
@@ -738,7 +737,7 @@ msgstr "Ourse"
 msgid "race^Bears"
 msgstr "Ours"
 
-# Benoît : fée male... En pratique il n'y en a pas.
+# Benoît : fée male... En pratique il n'y en a pas.
 #. [race]
 #: Extended_Era/races/sylvans.cfg:5
 msgid "race^Fairy"
@@ -948,8 +947,8 @@ msgstr ""
 "De jeunes aragwaiths prennent des jeunes aigles comme animaux de compagnie. "
 "Ce ne sont pas des aigles communs, mais c'est une race de gigantesques et "
 "nobles rapaces qui acceptent, en général après avoir suffisamment grandi, de "
-"servir de monture à leur meilleur ami, dont le jeune compagnon apprend l'art "
-"de monter ces oiseaux géants."
+"servir de monture à leur meilleur ami ; le jeune compagnon apprend alors "
+"l'art de monter ces oiseaux géants."
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Flagbearer.cfg:5
@@ -1058,12 +1057,12 @@ msgid ""
 "these ancient shields to remind the world and to honor these brave man and "
 "their sacrifice."
 msgstr ""
-"Ces guerriers portent les antiques boucliers de leurs ancêtres qui pouvaient "
-"tenir en ligne lors des grandes batailles, jusqu'à l'arrivée des renforts. "
-"Ceux-ci l'ont payé cher car peu ont survécu et beaucoup sont morts suite à "
-"leurs blessures. Aujourd'hui, seuls les meilleurs guerriers ont le droit de "
-"brandir le bouclier des anciens en hommage à la vie de ces gens courageux, à "
-"leur honneur et à leur sacrifice."
+"Ces guerriers portent les antiques boucliers de leurs ancêtres, qui "
+"pouvaient tenir en ligne lors des grandes affrontements, jusqu'à l'arrivée "
+"des renforts. Ils l'ont payé cher : peu ont survécu et beaucoup sont morts "
+"suite à leurs blessures. Aujourd'hui, seuls les meilleurs guerriers ont le "
+"droit de brandir les boucliers des anciens, rendant hommage à ces gens "
+"courageux, à leur honneur et à leur sacrifice."
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Silver_Shield.cfg:5
@@ -1083,10 +1082,10 @@ msgid ""
 "in hand-to-hand combat. He is not as rugged as others of comparable skill, "
 "but far deadlier."
 msgstr ""
-"Alors qu'il ne développe que peu son habileté à l'arc, le massacreur "
-"abandonne le couteau pour s'entraîner au maniement de la vouge et améliore "
-"ainsi sa capacité au combat au corps à corps. Il n'est pas aussi acharné que "
-"d'autres aussi compétents que lui, mais bien plus mortel."
+"Le massacreur ne s'entraîne que modérement à l'arc, et abandonne le couteau "
+"pour s'exercer au maniement de la vouge, ce qui améliore sa capacité au "
+"combat en corps à corps. Il n'est pas aussi acharné que d'autres aussi "
+"compétents que lui, mais bien plus mortel."
 
 #. [attack]: type=blade
 #: Extended_Era/units/aragwaith/Slayer.cfg:28
@@ -1305,18 +1304,17 @@ msgid ""
 "proportions: even the most skilled of warriors will not look lightly on the "
 "bulk of an angry, advancing bear."
 msgstr ""
-"Il est connu que les ours adultes suivent leur propre chemin ; la plupart "
+"Les ours adultes sont connus pour suivent leur propre chemin ; la plupart "
 "fuiront un combat plutôt que de courir un risque. Certains néanmoins, pour "
-"une raison quelconque, choisirons de ne pas fuir. Ces ours sont terrifiants "
-"à voir. Un ours adulte est une masse de muscles, griffes, fourrure et furie "
-"dans des proportions quasiment jamais égalées : même le plus doué des "
-"guerriers ne prendra pas à la légère la masse d'un ours furieux qui "
-"s'approche."
+"une raison quelconque, ne le feront pas. Ils sont terrifiants à voir ; un "
+"adulte est une grosse masse de muscles, de griffes, de fourrure, et sa "
+"fureur peut atteindre des proportions quasiment inégalées : même le plus "
+"doué des guerriers ne prendra pas à la légère un ours furieux qui s'approche."
 
 #. [attack]: type=impact
 #: Extended_Era/units/bears/Young.cfg:22 Extended_Era/units/bears/Bear.cfg:23
 msgid "bearhug"
-msgstr "prise de l'ours"
+msgstr "étreinte d'ours"
 
 #. [unit]: race=bear
 #: Extended_Era/units/bears/Young.cfg:5
@@ -1334,15 +1332,14 @@ msgid ""
 "powerful limbs and sheer mass. Its heavy fur, thick skin, and already "
 "impressive bulk defy its surprising agility in the forest."
 msgstr ""
-"Il est rare de voir des ours suffisamment motivés pour entamer un combat de "
-"manière significative. Cependant, occasionnellement une de ces énormes bêtes "
-"trouvera la motivation, que ce soit parce que son territoire est en danger, "
-"par désespoir à cause de la faim ou bien même pour rendre service à un "
-"allié. Même un jeune ours est effrayant à voir sur un champ de bataille, "
-"déchirant et arrachant avec ses griffes acérées, et écrasant avec sa masse "
-"imposante et ses membres puissants. Son agilité dans la forêt est "
-"surprenante, malgré sa fourrure épaisse, sa peau résistante et sa masse "
-"imposante."
+"Il est rare de voir des ours suffisamment motivés pour entamer un combat "
+"vraiment significatif. Mais parfois une de ces énormes bêtes trouvera une "
+"raison, que ce soit pour défendre son territoire, par faim, ou pour secourir "
+"un proche. Même un jeune ours est effrayant à contempler sur un champ de "
+"bataille : ses griffes acérées servent à déchirer et à arracher, sa masse "
+"imposante et ses membres puissants servent à écraser. Son agilité en forêt "
+"est surprenante, malgré sa fourrure épaisse, sa peau résistante et son "
+"énorme poids."
 
 #. [unit]: race=demon
 #: Extended_Era/units/chaos/Abomination.cfg:5
@@ -1370,10 +1367,10 @@ msgid ""
 "Lords, they promote them to the rank of Blood Knights, supreme warriors of "
 "Chaos."
 msgstr ""
-"La maîtrise suprême vient au prix du plus grand sacrifice. Les chevaliers "
-"des enfers s'ouvrent les veines et laissent couler leur sang ; si son goût "
-"satisfait les seigneurs du chaos, ils les promeuvent au rang de chevalier "
-"des enfers, guerriers ultimes du chaos."
+"La maîtrise suprême s'obtient au prix du plus grand sacrifice. Les "
+"chevaliers des enfers s'ouvrent les veines et laissent couler leur sang ; si "
+"son goût satisfait les seigneurs du chaos, ils les promeuvent au rang de "
+"chevalier des enfers, guerriers ultimes du chaos."
 
 #. [attack]: type=blade
 #: Extended_Era/units/chaos/Greater_Daemon.cfg:26
@@ -1411,10 +1408,10 @@ msgid ""
 "tougher than the average human the lesser demons can easily turn the tide of "
 "a battle due to the combination of their nible movement and tough fighting..."
 msgstr ""
-"Les démons mineurs sont les cadeaux des Dieux du chaos à ceux qui se sont "
-"montrés dignes de recevoir leur aide. Bien que plus fragiles que les "
-"humains, les démons mineurs peuvent facilement changer le cours d'une "
-"bataille car ils se déplacent agilement et sont des combattants féroces."
+"Les dieux du chaos offrent les démons mineurs à ceux qui se sont montrés "
+"dignes de recevoir leur aide. Bien que plus fragiles que les humains, les "
+"démons mineurs peuvent facilement changer le cours d'une bataille, car ils "
+"se déplacent agilement et sont des combattants féroces."
 
 #. [attack]: type=fire
 #: Extended_Era/units/chaos/Greater_Daemon.cfg:35
@@ -1445,7 +1442,7 @@ msgstr ""
 "La maîtrise complète de l'invocation des démons est atteinte quand on "
 "devient soi-même un démon. Les possédés sont des esprits démoniaques "
 "prisonniers dans un corps humain, dont il ne reste que des souvenirs "
-"d'invocateurs et de magiciens. Ces créatures ont enfin réussi à atteindre "
+"d'invocateurs et de magiciens. Ces créatures ont enfin réussi à égaler "
 "l'extrême puissance de leurs seigneurs."
 
 #. [attack]: type=cold
@@ -1508,9 +1505,9 @@ msgid ""
 msgstr ""
 "La corruption du chaos est un processus lent et subtile. Même des animaux "
 "aussi inoffensifs que des crabes peuvent être déformés et pervertis en "
-"quelquechose de très loin de leur nature originelle. Les ondins et les nagas "
-"peuvent attester que les crabes infernaux sont un résultat très regrettable "
-"de ce processus."
+"quelque chose de très éloigné de leur nature originelle. Les ondins et les "
+"nagas peuvent attester que les crabes infernaux sont un résultat très "
+"regrettable de ce processus."
 
 #. [attack]: type=blade
 #: Extended_Era/units/chaos/Evil_Crab.cfg:27
@@ -1549,10 +1546,10 @@ msgid ""
 "creature, especially when night falls."
 msgstr ""
 "Avec le temps et à la grande surprise du démoniste qui les a créés, les "
-"aberrations gagnent de force et en stature. Il semblerait que le fait de "
-"tuer nourrisse d'une manière spectaculaire ces bêtes avides de sang. Il y a "
-"peu de soldats assez braves, ou plutôt assez fous pour affronter une telle "
-"créature, surtout à la tombée de la nuit."
+"aberrations gagnent en force et en stature. Tuer semblerait alimenter d'une "
+"manière spectaculaire ces bêtes avides de sang. Peu de soldats sont assez "
+"braves, ou plutôt assez fous, pour affronter une telle créature, surtout à "
+"la tombée de la nuit."
 
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Headhunter.cfg:5
@@ -1689,7 +1686,7 @@ msgstr ""
 "Avec le temps, les molosses enragés sont transformés par la magie insidieuse "
 "du chaos qui habite leur corps. Il leur pousse des cornes et d'autres traits "
 "démoniaques, ce qui donne un molosse possédé. Leur unique désir est de "
-"déchirer leur ennemis avec leur griffes et leur dents."
+"déchirer leurs ennemis avec leurs griffes et leurs dents."
 
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Invader.cfg:5
@@ -1727,7 +1724,7 @@ msgstr ""
 "dirigent l'avant-garde des hordes infernales et sont en première ligne lors "
 "des invasions menées par les armées du chaos, dont ils cherchent à gravir à "
 "tout prix les échelons. Leurs esprits sont encore similaires à ceux des "
-"mortels, mais eux n'ont plus d'âme : ils l'ont vendue à leurs Dieux "
+"mortels, mais eux n'ont plus d'âme : ils l'ont vendue à leurs dieux "
 "démoniaques."
 
 #. [female]
@@ -1776,9 +1773,10 @@ msgid ""
 "healing body whose very touch other races find poisonous."
 msgstr ""
 "La multitude changeante des forces du chaos reconnaît la nécessité de forces "
-"résistantes parmi ses rangs. Ainsi, les aberrations furent créées dans des "
-"laboratoires plein de cris. Le contact avec le corps régénérant de ces "
-"monstruosités gauches est venimeux pour les autres races."
+"résistantes parmi ses rangs. Ainsi, les aberrations virent le jour dans des "
+"laboratoires remplis de hurlements. Ces monstruosités torturées possèdent un "
+"corps qui se régénère et qui dont le contact peut empoisonner les autres "
+"races."
 
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Magus.cfg:5
@@ -1795,13 +1793,13 @@ msgid ""
 "turning back, but aspire to lose their humanity and succumb to the very core "
 "of Chaos."
 msgstr ""
-"Ils commandent les plus importants groupes de guerriers du chaos et les "
-"soutiennent avec leur magie. Quand une essence démoniaque s'incarne en eux, "
-"ces mages du chaos acquièrent une violence d'esprit et une manière de penser "
-"qui les fait plus ressembler à de vrais démons qu'à des humains. Piégés "
-"entre une forme humaine et une forme démoniaque, ils ne cherchent pas à "
-"rebrousser chemin mais désirent plutôt perdre leur humanité et pénétrer au "
-"cœur du Chaos."
+"Ce sont eux qui commandent les plus importants groupes de guerriers du chaos "
+"et qui les soutiennent avec leur magie. Quand une essence démoniaque "
+"s'incarne en eux, ces mages du chaos acquièrent une violence d'esprit et une "
+"manière de penser qui les fait plus ressembler à de vrais démons qu'à des "
+"humains. Piégés entre une forme humaine et une forme démoniaque, ils ne "
+"cherchent pas à rebrousser chemin mais désirent plutôt perdre leur humanité "
+"et pénétrer au cœur du chaos."
 
 #. [female]
 #: Extended_Era/units/chaos/Magus.cfg:147
@@ -1862,7 +1860,7 @@ msgstr ""
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Cleric.cfg:5
 msgid "female^Cleric"
-msgstr "Clerc"
+msgstr "Révérende"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Cleric.cfg:22
@@ -1872,8 +1870,8 @@ msgid ""
 "they use for their sadistic pleasure. Terribly seductive, they are both "
 "feared and admired for their beauty and cruelty."
 msgstr ""
-"Comme les nains l'ont découvert, une clerc manie aussi bien la magie que la "
-"massue. Elles ont la capacité de guérir, et s'en servent d'ailleurs pour "
+"Comme les nains l'ont découvert, une révérende manie aussi bien la magie que "
+"la massue. Elles ont la capacité de guérir, et s'en servent d'ailleurs pour "
 "assouvir leurs plaisirs sadiques. Horriblement séduisantes, elles sont à la "
 "fois craintes et admirées pour leur beauté et leur cruauté."
 
@@ -1931,11 +1929,11 @@ msgid ""
 "Through the guiding of the Clerics, someday they will become a mighty "
 "Sorceress."
 msgstr ""
-"Chez les elfes des ténèbres, les femmes rejoignent souvent l'ordre des "
-"clercs dès leur plus jeune âge. Elles débutent en tant qu'enchanteresses, "
+"Chez les elfes des ténèbres, les femmes rejoignent souvent l'Ordre des "
+"Clercs dès leur plus jeune âge. Elles débutent en tant qu'enchanteresses, "
 "avec des capacités physiques et magiques limitées, et débutent "
 "l'apprentissage des techniques de torture. L'enseignement dispensé par les "
-"clercs pourra les faire devenir de puissantes sorcières."
+"révérendes pourra les faire devenir de puissantes sorcières."
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Fighter.cfg:5
@@ -2164,10 +2162,11 @@ msgid ""
 "Very soon, they will become Clerics, the terribly seductive sadistic "
 "torturers."
 msgstr ""
-"Ces enchanteresses se sont élevées au rang de sorcière et maîtrisent "
-"maintenant les techniques de guérison ; elles s'en servent pour torturer "
-"leurs captifs encore et encore. Elles deviendront ensuite clercs, "
-"tortionnaires sadiques terriblement séduisantes."
+"Chez les elfes des ténèbres, les femmes rejoignent souvent l'Ordre des "
+"Clercs dès leur plus jeune âge. Ces enchanteresses se sont élevées au rang "
+"de sorcière et maîtrisent maintenant les techniques de guérison ; elles s'en "
+"servent pour torturer leurs captifs encore et encore. Elles deviendront "
+"ensuite des révérendes, tortionnaires sadiques terriblement séduisantes."
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Stalker.cfg:5
@@ -2223,8 +2222,8 @@ msgid ""
 "Corsairs."
 msgstr ""
 "Ces guerriers se consacrent totalement aux duels. Leurs lames bien "
-"équilibrées leur permettent de raser un nain de très très près. Peu sont "
-"ceux qui deviennent corsaires."
+"équilibrées leur permettent de raser un nain de très près. Peu sont ceux qui "
+"deviennent corsaires."
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Wizard.cfg:5
@@ -2242,7 +2241,7 @@ msgstr ""
 "Certains elfes des ténèbres préfèrent l'étude des arcanes au combat "
 "rapproché. Ils sont habituellement désignés pour les devoirs de la Chambre, "
 "comme l'intendance, la surveillance des esclaves, etc. Pendant les conflits, "
-"ils peuvent cependant infliger de terribles dégâts même s'ils manquent "
+"ils peuvent cependant infliger de terribles dégâts, même s'ils manquent "
 "complètement d'entraînement au corps à corps."
 
 #. [unit]: race=dwarf
@@ -2299,9 +2298,9 @@ msgid ""
 "Axethrowers have improved their skill hurling their bladed weapons while "
 "retaining their natural speed - a dangerous combination."
 msgstr ""
-"Les lanceurs de haches savent bien mieux lancer violemment les haches, et "
-"ils ont conservé leur vitesse naturelle ; c'est une combinaison bien "
-"dangereuse."
+"Les lanceurs de haches se sont entraînés à bien lancer violemment les "
+"haches, et ils ont conservé leur vitesse naturelle ; c'est une combinaison "
+"bien dangereuse."
 
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Flamethower.cfg:5
@@ -2343,7 +2342,7 @@ msgid ""
 msgstr ""
 "Des nains ont fabriqué ces étranges machines qu'ils appellent "
 "« Ornithoptère ». Capables de voler, elles ont besoin d'espace pour "
-"manœuvrer et donc ne peuvent pas être utilisées dans les cavernes. Les "
+"manœuvrer et ne peuvent donc pas être utilisées dans les cavernes. Les "
 "ornithoptères sont difficiles à piloter et ne sont pas adaptés au combat "
 "rapproché. À la place, leurs pilotes lancent des œufs étranges qu'ils "
 "appellent « grenades », et qui explosent dans un bruit de tonnerre. Personne "
@@ -2373,7 +2372,7 @@ msgstr ""
 "Hormis des capacités surnaturelles, le plus haut rang que peut atteindre un "
 "graveur de runes est celui de maître des runes. Frappant presque aussi "
 "puissamment que les meilleurs guerriers, ils n'ont déjà peur de rien sans "
-"leur arme ; et ils sont presque invincibles quand ils l'ont car leurs runes "
+"leur arme ; et ils sont presque invincibles quand ils l'ont, car leurs runes "
 "diminuent les dégâts causés par les coups ennemis. "
 
 #. [unit]: race=dwarf
@@ -2494,8 +2493,8 @@ msgid ""
 "rarer by the fact that Boreal Wyrms attack on sight. Only the most powerful "
 "of champions can face these creatures and survive."
 msgstr ""
-"Si rarement aperçues que beaucoup les considère comme des créatures de "
-"légende, les vouivres boréales sont des vouivres des vents qui on vécu plus "
+"Si rarement aperçues que beaucoup les considèrent comme des créatures de "
+"légende, les vouivres boréales sont des vouivres des vents qui ont vécu plus "
 "d'un siècle. Le nombre d'observation de ces créatures méchamment puissantes "
 "et incroyablement rapides est d'autant plus réduit que les vouivres boréales "
 "attaquent à vue. Seul le plus puissant des champions peut affronter ces "
@@ -2534,9 +2533,9 @@ msgid ""
 msgstr ""
 "Les vouivres des glaces vivant dans les mers deviennent plus sinueuses, se "
 "transformant ainsi en vouivre du gel. Nommées ainsi en raison du puissant "
-"souffle glaçant qu'elles émettent, les vouivres du gel préfèrent "
-"généralement congeler de loin leur ennemis. Lorsqu'elles sont acculées, "
-"elles utilisent leur puissante queue pour frapper leur ennemis."
+"souffle glaçant qu'elles émettent, elles préfèrent généralement congeler de "
+"loin leur ennemis et utilisent leur puissante queue pour frapper leur "
+"ennemis lorsqu'elles sont acculées."
 
 #. [unit]: race=wyrm
 #: Extended_Era/units/ice_wyrms/Ice.cfg:5
@@ -2556,14 +2555,13 @@ msgid ""
 msgstr ""
 "Reptiles au sang froid du nord, les vouivres des glaces sont la forme "
 "juvénile de créatures pouvant vivre pendant des siècles. Malgré leur toute "
-"relative jeunesse, elle font déjà le double en taille d'un homme. "
-"Effrayantes à rencontrer, ces créatures sont capables de de foudroyer leur "
-"ennemis de leur souffle glaçant, ou de les fouetter avec leur queue. Pire, "
-"leur peau écaillée leur fournit une protection naturelle contre les armes "
-"des guerriers. Il est heureux que leur environnement naturel les a rendu "
-"très vulnérables au feu."
+"relative jeunesse, elle font déjà le double de la taille d'un homme. "
+"Effrayantes, ces créatures peuvent détruire leur ennemis avec leur souffle "
+"glaçant en en les fouettant de leur queue. Pire, leur peau écaillée leur "
+"fournit une protection naturelle contre les armes. Heureusement, leur "
+"environnement naturel les a rendues très vulnérables au feu."
 
-# Benoît : Traduction non littérale, mais je pensais que ça irait mieux avec leur background
+# Benoît : Traduction non littérale, mais je pensais que ça irait mieux avec leur background
 #. [unit]: race=wyrm
 #: Extended_Era/units/ice_wyrms/Mistral.cfg:5
 msgid "Mistral Wyrm"
@@ -2576,9 +2574,9 @@ msgid ""
 "capable of flight. Called Mistral Wyrms, they are far stronger and more "
 "capable than Ice Wyrms. One would do well to avoid these creatures."
 msgstr ""
-"Certaines vouivres des glaces vivant en haute montagne on des ailes qui "
+"Certaines vouivres des glaces vivant en haute montagne ont des ailes qui "
 "poussent et deviennent capables de voler. Nommées vouivres des vents, elles "
-"sont bien plus fortes et compétentes que les vouivres des glaces. À éviter "
+"sont bien plus fortes et compétentes que les vouivres des glaces. À éviter, "
 "de préférence."
 
 #. [unit]: race=wyrm
@@ -2593,9 +2591,9 @@ msgid ""
 "wyrms are elder frost wyrms: stronger and capable of a more savage breath "
 "attack."
 msgstr ""
-"Contrairement aux humains, les vouivres deviennent seulement plus fortes et "
-"puissantes avec l'âge. Les vouivres du givre sont des vouivres du gel "
-"âgées : plus fortes et avec un souffle glaçant plus sauvage."
+"Contrairement aux humains, les vouivres ne cessent de gagner en force et en "
+"puissance avec l'âge. Les vouivres du givre sont des vouivres du gel âgées : "
+"plus fortes et avec un souffle glaçant plus sauvage."
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Ahadath.cfg:5
@@ -2638,8 +2636,8 @@ msgid ""
 msgstr ""
 "Les amirs forment la colonne vertébrale toute avant-garde d'infanterie des "
 "Khalifats. Ils sont souvent envoyés contre les positions fortifiées des "
-"ennemis, et leur valeur et leur habileté à l'épée leur permet d'assaillir "
-"des défenses apparemment impénétrables."
+"ennemis, et leur valeur et leur habileté à l'épée leur permettent "
+"d'assaillir des défenses apparemment impénétrables."
 
 #. [attack]: type=blade
 #: Extended_Era/units/kalifa/Rami_al_Nuri.cfg:24
@@ -2662,7 +2660,7 @@ msgid ""
 "become very skilled in using their shield to tire and stun their enemies."
 msgstr ""
 "Les arifs font partie des vétérans amirs les plus défensifs. Ils sont "
-"devenus très adroits pour utiliser leur bouclier pour fatiguer et assommer "
+"devenus très adroits pour utiliser leur bouclier pour harasser et assommer "
 "leur ennemis."
 
 #. [attack]: type=impact
@@ -2863,7 +2861,7 @@ msgstr "Sauveur"
 msgid ""
 "Only the greatest mounter warriors in the land are taken into the Life Guard."
 msgstr ""
-"Seuls les meilleurs combattants à cheval intègrent la garde des sauveurs."
+"Seuls les meilleurs combattants à cheval intègrent la Garde des Sauveurs."
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Mamluk.cfg:5
@@ -2922,7 +2920,7 @@ msgid ""
 "generally sow terror amongst the enemy.  Such tactics may also have other "
 "uses in a land of many strange wonders..."
 msgstr ""
-"Les ramis utilisent fréquemment des flèches enflammées pour brûler les "
+"Les ramis utilisent fréquemment des flèches enflammées pour incendier les "
 "fortifications ennemies et sèment souvent la terreur dans les rangs "
 "adverses. Ces techniques peuvent être utilisées de bien d'autres façons dans "
 "cet étrange pays."
@@ -2971,10 +2969,10 @@ msgid ""
 "poisoned arrows. These two foot long shafts, tipped with a potent poison, "
 "have been known to slay many kinds of prey."
 msgstr ""
-"Les chasseurs nagas sont des nagas capables de tirer à l'arc. Comme ils sont "
-"naturellement résistants aux poisons, ils utilisent sans problèmes des "
-"flèches empoisonnées. Ces aiguilles de deux pieds enduites d'un venin "
-"puissant peuvent, parait-il, abattre tout type de proie."
+"Les chasseurs nagas sont des nagas capables de tirer à l'arc. Naturellement "
+"résistants aux poisons, ils manient sans problème des flèches empoisonnées ; "
+"ces aiguilles de deux pieds enduites d'un venin puissant peuvent, parait-il, "
+"abattre tout type de proie."
 
 #. [unit]: race=naga
 #: Extended_Era/units/nagas/Depthprowler.cfg:5
@@ -2993,8 +2991,8 @@ msgid ""
 msgstr ""
 "Certains nagas, que ce soit par ruse ou bien par couardise, développent leur "
 "capacité à survivre dans la pénombre abyssale. Après un entraînement "
-"spécial, ce talent peut aboutir à un type de combat différent, mais tout "
-"aussi destructeur. Les rôdeurs des profondeurs sont particulièrement "
+"spécial, ce talent peut aboutir à un style de combat bien différent, mais "
+"tout aussi destructeur. Les rôdeurs des profondeurs sont particulièrement "
 "appréciés comme gardiens de nids, où ils surveillent les œufs pondus dans "
 "des cavernes secrètes."
 
@@ -3017,10 +3015,11 @@ msgid ""
 msgstr ""
 "Certaines nagas, que ce soit par ruse ou bien par couardise, développent "
 "leur capacité à survivre dans la pénombre abyssale. Après un entraînement "
-"spécial, ce talent peut aboutir à un type de combat différent, mais tout "
-"aussi destructeur. Les rôdeuses des profondeurs sont particulièrement "
+"spécial, ce talent peut aboutir à un style de combat bien différent, mais "
+"tout aussi destructeur. Les rôdeuses des profondeurs sont particulièrement "
 "appréciées comme gardiennes de nids, où elles surveillent les œufs pondus "
-"dans des cavernes secrètes\n"
+"dans des cavernes secrètes.\n"
+"\n"
 "Remarques :"
 
 #. [unit]: race=naga
@@ -3048,7 +3047,7 @@ msgstr ""
 "Ces combattants puissamment armés sont plus lents et plus lourdement "
 "protégés que la plupart des nagas et ils portent d'énormes masses pour "
 "écraser leurs ennemis. Ils surveillent principalement les avant-postes nagas "
-"mais participent parfois à des raids offensif."
+"mais participent parfois à des raids."
 
 #. [unit]: race=naga
 #: Extended_Era/units/nagas/Hunter.cfg:5
@@ -3073,8 +3072,8 @@ msgstr ""
 "Sélectionnés pour leur adresse et leur dévouement, ils protègent leurs "
 "semblables durant leur sommeil, ou défendent leurs villes secrètes contre "
 "les envahisseurs. Ce rôle leur est dévolu jusqu'au prochain grand réveil de "
-"leur civilisation. Ces nagas sont souvent inconnus à Wesnoth car ils ne sont "
-"visibles que dans les villes nagas."
+"leur civilisation. Ces nagas sont souvent inconnus à Wesnoth, car ils ne "
+"sont visibles que dans les villes nagas."
 
 #. [unit]: race=naga
 #: Extended_Era/units/nagas/Warden.cfg:5
@@ -3115,7 +3114,7 @@ msgstr ""
 "les nombreux conflits qui surgissent entre les tribus de cette race "
 "turbulente. Bien que physiquement fragiles (pour des orcs), les chamans orcs "
 "sont de bons lanceurs de sorts et peuvent maudire leur ennemis, drainant "
-"leur vie."
+"leur énergie vitale."
 
 #. [attack]: type=cold
 #: Extended_Era/units/orcs/Warlock.cfg:35
@@ -3142,7 +3141,7 @@ msgstr ""
 "forment le Conseil des Orcs, qui prend des décisions importantes et arbitre "
 "les nombreux conflits qui surgissent entre les tribus de cette race "
 "turbulente. Bien que physiquement fragiles (pour des orcs), les chamans orcs "
-"sont de bon lanceurs de sorts et peuvent maudire leur ennemis."
+"sont de bons lanceurs de sorts et peuvent maudire leur ennemis."
 
 #. [unit]: race=orc
 #: Extended_Era/units/orcs/Witch_Doctor.cfg:5
@@ -3323,9 +3322,9 @@ msgstr ""
 "La noblesse sidhe, bien que n'acceptant pas de roturiers dans ses rangs, "
 "choisit néanmoins les danseurs des neiges les plus doués et les plus "
 "fidèles, et les élève au rang de « Maître-Blizzard », ce qui leur accorde "
-"autorité sur les givreurs et les danseur des neiges. Il est prévu que les "
-"maîtres-blizzard fassent en sorte que ceux de leur confrérie restent fidèles "
-"et dociles, et entraîneront leur nouvelles recrues."
+"autorité sur les givreurs et les danseurs des neiges. Les maîtres-blizzard "
+"doivent s'assurer que ceux de leur confrérie restent fidèles et dociles, et "
+"ils entraînent les nouvelles recrues."
 
 #. [attack]: type=cold
 #: Extended_Era/units/sidhe/Blizzardlord.cfg:32
@@ -3378,11 +3377,11 @@ msgid ""
 "however, they discover that there is an element they can somewhat control -- "
 "frozen water. This is their claim to greatness."
 msgstr ""
-"Quelques sidhes du peuple envient avidement le prestige des magiciens. Il "
+"Quelques sidhes du peuple envient avidement le prestige des magiciens. Ils "
 "essaient de tout leur être de maîtriser l'art de lancer des éclairs avec une "
-"précision mortelle sur leur ennemis, mais s'aperçoivent que c'est au-dessus "
-"de leur forces. Cependant, ils découvrent qu'il peuvent néanmoins contrôler "
-"un autre élément : la glace. Cela leur suffit pour revendiquer la grandeur."
+"précision mortelle sur leurs ennemis, mais s'aperçoivent que c'est au-dessus "
+"de leur forces. Cependant, ils découvrent qu'ils peuvent contrôler un autre "
+"élément : la glace. Cela leur suffit pour revendiquer la grandeur."
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Raindancer.cfg:5
@@ -3428,7 +3427,7 @@ msgid ""
 "their back."
 msgstr ""
 "Ceux qui se demandent quelle est la spécialité des danseurs de l'ombre "
-"seraient bien avisés de ne pas le demander quand il y en a un à coté... "
+"seraient bien avisés de ne pas le demander quand il y en a un à côté... "
 "s'ils ne veulent pas se retrouver avec une épée plantée dans le dos."
 
 #. [unit]: race=sidhe
@@ -3446,13 +3445,13 @@ msgid ""
 "have established the rank of Snowdancer as a reward for Hoarfrosters who "
 "excel in both skill and loyalty."
 msgstr ""
-"La noblesse sidhe a du mal à accepter que certains de leur inférieurs "
-"cherchent à rejoindre les rangs des mages, mais ils sont pragmatiques et "
-"veulent bien reconnaître que même si elle est peu puissante, cette nouvelle "
-"magie de la glace est utile car complémentaire à la leur, tant que ses "
-"practiciens se souviennent de leur place. Par conséquent, ils ont accordé le "
-"rang de Danseur des neiges comme récompense aux givreurs excellant à la fois "
-"dans leur art et dans la fidélité."
+"La noblesse sidhe a du mal à accepter que certains de leurs sujets cherchent "
+"à rejoindre les rangs des mages, mais ils sont pragmatiques et veulent bien "
+"reconnaître que même si elle est peu puissante, cette nouvelle magie de la "
+"glace est utile car complémentaire à la leur, tant que ses practiciens se "
+"souviennent de leur place. Par conséquent, ils ont accordé le rang de "
+"danseur des neiges comme récompense aux givreurs fidèles excellant dans leur "
+"art."
 
 #. [unit]: race=undead
 #: Extended_Era/units/sidhe/Spirit_Ancestor.cfg:5
@@ -3501,7 +3500,7 @@ msgid ""
 msgstr ""
 "Les plus formidables guerriers sidhes sont loin d'être enterrés. Sachez que "
 "leurs lames en argent seront toutes proches quand vous entendrez leur chant "
-"funèbre résonner dans le feuillage des arbres."
+"funèbre résonner dans les feuillages."
 
 #. [unit]: race=undead
 #: Extended_Era/units/sidhe/Spirit_Warrior.cfg:5
@@ -3592,8 +3591,8 @@ msgid ""
 "Their complete lack of armor is a liability, though."
 msgstr ""
 "Comptant parmi les meilleurs éclaireurs connus, les traqueurs sidhes sont "
-"rapides et polyvalent, et maîtrisent à la fois le combat au corps à corps et "
-"le combat à distance, effectués tous deux avec de courtes lances. Leur "
+"rapides et polyvalents, et maîtrisent à la fois le combat au corps à corps "
+"et le combat à distance, effectués tous deux avec de courtes lances. Leur "
 "absence complète d'armure est toutefois un handicap."
 
 #. [unit]: race=sidhe
@@ -3627,7 +3626,7 @@ msgid ""
 "a price as they fight almost armorless and die fast in direct combat."
 msgstr ""
 "Parfois certains sidhes plus solitaires que d'autres préfèrent le pistage et "
-"l'exploration au combat pur et simple. Ceux-ci, appelé « voyageurs », sont "
+"l'exploration au combat pur et simple. Ceux-ci, appelés « voyageurs », sont "
 "armés de courtes lances qu'ils utilisent de façon plutôt ... convaincante, "
 "même si leur rôle réel est la reconnaissance. Leur rapidité extrême a "
 "toutefois un prix : ils combattent presque sans armure et succombent donc "
@@ -3690,7 +3689,7 @@ msgid ""
 "himself, he can drive his companions into battle frenzies."
 msgstr ""
 "Les bardes guerriers sont des maîtres du chant militaire. Eux-mêmes "
-"puissants combattants, ils entraînent leur compagnons dans de véritables "
+"puissants combattants, ils entraînent leurs compagnons dans de véritables "
 "frénésies guerrières."
 
 #. [unit]: race=sidhe
@@ -3776,7 +3775,7 @@ msgstr ""
 "hache » par leurs compatriotes. Ignorant tout effet de style, ils utilisent "
 "bêtement leur force brute pour combattre, découpant tout ce qui se trouve "
 "sur leur passage. Ce qu'ils peuvent apprendre durant les batailles ne fait "
-"que renforcer ce que la nature leur a déjà donné."
+"que renforcer ce que la nature leur a déjà octroyé."
 
 #. [attack]: type=blade
 #: Extended_Era/units/steppe_orcs/Warrior.cfg:24
@@ -3865,8 +3864,8 @@ msgstr ""
 "qu'ils canalisent n'est jamais dévoilé.\n"
 "Les membres de la tribu prétendent apercevoir une nuance bleutée dans leur "
 "teint habituellement brun, et la rugosité cristalline de leur peau. D'autres "
-"orcs des steppes murmurent que leur cœur ne draine pas de sang, mais de la "
-"glace."
+"orcs des steppes murmurent que leur cœur ne fait pas circulerdu sang, mais "
+"de la glace."
 
 #. [attack]: type=cold
 #: Extended_Era/units/steppe_orcs/Icewind_Master.cfg:41
@@ -3966,7 +3965,7 @@ msgstr ""
 "sur l'ennemi avec une férocité complètement téméraire. Un incident "
 "légendaire, sans doute embelli au fil des récits, raconte qu'un escadron "
 "complet d'elfes s'est dispersé et a pris la fuite à la vue d'un seul "
-"destructeur fonçant sur eux."
+"mastodonte fonçant sur eux."
 
 #. [attack]: type=impact
 #: Extended_Era/units/steppe_orcs/Juggernaut.cfg:25
@@ -3996,8 +3995,8 @@ msgid ""
 "retaining their flail, they focus on using the axe as they are considered "
 "too valuable an asset to risk in daredevil charges."
 msgstr ""
-"Les chefs de la steppe portent le titre de Khans et servent à la fois comme "
-"hommes d'État et comme généraux. Ils ont découvert les bénéfices qu'il y a à "
+"Les chefs de la steppe portent le titre de Khans et servent à la fois "
+"d'hommes d'état et de généraux. Ils ont découvert les bénéfices qu'il y a à "
 "commander de l'arrière, pressant leurs camarades vers l'avant. Avant la "
 "bataille, ils vont souvent se mêler aux soldats, pour les motiver avec des "
 "menaces, des promesses, des insultes ou, tout simplement, des beuglements. "
@@ -4105,7 +4104,7 @@ msgid ""
 msgstr ""
 "Justement nommés, les inflexibles constituent un adversaire pratiquement "
 "indélogeable. Ils établissent souvent des positions de repli en-deçà de la "
-"ligne de front. Plus d'une fois, les inflexibles ont été sacrifié pour "
+"ligne de front. Plus d'une fois, les inflexibles ont été sacrifiés pour "
 "retarder l'ennemi pendant que les forces principales récupéraient et se "
 "réorganisaient à l'abri de leur impénétrable muraille de chair, d'os et "
 "d'acier. Leur rôle n'a rien de glorieux et se termine le plus souvent coincé "
@@ -4148,7 +4147,7 @@ msgstr "frénésie"
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Shieldbearer.cfg:5
 msgid "Steppe Shieldbearer"
-msgstr "Porte-bouclier des steppes"
+msgstr "Porte-pavois des steppes"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Shieldbearer.cfg:19
@@ -4161,11 +4160,11 @@ msgid ""
 "secured victory, they have numerous times prevented utter defeat."
 msgstr ""
 "Certains soldats se voient confier un rôle spécial, très différent de celui "
-"de leurs autres camarades. Les porte-boucliers n'ont pas vraiment d'arme et "
+"de leurs autres camarades. Les porte-pavois n'ont pas vraiment d'arme et "
 "doivent seulement protéger les blessés, boucher les trous dans les lignes "
 "et, si tout paraît perdu, contenir l'ennemi suffisamment longtemps pour "
 "couvrir la retraite de l'armée. Les orcs des steppes disent souvent que les "
-"porte-boucliers, s'ils n'ont jamais assuré la victoire, ont plus d'une fois "
+"porte-pavois, s'ils n'ont jamais assuré la victoire, ont plus d'une fois "
 "évité une déroute cuisante."
 
 #. [unit]: race=orc
@@ -4185,7 +4184,7 @@ msgstr ""
 "Les orcs ont beau ne pas briller par leurs capacités intellectuelles, leur "
 "petit cerveau est suffisant pour se rendre compte qu'une lance plus longue "
 "leur permettra d'empaler un ennemi à une plus longue distance. Les "
-"embrocheurs s'amusent d'ailleurs à améliorer leur lance en y ajoutant de "
+"embrocheurs s'amusent d'ailleurs à améliorer leurs lances en y ajoutant de "
 "sinistres fers barbelés."
 
 #. [unit]: race=orc
@@ -4339,7 +4338,7 @@ msgstr ""
 "De nature espiègle, ces fées ardentes ont un caractère blagueur avec un sens "
 "de l'humour souvent décrit « de nymphe ». Bien que leur maîtrise du feu "
 "demeure un mystère, des rumeurs disent que ces fées seraient des cousines du "
-"diablotin. Toutefois leur attitude protectrice à l'égard de la nature et "
+"diablotin. Toutefois, leur attitude protectrice à l'égard de la nature et "
 "leur personnalité fantasque font d'elles de rapides alliés des elfes."
 
 #. [attack]: type=fire
@@ -4368,9 +4367,7 @@ msgstr "Fée du Feu"
 msgid "Faerie Spirit"
 msgstr "Esprit Féerique"
 
-# Benoît : c'est une unité de sexe féminin donc faradet convenait moyen
-#  je me suis permis un petit jeu de mot sachant que ce sont des fées du feu
-#  Sprite -> Fire Faerie -> Dryad / Faerie Spirit
+# Benoît : unité de sexe féminin ; je me suis permis un petit jeu de mot sachant que ce sont des fées du feu ; Sprite -> Fire Faerie -> Dryad / Faerie Spirit
 #. [unit]: race=fairy
 #: Extended_Era/units/sylvan_fairies/Sprite.cfg:4
 msgid "Sprite"
