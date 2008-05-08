@@ -1,15 +1,21 @@
+# Turkish translations for Battle for Wesnoth package.
+# Copyright (C) 2008 Wesnoth development team
+# This file is distributed under the same license as the Battle for Wesnoth package.
+#
+# Nilgün Belma Bugüner <nilgun@belgeler.gen.tr>, 2008.
 msgid ""
 msgstr ""
-"Project-Id-Version: wescamp-i 18n\n"
+"Project-Id-Version: wesnoth-Extended_Era\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2008-05-01 16:19+0200\n"
-"PO-Revision-Date: 2005-05-18 10:15+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2008-05-07 20:03+0300\n"
+"Last-Translator: Nilgün Belma Bugüner <nilgun@belgeler.gen.tr>\n"
+"Language-Team: Turkish <wesnoth-tr@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.11.4\n"
 
 #. [leadership]
 #: Extended_Era/abilities/allied_leadership.cfg:10
@@ -18,7 +24,7 @@ msgstr ""
 #: Extended_Era/abilities/allied_leadership.cfg:112
 #: Extended_Era/abilities/allied_leadership.cfg:172
 msgid "allied leadership"
-msgstr ""
+msgstr "dostça liderlik"
 
 #. [leadership]
 #: Extended_Era/abilities/allied_leadership.cfg:14
@@ -36,13 +42,20 @@ msgid ""
 "Leadership engages in combat, its attacks do 25% more damage times the "
 "difference in their levels."
 msgstr ""
+"Dostça Liderlik:\n"
+"Bu birim komşu altıgenlerdeki dost birimlerin daha iyi döğüşmelerini "
+"sağlamak için onlara yol gösterir.\n"
+"\n"
+"Komşu altıgenlerdeki daha düşük seviyeden dost birimler çarpışmada daha "
+"fazla hasar verirler. Böyle bir liderin yanında döğüşen birim her seviye "
+"farkı için rakibine %25 daha fazla hasar verir."
 
 #. [resistance]
 #: Extended_Era/abilities/allied_protection.cfg:11
 #: Extended_Era/abilities/allied_protection.cfg:34
 #: Extended_Era/abilities/allied_protection.cfg:60
 msgid "allied protection"
-msgstr ""
+msgstr "dostça koruma"
 
 #. [resistance]
 #: Extended_Era/abilities/allied_protection.cfg:13
@@ -53,11 +66,14 @@ msgid ""
 "Adjacent friendly units of lower level receive a +20% bonus to all "
 "resistances (up to a maximum of 50%)."
 msgstr ""
+"Dostça Koruma:\n"
+"Bu birim komşu altıgenlerdeki düşük seviyeden dost birimlerin tüm "
+"dirençlerde %50’yi geçmemek üzere +%20 ek bir direnç kazanmasını sağlar."
 
 #. [damage]
 #: Extended_Era/abilities/attack_only.cfg:8
 msgid "attack only"
-msgstr ""
+msgstr "salt saldırı"
 
 #. [damage]
 #: Extended_Era/abilities/attack_only.cfg:10
@@ -65,16 +81,18 @@ msgid ""
 "Attack only:\n"
 "This weapon will never be used on defense."
 msgstr ""
+"Salt saldırı:\n"
+"Bu silah asla savunma amaçlı kullanılmaz."
 
 #: Extended_Era/abilities/attack_only.cfg:17
 msgid " One attack of this unit cannot be used to defend."
-msgstr ""
+msgstr " Bu birim bu silahla savunmada tek bir vuruş bile yapamaz."
 
 #. [hides]
 #: Extended_Era/abilities/cavestalk.cfg:5
 #: Extended_Era/abilities/cavestalk.cfg:10
 msgid "cavestalk"
-msgstr "cavestalk"
+msgstr "mağarada pusu"
 
 #. [hides]
 #: Extended_Era/abilities/cavestalk.cfg:9
@@ -87,6 +105,11 @@ msgid ""
 "any turn immediately after this unit has attacked, or if there are enemy "
 "units next to this unit."
 msgstr ""
+"Mağarada Pusu:\n"
+"Bu birim mağaralarda gizlenebilir ve düşmanları tafrafından farkedilmez.\n"
+"\n"
+"Düşman birimler bu birimi mağaradayken yanına gelmedikçe veya bu birim bir "
+"birime saldırmadıkça göremezler."
 
 #: Extended_Era/abilities/cavestalk.cfg:29
 msgid ""
@@ -94,11 +117,14 @@ msgid ""
 "renders it invisible to enemies unless it is immediately adjacent or has "
 "revealed itself by attacking."
 msgstr ""
+" Yeraltı arazilerinde (aydınlatılmış olmadıkça) bu birimin pusu yeteneği "
+"sayesinde hareketsizken yanına gelinmedikçe düşmanları tarafından "
+"farkedilmezler."
 
 #. [damage]
 #: Extended_Era/abilities/defend_only.cfg:8
 msgid "defend only"
-msgstr ""
+msgstr "salt savunma"
 
 #. [damage]
 #: Extended_Era/abilities/defend_only.cfg:10
@@ -106,15 +132,17 @@ msgid ""
 "Defend only:\n"
 "This weapon will only be available for defense."
 msgstr ""
+"Salt savunma:\n"
+"Bu silah sadece savunma amacıyla kullanılır."
 
 #: Extended_Era/abilities/defend_only.cfg:16
 msgid " One attack of this unit can only be used to defend."
-msgstr ""
+msgstr " Bu birim bu silahla saldırıda tek bir vuruş bile yapamaz."
 
 #. [skirmisher]
 #: Extended_Era/abilities/distract.cfg:6
 msgid "distract"
-msgstr ""
+msgstr "afallatır"
 
 #. [skirmisher]
 #: Extended_Era/abilities/distract.cfg:8
@@ -123,18 +151,22 @@ msgid ""
 "This unit negates enemy Zones of Control around itself for friendly units "
 "(but not for itself)."
 msgstr ""
+"Afallatır:\n"
+"Bu birim dost birimler için çevresindeki düşmanın etki alanını yok eder (ama "
+"bunu kendisi için yapamaz)."
 
 #: Extended_Era/abilities/distract.cfg:17
 msgid ""
 " This unit is capable of distracting opponents, allowing friendly units to "
 "trespass their Zones of Control and move unhindered around them."
 msgstr ""
+" Bu birim çevresindeki rakiplerinin etki alanlarını yok ederek dost "
+"birimlerin yanlarından kolayca geçebilmelerini sağlar."
 
 #. [damage]
 #: Extended_Era/abilities/dread.cfg:6 Extended_Era/abilities/dread.cfg:7
-#, fuzzy
 msgid "dread"
-msgstr "Yarı ölüler"
+msgstr "huşu"
 
 #. [damage]
 #: Extended_Era/abilities/dread.cfg:9 Extended_Era/abilities/dread.cfg:11
@@ -143,19 +175,24 @@ msgid ""
 "When this attack is used offensively, this unit takes one third less damage "
 "in retaliation."
 msgstr ""
+"Huşu:\n"
+"Saldırı amaçlı kullanıldığında, birim karşı saldırıdan üçte bir oranında "
+"daha az hasar alır."
 
 #: Extended_Era/abilities/dread.cfg:19
 msgid ""
 " The dread attack of this unit, when used offensively scare the defender, "
 "lowering the damage of his retaliation."
 msgstr ""
+" Bu birimin huşu saldırısı rakibini ürküterek karşı saldırısının hasarını "
+"azaltır."
 
 #. [resistance]
 #: Extended_Era/abilities/protection.cfg:9
 #: Extended_Era/abilities/protection.cfg:31
 #: Extended_Era/abilities/protection.cfg:56
 msgid "protection"
-msgstr ""
+msgstr "koruma"
 
 #. [resistance]
 #: Extended_Era/abilities/protection.cfg:11
@@ -166,6 +203,10 @@ msgid ""
 "Adjacent units of lower level from this side receive a +20% bonus to all "
 "resistances (up to a maximum of 50%)."
 msgstr ""
+"Koruma:\n"
+"Bu birim komşu altıgenlerdeki kendisiyle ayna taraftaki düşük seviyeden "
+"birimlerin tüm dirençlerde %50’yi geçmemek üzere +%20 ek bir direnç "
+"kazanmasını sağlar."
 
 #: Extended_Era/abilities/protection.cfg:79
 msgid ""
@@ -173,12 +214,14 @@ msgid ""
 "better, taking less damage in combat, though this only applies to units of "
 "lower level."
 msgstr ""
+" Bu birimin verdiği moral sayesinde yanındaki düşük seviyeden dost birimler "
+"daha iyi döğüşür ve çarpışmada daha az hasar alırlar."
 
 #. [regenerate]
 #: Extended_Era/abilities/sylvan_spark.cfg:10
 #: Extended_Era/abilities/sylvan_spark.cfg:13
 msgid "sylvan spark"
-msgstr ""
+msgstr "esenlik"
 
 #. [regenerate]
 #: Extended_Era/abilities/sylvan_spark.cfg:12
@@ -188,18 +231,22 @@ msgid ""
 "While in the forest (or mushroom grove), the unit will heal itself 5 hp per "
 "turn. If it is poisoned, it will remove the poison instead of healing."
 msgstr ""
+"Esenlik:\n"
+"Bu birim ormanda (veya mantar korusunda) har el kendi kendini 5 YP’ye kadar "
+"tedavi edebilir. Zehirlenmişse o el sadece zehiri giderilir."
 
 #: Extended_Era/abilities/sylvan_spark.cfg:34
 msgid ""
 " This unit regenerates in forest, which allows it to heal, through not as "
 "much as stationed in a village."
 msgstr ""
+" Bu birim ormandayken, bir köydeki kadar olmasa da kendi kendine iyileşir."
 
 #. [leadership]
 #: Extended_Era/abilities/terror.cfg:8 Extended_Era/abilities/terror.cfg:44
 #: Extended_Era/abilities/terror.cfg:94
 msgid "terror"
-msgstr ""
+msgstr "ürkütür"
 
 #. [leadership]
 #: Extended_Era/abilities/terror.cfg:12 Extended_Era/abilities/terror.cfg:48
@@ -214,6 +261,14 @@ msgid ""
 "of the unit with Terror engages in combat, its attacks do 15% less damage "
 "times the difference in their levels + 15%."
 msgstr ""
+"Ürkütür:\n"
+"Bu birim döğüşürken yanındaki düşman birimlerin daha kötü döğüşmesine sebep "
+"olur.\n"
+"\n"
+"Düşük seviyeden komşu düşman birimler döğüşte daha az hasar verirler. Bu "
+"birimin yanında bulunan aynı seviyeden veya düşük seviyeden düşman birimler "
+"bu birimin ürkünçlüğünden dolayı saldırırken seviye farkı başına %15 daha az "
+"hasar verirler."
 
 #: Extended_Era/abilities/terror.cfg:154
 msgid ""
@@ -221,47 +276,50 @@ msgid ""
 "less damage in combat, though this only applies to units of lower or equal "
 "level."
 msgstr ""
+" Bu birimin ürkütme yeteneği yanındaki düşman birimlerin irkilmesine ve "
+"çarpışırken daha az hasar vermelerine yol açar. Bundan sadece aynı seviyeden "
+"veya daha düşük seviyeden düşman birimler etkilenir."
 
 #. [era]
 #: Extended_Era/eras/default+extended+eom.cfg:18
 msgid "Extended Era + Era of Myths + Default"
-msgstr ""
+msgstr "Gelişme Çağı + Mitler Çağı + Öntanımlı"
 
 #. [era]
 #: Extended_Era/eras/default+extended.cfg:6
 msgid "Extended Era + Default"
-msgstr ""
+msgstr "Gelişme Çağı + Öntanımlı"
 
 #. [era]
 #: Extended_Era/eras/extended.cfg:6
 msgid "Extended Era"
-msgstr ""
+msgstr "Gelişme Çağı"
 
 #. [era]
 #: Extended_Era/eras/xrpg.cfg:6
 msgid "Extended RPG"
-msgstr ""
+msgstr "Gelişkin RPG"
 
 #. [multiplayer_side]: type=Aragwaith Flagbearer
 #. [multiplayer_side]: type=Aragwaith Swordsman
 #: Extended_Era/factions/aragwaithi-extended.cfg:5
 #: Extended_Era/factions/aragwaithi-xrpg.cfg:5
 msgid "Aragwaith"
-msgstr ""
+msgstr "Aragvay"
 
 #. [multiplayer_side]: type=Chaos Magus
 #. [multiplayer_side]: type=Lesser Daemon
 #: Extended_Era/factions/chaos-extended.cfg:5
 #: Extended_Era/factions/chaos-xrpg.cfg:5
 msgid "Chaos"
-msgstr ""
+msgstr "Kaos"
 
 #. [multiplayer_side]: type=Dark Elf Captain
 #. [multiplayer_side]: type=XRPG Dark Elf Noble
 #: Extended_Era/factions/dark_elves-extended.cfg:5
 #: Extended_Era/factions/dark_elves-xrpg.cfg:5
 msgid "Dark Elves"
-msgstr ""
+msgstr "Lanetli Elfler"
 
 #. [multiplayer_side]: type=Drake Flare
 #. [multiplayer_side]: type=XRPG Drake Burner
@@ -275,37 +333,36 @@ msgstr "Ejderler"
 #: Extended_Era/factions/dwarves-xrpg.cfg:5
 #: Extended_Era/factions/dwarves-extended.cfg:5
 msgid "Dwarves"
-msgstr ""
+msgstr "Cüceler"
 
 #. [multiplayer_side]: type=Kalifa Ahadath
 #. [multiplayer_side]: type=Kalifa Ghazi
 #: Extended_Era/factions/kalifa-xrpg.cfg:5
 #: Extended_Era/factions/kalifa-extended.cfg:5
 msgid "Kalifa"
-msgstr ""
+msgstr "Emeviler"
 
 #. [multiplayer_side]: type=Lieutenant
 #. [multiplayer_side]: type=XRPG Sergeant
 #: Extended_Era/factions/loyalists-extended.cfg:5
 #: Extended_Era/factions/loyalists-xrpg.cfg:5
 msgid "Loyalists"
-msgstr "Ulusalcılar"
+msgstr "Kralcılar"
 
 #. [multiplayer_side]: type=Mermaid Initiate
 #: Extended_Era/factions/merfolk-xrpg.cfg:5
 msgid "Merfolk"
-msgstr ""
+msgstr "Su İnsanları"
 
 #. [multiplayer_side]: type=Giant Scorpion
 #: Extended_Era/factions/misc-xrpg.cfg:5
 msgid "Miscellanous"
-msgstr ""
+msgstr "Muhtelif"
 
 #. [multiplayer_side]: type=XE Naga Fighter
 #: Extended_Era/factions/nagas-xrpg.cfg:5
-#, fuzzy
 msgid "Nagas"
-msgstr "pençeleme"
+msgstr "Nagalar"
 
 #. [multiplayer_side]: type=Orcish Warrior
 #. [multiplayer_side]: type=Orcish Grunt
@@ -319,28 +376,28 @@ msgstr "Kuzeyliler"
 #: Extended_Era/factions/outlaws-extended.cfg:5
 #: Extended_Era/factions/outlaws-xrpg.cfg:5
 msgid "Outlaws"
-msgstr ""
+msgstr "Haydutlar"
 
 #. [multiplayer_side]: type=Sidhe Raindancer
 #. [multiplayer_side]: type=Sidhe Warmage
 #: Extended_Era/factions/sidhe-xrpg.cfg:5
 #: Extended_Era/factions/sidhe-extended.cfg:5
 msgid "Sidhe"
-msgstr ""
+msgstr "Siteliler"
 
 #. [multiplayer_side]: type=Steppe Vanguard
 #. [multiplayer_side]: type=XRPG Steppe Spearhead
 #: Extended_Era/factions/steppe_orcs-extended.cfg:5
 #: Extended_Era/factions/steppe_orcs-xrpg.cfg:5
 msgid "Steppe Orcs"
-msgstr ""
+msgstr "Bozkır Orkları"
 
 #. [multiplayer_side]: type=XRPG Elvish Fighter
 #. [multiplayer_side]: type=Elvish Captain
 #: Extended_Era/factions/sylvans-xrpg.cfg:5
 #: Extended_Era/factions/sylvans-extended.cfg:5
 msgid "Sylvans"
-msgstr ""
+msgstr "Ormancılar"
 
 #. [multiplayer_side]: type=XE Dark Adept
 #. [multiplayer_side]: type=XE Dark Sorcerer
@@ -352,32 +409,32 @@ msgstr "Yarı ölüler"
 #. [race]
 #: Extended_Era/races/aragwaithi.cfg:5
 msgid "race^Aragwaith Human"
-msgstr ""
+msgstr "Aragvay"
 
 #. [race]
 #: Extended_Era/races/aragwaithi.cfg:6
 msgid "race+female^Aragwaith Human"
-msgstr ""
+msgstr "Aragvay-Dişi"
 
 #. [race]
 #: Extended_Era/races/aragwaithi.cfg:7
 msgid "race^Aragwaithi"
-msgstr ""
+msgstr "Aragvaylar"
 
 #. [race]
 #: Extended_Era/races/chaos.cfg:5
 msgid "race^Demon"
-msgstr ""
+msgstr "İblis"
 
 #. [race]
 #: Extended_Era/races/chaos.cfg:6
 msgid "race+female^Demon"
-msgstr ""
+msgstr "İblis-Dişi"
 
 #. [race]
 #: Extended_Era/races/chaos.cfg:7
 msgid "race^Demons"
-msgstr ""
+msgstr "İblisler"
 
 #. [race]
 #: Extended_Era/races/chaos.cfg:10
@@ -405,6 +462,27 @@ msgid ""
 "Turiel,Urobach,Valac,Valefar,Vapula,Vassago,Verrine,Vine,Vual,Xaphan,Yeqon,"
 "Yeter'el,Yomiel,Zagan,Zaqiel,Zepar"
 msgstr ""
+"Abalam,Abbadon,Abigor,Adramaleç,Agalyarept,Agares,Apim,Akvan,Aldebaran,"
+"Aloçer,Amodusiyus,Amodusiyas,Amon,Anoniyel,Andaka,Andras,Andrelfus,"
+"Andromalyus,Antares,Apep,Araqyel,Aroç,Armaros,Asazel,Asag,Asbel,Asmodus,"
+"Astarot,Azazel,Babal,Babalberit,Balak,Balberit,Babalo,Bafomet,Barakel,Barbas,"
+"Barbatos,Batarel,Batin,Bebal,Bebelzebub,Behamot,Behemot,Belet,Belijal,"
+"Belijel,Belzebut,Bejovulf,Berit,Begur,Bezalel,Bifront,Botis,Buber,Bun,Cajim,"
+"Capal,Çarnivo,Kerberus,Çamos,Çazakel,Sorson,Daçalberit,Dagon,Danişel,"
+"Dantaligon,Dekaraba,Demogorgon,Dumafu,Eligos,Erenomos,Fomalut,Fluros,Flerus,"
+"Foralor,Foras,Forças,Fornus,Furças,Furfur,Gagap,Gaderel,Glasya-Labolas,Guson,"
+"Hagenti,Humbava,Ablis,Hipos,Jutas,Juvart,Kabanda,Karo,Kasadya,Kasdaye,"
+"Kimaris,Kobal,Kokabel,Legilon,Lempo,Lebonard,Leraje,Liks Tetraks,Lusifer,"
+"Lusifuge Rofosale,Malfas,Maltus,Mammon,Marçosis,Mariça,Mastema,Melçom,"
+"Mefisto,Mefistofoles,Mesfito,Merihim,Moloş,Moraş,Mulsiber,Murmur,Naberus,"
+"Nebiros,Nekel,Nergal,Nisroç,Ofesillet,Oliver,Orkus,Orimas,Ornimas,Orobas,Ose,"
+"Osulotep,Pan,Pasimon,Pazuzu,Penemuse,Pilegaton,Phenek,Pinem,Pithis,Piru,"
+"Pluto,Prosell,Pruflas,Purson,Pito,Piton,Rahab,Rahovart,Ramel,Ravum,Razakel,"
+"Regent,Regulus,Rimmon,Rotomago,Ronove,Ronve,Rosizer,Sabnok,Salezos,Samazel,"
+"Samigina,Samyaza,Sarizel,Satan,Satanaza,Satarizel,Sezir,Şeytan,Şamsizel,Şaks,"
+"Şezmu,Sidragasum,Sitri,Sonnillon,Soflet,Stolas,Surgat,Tabazet,Tamizel,Tannin,"
+"Tezerazal,Temeluzus,Thammuz,Turizel,Urobaz,Valaz,Valefar,Vapula,Vassago,"
+"Verrine,Vine,Vuzal,Zafan,Yekon,Zeterel,Yomizel,Zagan,Zakizel,Zepar"
 
 #. [race]
 #: Extended_Era/races/chaos.cfg:11
@@ -416,46 +494,52 @@ msgid ""
 "Onoskelis,Prosperpine,Rangda,Rusalka,Satana,Sheol,Selene,Sonnielion,Stheno,"
 "Sycorax,Taweret,Tzitzimime,Unsere,Uzza,Verrier,Vepar,Xena,Ziusudra"
 msgstr ""
+"Agizel,Agratbat-mahlat,Ammit,Ami,Arkel,Astarot,Astarte,Astoret,Barbelo,"
+"Belfegor,Bruja,Delepitore,Ezişet Zenunil,Empusa,Eryale,Gord,Gremoro,Gresil,"
+"Hezate,Astara,Kindite,Lamaştu,Lamiza,Levizatan,Lilim,Lilin,Lilitiz,Lilitu,"
+"Lusana,Mara,Medusa,Melçiresa,Melusine,Mersedes,Nazamah,Nezuralger,Onoskelis,"
+"Prosperpin,Rangda,Rusalka,Satana,Sezol,Selene,Sonnizelizon,Seteno,Sikoraks,"
+"Taveret,Tizitzimi,Unsere,Uzza,Verrizer,Vepar,Senaza,Zusudra"
 
 #. [race]
 #: Extended_Era/races/dark-elves.cfg:5
 msgid "race^Dark Elf"
-msgstr ""
+msgstr "Lanet Elf"
 
 #. [race]
 #: Extended_Era/races/dark-elves.cfg:6
 msgid "race+female^Dark Elf"
-msgstr ""
+msgstr "Lanet Elf-Dişi"
 
 #. [race]
 #: Extended_Era/races/dark-elves.cfg:7
 msgid "race^Dark Elves"
-msgstr ""
+msgstr "Lanetli Elfler"
 
 #. [trait]
 #: Extended_Era/races/dwarves.cfg:7
 msgid "armored"
-msgstr ""
+msgstr "zırhlı"
 
 #. [trait]
 #: Extended_Era/races/dwarves.cfg:8
 msgid "(+15% to all resistances, -1 movement)"
-msgstr ""
+msgstr "(tüm dirençlerde +%15, -1 hareket)"
 
 #. [race]
 #: Extended_Era/races/kalifa.cfg:5
 msgid "race^Kalifa Human"
-msgstr ""
+msgstr "Emevi"
 
 #. [race]
 #: Extended_Era/races/kalifa.cfg:6
 msgid "race+female^Kalifa Human"
-msgstr ""
+msgstr "Emevi-Dişi"
 
 #. [race]
 #: Extended_Era/races/kalifa.cfg:7
 msgid "race+plural^Kalifa"
-msgstr ""
+msgstr "Emeviler"
 
 #. [race]
 #: Extended_Era/races/kalifa.cfg:10
@@ -535,87 +619,155 @@ msgid ""
 "Yusuf,Zafar,Zafir,Zahid,Zahir,Zayd,Zaim,Zayn,Zarif,Zakarriya,Zaki,Zakwan,"
 "Ziyad,Zubayr,Zuhayr"
 msgstr ""
+"Aban,Abbas,Abbüd,Abdüladil,Abdülahad,Abdülalim,Abdülali,Abdülazim,Abdülaziz,"
+"Abdülbadi,Abdülbahir,Abdülbaki,Abdülbari,Abdülzahir,Abdülbeşir,Abdül-Beşit,"
+"Abdülfattah,Abdülgaffar,Abdülgafur,Abdülgani,Abdülhadi,Abdülhafız,Abdülhakem,"
+"Abdülhakim,Abdülhalim,Abdülhamit,Abdülhak,Abdülhasip,Abdülhey,Abdülcabbar,"
+"Abdülcelil,Abdülkerim,Abdülkadir,Abdülgalip,Abdüllatif,Abdülmalik,Abdülmecit,"
+"Abdülmetin,Abdülmupti',Abdülmugni,Abdülmuhamin,Abdülmuhsi,Abdülmuhni,"
+"Abdülmuhit,Abdülmucit,Abdülmucip,Abdülmümin,Abdülmukaddim,Abdülmuktedir,"
+"AbdülMusavvir,Abdülmutal,Abdülnafi,Abdülnezir,Abdülnasır,Abdülnur,Abdülbedir,"
+"Abdülşahap,Abdülkafi,Abdülkayyum,Abdülkudüs,Abdülrafi,Abdülrahim,Abdülrahman,"
+"Abdülreşit,Abdülrauf,Abdülrezzak,Abdülsakir,Abdültayyip,Abdülvedid,"
+"Abdülvahap,Abdülvahit,Abdülvecit,Abdülvekil,Abdülveli,Abdülvelit,Abdülverit,"
+"Abdülzahir,Abdullah,Abid,Abidin,Ebubekir,Ebu-Elhayr,Adil,Adem,Edip,Adli,"
+"Adnan,Afif,Ahmet,Acip,Akif,Akil,Akram,Ali,Alaattin,Abbas,Alicenap,Elbere,"
+"Elhakem,Elhakim,Elhasan,Elhüseyin,ElAli,Alim,Elmehdi,Elsafi,Eltaf,Eltahir,"
+"Eltayyip,Elticani,Eltufağil,Amid,Amit,Amin,Emir,Demir,Emcat,Emmar,Emro,Anas,"
+"Anis,'Antarah,Anvar,Akil,İrfan,Arif,Arrif,Esat,Esfat,Esadel,Eşref,Asaf,Asım,"
+"Esvet,Ata,Atağ,Atabey,Atıl,Atir,'Atıf,Ahfat,Avuf,Ems,Avvab,Ayhan,Ayman,Ayser,"
+"Eyüp,Aza,Azap,Azhar,Azim,Elaziz,'Azam,Bedi,Bedi-Elzaman,Bedri,Bedrettin,"
+"Bedir,Baha,Bahattin,Behiç,Bahir,Bekir,Bekri,Bali,Bandar,Bereket,Barir,Beşir,"
+"Basil,Basim,Bassam,Bayezid,Bayhas,Bilal,Bişir,Bolos,Budağil,Burhan,Buşra,"
+"Butrus,Dabir,Dani,Darviş,Davut,Dakir,Dakiy,Dakvan,Dulfikar,Dirar,Diye,"
+"Diyettin,Dukak,Fadi,Fadıl,Fadli,Fadlallah,Fahd,Fahad,Fehmi,Faysal,Faiz,Fakir,"
+"Fahrettin,Fahri,Fakih,Falah,Falih,Ferami,Ferhan,Ferit,Faruk,Farik,Faris,"
+"Faruh,Fatih,Fetih,Fahir,Fatin,Favvaz,Favzan,Fevzi,Feyyad,Ferran,Fida,Fikri,"
+"Firuz,Fuat,Fedai,Cemal,Gayt,Gali,Galip,Ganim,Gassan,Gavt,Gazvan,Giyat,Habbab,"
+"Habip,Haddad,Hadi,Hafız,Hakem,Hakim,Halim,Hamal,Hamas,Hamdan,Hamdi,Hamid,"
+"Hamim,Hamza,Hana,Hanefi,Hanbal,Hani,Hanif,Hannad,Haris,Harit,Harun,Haşim,"
+"Hasan,Hatim,Haydar,Haytam,Hayyan,Hazım,Hilal,Hilmi,Haşim,Hud,Hudad,Hudhafah,"
+"Hudhayfah,Humam,Hüseyin,Hüsam,Hüsamettin,İbrahim,İd,İdris,İhsan,İhtişam,"
+"İkrimah,İlyas,İmad,İmattin,İmran,İmtiyaz,İlham,İkbal,İrfan,İsa,İsaf,İshak,"
+"İsmail,İzzet,İyas,İzzettin,Cabbar,Cebir,Cabir,Yadallah,Cafer,Cal,Celal,"
+"Celalettin,Celil,Cemal,Cemalettin,Cemil,Celil,Casim,Cahil,Caun,Cevat,Cevdet,"
+"Cevher,Cibran,Cibril,Cubahir,Cul,Cuma,Cüneyt,Cevahir,Kader,Keder,Kadir,Halil,"
+"Kelek,Kemal,Kamil,Kerem,Erdal,Kerif,Kerim,Kesib,Kasım,Katip,Kazım,Kalaf,"
+"Haldun,Halit,Kalil,Halilalallah,Halis,Hatip,Kemalettin,Hayati,Hururi,Hulusi,"
+"Hüzeyfe,Kutaibe,Lebip,Lebleb,Latif,Layt,Ehlibeyt,Lokman,Lut,Lütfi,Maid,"
+"Medeni,Mahub,Mehdi,Mahfuz,Mahir,Mahçup,Mahmut,Mahrus,Meymun,Macit,Mecdi,"
+"Macittin,Macit,Mekin,Melik,Memduh,Mamun,Main,Mendur,Mansur,Margup,Marid,"
+"Maruf,Marvan,Marzuk,Maşal,Meşhur,Masrur,Mesut,Mahsun,Maysarah,Mazhar,Mazin,"
+"Mehmet,Mihran,Mihyar,Mikail,Mithat,Misbah,Misal,Miyaz,Muadih,Muaviye,"
+"Mugayyad,Mübarek,Mubin,Mudar,Muddatir,Müfit,Muflih,Muhab,Muhayir,Muhammet,"
+"Muhanna,Muhannad,Muhip,Muhibib,Muhsin,Muhtadi,Muhittin,Muin,Muiz,Mücap,"
+"Mücahit,Mükerrem,Muhlis,Muhtar,Mülhem,Mülhim,Muammer,Mümin,Mümtaz,Münahit,"
+"Mündir,Münib,Münif,Münir,Munis,Munşit,Munsif,Muntazır,Murat,Murit,Mürşit,"
+"Mürteda,Musa,Musap,Müşahit,Muştak,Müslih,Müslim,Mustafa,Muta,Mütazim,"
+"Mütevelli,Mümtaz,Mütena,Muti,Muvaffak,Müyesser,Muzaffer,Musammil,Naban,"
+"Nabigah,Nabih,Nabil,Nadhir,Nedim,Nadir,Nafi,Nahit,Nail,Naim,Naci,Necip,Naşit,"
+"Nacar,Necmettin,Naman,Namir,Nasah,Neşat,Naşvan,Nasip,Nasih,Nesim,Nasır,"
+"Nasrettin,Nesir,Nasri,Nasuh,Neva,Nevfal,Nayif,Nezih,Nazım,Nazmi,Nibras,Nidal,"
+"Nejad,Nimri,Nizar,Nuaym,Nuh,Nuhayd,Numair,Numan,Nurettin,Din,Nuri,Nusreh,"
+"Nusret,Ömer,Orhan,Osman,Kasım,Kays,Kodaman,Kusey,Kethüda,Küteybe,Kutbi,Kutuz,"
+"Rabah,Rabi,Radi,Rafi,Rafid,Refik,Ragıp,Rahman,Raşid,Raif,Rais,Raca,Recep,"
+"Raci,Racih,Rakin,Rami,Ramih,Ramiz,Remzi,Rani,Reşat,Raşit,Rasil,Rasin,Rasmi,"
+"Resul,Ratib,Rauf,Reyhan,Rayyan,Razin,Ridha,Rıdvan,Rihab,Riyad,Rızk,Ruhi,Rüşt,"
+"Rüştü,Ruveyde,Saad,Sadah,Sab,Sabih,Sabır,Sabri,Sad,Sadettin,Sedat,Sadid,"
+"Sadık,Sadun,Said,Safi,Seyfi,Seyfettin,Safuh,Saffah,Saffet,Saffan,Sahip,Zahir,"
+"Zahl,Şuayip,Saif,Şerafettin,Sacit,Seccat,Şakir,Salah,Selahattin,Selami,Salih,"
+"Salim,Salman,Sami,Semih,Zamir,Samman,Sakr,Sariye,Sati,Saud,Seyit,Şaban,Şadi,"
+"Şadin,Şafi,Şefik,Şedid,Şahin,Şehir,Şekip,Şakir,Şemsi,Şemsettin,Şamal,Şamil,"
+"Samim,Şeref,Şerif,Şevki,Şahap,Şehabettin,Şehit,Şuayip,Şükrü,Cumali,Sıddık,"
+"Sinan,Serace,Seracettin,Süfyan,Suphi,Sufyan,Zuhayt,Suha,Suhaym,Süleyman,"
+"Zümre,Şüreka,Suud,Tahir,Tahsin,Taymallah,Taci,Tacettin,Talal,Talip,Tamim,"
+"Tamir,Tamam,Tammam,Takiy,Tarif,Tarık,Teslim,Tevfik,Tevhid,Teymullah,Taysir,"
+"Tayyip,Tabit,Tamir,Takip,Tavap,Tavban,Hubeyde,Hubaid,Hubayi,Hüdai,Huday,"
+"Humar,Humarah,Humair,Hurvah,Huzaym,Usame,Hutbah,Utal,Utman,Faddah,Fadi,Vedid,"
+"Vefik,Vahap,Vahhab,Vahit,Vail,Vecdi,Vacit,Vecihi,Vekil,Valide,Valif,"
+"Valiyallah,Vahdettin,Vakar,Vakkas,Varid,Vasıf,Vasıl,Asım,Vezir,Yahya,Yaman,"
+"Yakup,Yaşar,Yasin,Yasir,Yazan,Yezit,Yunus,Yuşua,Yusri,Yusuf,Zafer,Zefir,"
+"Zahid,Zahir,Zayd,Zaim,Zayn,Zarif,Zekeriya,Zeki,Zakvan,Ziya,Zübayir,Zuhayır"
 
 #. [race]
 #: Extended_Era/races/kalifa.cfg:15
 msgid "race^Falcon"
-msgstr ""
+msgstr "Şahin"
 
 #. [race]
 #: Extended_Era/races/kalifa.cfg:16
 msgid "race+female^Falcon"
-msgstr ""
+msgstr "Dişi Şahin"
 
 #. [race]
 #: Extended_Era/races/kalifa.cfg:17
 msgid "race^Falcons"
-msgstr ""
+msgstr "Şahinler"
 
 #. [race]
 #: Extended_Era/races/sidhe.cfg:5
 msgid "race^Sidhe Elf"
-msgstr ""
+msgstr "Site Elfi"
 
 #. [race]
 #: Extended_Era/races/sidhe.cfg:6
 msgid "race+female^Sidhe Elf"
-msgstr ""
+msgstr "Dişi Site Elfi"
 
 #. [race]
 #: Extended_Era/races/sidhe.cfg:7
 msgid "race^Sidhe"
-msgstr ""
+msgstr "Site Elfleri"
 
 #. [race]
 #: Extended_Era/races/sidhe.cfg:15
-#, fuzzy
 msgid "race^Bear"
-msgstr "mızrak"
+msgstr "Ayı"
 
 #. [race]
 #: Extended_Era/races/sidhe.cfg:16
 msgid "race+female^Bear"
-msgstr ""
+msgstr "Dişi Ayı"
 
 #. [race]
 #: Extended_Era/races/sidhe.cfg:17
 msgid "race^Bears"
-msgstr ""
+msgstr "Ayılar"
 
 #. [race]
 #: Extended_Era/races/sylvans.cfg:5
 msgid "race^Fairy"
-msgstr ""
+msgstr "Peri"
 
 #. [race]
 #: Extended_Era/races/sylvans.cfg:6
 msgid "race+female^Fairy"
-msgstr ""
+msgstr "Dişi peri"
 
 #. [race]
 #: Extended_Era/races/sylvans.cfg:7
 msgid "race^Fairies"
-msgstr ""
+msgstr "Periler"
 
 #. [race]
 #: Extended_Era/races/wyrm-ice.cfg:5
 msgid "race^Wyrm"
-msgstr ""
+msgstr "Yılan"
 
 #. [race]
 #: Extended_Era/races/wyrm-ice.cfg:6
 msgid "race+female^Wyrm"
-msgstr ""
+msgstr "Dişi Yılan"
 
 #. [race]
 #: Extended_Era/races/wyrm-ice.cfg:7
 msgid "race^Wyrms"
-msgstr ""
+msgstr "Yılanlar"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Ancient_Banner.cfg:5
 msgid "Ancient Banner"
-msgstr ""
+msgstr "Eski Bayrak"
 
 #. [attack]: type=pierce
 #: Extended_Era/units/aragwaith/Silver_Shield.cfg:73
@@ -700,7 +852,7 @@ msgstr "kılıç"
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Archer.cfg:5
 msgid "Archer"
-msgstr ""
+msgstr "Okçu"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Archer.cfg:18
@@ -728,19 +880,19 @@ msgstr "bıçak"
 #: Extended_Era/units/nagas/Hunter.cfg:51
 #: Extended_Era/units/nagas/Assassin.cfg:39
 msgid "bow"
-msgstr "ok"
+msgstr "yay"
 
 #. [unit]: race=aragwaith
 #. [unit]: race=dark elf
 #: Extended_Era/units/aragwaith/Captain.cfg:5
 #: Extended_Era/units/dark_elves/Captain.cfg:5
 msgid "Captain"
-msgstr ""
+msgstr "Yüzbaşı"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Eagle_Master.cfg:5
 msgid "Eagle Master"
-msgstr ""
+msgstr "Kartal Süvari"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Eagle_Master.cfg:19
@@ -764,14 +916,13 @@ msgstr "tırmalar"
 #. [attack]: type=impact
 #: Extended_Era/units/aragwaith/Eagle_Master.cfg:36
 #: Extended_Era/units/aragwaith/Eagle_Rider.cfg:37
-#, fuzzy
 msgid "prey crush"
-msgstr "ezme"
+msgstr "av dalışı"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Eagle_Rider.cfg:5
 msgid "Eagle Rider"
-msgstr ""
+msgstr "Kartal Binici"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Eagle_Rider.cfg:20
@@ -785,12 +936,12 @@ msgstr ""
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Flagbearer.cfg:5
 msgid "Flagbearer"
-msgstr ""
+msgstr "Bayraktar"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Greatbow.cfg:5
 msgid "Greatbow"
-msgstr ""
+msgstr "Ağır Okçu"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Greatbow.cfg:19
@@ -807,7 +958,7 @@ msgstr ""
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Guard.cfg:5
 msgid "Guard"
-msgstr ""
+msgstr "Muhafız"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Guard.cfg:24
@@ -821,17 +972,17 @@ msgstr ""
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Guardian.cfg:5
 msgid "Guardian"
-msgstr ""
+msgstr "Ağır Muhafız"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Lancer.cfg:5
 msgid "Lancer"
-msgstr "Mızraklı şövalye"
+msgstr "Mızraklı Şövalye"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Longswordsman.cfg:5
 msgid "Longswordsman"
-msgstr ""
+msgstr "Kılıç Ustası"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Longswordsman.cfg:18
@@ -846,9 +997,8 @@ msgstr ""
 #. [attack]: type=blade
 #: Extended_Era/units/aragwaith/Longswordsman.cfg:64
 #: Extended_Era/units/aragwaith/Swordmaster.cfg:81
-#, fuzzy
 msgid "longsword"
-msgstr "kılıç"
+msgstr "uzun kılıç"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Pikeman.cfg:5
@@ -858,12 +1008,12 @@ msgstr "Kargıcı"
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Scout.cfg:5
 msgid "Scout"
-msgstr ""
+msgstr "Gözcü"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Shield_Guard.cfg:5
 msgid "Shield Guard"
-msgstr ""
+msgstr "Kalkanlı Muhafız"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Shield_Guard.cfg:24
@@ -879,12 +1029,12 @@ msgstr ""
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Silver_Shield.cfg:5
 msgid "Silver Shield"
-msgstr ""
+msgstr "Gümüş Zırhlı"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Slayer.cfg:5
 msgid "Slayer"
-msgstr ""
+msgstr "Katil"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Slayer.cfg:22
@@ -898,12 +1048,12 @@ msgstr ""
 #. [attack]: type=blade
 #: Extended_Era/units/aragwaith/Slayer.cfg:28
 msgid "glaive"
-msgstr ""
+msgstr "kılıç"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Sorcerer.cfg:5
 msgid "Aragwaith^Sorcerer"
-msgstr ""
+msgstr "Büyücü"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Sorcerer.cfg:19
@@ -930,19 +1080,19 @@ msgstr ""
 #: Extended_Era/units/outlaws/Princess.cfg:92
 #: Extended_Era/units/outlaws/Queen.cfg:95
 msgid "staff"
-msgstr "değnek"
+msgstr "asa"
 
 #. [attack]: type=fire
 #: Extended_Era/units/aragwaith/Warlock.cfg:37
 #: Extended_Era/units/aragwaith/Sorcerer.cfg:37
 #: Extended_Era/units/aragwaith/Wizard.cfg:36
 msgid "mage-bolt"
-msgstr ""
+msgstr "Büyü ışını"
 
 #. [female]
 #: Extended_Era/units/aragwaith/Sorcerer.cfg:98
 msgid "Aragwaith^Sorceress"
-msgstr ""
+msgstr "Cadı"
 
 #. [female]
 #: Extended_Era/units/aragwaith/Sorcerer.cfg:103
@@ -972,7 +1122,7 @@ msgstr ""
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Strongbow.cfg:5
 msgid "Strongbow"
-msgstr ""
+msgstr "Güçlü Okçu"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Strongbow.cfg:35
@@ -986,7 +1136,7 @@ msgstr ""
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Swordmaster.cfg:5
 msgid "Swordmaster"
-msgstr ""
+msgstr "Kılıç Hocası"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Swordmaster.cfg:20
@@ -1003,7 +1153,7 @@ msgstr ""
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Swordsman.cfg:43
 msgid "Swordsman"
-msgstr ""
+msgstr "Silahşör"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Swordsman.cfg:57
@@ -1017,7 +1167,7 @@ msgstr ""
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Warlock.cfg:5
 msgid "Aragwaith^Warlock"
-msgstr ""
+msgstr "Şaman"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Warlock.cfg:21
@@ -1031,7 +1181,7 @@ msgstr ""
 #. [female]
 #: Extended_Era/units/aragwaith/Warlock.cfg:112
 msgid "female^Warlock"
-msgstr ""
+msgstr "Dişi Şaman"
 
 #. [female]
 #: Extended_Era/units/aragwaith/Warlock.cfg:117
@@ -1048,18 +1198,17 @@ msgstr ""
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Wizard.cfg:5
 msgid "Aragwaith^Wizard"
-msgstr ""
+msgstr "Sihirbaz"
 
 #. [female]
 #: Extended_Era/units/aragwaith/Wizard.cfg:106
 msgid "female^Wizard"
-msgstr ""
+msgstr "Dişi Sihirbaz"
 
 #. [unit]: race=bear
 #: Extended_Era/units/bears/Bear.cfg:5
-#, fuzzy
 msgid "Bear"
-msgstr "mızrak"
+msgstr "Ayı"
 
 #. [unit]: race=bear
 #: Extended_Era/units/bears/Bear.cfg:18
@@ -1075,12 +1224,12 @@ msgstr ""
 #. [attack]: type=impact
 #: Extended_Era/units/bears/Young.cfg:22 Extended_Era/units/bears/Bear.cfg:23
 msgid "bearhug"
-msgstr ""
+msgstr "kucaklama"
 
 #. [unit]: race=bear
 #: Extended_Era/units/bears/Young.cfg:5
 msgid "Young Bear"
-msgstr ""
+msgstr "Genç Ayı"
 
 #. [unit]: race=bear
 #: Extended_Era/units/bears/Young.cfg:17
@@ -1097,7 +1246,7 @@ msgstr ""
 #. [unit]: race=demon
 #: Extended_Era/units/chaos/Abomination.cfg:5
 msgid "Abomination"
-msgstr ""
+msgstr "Sakırga"
 
 #. [attack]: type=impact
 #: Extended_Era/units/chaos/Lesser_Mutation.cfg:26
@@ -1110,7 +1259,7 @@ msgstr "ezme"
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Blood_Knight.cfg:5
 msgid "Blood Knight"
-msgstr ""
+msgstr "Kızıl Şövalye"
 
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Blood_Knight.cfg:21
@@ -1145,7 +1294,7 @@ msgstr "balta"
 #. [unit]: race=demon
 #: Extended_Era/units/chaos/Chaos_Daemon.cfg:5
 msgid "Chaos Daemon"
-msgstr ""
+msgstr "İblis"
 
 #. [unit]: race=demon
 #: Extended_Era/units/chaos/Greater_Daemon.cfg:21
@@ -1169,12 +1318,12 @@ msgstr "ateş topu"
 #. [female]
 #: Extended_Era/units/chaos/Chaos_Daemon.cfg:113
 msgid "female^Chaos Demon"
-msgstr ""
+msgstr "Dişi İblis"
 
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Demonologist.cfg:5
 msgid "Demonologist"
-msgstr ""
+msgstr "Yardakçı"
 
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Demonologist.cfg:26
@@ -1200,12 +1349,12 @@ msgstr ""
 #. [female]
 #: Extended_Era/units/chaos/Demonologist.cfg:171
 msgid "female^Demonologist"
-msgstr ""
+msgstr "Kaos Savaş Lordu - Dişi"
 
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Doom_Guard.cfg:5
 msgid "Doom Guard"
-msgstr ""
+msgstr "Mahşer İnfazcısı"
 
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Doom_Guard.cfg:21
@@ -1224,12 +1373,12 @@ msgstr ""
 #: Extended_Era/units/dark_elves/Lord.cfg:34
 #: Extended_Era/units/dark_elves/High_Lord.cfg:35
 msgid "shield"
-msgstr ""
+msgstr "kalkan"
 
 #. [unit]: race=demon
 #: Extended_Era/units/chaos/Evil_Crab.cfg:5
 msgid "Evil Crab"
-msgstr ""
+msgstr "Hızlı Zebani"
 
 #. [unit]: race=demon
 #: Extended_Era/units/chaos/Evil_Crab.cfg:22
@@ -1243,31 +1392,29 @@ msgstr ""
 #. [attack]: type=blade
 #: Extended_Era/units/chaos/Evil_Crab.cfg:27
 #: Extended_Era/units/chaos/Hell_Crab.cfg:28
-#, fuzzy
 msgid "pincers"
-msgstr "delme"
+msgstr "kıskaç"
 
 #. [attack]: type=cold
 #: Extended_Era/units/chaos/Evil_Crab.cfg:35
 #: Extended_Era/units/chaos/Hell_Crab.cfg:36
-#, fuzzy
 msgid "evil eye"
-msgstr "yakın"
+msgstr "kemgöz"
 
 #. [unit]: race=demon
 #: Extended_Era/units/chaos/Greater_Daemon.cfg:5
 msgid "Greater Daemon"
-msgstr ""
+msgstr "İblis Savaşçı"
 
 #. [female]
 #: Extended_Era/units/chaos/Greater_Daemon.cfg:114
 msgid "female^Greater Demon"
-msgstr ""
+msgstr "İblis Savaşçı - Dişi"
 
 #. [unit]: race=demon
 #: Extended_Era/units/chaos/Greater_Mutation.cfg:5
 msgid "Greater Mutation"
-msgstr ""
+msgstr "Mutasyon"
 
 #. [unit]: race=demon
 #: Extended_Era/units/chaos/Greater_Mutation.cfg:21
@@ -1282,7 +1429,7 @@ msgstr ""
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Headhunter.cfg:5
 msgid "Headhunter"
-msgstr ""
+msgstr "Kelle Avcısı"
 
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Headhunter.cfg:25
@@ -1302,7 +1449,7 @@ msgstr "sopa"
 #. [unit]: race=demon
 #: Extended_Era/units/chaos/Hell_Crab.cfg:5
 msgid "Hell Crab"
-msgstr ""
+msgstr "Cehennem Zebanisi"
 
 #. [unit]: race=demon
 #: Extended_Era/units/chaos/Hell_Crab.cfg:23
@@ -1317,7 +1464,7 @@ msgstr ""
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Hell_Guardian.cfg:5
 msgid "Hell Guardian"
-msgstr ""
+msgstr "Cehennem İnfazcısı"
 
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Hell_Guardian.cfg:22
@@ -1331,7 +1478,7 @@ msgstr ""
 #. [unit]: race=monster
 #: Extended_Era/units/chaos/Hound.cfg:5
 msgid "Hound"
-msgstr ""
+msgstr "Çakal"
 
 #. [unit]: race=monster
 #: Extended_Era/units/chaos/Hound.cfg:18
@@ -1396,7 +1543,7 @@ msgstr ""
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Invader.cfg:5
 msgid "Invader"
-msgstr ""
+msgstr "Saldırgan"
 
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Invader.cfg:20
@@ -1409,7 +1556,7 @@ msgstr ""
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Invoker.cfg:5
 msgid "Invoker"
-msgstr ""
+msgstr "Ruh Çağıran"
 
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Invoker.cfg:22
@@ -1425,7 +1572,7 @@ msgstr ""
 #. [female]
 #: Extended_Era/units/chaos/Invoker.cfg:116
 msgid "female^Invoker"
-msgstr ""
+msgstr "Dişi Ruh Çağıran"
 
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Knight.cfg:5
@@ -1444,17 +1591,17 @@ msgstr ""
 #. [unit]: race=demon
 #: Extended_Era/units/chaos/Lesser_Daemon.cfg:5
 msgid "Lesser Daemon"
-msgstr ""
+msgstr "Küçük İblis"
 
 #. [female]
 #: Extended_Era/units/chaos/Lesser_Daemon.cfg:106
 msgid "female^Lesser Demon"
-msgstr ""
+msgstr "Küçük İblis - Dişi"
 
 #. [unit]: race=demon
 #: Extended_Era/units/chaos/Lesser_Mutation.cfg:5
 msgid "Lesser Mutation"
-msgstr ""
+msgstr "Küçük Mutasyon"
 
 #. [unit]: race=demon
 #: Extended_Era/units/chaos/Lesser_Mutation.cfg:21
@@ -1468,7 +1615,7 @@ msgstr ""
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Magus.cfg:5
 msgid "Magus"
-msgstr ""
+msgstr "Gözbağcı"
 
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Magus.cfg:25
@@ -1484,27 +1631,27 @@ msgstr ""
 #. [female]
 #: Extended_Era/units/chaos/Magus.cfg:147
 msgid "female^Magus"
-msgstr ""
+msgstr "Dişi Gözbağcı"
 
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Marauder.cfg:5
 msgid "Marauder"
-msgstr ""
+msgstr "Yırtıcı"
 
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Overlord.cfg:5
 msgid "Overlord"
-msgstr ""
+msgstr "Kocabaş"
 
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Soulhunter.cfg:5
 msgid "Soulhunter"
-msgstr ""
+msgstr "Ruh Avcısı"
 
 #. [unit]: race=demon
 #: Extended_Era/units/chaos/Winged_Daemon.cfg:5
 msgid "Winged Daemon"
-msgstr ""
+msgstr "Kanatlı İblis"
 
 #. [unit]: race=demon
 #: Extended_Era/units/chaos/Winged_Daemon.cfg:28
@@ -1518,7 +1665,7 @@ msgstr ""
 #. [female]
 #: Extended_Era/units/chaos/Winged_Daemon.cfg:116
 msgid "female^Winged Demon"
-msgstr ""
+msgstr "Kanatlı İblis"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Captain.cfg:21
@@ -1536,7 +1683,7 @@ msgstr ""
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Cleric.cfg:5
 msgid "female^Cleric"
-msgstr ""
+msgstr "Rahip"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Cleric.cfg:22
@@ -1546,9 +1693,9 @@ msgid ""
 "they use for their sadistic pleasure. Terribly seductive, they are both "
 "feared and admired for their beauty and cruelty."
 msgstr ""
-"Bir ruhban hem sihirsel kabiliyetlerini hem de Cüceler gibi macelerini "
+"Bir ruhban hem sihirsel kabiliyetlerini hem de Cüceler gibi gürzlerini "
 "kullanırlar. Sadistik zevkleri için kullandıkları bir araçları, ilaç verme "
-"kabiliyetleri vardır. Korkunç derecede baştan çıkarıcı yartıklardır, hem "
+"kabiliyetleri vardır. Korkunç derecede baştan çıkarıcı yaratıklardır, hem "
 "güzellikleri hem de acımasızlıkları için arzulanırlar ve korkulurlar."
 
 #. [attack]: type=impact
@@ -1566,7 +1713,7 @@ msgstr ""
 #: Extended_Era/units/dark_elves/Sorceress.cfg:26
 #: Extended_Era/units/dark_elves/Cleric.cfg:27
 msgid "mace"
-msgstr "gürz"
+msgstr "topuz"
 
 #. [attack]: type=fire
 #: Extended_Era/units/dark_elves/Enchantress.cfg:31
@@ -1578,7 +1725,7 @@ msgstr ""
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Corsair.cfg:5
 msgid "Corsair"
-msgstr ""
+msgstr "Korsan"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Corsair.cfg:18
@@ -1594,7 +1741,7 @@ msgstr ""
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Enchantress.cfg:5
 msgid "female^Enchantress"
-msgstr ""
+msgstr "Büyücü Hanım"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Enchantress.cfg:18
@@ -1613,7 +1760,7 @@ msgstr ""
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Fighter.cfg:5
 msgid "Fighter"
-msgstr "Savaşçı"
+msgstr "Döğüşçü"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Fighter.cfg:24
@@ -1629,7 +1776,7 @@ msgstr ""
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/High_Lord.cfg:5
 msgid "High Lord"
-msgstr "Yüksek Lord"
+msgstr "Elf Lideri"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/High_Lord.cfg:21
@@ -1645,7 +1792,7 @@ msgstr ""
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Hunter.cfg:5
 msgid "Hunter"
-msgstr ""
+msgstr "Avcı"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Hunter.cfg:21
@@ -1671,12 +1818,12 @@ msgstr "hançer"
 #: Extended_Era/units/outlaws/Brigand.cfg:38
 #: Extended_Era/units/outlaws/Raider.cfg:46
 msgid "crossbow"
-msgstr "Tatar yayı"
+msgstr "tatar yayı"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Lizard_Master.cfg:5
 msgid "Lizard Master"
-msgstr ""
+msgstr "Sürüngen Şövalye"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Lizard_Master.cfg:19
@@ -1693,17 +1840,17 @@ msgstr ""
 #: Extended_Era/units/dark_elves/Lizard_Rider.cfg:23
 #: Extended_Era/units/dark_elves/Lizard_Master.cfg:24
 msgid "deathlance"
-msgstr "ölümmızrağı"
+msgstr "ölüm mızrağı"
 
 #. [attack]: type=blade
 #: Extended_Era/units/dark_elves/Lizard_Master.cfg:36
 msgid "bite"
-msgstr "ısır"
+msgstr "ısırma"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Lizard_Rider.cfg:5
 msgid "Lizard Rider"
-msgstr ""
+msgstr "Sürüngen Binici"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Lizard_Rider.cfg:18
@@ -1721,7 +1868,7 @@ msgstr ""
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Lord.cfg:5
 msgid "Lord"
-msgstr "Lord"
+msgstr "Lider"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Lord.cfg:20
@@ -1753,7 +1900,7 @@ msgstr ""
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Noble.cfg:5
 msgid "Noble"
-msgstr ""
+msgstr "Lider Adayı"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Noble.cfg:17
@@ -1783,7 +1930,7 @@ msgstr ""
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Sorcerer.cfg:5
 msgid "Dark Elf^Sorcerer"
-msgstr ""
+msgstr "Büyücü"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Sorcerer.cfg:19
@@ -1804,12 +1951,12 @@ msgstr ""
 #: Extended_Era/units/dark_elves/Sorcerer.cfg:24
 #: Extended_Era/units/dark_elves/Wizard.cfg:24
 msgid "dark wave"
-msgstr ""
+msgstr "kara dalga"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Sorceress.cfg:5
 msgid "Dark Elf^Sorceress"
-msgstr ""
+msgstr "Cadı"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Sorceress.cfg:21
@@ -1829,7 +1976,7 @@ msgstr ""
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Stalker.cfg:5
 msgid "Stalker"
-msgstr ""
+msgstr "İzci"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Stalker.cfg:22
@@ -1864,14 +2011,14 @@ msgstr ""
 #. [attack]: type=arcane
 #: Extended_Era/units/dark_elves/Warlock.cfg:24
 msgid "touch"
-msgstr "dokun"
+msgstr "dokunma"
 
 #. [unit]: race=sidhe
 #. [unit]: race=dark elf
 #: Extended_Era/units/sidhe/Warrior.cfg:5
 #: Extended_Era/units/dark_elves/Warrior.cfg:5
 msgid "Warrior"
-msgstr "Cengaver"
+msgstr "Savaşçı"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Warrior.cfg:17
@@ -1887,11 +2034,10 @@ msgstr ""
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Wizard.cfg:5
 msgid "Dark Elf^Wizard"
-msgstr ""
+msgstr "Sihirbaz"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Wizard.cfg:19
-#, fuzzy
 msgid ""
 "Some Dark Elves prefer studying the arcane arts over close-combat. Usually "
 "they are left to the lesser duties of the House, such as upkeep, watching "
@@ -1906,7 +2052,7 @@ msgstr ""
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Arcanister.cfg:5
 msgid "Dwarvish Arcanister"
-msgstr ""
+msgstr "Cüce Gizemci"
 
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Arcanister.cfg:24
@@ -1916,6 +2062,10 @@ msgid ""
 "that is his intent. His skill in runecrafting is unrivaled, and the glyphs "
 "he carves into his weapons and armor deflect the blows of his enemies."
 msgstr ""
+"Tüm oymacıların en güçlüsü olan Cüce Gizemci yaralı düşmanları yaralarını "
+"daha da kötüleştirerek kesin olarak ölümüne sebep olmakla ünlüdürler. Silah "
+"yahpımındaki yetenekleri tartışılmazdır. Silahlara ve zırhlara oldukları "
+"motifler düşmanın takatinin kesilmesine sebep olur."
 
 #. [attack]: type=impact
 #: Extended_Era/units/dwarves/Runemaster.cfg:28
@@ -1952,7 +2102,7 @@ msgstr ""
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Flamethower.cfg:5
 msgid "Dwarvish Flamethrower"
-msgstr ""
+msgstr "Cüce Alevkusan"
 
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Flamethower.cfg:27
@@ -1971,7 +2121,7 @@ msgstr ""
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Gyrocopter.cfg:5
 msgid "Gyrocopter"
-msgstr ""
+msgstr "Cirokopter"
 
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Gyrocopter.cfg:19
@@ -1988,12 +2138,12 @@ msgstr ""
 #: Extended_Era/units/dwarves/Gyrocopter.cfg:36
 #: Extended_Era/units/dwarves/Steamcopter.cfg:37
 msgid "bombs"
-msgstr ""
+msgstr "bomba"
 
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Runemaster.cfg:5
 msgid "Dwarvish Runemaster"
-msgstr "Cüce rünik ustası"
+msgstr "Cüce Oyma Ustası"
 
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Runemaster.cfg:23
@@ -2005,11 +2155,15 @@ msgid ""
 "their runes cause the physical blows of their enemies to deal less damage "
 "than would be expected."
 msgstr ""
+"Bir oymacının doğaüstü güçlerini bir tarafa bırakırsak yükselebileceği en "
+"yüksek mertebe Cüce Oyma Ustalığıdır. Onların yaptığı silahlar daha etkili "
+"motifler içerir, dolayısıyla bu silahlar düşmanlar üzerinde daha etkili "
+"olurlar."
 
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Runesmith.cfg:5
 msgid "Dwarvish Runesmith"
-msgstr ""
+msgstr "Cüce Oymacı"
 
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Runesmith.cfg:23
@@ -2019,11 +2173,15 @@ msgid ""
 "and accuracy, and disrupt the blows of their enemies, causing them to strike "
 "softly, weakly and on the armor of the defender."
 msgstr ""
+"Cüce Oymacılar silahların ve zırhların üzerine gizemli motifler işlemekte "
+"ustadırlar. Bu motifler oymacının okuyup üflemesi sayesinde sihirli güçler "
+"kazanırlar ve döğüşte düşmanların nefesinin kesilmesine, takatinin düşmesine "
+"ve zırhlarının zayıflamasına sebep olurlar."
 
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Runner.cfg:5
 msgid "Dwarvish Runner"
-msgstr ""
+msgstr "Hızlı Cüce"
 
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Runner.cfg:24
@@ -2036,7 +2194,7 @@ msgstr ""
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Steamcopter.cfg:5
 msgid "Steamcopter"
-msgstr ""
+msgstr "İslimkopter"
 
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Steamcopter.cfg:20
@@ -2048,7 +2206,7 @@ msgstr ""
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Steamwheel.cfg:5
 msgid "Steamwheel"
-msgstr ""
+msgstr "Atsız Araba"
 
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Steamwheel.cfg:20
@@ -2068,7 +2226,7 @@ msgstr "çarpma"
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Thunderwheel.cfg:5
 msgid "Thunderwheel"
-msgstr ""
+msgstr "Ağır Vasıta"
 
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Thunderwheel.cfg:20
@@ -2080,7 +2238,7 @@ msgstr ""
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Warwheel.cfg:5
 msgid "Warwheel"
-msgstr ""
+msgstr "Savaş Arabası"
 
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Warwheel.cfg:21
@@ -2092,7 +2250,7 @@ msgstr ""
 #. [unit]: race=wyrm
 #: Extended_Era/units/ice_wyrms/Boreal.cfg:5
 msgid "Boreal Wyrm"
-msgstr ""
+msgstr "Bora Yılanı"
 
 #. [unit]: race=wyrm
 #: Extended_Era/units/ice_wyrms/Boreal.cfg:19
@@ -2111,7 +2269,7 @@ msgstr ""
 #: Extended_Era/units/ice_wyrms/Frost.cfg:23
 #: Extended_Era/units/ice_wyrms/Mistral.cfg:23
 msgid "tail"
-msgstr ""
+msgstr "kuyruk"
 
 #. [attack]: type=cold
 #: Extended_Era/units/ice_wyrms/Ice.cfg:32
@@ -2119,14 +2277,13 @@ msgstr ""
 #: Extended_Era/units/ice_wyrms/Rime.cfg:33
 #: Extended_Era/units/ice_wyrms/Frost.cfg:32
 #: Extended_Era/units/ice_wyrms/Mistral.cfg:32
-#, fuzzy
 msgid "cold breath"
-msgstr "ateşli nefes"
+msgstr "soğuk nefes"
 
 #. [unit]: race=wyrm
 #: Extended_Era/units/ice_wyrms/Frost.cfg:5
 msgid "Frost Wyrm"
-msgstr ""
+msgstr "Dondurucu Yılan"
 
 #. [unit]: race=wyrm
 #: Extended_Era/units/ice_wyrms/Frost.cfg:18
@@ -2140,7 +2297,7 @@ msgstr ""
 #. [unit]: race=wyrm
 #: Extended_Era/units/ice_wyrms/Ice.cfg:5
 msgid "Ice Wyrm"
-msgstr ""
+msgstr "Buz Yılanı"
 
 #. [unit]: race=wyrm
 #: Extended_Era/units/ice_wyrms/Ice.cfg:18
@@ -2157,7 +2314,7 @@ msgstr ""
 #. [unit]: race=wyrm
 #: Extended_Era/units/ice_wyrms/Mistral.cfg:5
 msgid "Mistral Wyrm"
-msgstr ""
+msgstr "Karayel Yılanı"
 
 #. [unit]: race=wyrm
 #: Extended_Era/units/ice_wyrms/Mistral.cfg:18
@@ -2170,7 +2327,7 @@ msgstr ""
 #. [unit]: race=wyrm
 #: Extended_Era/units/ice_wyrms/Rime.cfg:5
 msgid "Rime Wyrm"
-msgstr ""
+msgstr "Buzul Yılanı"
 
 #. [unit]: race=wyrm
 #: Extended_Era/units/ice_wyrms/Rime.cfg:19
@@ -2183,7 +2340,7 @@ msgstr ""
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Ahadath.cfg:5
 msgid "Ahadath"
-msgstr ""
+msgstr "Hafif Piyade"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Ahadath.cfg:18
@@ -2203,12 +2360,12 @@ msgstr ""
 #: Extended_Era/units/kalifa/Elite_Ghazi.cfg:31
 #: Extended_Era/units/kalifa/Naffatun.cfg:37
 msgid "composite bow"
-msgstr ""
+msgstr "karma yay"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Amir.cfg:5
 msgid "Amir"
-msgstr ""
+msgstr "Hafif Silahşör"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Amir.cfg:18
@@ -2225,12 +2382,12 @@ msgstr ""
 #: Extended_Era/units/kalifa/Amir.cfg:31
 #: Extended_Era/units/kalifa/Immortal.cfg:40
 msgid "long sword"
-msgstr ""
+msgstr "uzun kılıç"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Arif.cfg:5
 msgid "Arif"
-msgstr ""
+msgstr "Silahşör"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Arif.cfg:18
@@ -2246,12 +2403,12 @@ msgstr ""
 #: Extended_Era/units/steppe_orcs/Stoic.cfg:31
 #: Extended_Era/units/steppe_orcs/Rigid.cfg:30
 msgid "shield bash"
-msgstr ""
+msgstr "kalkan darbesi"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Ekim.cfg:5
 msgid "Ekim"
-msgstr ""
+msgstr "Sıhhiyeci"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Ekim.cfg:24
@@ -2263,7 +2420,7 @@ msgstr ""
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Ekim_Haram.cfg:5
 msgid "Ekim Haram"
-msgstr ""
+msgstr "Hekim"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Ekim_Haram.cfg:26
@@ -2289,12 +2446,12 @@ msgstr ""
 #: Extended_Era/units/kalifa/Falcon.cfg:33
 #: Extended_Era/units/kalifa/Elder_Falcon.cfg:35
 msgid "beak"
-msgstr ""
+msgstr "gaga"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Elite_Ghazi.cfg:5
 msgid "Elite Ghazi"
-msgstr ""
+msgstr "Piyade"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Elite_Ghazi.cfg:18
@@ -2306,12 +2463,12 @@ msgstr ""
 #. [unit]: race=falcon
 #: Extended_Era/units/kalifa/Falcon.cfg:5
 msgid "Falcon"
-msgstr ""
+msgstr "Şahin"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Ghazi.cfg:5
 msgid "Ghazi"
-msgstr ""
+msgstr "Hafif piyade"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Ghazi.cfg:18
@@ -2323,7 +2480,7 @@ msgstr ""
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Ghaznid.cfg:5
 msgid "Ghaznid"
-msgstr ""
+msgstr "Ağır Şövalye"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Ghaznid.cfg:18
@@ -2338,12 +2495,12 @@ msgstr ""
 #: Extended_Era/units/kalifa/Ghulam.cfg:28
 #: Extended_Era/units/kalifa/Ghaznid.cfg:23
 msgid "lance"
-msgstr "zıpkın"
+msgstr "kargı"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Ghulam.cfg:5
 msgid "Ghulam"
-msgstr ""
+msgstr "Binici"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Ghulam.cfg:19
@@ -2356,7 +2513,7 @@ msgstr ""
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Ghulam_al_Rami.cfg:5
 msgid "Ghulam al Rami"
-msgstr ""
+msgstr "Şövalye"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Ghulam_al_Rami.cfg:20
@@ -2370,7 +2527,7 @@ msgstr ""
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Immortal.cfg:5
 msgid "Immortal"
-msgstr ""
+msgstr "Ölümcül Silahşör"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Immortal.cfg:19
@@ -2382,7 +2539,7 @@ msgstr ""
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Karadis.cfg:5
 msgid "Karadis"
-msgstr ""
+msgstr "Centilmen"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Karadis.cfg:19
@@ -2396,12 +2553,12 @@ msgstr ""
 #: Extended_Era/units/kalifa/Mamluk.cfg:25
 #: Extended_Era/units/kalifa/Karadis.cfg:24
 msgid "cavalry sword"
-msgstr ""
+msgstr "süvari kılıcı"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Life_Guard.cfg:5
 msgid "Life Guard"
-msgstr ""
+msgstr "Ağır Süvari"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Life_Guard.cfg:19
@@ -2412,7 +2569,7 @@ msgstr ""
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Mamluk.cfg:5
 msgid "Mamluk"
-msgstr ""
+msgstr "Süvari"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Mamluk.cfg:20
@@ -2424,7 +2581,7 @@ msgstr ""
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Mubarizan.cfg:5
 msgid "Mubarizan"
-msgstr ""
+msgstr "Öncü Piyade"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Mubarizan.cfg:19
@@ -2437,7 +2594,7 @@ msgstr ""
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Naffatun.cfg:5
 msgid "Naffatun"
-msgstr ""
+msgstr "Naftacı"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Naffatun.cfg:23
@@ -2452,7 +2609,7 @@ msgstr ""
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Rami.cfg:5
 msgid "Rami"
-msgstr ""
+msgstr "Okçu"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Rami.cfg:18
@@ -2471,7 +2628,7 @@ msgstr ""
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Rami_al_Nuri.cfg:5
 msgid "Rami al Nuri"
-msgstr ""
+msgstr "Uzun Okçu"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Rami_al_Nuri.cfg:19
@@ -2542,17 +2699,17 @@ msgstr ""
 #. [unit]: race=naga
 #: Extended_Era/units/nagas/Depthstalker.cfg:5
 msgid "Naga Depthstalker"
-msgstr ""
+msgstr "Naga Derin İzci"
 
 #. [female]
 #: Extended_Era/units/nagas/Depthstalker.cfg:178
 msgid "Nagini Depthstalker"
-msgstr ""
+msgstr "Naga Derin İzci"
 
 #. [unit]: race=naga
 #: Extended_Era/units/nagas/Guardian.cfg:5
 msgid "Naga Guardian"
-msgstr ""
+msgstr "Naga Muhafız"
 
 #. [unit]: race=naga
 #: Extended_Era/units/nagas/Guardian.cfg:23
@@ -2565,12 +2722,12 @@ msgstr ""
 #. [unit]: race=naga
 #: Extended_Era/units/nagas/Hunter.cfg:5
 msgid "Naga Hunter"
-msgstr ""
+msgstr "Naga Avcı"
 
 #. [unit]: race=naga
 #: Extended_Era/units/nagas/Sentinel.cfg:5
 msgid "Naga Sentinel"
-msgstr ""
+msgstr "Naga Nöbetçi"
 
 #. [unit]: race=naga
 #: Extended_Era/units/nagas/Sentinel.cfg:24
@@ -2585,7 +2742,7 @@ msgstr ""
 #. [unit]: race=naga
 #: Extended_Era/units/nagas/Warden.cfg:5
 msgid "Naga Warden"
-msgstr ""
+msgstr "Naga Nöbetçi"
 
 #. [unit]: race=naga
 #: Extended_Era/units/nagas/Warden.cfg:23
@@ -2599,7 +2756,7 @@ msgstr ""
 #. [unit]: race=orc
 #: Extended_Era/units/orcs/Shaman.cfg:5
 msgid "Orcish Shaman"
-msgstr ""
+msgstr "Ork Şamanı"
 
 #. [unit]: race=orc
 #: Extended_Era/units/orcs/Witch_Doctor.cfg:21
@@ -2643,7 +2800,7 @@ msgstr ""
 #. [unit]: race=human
 #: Extended_Era/units/outlaws/Brigand.cfg:5
 msgid "Brigand"
-msgstr ""
+msgstr "Soyguncu"
 
 #. [unit]: race=human
 #: Extended_Era/units/outlaws/Brigand.cfg:18
@@ -2653,16 +2810,20 @@ msgid ""
 "travelers.  They also carry crude crossbows but are not very skilled with "
 "them."
 msgstr ""
+"Atlıdırlar ve silah olarak köylü işi oraklardan kullanırlar. Soyguncular "
+"Wesnot’un ıssız patikalarında küçük çeteler halinde dolaşırlar ve çiftlik "
+"yaşamının ardına saklanırlar. Kaba tatar yayları da taşırlar ama iyi "
+"kullanamazlar."
 
 #. [attack]: type=blade
 #: Extended_Era/units/outlaws/Brigand.cfg:30
 msgid "sickle"
-msgstr ""
+msgstr "orak"
 
 #. [unit]: race=human
 #: Extended_Era/units/outlaws/Princess.cfg:4
 msgid "female^Outlaw Princess"
-msgstr ""
+msgstr "Batılı Prenses"
 
 #. [unit]: race=human
 #: Extended_Era/units/outlaws/Princess.cfg:23
@@ -2672,6 +2833,9 @@ msgid ""
 "the life of an Outlaw. She dreams of founding her own Queendom with the "
 "plunder she finds on the road."
 msgstr ""
+"Doğuştan soylu olan Batılı Prenses kılıç kullanmayı büyük generallerden "
+"öğrenmiştir ama o kanun kaçaklığını başarısız aristokrasinin bir sonucudur. "
+"Yollalarda yağmaladığı altınlarla kendi kraliçeliğinin hayalini kurar."
 
 #. [attack]: type=impact
 #: Extended_Era/units/outlaws/Princess.cfg:101
@@ -2682,7 +2846,7 @@ msgstr "sapan"
 #. [unit]: race=human
 #: Extended_Era/units/outlaws/Queen.cfg:4
 msgid "female^Outlaw Queen"
-msgstr ""
+msgstr "Batılı Kraliçe"
 
 #. [unit]: race=human
 #: Extended_Era/units/outlaws/Queen.cfg:26
@@ -2694,6 +2858,11 @@ msgid ""
 "Queendom with the plunder she finds on the road, and she is ever so close to "
 "that goal."
 msgstr ""
+"Doğuştan soylu olan Batılı Kraliçe kılıç kullanmayı büyük generallerden "
+"savaş taktiklerini ise bilge kişilerden öğrenmiştir, bu onu hem büyük bir "
+"savaşçı hemde büyük bir lider yapar. Ama o kanun kaçaklığını seçen "
+"aristokratlığın sonucudur. O yollalarda yağmaladığı altınlarla kendi "
+"Kraliçeliğinin hayel ediyor, ve bu hedefini başarmayada çok da yakındır."
 
 #. [unit]: race=human
 #: Extended_Era/units/outlaws/Raider.cfg:5
@@ -2718,7 +2887,7 @@ msgstr "eskrim kılıcı"
 #. [unit]: race=human
 #: Extended_Era/units/outlaws/Rogue_Mage.cfg:5
 msgid "Rogue Mage"
-msgstr ""
+msgstr "Çete Büyücüsü"
 
 #. [attack]: type=blade
 #: Extended_Era/units/outlaws/Shadow_Mage.cfg:34
@@ -2729,37 +2898,37 @@ msgstr "kısa kılıç"
 #. [attack]: type=cold
 #: Extended_Era/units/outlaws/Rogue_Mage.cfg:40
 msgid "missile"
-msgstr "misilli"
+msgstr "ışın"
 
 #. [unit]: race=human
 #: Extended_Era/units/outlaws/Shadow_Lord.cfg:5
 msgid "Shadow Lord"
-msgstr ""
+msgstr "Çete Sihirbazı"
 
 #. [attack]: type=blade
 #: Extended_Era/units/outlaws/Shadow_Lord.cfg:74
 msgid "astral blade"
-msgstr ""
+msgstr "yıldız bıçak"
 
 #. [attack]: type=cold
 #: Extended_Era/units/outlaws/Shadow_Lord.cfg:86
 msgid "shadow bolt"
-msgstr ""
+msgstr "kara şimşek"
 
 #. [attack]: type=impact
 #: Extended_Era/units/outlaws/Shadow_Lord.cfg:98
 msgid "shadow blast"
-msgstr ""
+msgstr "kara darbe"
 
 #. [unit]: race=human
 #: Extended_Era/units/outlaws/Shadow_Mage.cfg:5
 msgid "Shadow Mage"
-msgstr ""
+msgstr "Kara Büyücü"
 
 #. [attack]: type=cold
 #: Extended_Era/units/outlaws/Shadow_Mage.cfg:46
 msgid "ice blast"
-msgstr ""
+msgstr "soğuk darbe"
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Bladespinner.cfg:5
@@ -2776,7 +2945,7 @@ msgstr ""
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Blizzardlord.cfg:5
 msgid "Blizzardlord"
-msgstr ""
+msgstr "Elf Tipici"
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Blizzardlord.cfg:18
@@ -2793,12 +2962,12 @@ msgstr ""
 #: Extended_Era/units/sidhe/Snowdancer.cfg:31
 #: Extended_Era/units/sidhe/Hoarfroster.cfg:31
 msgid "snow wind"
-msgstr ""
+msgstr "tipi"
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Fury.cfg:5
 msgid "Fury"
-msgstr ""
+msgstr "Delikanlı"
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Fury.cfg:18
@@ -2822,9 +2991,8 @@ msgstr ""
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Hoarfroster.cfg:5
-#, fuzzy
 msgid "Hoarfroster"
-msgstr "ısır"
+msgstr "Elf Kırağıcı"
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Hoarfroster.cfg:17
@@ -2839,7 +3007,7 @@ msgstr ""
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Raindancer.cfg:5
 msgid "Raindancer"
-msgstr ""
+msgstr "Elf Yağmurcu"
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Raindancer.cfg:18
@@ -2876,9 +3044,8 @@ msgstr ""
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Snowdancer.cfg:5
-#, fuzzy
 msgid "Snowdancer"
-msgstr "Mızraklı şövalye"
+msgstr "Elf Kar Savaşçısı"
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Snowdancer.cfg:17
@@ -2894,7 +3061,7 @@ msgstr ""
 #. [unit]: race=undead
 #: Extended_Era/units/sidhe/Spirit_Ancestor.cfg:5
 msgid "Sidhe Ancestor"
-msgstr ""
+msgstr "Elf Dedesi"
 
 #. [unit]: race=undead
 #: Extended_Era/units/sidhe/Spirit_Ancestor.cfg:21
@@ -2910,18 +3077,18 @@ msgstr ""
 #: Extended_Era/units/sidhe/Spirit_Ancestor.cfg:26
 #: Extended_Era/units/sidhe/Spirit_Warrior.cfg:26
 msgid "ancient blade"
-msgstr ""
+msgstr "kör kılıç"
 
 #. [attack]: type=cold
 #: Extended_Era/units/sidhe/Spirit_Forefather.cfg:36
 #: Extended_Era/units/sidhe/Spirit_Ancestor.cfg:35
 msgid "requiem"
-msgstr ""
+msgstr "beddua"
 
 #. [unit]: race=undead
 #: Extended_Era/units/sidhe/Spirit_Forefather.cfg:5
 msgid "Sidhe Forefather"
-msgstr ""
+msgstr "Elf Vahıkalmış"
 
 #. [unit]: race=undead
 #: Extended_Era/units/sidhe/Spirit_Forefather.cfg:22
@@ -2934,7 +3101,7 @@ msgstr ""
 #. [unit]: race=undead
 #: Extended_Era/units/sidhe/Spirit_Warrior.cfg:5
 msgid "Warrior Spirit"
-msgstr ""
+msgstr "Elf Ahıgitmiş"
 
 #. [unit]: race=undead
 #: Extended_Era/units/sidhe/Spirit_Warrior.cfg:21
@@ -3020,7 +3187,7 @@ msgstr ""
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Wanderer.cfg:5
 msgid "Wanderer"
-msgstr ""
+msgstr "Elf Gezgin"
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Wanderer.cfg:22
@@ -3047,7 +3214,7 @@ msgstr ""
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Warmage.cfg:5
 msgid "War Mage"
-msgstr ""
+msgstr "Elf Savaş Büyücüsü"
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Warmage.cfg:17
@@ -3094,7 +3261,7 @@ msgstr ""
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Wildblade.cfg:5
 msgid "Wildblade"
-msgstr ""
+msgstr "Çılgın Bıçak"
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Wildblade.cfg:18
@@ -3133,7 +3300,7 @@ msgstr ""
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Bladesman.cfg:5
 msgid "Steppe Bladesman"
-msgstr ""
+msgstr "Tundra Başkeseni"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Bladesman.cfg:19
@@ -3152,12 +3319,12 @@ msgstr ""
 #: Extended_Era/units/steppe_orcs/Massif.cfg:25
 #: Extended_Era/units/steppe_orcs/Vanguard.cfg:39
 msgid "battle axe"
-msgstr ""
+msgstr "savaş baltası"
 
 #. [unit]: race=goblin
 #: Extended_Era/units/steppe_orcs/Flanker.cfg:5
 msgid "Steppe Flanker"
-msgstr ""
+msgstr "Goblin Yerebakan"
 
 #. [unit]: race=goblin
 #: Extended_Era/units/steppe_orcs/Flanker.cfg:20
@@ -3173,12 +3340,12 @@ msgstr ""
 #: Extended_Era/units/steppe_orcs/Flanker.cfg:34
 #: Extended_Era/units/steppe_orcs/Striker.cfg:40
 msgid "harpoon"
-msgstr ""
+msgstr "zıpkın"
 
 #. [unit]: race=goblin
 #: Extended_Era/units/steppe_orcs/Hunter.cfg:5
 msgid "Steppe Hunter"
-msgstr ""
+msgstr "Goblin Yanbakan"
 
 #. [unit]: race=goblin
 #: Extended_Era/units/steppe_orcs/Hunter.cfg:19
@@ -3194,7 +3361,7 @@ msgstr ""
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Icewind_Drover.cfg:5
 msgid "Icewind Drover"
-msgstr ""
+msgstr "Buzul Celebi"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Icewind_Drover.cfg:20
@@ -3216,14 +3383,13 @@ msgstr ""
 #: Extended_Era/units/steppe_orcs/Icewind_Master.cfg:41
 #: Extended_Era/units/steppe_orcs/Icewind_Herder.cfg:43
 #: Extended_Era/units/steppe_orcs/Icewind_Drover.cfg:41
-#, fuzzy
 msgid "frostbite"
-msgstr "ısır"
+msgstr "soğuk ısırması"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Icewind_Herder.cfg:5
 msgid "Icewind Herder"
-msgstr ""
+msgstr "Buzul Çobanı"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Icewind_Herder.cfg:22
@@ -3252,7 +3418,7 @@ msgstr ""
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Icewind_Master.cfg:5
 msgid "Icewind Master"
-msgstr ""
+msgstr "Buzul Reisi"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Icewind_Master.cfg:20
@@ -3268,7 +3434,7 @@ msgstr ""
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Juggernaut.cfg:5
 msgid "Steppe Juggernaut"
-msgstr ""
+msgstr "Tundra Topuzcusu"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Juggernaut.cfg:20
@@ -3287,12 +3453,12 @@ msgstr ""
 #: Extended_Era/units/steppe_orcs/Khan.cfg:29
 #: Extended_Era/units/steppe_orcs/Vanguard.cfg:27
 msgid "flail"
-msgstr ""
+msgstr "harman döven"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Khan.cfg:5
 msgid "Steppe Khan"
-msgstr ""
+msgstr "Tundra Lordu"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Khan.cfg:24
@@ -3313,7 +3479,7 @@ msgstr ""
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Massif.cfg:5
 msgid "Steppe Massif"
-msgstr ""
+msgstr "Tundra Şövalyesi"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Massif.cfg:20
@@ -3326,7 +3492,7 @@ msgstr ""
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Outcast.cfg:5
 msgid "Steppe Outcast"
-msgstr ""
+msgstr "Tundra Serserisi"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Outcast.cfg:20
@@ -3349,12 +3515,12 @@ msgstr ""
 #: Extended_Era/units/steppe_orcs/Outcast.cfg:25
 #: Extended_Era/units/steppe_orcs/Pariah.cfg:24
 msgid "frigid touch"
-msgstr ""
+msgstr "soğuk dokunuş"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Pariah.cfg:4
 msgid "Steppe Pariah"
-msgstr ""
+msgstr "Tundra Köylüsü"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Pariah.cfg:19
@@ -3369,7 +3535,7 @@ msgstr ""
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Rigid.cfg:5
 msgid "Steppe Rigid"
-msgstr ""
+msgstr "Tundra Savaşçısı"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Rigid.cfg:19
@@ -3385,7 +3551,7 @@ msgstr ""
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Savage.cfg:5
 msgid "Steppe Savage"
-msgstr ""
+msgstr "Tundra Delisi"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Savage.cfg:20
@@ -3403,14 +3569,13 @@ msgstr ""
 
 #. [attack]: type=impact
 #: Extended_Era/units/steppe_orcs/Savage.cfg:43
-#, fuzzy
 msgid "frenzy"
-msgstr "ateş"
+msgstr "cinnet"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Shieldbearer.cfg:5
 msgid "Steppe Shieldbearer"
-msgstr ""
+msgstr "Tundra Kalkancısı"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Shieldbearer.cfg:19
@@ -3426,7 +3591,7 @@ msgstr ""
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Skewer.cfg:5
 msgid "Steppe Skewer"
-msgstr ""
+msgstr "Tundra Kabadayısı"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Skewer.cfg:20
@@ -3441,7 +3606,7 @@ msgstr ""
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Spearhead.cfg:5
 msgid "Steppe Spearhead"
-msgstr ""
+msgstr "Tundra Gürzcüsü"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Spearhead.cfg:19
@@ -3457,9 +3622,8 @@ msgstr ""
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Spearman.cfg:5
-#, fuzzy
 msgid "Steppe Spearman"
-msgstr "Mızrakçı"
+msgstr "Tundra Mızrakçısı"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Spearman.cfg:19
@@ -3473,7 +3637,7 @@ msgstr ""
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Stoic.cfg:5
 msgid "Steppe Stoic"
-msgstr ""
+msgstr "Tundra Mankafası"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Stoic.cfg:20
@@ -3488,7 +3652,7 @@ msgstr ""
 #. [unit]: race=goblin
 #: Extended_Era/units/steppe_orcs/Striker.cfg:5
 msgid "Steppe Striker"
-msgstr ""
+msgstr "Goblin Dikbakan"
 
 #. [unit]: race=goblin
 #: Extended_Era/units/steppe_orcs/Striker.cfg:23
@@ -3502,7 +3666,7 @@ msgstr ""
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Vanguard.cfg:5
 msgid "Steppe Vanguard"
-msgstr ""
+msgstr "Tundra Gladyatörü"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Vanguard.cfg:22
@@ -3518,9 +3682,8 @@ msgstr ""
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Warrior.cfg:5
-#, fuzzy
 msgid "Steppe Warrior"
-msgstr "Cengaver"
+msgstr "Tundra Çapulcusu"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Warrior.cfg:19
@@ -3535,9 +3698,8 @@ msgstr ""
 
 #. [unit]: race=fairy
 #: Extended_Era/units/sylvan_fairies/Dryad.cfg:4
-#, fuzzy
 msgid "Dryad"
-msgstr "Yarı ölüler"
+msgstr "Elf Perisi"
 
 #. [unit]: race=fairy
 #: Extended_Era/units/sylvan_fairies/Sprite.cfg:19
@@ -3557,9 +3719,8 @@ msgstr ""
 #: Extended_Era/units/sylvan_fairies/Faerie.cfg:26
 #: Extended_Era/units/sylvan_fairies/Spirit.cfg:41
 #: Extended_Era/units/sylvan_fairies/Dryad.cfg:27
-#, fuzzy
 msgid "fire touch"
-msgstr "dokun"
+msgstr "yakma"
 
 #. [attack]: type=fire
 #: Extended_Era/units/sylvan_fairies/Sprite.cfg:36
@@ -3567,28 +3728,27 @@ msgstr "dokun"
 #: Extended_Era/units/sylvan_fairies/Spirit.cfg:54
 #: Extended_Era/units/sylvan_fairies/Dryad.cfg:37
 msgid "mystic fire"
-msgstr ""
+msgstr "mistik ateş"
 
 #. [unit]: race=fairy
 #: Extended_Era/units/sylvan_fairies/Faerie.cfg:4
 msgid "Fire Faerie"
-msgstr ""
+msgstr "Ateş Perisi"
 
 #. [unit]: race=fairy
 #: Extended_Era/units/sylvan_fairies/Spirit.cfg:4
 msgid "Faerie Spirit"
-msgstr ""
+msgstr "Peri"
 
 #. [unit]: race=fairy
 #: Extended_Era/units/sylvan_fairies/Sprite.cfg:4
-#, fuzzy
 msgid "Sprite"
-msgstr "ısır"
+msgstr "Peri"
 
 #. [unit]: race=troll
 #: Extended_Era/units/trolls/Shaman.cfg:4
 msgid "Troll Shaman"
-msgstr ""
+msgstr "Trol Şamanı"
 
 #. [unit]: race=troll
 #: Extended_Era/units/trolls/Shaman.cfg:25
@@ -3597,16 +3757,19 @@ msgid ""
 "or tough as other trolls, their true power lies in their fire magic, which "
 "they use to blast enemies with gouts of fire."
 msgstr ""
+"Trol şamanları trollerin gizemli liderleridir. Diğer troller kadar kuvvetli "
+"olmasalar da gerçek güçleri, düşmanlarına ateş toplarıyla vurmaya yarayan "
+"ateş sihirlerindedir."
 
 #. [attack]: type=fire
 #: Extended_Era/units/trolls/Shaman.cfg:42
 msgid "flame blast"
-msgstr ""
+msgstr "alev hüzmesi"
 
 #. [unit]: race=wose
 #: Extended_Era/units/woses/Shaman.cfg:6
 msgid "Wose Shaman"
-msgstr ""
+msgstr "Ağaç Şaman"
 
 #. [unit]: race=wose
 #: Extended_Era/units/woses/Shaman.cfg:26
