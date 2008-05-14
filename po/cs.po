@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Battle of Wesnoth\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2008-05-01 16:19+0200\n"
-"PO-Revision-Date: 2008-04-16 18:28+0100\n"
+"PO-Revision-Date: 2008-05-10 21:17+0100\n"
 "Last-Translator: Vladimír Slávik <slavik.vladimir@seznam.cz>\n"
 "Language-Team: Czech <wesnoth-cs-l@buchtovi.cz>\n"
 "MIME-Version: 1.0\n"
@@ -100,11 +100,8 @@ msgstr ""
 
 # Popis speciálního druhu útoku
 #: Extended_Era/abilities/attack_only.cfg:17
-#, fuzzy
 msgid " One attack of this unit cannot be used to defend."
-msgstr ""
-"Pouze k útoku:\n"
-"Tuto zbraň lze využít pouze při útoku."
+msgstr " Jeden útok jednotky nemůže být použit při obraně."
 
 # Schopnost
 #. [hides]
@@ -139,6 +136,9 @@ msgid ""
 "renders it invisible to enemies unless it is immediately adjacent or has "
 "revealed itself by attacking."
 msgstr ""
+" V podzemí (s vyjímkou osvětleného podzemí) je tato jednotka díky svému "
+"dovednému skrývání pro nepřátele neviditelná, což trvá do doby, než se "
+"nepřítel dostane těsně k ní nebo než se sama prozradí svým útokem."
 
 # Název speciálního druhu útoku
 #. [damage]
@@ -158,7 +158,7 @@ msgstr ""
 
 #: Extended_Era/abilities/defend_only.cfg:16
 msgid " One attack of this unit can only be used to defend."
-msgstr ""
+msgstr " Pouze jeden útok této jednotky může být využit při obraně."
 
 # vlastnost
 #. [skirmisher]
@@ -179,12 +179,11 @@ msgstr ""
 "spřátelené jednotky (ne však pro sebe)."
 
 #: Extended_Era/abilities/distract.cfg:17
-#, fuzzy
 msgid ""
 " This unit is capable of distracting opponents, allowing friendly units to "
 "trespass their Zones of Control and move unhindered around them."
 msgstr ""
-"Tato jednotka dokáže rozptýlit nepřátele, čímž umožní spřáteleným jednotkám "
+" Tato jednotka dokáže rozptýlit nepřátele, čímž umožní spřáteleným jednotkám "
 "procházet jejich zónami kontroly a pohybovat se kolem nich bez problémů."
 
 # Název speciálního druhu útoku
@@ -206,13 +205,12 @@ msgstr ""
 
 # Popis speciálního druhu útoku
 #: Extended_Era/abilities/dread.cfg:19
-#, fuzzy
 msgid ""
 " The dread attack of this unit, when used offensively scare the defender, "
 "lowering the damage of his retaliation."
 msgstr ""
-"Děsivý:\n"
-"Pokud útočí, odvetné údery protivníka způsobí o třetinu menší zranění."
+" Děsivý útok této jednotky, pokud je použit ofenzivně, zastraší obět útoku a "
+"sníží velikost možných zranění, způsobených jejími odvetnými údery."
 
 # Název schopnosti
 #. [resistance]
@@ -242,6 +240,9 @@ msgid ""
 "better, taking less damage in combat, though this only applies to units of "
 "lower level."
 msgstr ""
+" Důležitost této jednotky motivuje ostatní spřátelené jednotky nižší úrovně "
+"v její těsné blízkosti k lepší obraně, takže mohou obdržet během boje menší "
+"zranění."
 
 # Název schopnosti
 #. [regenerate]
@@ -268,6 +269,8 @@ msgid ""
 " This unit regenerates in forest, which allows it to heal, through not as "
 "much as stationed in a village."
 msgstr ""
+" Tato jednotka se může v lese regenerovat, čímž se vyléčí, ne však tolik, "
+"jako kdyby se nacházela ve vesnici."
 
 # Název schopnosti
 #. [leadership]
@@ -304,6 +307,9 @@ msgid ""
 "less damage in combat, though this only applies to units of lower or equal "
 "level."
 msgstr ""
+" Schopnost teroru straší nepřátele stejné nebo nižší úrovně v těsné "
+"blízkosti této jednotky a umenšuje možnost zranění, které mohou terorizující "
+"jednotce v boji udělit."
 
 #. [era]
 #: Extended_Era/eras/default+extended+eom.cfg:18
@@ -2370,11 +2376,13 @@ msgstr ""
 msgid "hammer"
 msgstr "kladivo"
 
+# Název jednotky
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Axemaster.cfg:5
 msgid "Dwarvish Axemaster"
-msgstr ""
+msgstr "Trpasličí mistr seker"
 
+# Popis jednotky
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Axemaster.cfg:25
 msgid ""
@@ -2382,6 +2390,10 @@ msgid ""
 "deadly with lightning-fast blades.  They are not the strongest fighters in "
 "the dwarvish kingdom, but are well-respected nonetheless."
 msgstr ""
+"Mistři seker představují takové podivnosti mezi trpaslíky. Jsou rychlí, "
+"mrštní, obrnění a nebezpečně dobře a přitom rychle jako blesk ovládají své "
+"sekery. Nepatří mezi nejsilnější trpasličí bojovníky, přesto jsou ostatními "
+"dosti respektováni."
 
 # Název jednotky
 #. [unit]: race=dwarf
@@ -2487,11 +2499,13 @@ msgid ""
 "softly, weakly and on the armor of the defender."
 msgstr ""
 
+# Jméno jednotky
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Runner.cfg:5
 msgid "Dwarvish Runner"
-msgstr ""
+msgstr "Trpasličí běžec"
 
+# Popis jednotky
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Runner.cfg:24
 msgid ""
@@ -2499,6 +2513,9 @@ msgid ""
 "Dwarves' natural endurance serves the runners well, who are trained to throw "
 "their axes to protect themselves on patrol."
 msgstr ""
+"Ti z trpaslíků, kteří se umí rychle pohybovat, se stávají lehce obrněnými "
+"zvědy. Přirozená trpasličí odolnost dobře slouží těmto běžcům. Jsou "
+"vycvičeni ve vrhání seker, což využívají při obraně během svých patrol."
 
 # Jméno jednotky
 #. [unit]: race=dwarf
@@ -3156,12 +3173,12 @@ msgstr ""
 #. [unit]: race=naga
 #: Extended_Era/units/nagas/Depthstalker.cfg:5
 msgid "Naga Depthstalker"
-msgstr ""
+msgstr "Naga hlubinný plížič"
 
 #. [female]
 #: Extended_Era/units/nagas/Depthstalker.cfg:178
 msgid "Nagini Depthstalker"
-msgstr ""
+msgstr "Nagini hlubinná plížička"
 
 # Jméno jednotky
 #. [unit]: race=naga
@@ -4283,8 +4300,10 @@ msgstr ""
 msgid "Steppe Skewer"
 msgstr "Stepní napichovač"
 
+# Popis jednotky
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Skewer.cfg:20
+#, fuzzy
 msgid ""
 "While orcs may not be renowned for their intellectual capacity, it is well "
 "within their powers of thinking to realise that a longer spear will allow "
@@ -4292,6 +4311,12 @@ msgid ""
 "in crafting barbed heads for their spears, further increasing their grisly "
 "effectiveness."
 msgstr ""
+"Skřeti sice nejsou proslulí svou intelektuální kapacitou, ale na poznání, že "
+"delší oštěp jim umožní napichovat své nepřátele z větší vzdálenosti, jim "
+"stačí. Navíc napichovači s rozkoší využívají na svých oštěpech ostnaté "
+"hlavice, což ještě více zvyšuje jejich strašlivou účinnost.\n"
+"\n"
+"Zvláštní rysy:"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Spearhead.cfg:5
@@ -4316,6 +4341,7 @@ msgstr ""
 msgid "Steppe Spearman"
 msgstr "Stepní kopiník"
 
+# Popis jednotky
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Spearman.cfg:19
 msgid ""
@@ -4324,6 +4350,10 @@ msgid ""
 "further usage of the axe and take up short spears. While neccesary, the "
 "change is often somewhat awkward."
 msgstr ""
+"Stepní skřeti se brzy poučili o tom, že jejich sekery nejsou vhodnými "
+"zbraněmi proti všem druhům nepřátel. Proto někteří z nich odložili své "
+"sekery a daný způsob boje a chopili se oštěpů. Byla to nutná změna i za cenu "
+"toho, že jsou často s touto zbraní poněkud neobratní."
 
 # Název jednotky
 #. [unit]: race=orc
@@ -4342,17 +4372,24 @@ msgid ""
 "him dead, only to see the hardy orc lift himself from among the corpses of "
 "the dead, raise his shield and reasume his position."
 msgstr ""
-"Tarasové jsou prostě a jednoduše řečeno ztělesněním výdrže.\n"
+"Tarasové jsou prostě a jednoduše řečeno ztělesněním výdrže. Jsou "
+"charakterističtí čirou nepoddajností a neochotou ustoupit i před těmi "
+"nejtěžšími údery. Čas od času některý nepřítel srazí tarase a myslí si o "
+"něm, že je mrtvý, aby o chvíli později zíral na to, jak tento odolný skřet "
+"vstává ze země pokryté mrtvolami, zvedá svůj štít a znovu zaujímá svou "
+"pozici.\n"
 "\n"
 "Zvláštní rysy: Protože nejsou vyzbrojeni žádnou útočnou zbraní, nemohou "
 "napadat nepřátele. Pokud jsou však sami napadnuti, provádějí odvetné údery "
 "svými štíty."
 
+# Název jednotky
 #. [unit]: race=goblin
 #: Extended_Era/units/steppe_orcs/Striker.cfg:5
 msgid "Steppe Striker"
-msgstr ""
+msgstr "Stepní napadač"
 
+# Popis jednotky
 #. [unit]: race=goblin
 #: Extended_Era/units/steppe_orcs/Striker.cfg:23
 msgid ""
@@ -4361,14 +4398,21 @@ msgid ""
 "a straight fight. Instead they dart around the main fracas, seeking to "
 "surprise distracted enemies."
 msgstr ""
+"Namísto toho, aby oslabovali své oběti a nechávali je ostatním dobíjet, "
+"chtějí napadači být těmi, kdo zasadí smrtící úder. Nicméně nevládnou "
+"dostatečnou fyzickou silou, aby mohli déle přežít v přímém boji a tak krouží "
+"kolem centra bitky, pokoušejíce se překvapit nepozorné nepřátele.  "
 
+# Název jednotky
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Vanguard.cfg:5
 msgid "Steppe Vanguard"
-msgstr ""
+msgstr "Stepní vůdce voje"
 
+# Popis jednotky
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Vanguard.cfg:22
+#, fuzzy
 msgid ""
 "Having proven themselves in battle, Vanguards start to assert their "
 "authority others. Their experience is put to use on the battlefield, where "
@@ -4378,6 +4422,18 @@ msgid ""
 "their flails with a standard battleaxe similar to that used by steppe "
 "warriors."
 msgstr ""
+"Poté, co se osvědčili v boji, začínají vojevůdci uplatňovat na ostatní svou "
+"autoritu. Jejich zkušenosti nacházejí uplatnění na bitevním poli, kde řídí "
+"akce svých druhů. Leč uprostřed bitevní vřavy nedbají na tyto nepatrnosti a "
+"jako bojovníci hodni svého jména strhávají ostatní svým příkladem. Přesto se "
+"naučili se určitým způsobem při boji kontrolovat. Proto doplnili svou "
+"výzbroj, tvořenou řemdihem, i o standardní bitevní sekeru, takovou, jakou "
+"užívají stepní válečníci.\n"
+"\n"
+"Zvláštní rysy: Pokud použijí při útoku svůj zastrašující útok řemdihem, "
+"sníží velikost možného zásahu, kterou jim může udělit jejich protivník během "
+"protiúderů. To se však projeví pouze u protivníků na stejné nebo nižší "
+"úrovni."
 
 # Název jednotky
 #. [unit]: race=orc
