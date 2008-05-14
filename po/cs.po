@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Battle of Wesnoth\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2008-05-01 16:19+0200\n"
-"PO-Revision-Date: 2008-05-10 21:17+0100\n"
+"PO-Revision-Date: 2008-05-14 21:31+0100\n"
 "Last-Translator: Vladimír Slávik <slavik.vladimir@seznam.cz>\n"
 "Language-Team: Czech <wesnoth-cs-l@buchtovi.cz>\n"
 "MIME-Version: 1.0\n"
@@ -1447,6 +1447,7 @@ msgstr "rozdrcení"
 msgid "Blood Knight"
 msgstr "Krvavý rytíř"
 
+# Popis jednotky
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Blood_Knight.cfg:21
 msgid ""
@@ -1455,6 +1456,9 @@ msgid ""
 "Lords, they promote them to the rank of Blood Knights, supreme warriors of "
 "Chaos."
 msgstr ""
+"Nejvyšší mistrovství přichází s největší obětí. Temní rytíři si otevřeli "
+"žíly a nechali se vykrvácet, neboť když chuť jejich krve uspokojí Pány "
+"Chaosu, budou povýšeni na krvavé rytíře, vrcholné válečníky Chaosu."
 
 # zbraň
 #. [attack]: type=blade
@@ -1546,7 +1550,7 @@ msgstr "výron chaosu"
 #. [attack]: type=fire
 #: Extended_Era/units/chaos/Demonologist.cfg:52
 msgid "infernal storm"
-msgstr ""
+msgstr "pekelná bouře"
 
 # Název jednotky
 #. [female]
@@ -1828,6 +1832,7 @@ msgstr ""
 msgid "Invoker"
 msgstr "Vyvolávač"
 
+# Popis jednotky
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Invoker.cfg:22
 msgid ""
@@ -1838,6 +1843,11 @@ msgid ""
 "mortal. The only difference is they have no soul, for they sold theirs to "
 "their daemonic Gods."
 msgstr ""
+"Bývají viděni v prvních liniích vpádů Chaosu. Obklopeni malými skupinami "
+"válečníků velí tito adepti ohnivých umění Chaosu předvojům chaotických hord, "
+"snažíce se tak najít nejlepší příležitost k vlastnímu postupu a povýšení. V "
+"této podobě je jejich mysl stále srovnatelná s myslí běžných smrtelníků. "
+"Liší se „jenom“ v tom, že nemají duše, neboť je zaprodali Bohům Chaosu."
 
 # Název jednotky
 #. [female]
@@ -1897,6 +1907,7 @@ msgstr ""
 msgid "Magus"
 msgstr "Magus"
 
+# Popis jednotky
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Magus.cfg:25
 msgid ""
@@ -1907,6 +1918,12 @@ msgid ""
 "turning back, but aspire to lose their humanity and succumb to the very core "
 "of Chaos."
 msgstr ""
+"Toto jsou ti, kteří shromažďují kolem sebe větší skupiny bojovníků a "
+"podporují je svou magií. Poté, co tito mágové chaosu prožili doteky "
+"démonické esence, je bystrost jejich mysli a způsob uvažování podobnější "
+"více démonu než člověku. Uvězněni mezi životní formou humanoida a démona, "
+"nesnaží se vydat zpět ke svému původu, ale usilují zbavit se zbytků humanity "
+"a podlehnout vlastní esenci Chaosu."
 
 # Název jednotky
 #. [female]
@@ -1957,6 +1974,7 @@ msgstr ""
 msgid "female^Winged Demon"
 msgstr "Okřídlená démonka"
 
+# Popis jednotky
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Captain.cfg:21
 msgid ""
@@ -1965,6 +1983,9 @@ msgid ""
 "to do their best to defend the Matron Mother with their swords and short "
 "spears."
 msgstr ""
+"Tito elfové šli příkladem ostatním vojákům a dosáhli hodnosti kapitána. "
+"Ačkoli se nikdy nestanou lordy, stále usilují co nejlépe vládnout svými meči "
+"a oštěpy k obraně Matky matek."
 
 # Název jednotky
 #. [unit]: race=dark elf
@@ -2057,6 +2078,7 @@ msgstr ""
 msgid "Fighter"
 msgstr "Bojovník"
 
+# Popis jednotky
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Fighter.cfg:24
 msgid ""
@@ -2064,6 +2086,9 @@ msgid ""
 "training. Dark Elves believe that only the best should have the honor of "
 "fighting for the Matron Mother."
 msgstr ""
+"Mnoho bojovníků, nováčků Domovské armády, zemře kvůli nedostatku zkušeností "
+"již zpočátku. Temní elfové však věří, že jejich nejčestnějším úkolem je "
+"právě bojovat za Matku matek."
 
 # Název jednotky
 #. [unit]: race=dark elf
@@ -2071,6 +2096,7 @@ msgstr ""
 msgid "High Lord"
 msgstr "Velký lord"
 
+# Popis jednotky
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/High_Lord.cfg:21
 msgid ""
@@ -2081,6 +2107,12 @@ msgid ""
 "follow them fearlessly, confident that through their Lords guidance, none "
 "can stand before them."
 msgstr ""
+"Když pobývají ve svých hradech, věnují se velkolordové běžným povinnostem, "
+"jako je dohled nad otroky nebo krmení ještěrů. Nosí jednoduchá fialová "
+"roucha a jsou vždy učesaní. Nicméně, na bitevním poli jsou odvážní a smělí "
+"jako málokdo. Po letech zkušeností znají každý použitelný trik. Jejich muži "
+"je nebojácně následují, s přesvědčením, že pod vedením velkého lorda jim "
+"nikdo nemůže odolat."
 
 # Název jednotky
 #. [unit]: race=dark elf
@@ -2188,6 +2220,7 @@ msgstr ""
 msgid "Marshal"
 msgstr "Maršál"
 
+# Popis jednotky
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Marshal.cfg:22
 msgid ""
@@ -2196,6 +2229,9 @@ msgid ""
 "Although they can never become Lords, they still strive to do their best to "
 "defend the Matron Mother with their swords and short spears."
 msgstr ""
+"Tito elfové se osvědčili v boji i mimo něj svým charakterem a způsoby. "
+"Vydobyli si pozici maršála. Ačkoli se nikdy nestanou lordy, stále usilují co "
+"nejlépe vládnout svými meči a oštěpy k obraně Matky matek."
 
 # Název jednotky
 #. [unit]: race=dark elf
@@ -2285,6 +2321,7 @@ msgstr ""
 msgid "Stalker"
 msgstr "Pronásledovatel"
 
+# Popis jednotky
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Stalker.cfg:22
 msgid ""
@@ -2292,6 +2329,9 @@ msgid ""
 "daggers and crossbows. They are completely hidden in the caves, only the "
 "thud of a dead body tells you they are near."
 msgstr ""
+"Pronásledovatelé jsou mazaní a hbití bojovníci. Umí velmi dobře ovládat jak "
+"dýky, tak kuše. V jeskyních se pohybují naprosto nepozorovaně a jen pád "
+"mrtvého těla prozradí, že jsou nablízku."
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Warlock.cfg:5
@@ -2663,6 +2703,7 @@ msgstr ""
 msgid "Mistral Wyrm"
 msgstr "Mistrálový červák"
 
+# Popis jednotky
 #. [unit]: race=wyrm
 #: Extended_Era/units/ice_wyrms/Mistral.cfg:18
 msgid ""
@@ -2670,6 +2711,9 @@ msgid ""
 "capable of flight. Called Mistral Wyrms, they are far stronger and more "
 "capable than Ice Wyrms. One would do well to avoid these creatures."
 msgstr ""
+"Ledovým červákům, kteří pobývají vysoko v horách, mohou případně narůst "
+"křídla. Jsou pak schopni letu a jsou nazýváni mistrálovými červáky. Jsou "
+"daleko silnější a schopnější než ledoví červáci. Je lépe se jim vyhnout."
 
 # Název jednotky
 #. [unit]: race=wyrm
@@ -3170,11 +3214,13 @@ msgstr ""
 "\n"
 "Zvláštní rysy:"
 
+# Název jednotky
 #. [unit]: race=naga
 #: Extended_Era/units/nagas/Depthstalker.cfg:5
 msgid "Naga Depthstalker"
 msgstr "Naga hlubinný plížič"
 
+# Název jednotky
 #. [female]
 #: Extended_Era/units/nagas/Depthstalker.cfg:178
 msgid "Nagini Depthstalker"
@@ -3659,6 +3705,7 @@ msgstr "rekviem"
 msgid "Sidhe Forefather"
 msgstr "Sidhelinský praotec"
 
+# Popis jednotky
 #. [unit]: race=undead
 #: Extended_Era/units/sidhe/Spirit_Forefather.cfg:22
 msgid ""
@@ -3666,6 +3713,9 @@ msgid ""
 "death chant, echoing through the trees, know that their silver blades are "
 "also near."
 msgstr ""
+"Největší válečníci sidhelinů stále neopouští tento svět. Pokud někdo slyší "
+"jejich mrtvolný chorál, ozvěnou rozechvívající stromy, může si být jist, že "
+"jejich stříbřité čepele jsou též nedaleko."
 
 # Název jednotky
 #. [unit]: race=undead
@@ -3981,6 +4031,7 @@ msgstr "harpuna"
 msgid "Steppe Hunter"
 msgstr "Stepní lovec"
 
+# Popis jednotky
 #. [unit]: race=goblin
 #: Extended_Era/units/steppe_orcs/Hunter.cfg:19
 msgid ""
@@ -3991,6 +4042,12 @@ msgid ""
 "use of barbed harpoons to lame prey, allowing an easier kill for their "
 "larger orcish bretheren."
 msgstr ""
+"Krutý život ve stanech na stepi rychle vyjednocuje slabé pryč od zůstavších "
+"silných. Z toho důvodu se goblinům ve stepi daří stejně špatně, jako kdekoli "
+"jinde. Ti, kteří přežijí často nacházejí uplatnění jako zvědové nebo "
+"zpracovatelé mršin. V loveckých zátazích se specializují v použití ostnatých "
+"harpun k ochromení kořisti, čímž usnadňují svým větším skřetím bratřím její "
+"ubití."
 
 # Název jednotky
 #. [unit]: race=orc
@@ -4099,8 +4156,10 @@ msgstr ""
 msgid "Icewind Master"
 msgstr "Pán severáku"
 
+# Popis jednotky
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Icewind_Master.cfg:20
+#, fuzzy
 msgid ""
 "Masters are a rare thing indeed, especially in a race with little aptitude "
 "for magic. There is almost never more then one in each generation and, as "
@@ -4109,12 +4168,22 @@ msgid ""
 "seperates them from the main clan. However the reasons for their "
 "estrangement also grant them great respect from their brethren."
 msgstr ""
+"Páni severáku jsou skutečně raritní zjevy, obzvláště u takové rasy, která k "
+"magii inklinuje velmi málo. Takřka nikdy jich nebývá víc než jeden v "
+"generaci a velmi často se stane někdo pánem až po desítky let trvající "
+"odmlce. Ti, kteří dosáhnou tohoto vrcholného postavení v řádu jsou často "
+"samotářští, neboť jejich umění je vyděluje od ostatních členů klanu. Leč to, "
+"co působuje jejich odcizení, jim též přináší mezi jejich bratřími obrovský "
+"respekt.\n"
+"\n"
+"Zvláštní rysy: Ledový útok pánů je ze své podstaty magický, takže má vždy "
+"velkou šanci zasáhnout protivníka."
 
 # Název jednotky
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Juggernaut.cfg:5
 msgid "Steppe Juggernaut"
-msgstr "Stepní kolos"
+msgstr "Stepní moloch"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Juggernaut.cfg:20
@@ -4134,15 +4203,18 @@ msgstr ""
 #: Extended_Era/units/steppe_orcs/Khan.cfg:29
 #: Extended_Era/units/steppe_orcs/Vanguard.cfg:27
 msgid "flail"
-msgstr "řemdich"
+msgstr "řemdih"
 
+# Název jednotky
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Khan.cfg:5
 msgid "Steppe Khan"
-msgstr ""
+msgstr "Stepní Chán"
 
+# Popis jednotky
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Khan.cfg:24
+#, fuzzy
 msgid ""
 "The steppe chieftains are titled Khans, serving as both statesmen and "
 "generals. They have discovered the advantages of leading from behind, urging "
@@ -4156,13 +4228,30 @@ msgid ""
 "retaining their flail, they focus on using the axe as they are considered "
 "too valuable an asset to risk in daredevil charges."
 msgstr ""
+"Stepní náčelníci jsou titulováni jako Cháni a zastávají vůdčí funkci "
+"politickou i vojenskou. Objevili výhody vedení vojska ze zálohy, ženoucí "
+"ostatní před sebou. Před bitvou se obvykle vmísí mezi své vojáky a pobízejí "
+"je hrozbami, sliby, urážkami či pouze vlastním křikem. Čímkoli, co je vybudí "
+"do vzrůstající zuřivosti. Téměř každý, kdo bojoval proti stepním skřetům, "
+"vypráví o nervy drásajícím řevu skřetích vůdců.\n"
+"Navzdory tomu, Cháni jsou připraveni okamžitě vstoupit do přímého zápasu "
+"proti takovému obzvláště smělému nepříteli, který by je k tomu vyzýval. I "
+"když stále ovládají svůj řemdih, často se zaměřují na boj se sekerou, neboť "
+"se považují za tak cenné, že nechtějí riskovat v tak pošetile odvážném "
+"způsobu boje.\n"
+"\n"
+"Zvláštní rysy: Pokud použijí při útoku svůj zastrašující útok řemdihem, "
+"sníží velikost možného zásahu, kterou jim může udělit jejich protivník během "
+"protiúderů. To se však projeví pouze u protivníků na stejné nebo nižší "
+"úrovni."
 
 # Název jednotky
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Massif.cfg:5
 msgid "Steppe Massif"
-msgstr "Stepní hřmotný kolos"
+msgstr "Stepní kolos"
 
+# Popis jednotky
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Massif.cfg:20
 msgid ""
@@ -4170,6 +4259,10 @@ msgid ""
 "many humans to lift, the hulking Massifs are a terrifying spectacle. They "
 "invariably continue their use of the battleaxe, with fearful results."
 msgstr ""
+"Mohutní kolosové, oblečení v surovém brnění s celoobličejovými helmami a "
+"pohazující si se zbraněmi, které by mnoho lidí ani neuneslo, představují "
+"děsuplná zjevení. Neustále pokračují ve výcviku boje se sekerou, jehož "
+"výsledků se lze opravdu obávat."
 
 # Název jednotky
 #. [unit]: race=orc
@@ -4238,10 +4331,12 @@ msgstr ""
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Rigid.cfg:5
 msgid "Steppe Rigid"
-msgstr "Stepní pavéza"
+msgstr "Stepní pavéz"
 
+# Popis jednotky
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Rigid.cfg:19
+#, fuzzy
 msgid ""
 "Aptly named, the Rigid are a near unbreakable foe. They often form fall-back "
 "positions behind the battle lines. Many a time the Rigid have been "
@@ -4250,6 +4345,16 @@ msgid ""
 "glorious one and usually comes to an end jammed into a choke point against "
 "hopeless odds."
 msgstr ""
+"Dle svého jména, Pavézi jsou témeř neproniknutelní protivníci. Často vytváří "
+"záložní ústupovou pozici za bitevní linií. Častokrát byli Pavézi obětováni, "
+"zdržujíce nepřítele, zatímco se hlavní síly zotavovaly a přeskupovaly za "
+"neoblomnou stěnou svalů, kostí a železa. Jejich úloha jen těžko přináší "
+"slávu a obvykle nastupují na ty beznadějné pozice, které je třeba ucpat a "
+"přiškrtit postup.\n"
+"\n"
+"Zvláštní rysy: Protože nejsou vyzbrojeni žádnou útočnou zbraní, nemohou "
+"napadat nepřátele. Pokud jsou však sami napadnuti, provádějí odvetné údery "
+"svými štíty."
 
 # Název jednotky
 #. [unit]: race=orc
@@ -4283,8 +4388,10 @@ msgstr "záchvat zuřivosti"
 msgid "Steppe Shieldbearer"
 msgstr "Stepní štítonoš"
 
+# Popis jednotky
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Shieldbearer.cfg:19
+#, fuzzy
 msgid ""
 "Some soldiers are given a special role, quite different from any of their "
 "comrades. Shieldbearers carry no real weapon at all. Their unique duty is to "
@@ -4293,6 +4400,16 @@ msgid ""
 "often been said by the Steppe Orcs that while the Shieldbearers have never "
 "secured victory, they have numerous times prevented utter defeat."
 msgstr ""
+"Někteří vojáci dostávají speciální úkoly, odlišné od těch, které plní jejich "
+"spolubojovníci. Štítonoši nemají v podstatě žádnou zbraň. Jejich jedinečným "
+"úkolem je chránit zraněné, obsazovat mezery v liniích a v případě, že hrozí "
+"porážka, udržet nepřítele dostatečně dlouho na to, aby kryli ústup. Jak se "
+"již mnohokrát mezi skřety tradovalo, štítonoši sice nikdy nezajistili "
+"vítězství, ale mnohokrát zabránili hořké porážce.\n"
+"\n"
+"Zvláštní rysy: Protože nejsou vyzbrojeni žádnou útočnou zbraní, nemohou "
+"napadat nepřátele. Pokud jsou však sami napadnuti, provádějí odvetné údery "
+"svými štíty."
 
 # Název jednotky
 #. [unit]: race=orc
@@ -4318,13 +4435,16 @@ msgstr ""
 "\n"
 "Zvláštní rysy:"
 
+# Název jednotky
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Spearhead.cfg:5
 msgid "Steppe Spearhead"
-msgstr ""
+msgstr "Stepní úderník"
 
+# Popis jednotky
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Spearhead.cfg:19
+#, fuzzy
 msgid ""
 "Any Steppe Orcs wishing to lead their comrades must first show their worth "
 "in battle. Spearheads lead the charge into the enemy, seeking to crash a "
@@ -4334,6 +4454,18 @@ msgid ""
 "effective weapons. A weight attached to a chain makes a perfectly servicable "
 "flail."
 msgstr ""
+"Jakýkoli stepní skřet, který by se chtěl stát vůdcem, musí nejprve ukázat "
+"svou hodnotu v boji. Úderníci útočí v čelních náporech na nepřítele a snaží "
+"se tak vytvořit díru v jeho obraně. Jejich pozice mohou být nazývany "
+"přinejmenším jako nebezpečné. Jejich nedočkavost po průlomu je pravidelně "
+"příčinou krvavého konce. Jejich krutou, ale často efektivní taktiku doplňuje "
+"odpovídající krutá, ale efektivní výzbroj. Těžká koule na řetěze vytváří "
+"dokonale fungující řemdih.\n"
+"\n"
+"Zvláštní rysy: Pokud použijí při útoku svůj zastrašující útok řemdihem, "
+"sníží velikost možného zásahu, kterou jim může udělit jejich protivník během "
+"protiúderů. To se však projeví pouze u protivníků na stejné nebo nižší "
+"úrovni."
 
 # Název jednotky
 #. [unit]: race=orc
@@ -4374,7 +4506,7 @@ msgid ""
 msgstr ""
 "Tarasové jsou prostě a jednoduše řečeno ztělesněním výdrže. Jsou "
 "charakterističtí čirou nepoddajností a neochotou ustoupit i před těmi "
-"nejtěžšími údery. Čas od času některý nepřítel srazí tarase a myslí si o "
+"nejtěžšími údery. Čas od času některý nepřítel srazí tarasa a myslí si o "
 "něm, že je mrtvý, aby o chvíli později zíral na to, jak tento odolný skřet "
 "vstává ze země pokryté mrtvolami, zvedá svůj štít a znovu zaujímá svou "
 "pozici.\n"
