@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Battle of Wesnoth\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2008-05-01 16:19+0200\n"
-"PO-Revision-Date: 2008-05-14 21:31+0100\n"
+"PO-Revision-Date: 2008-06-02 18:39+0100\n"
 "Last-Translator: Vladimír Slávik <slavik.vladimir@seznam.cz>\n"
 "Language-Team: Czech <wesnoth-cs-l@buchtovi.cz>\n"
 "MIME-Version: 1.0\n"
@@ -1166,7 +1166,6 @@ msgstr "Aragwaitský kouzelník"
 # Popis jednotky
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Sorcerer.cfg:19
-#, fuzzy
 msgid ""
 "Sorcerers are like the wind they can stand in front of you and one second "
 "later behind you. On the battlefield they are fearful enemies and even the "
@@ -1175,9 +1174,7 @@ msgid ""
 msgstr ""
 "Kouzelníci dovedou být jako vítr, v jednu chvíli stojí ještě před někým a o "
 "chvilku později již za ním. Na bojišti platí za obávané nepřátele. I sami "
-"Aragwaiti je bedlivě sledují radši dokonce už ze vzdálenosti stovky stop.\n"
-"\n"
-"Zvláštní rysy:"
+"Aragwaiti je bedlivě sledují radši dokonce už ze vzdálenosti stovky stop."
 
 # zbraň
 #. [attack]: type=impact
@@ -1238,7 +1235,6 @@ msgstr "Kopiník"
 # Popis jednotky
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Spearman.cfg:18
-#, fuzzy
 msgid ""
 "The less dextrous and stronger Aragwaith take up the spear. Useful in "
 "hunting, this weapon is also deadly on the battlefield. Many impetuous "
@@ -1247,9 +1243,7 @@ msgid ""
 msgstr ""
 "Méně obratní, zároveň však silnější Aragwaiti si volí za svou zbraň oštěp. "
 "Je to zbraň využitelná pro lov, ale i pro smrtící boj. Mnoho zbrklých rytířů "
-"nebo jejich koní už skončilo napíchnuto na jejich hrotech.\n"
-"\n"
-"Zvláštní rysy:"
+"nebo jejich koní už skončilo napíchnuto na jejich hrotech."
 
 # Název jednotky
 #. [unit]: race=aragwaith
@@ -1319,7 +1313,6 @@ msgstr "Aragwaitský černokněžník"
 # Popis jednotky
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Warlock.cfg:21
-#, fuzzy
 msgid ""
 "The magically inclined among the Aragwaith recieve not only the martial "
 "training so common in Aragwaithi society, but also in the art of healing, "
@@ -1329,9 +1322,7 @@ msgstr ""
 "K magii inklinující Aragwaité neprocházejí pouze bojovým výcvikem jako "
 "ostatní, ale také výcvikem v umění léčení a samozřejmě v magii. "
 "Černokněžníci, třímající své ohnivé hole a ovládající doteky uzdravení, jsou "
-"ti nejvznešenější ze vznešených Aragwaitů.\n"
-"\n"
-"Zvláštní rysy:"
+"ti nejvznešenější ze vznešených Aragwaitů."
 
 # Název jednotky
 #. [female]
@@ -1717,15 +1708,12 @@ msgstr "Lovecký pes"
 # Popis jednotky
 #. [unit]: race=monster
 #: Extended_Era/units/chaos/Hound.cfg:18
-#, fuzzy
 msgid ""
 "Trained hunting dog are ferocious animals, eager to attack in an "
 "uncontrolled frenzy."
 msgstr ""
-"Cvičení lovečtí psy jsou zuřivá zvířata, dychtící s nekontrolovatelnou "
-"posedlostí po boji.\n"
-"\n"
-"Zvláštní rysy:"
+"Cvičení lovečtí psi jsou zuřivá zvířata, dychtící s nekontrolovatelnou "
+"posedlostí po boji."
 
 # zbraň
 #. [attack]: type=blade
@@ -1744,7 +1732,6 @@ msgstr "Lidožravý pes"
 # Popis jednotky
 #. [unit]: race=monster
 #: Extended_Era/units/chaos/Hound_Flesh.cfg:19
-#, fuzzy
 msgid ""
 "A hound that becomes a host for a lesser daemon turns into a flesh hound. "
 "The unnatural fusion gives them a strange half dog, half human. With a "
@@ -1754,9 +1741,7 @@ msgstr ""
 "Lovecký pes, který se stal hostitelem nižšího démona se mění na lidožravého "
 "psa. Tato nepřirozená transformace z něj dělá napůl psa, napůl humanoida. S "
 "démonickou chytrostí a psími instinkty pasou tito svalnatí zběsilci po pachu "
-"a chuti krve.\n"
-"\n"
-"Zvláštní rysy: "
+"a chuti krve."
 
 # zbraň
 #. [attack]: type=impact
@@ -1774,15 +1759,12 @@ msgstr "Vzteklý pes"
 # Popis jednotky
 #. [unit]: race=monster
 #: Extended_Era/units/chaos/Hound_Rabid.cfg:18
-#, fuzzy
 msgid ""
 "Dog infused with chaotic magic turn rabid. The magic degrades their mind and "
 "turns them into slavering beasts that hunger for bloodshed."
 msgstr ""
 "Psi „naočkovaní“ magií chaosu se stávájí vzteklými. Tato magie spoutá jejich "
-"mysl a promění je v otrocky poslušné zrůdy, žíznící po krveprolití.\n"
-"\n"
-"Zvláštní rysy: "
+"mysl a promění je v otrocky poslušné zrůdy, žíznící po krveprolití."
 
 # Jméno jednotky
 #. [unit]: race=monster
@@ -1793,7 +1775,6 @@ msgstr "Padlý pes"
 # Popis jednotky
 #. [unit]: race=monster
 #: Extended_Era/units/chaos/Hound_Warp.cfg:19
-#, fuzzy
 msgid ""
 "With time, Rabid Hounds become mutated by the insidious magic of chaos "
 "flowing through their bodies. They grow horns and other demonic traits, "
@@ -1803,9 +1784,7 @@ msgstr ""
 "Vzteklí psi postupně mutují vlivem zákeřné magie chaosu, která koluje jejich "
 "těly. Narostou jim rohy a získají i další rysy, typické pro démony. Stanou "
 "se z nich padlí psi. Jejich jedinou touhou je roztrhat a rozpárat své "
-"nepřátele.\n"
-"\n"
-"Zvláštní rysy: "
+"nepřátele."
 
 # Jméno jednotky
 #. [unit]: race=human
@@ -3169,7 +3148,6 @@ msgstr "Nága hlubinný slídič"
 #. [unit]: race=naga
 #: Extended_Era/units/nagas/Depthstalker.cfg:21
 #: Extended_Era/units/nagas/Depthprowler.cfg:21
-#, fuzzy
 msgid ""
 "Some nagas, whether through cowardice or cunning, develop a knack for "
 "surviving in darker depths of the water. After special training, this "
@@ -3181,10 +3159,7 @@ msgstr ""
 "dovednost přežití v temných hlubinách vod. Po zvláštním výcviku jsou schopny "
 "toto umění rozvinout do naprosto odlišného, přesto však smrtícího způsobu "
 "boje, než je u nág obvyklé. Hlubinní slídiči jsou obzvláště oceňováni jako "
-"ochránci mláďat, neboť stráží vejce umístěná v skrytých podvodních "
-"jeskyních.\n"
-"\n"
-"Zvláštní rysy:"
+"ochránci mláďat, neboť stráží vejce umístěná v skrytých podvodních jeskyních."
 
 # Název jednotky
 #. [female]
@@ -3295,7 +3270,6 @@ msgstr "Skřetí šaman"
 #. [unit]: race=orc
 #: Extended_Era/units/orcs/Witch_Doctor.cfg:21
 #: Extended_Era/units/orcs/Shaman.cfg:20
-#, fuzzy
 msgid ""
 "Orcish Shamans are the guardians of orcish magic. Respected among orcish "
 "tribes, they form the Orcish Council, which makes important decisions for "
@@ -3309,9 +3283,7 @@ msgstr ""
 "týkajících se celé  komunity a soudí mnoho kmenových konfliktů, které lehce "
 "vznikají vzhledem k hádavé povaze této rasy. I když jsou šamani ve srovnání "
 "s ostatními skřety fyzicky slabí, jsou dobrými vrhači kouzel a mohou proklít "
-"své nepřátele a tak vysávat jejich život.\n"
-"\n"
-"Zvláštní rysy: "
+"své nepřátele a tak vysávat jejich život."
 
 # zbraň
 #. [attack]: type=cold
@@ -3942,7 +3914,7 @@ msgstr ""
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Windlasher.cfg:5
 msgid "Windlasher"
-msgstr ""
+msgstr "Mrskač větrů"
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Windlasher.cfg:17
@@ -3951,6 +3923,9 @@ msgid ""
 "one. He must stop the training in arms and devote himself to the study of "
 "magic. Few choose this path, but it is a worthy one."
 msgstr ""
+"Sidhelin, kteří se rozhodne pro život mrskače větrů si vybírá těžký úděl. "
+"Musí opustit bojový výcvik a zasvětit se studiu magie. Jen málo se vydá "
+"touto cestou, ale ti kdo si ji zvolí, jsou velmi ceněni. "
 
 # Název jednotky
 #. [unit]: race=sidhe
@@ -4058,7 +4033,6 @@ msgstr "Honák severáku"
 # Popis jednotky
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Icewind_Drover.cfg:20
-#, fuzzy
 msgid ""
 "A Herder of sufficiant ability can become what the Steppe Orcs call a "
 "Drover, the elite of the IceWind order. With age and experience in the "
@@ -4081,10 +4055,7 @@ msgstr ""
 "Ostatní skřeti si též všímají jejich modrého zabarvení, které prostupuje "
 "běžnou hnědou skřetí pokožkou a krystalizuje v tvrdých útvarech na jejím "
 "povrchu. Špitají si mezi sebou, že je to způsobeno tím, že honákům neproudí "
-"v těle krev, ale led.\n"
-"\n"
-"Zvláštní rysy: Ledový útok honáků je ze své podstaty magický, takže má vždy "
-"velkou šanci zasáhnout protivníka."
+"v těle krev, ale led."
 
 # zbraň
 #. [attack]: type=cold
@@ -4103,7 +4074,6 @@ msgstr "Pastýř severáku"
 # Popis jednotky
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Icewind_Herder.cfg:22
-#, fuzzy
 msgid ""
 "There is an old tale about the creation of the the IceWind order: A gang of "
 "children were fishing when a very young female, hooking something bigger "
@@ -4144,11 +4114,7 @@ msgstr ""
 "jako „sjednocení“. Během jejího života se stal řád plně akceptovanou "
 "součástí klanu.\n"
 "Nikdy nevyjasnila, co se událo v ledové nádrži. Toto tajemství si vzala s "
-"sebou do hrobu, když za mnoho let poté zemřela.\n"
-"\n"
-"Zvláštní rysy: V bitvě jsou schopni pastýři vykouzlit oblast smrtícího "
-"chladu. Ten je ze své podstaty magický, takže má vždy velkou šanci zasáhnout "
-"protivníka."
+"sebou do hrobu, když za mnoho let poté zemřela."
 
 # Název jednotky
 #. [unit]: race=orc
@@ -4159,7 +4125,6 @@ msgstr "Pán severáku"
 # Popis jednotky
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Icewind_Master.cfg:20
-#, fuzzy
 msgid ""
 "Masters are a rare thing indeed, especially in a race with little aptitude "
 "for magic. There is almost never more then one in each generation and, as "
@@ -4174,10 +4139,7 @@ msgstr ""
 "odmlce. Ti, kteří dosáhnou tohoto vrcholného postavení v řádu jsou často "
 "samotářští, neboť jejich umění je vyděluje od ostatních členů klanu. Leč to, "
 "co působuje jejich odcizení, jim též přináší mezi jejich bratřími obrovský "
-"respekt.\n"
-"\n"
-"Zvláštní rysy: Ledový útok pánů je ze své podstaty magický, takže má vždy "
-"velkou šanci zasáhnout protivníka."
+"respekt."
 
 # Název jednotky
 #. [unit]: race=orc
@@ -4214,7 +4176,6 @@ msgstr "Stepní Chán"
 # Popis jednotky
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Khan.cfg:24
-#, fuzzy
 msgid ""
 "The steppe chieftains are titled Khans, serving as both statesmen and "
 "generals. They have discovered the advantages of leading from behind, urging "
@@ -4238,12 +4199,7 @@ msgstr ""
 "proti takovému obzvláště smělému nepříteli, který by je k tomu vyzýval. I "
 "když stále ovládají svůj řemdih, často se zaměřují na boj se sekerou, neboť "
 "se považují za tak cenné, že nechtějí riskovat v tak pošetile odvážném "
-"způsobu boje.\n"
-"\n"
-"Zvláštní rysy: Pokud použijí při útoku svůj zastrašující útok řemdihem, "
-"sníží velikost možného zásahu, kterou jim může udělit jejich protivník během "
-"protiúderů. To se však projeví pouze u protivníků na stejné nebo nižší "
-"úrovni."
+"způsobu boje."
 
 # Název jednotky
 #. [unit]: race=orc
@@ -4273,7 +4229,6 @@ msgstr "Stepní odpadlík"
 # Popis jednotky
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Outcast.cfg:20
-#, fuzzy
 msgid ""
 "Not all initiates to the IceWind order are successful. Some lack the "
 "necessary patience, others are found wanting in mental edurance. However "
@@ -4299,10 +4254,7 @@ msgstr ""
 "sektu na okraji kmenové společnosti.\n"
 "Magie odpadlíků má nepopiratelně jen hrubou formu, dokáže být však velmi "
 "účinná. Nicméně odstoupili od mystického sjednocování se se svou ledovou "
-"identitou, která zůstala doménou pastýřů.\n"
-"\n"
-"Zvláštní rysy: Útok odpadlíka je magický, takže má vždy velkou šanci "
-"zasáhnout protivníka."
+"identitou, která zůstala doménou pastýřů."
 
 # zbraň
 #. [attack]: type=cold
@@ -4336,7 +4288,6 @@ msgstr "Stepní pavéz"
 # Popis jednotky
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Rigid.cfg:19
-#, fuzzy
 msgid ""
 "Aptly named, the Rigid are a near unbreakable foe. They often form fall-back "
 "positions behind the battle lines. Many a time the Rigid have been "
@@ -4350,11 +4301,7 @@ msgstr ""
 "zdržujíce nepřítele, zatímco se hlavní síly zotavovaly a přeskupovaly za "
 "neoblomnou stěnou svalů, kostí a železa. Jejich úloha jen těžko přináší "
 "slávu a obvykle nastupují na ty beznadějné pozice, které je třeba ucpat a "
-"přiškrtit postup.\n"
-"\n"
-"Zvláštní rysy: Protože nejsou vyzbrojeni žádnou útočnou zbraní, nemohou "
-"napadat nepřátele. Pokud jsou však sami napadnuti, provádějí odvetné údery "
-"svými štíty."
+"přiškrtit postup."
 
 # Název jednotky
 #. [unit]: race=orc
@@ -4391,7 +4338,6 @@ msgstr "Stepní štítonoš"
 # Popis jednotky
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Shieldbearer.cfg:19
-#, fuzzy
 msgid ""
 "Some soldiers are given a special role, quite different from any of their "
 "comrades. Shieldbearers carry no real weapon at all. Their unique duty is to "
@@ -4405,11 +4351,7 @@ msgstr ""
 "úkolem je chránit zraněné, obsazovat mezery v liniích a v případě, že hrozí "
 "porážka, udržet nepřítele dostatečně dlouho na to, aby kryli ústup. Jak se "
 "již mnohokrát mezi skřety tradovalo, štítonoši sice nikdy nezajistili "
-"vítězství, ale mnohokrát zabránili hořké porážce.\n"
-"\n"
-"Zvláštní rysy: Protože nejsou vyzbrojeni žádnou útočnou zbraní, nemohou "
-"napadat nepřátele. Pokud jsou však sami napadnuti, provádějí odvetné údery "
-"svými štíty."
+"vítězství, ale mnohokrát zabránili hořké porážce."
 
 # Název jednotky
 #. [unit]: race=orc
@@ -4420,7 +4362,6 @@ msgstr "Stepní napichovač"
 # Popis jednotky
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Skewer.cfg:20
-#, fuzzy
 msgid ""
 "While orcs may not be renowned for their intellectual capacity, it is well "
 "within their powers of thinking to realise that a longer spear will allow "
@@ -4431,9 +4372,7 @@ msgstr ""
 "Skřeti sice nejsou proslulí svou intelektuální kapacitou, ale na poznání, že "
 "delší oštěp jim umožní napichovat své nepřátele z větší vzdálenosti, jim "
 "stačí. Navíc napichovači s rozkoší využívají na svých oštěpech ostnaté "
-"hlavice, což ještě více zvyšuje jejich strašlivou účinnost.\n"
-"\n"
-"Zvláštní rysy:"
+"hlavice, což ještě více zvyšuje jejich strašlivou účinnost."
 
 # Název jednotky
 #. [unit]: race=orc
@@ -4444,7 +4383,6 @@ msgstr "Stepní úderník"
 # Popis jednotky
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Spearhead.cfg:19
-#, fuzzy
 msgid ""
 "Any Steppe Orcs wishing to lead their comrades must first show their worth "
 "in battle. Spearheads lead the charge into the enemy, seeking to crash a "
@@ -4460,12 +4398,7 @@ msgstr ""
 "přinejmenším jako nebezpečné. Jejich nedočkavost po průlomu je pravidelně "
 "příčinou krvavého konce. Jejich krutou, ale často efektivní taktiku doplňuje "
 "odpovídající krutá, ale efektivní výzbroj. Těžká koule na řetěze vytváří "
-"dokonale fungující řemdih.\n"
-"\n"
-"Zvláštní rysy: Pokud použijí při útoku svůj zastrašující útok řemdihem, "
-"sníží velikost možného zásahu, kterou jim může udělit jejich protivník během "
-"protiúderů. To se však projeví pouze u protivníků na stejné nebo nižší "
-"úrovni."
+"dokonale fungující řemdih."
 
 # Název jednotky
 #. [unit]: race=orc
@@ -4496,7 +4429,6 @@ msgstr "Stepní taras"
 # Popis jednotky
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Stoic.cfg:20
-#, fuzzy
 msgid ""
 "The Stoic are embodiments of endurance, plain and simple. They are "
 "characterized by sheer stubbornness and refusal to go down even under the "
@@ -4509,11 +4441,7 @@ msgstr ""
 "nejtěžšími údery. Čas od času některý nepřítel srazí tarasa a myslí si o "
 "něm, že je mrtvý, aby o chvíli později zíral na to, jak tento odolný skřet "
 "vstává ze země pokryté mrtvolami, zvedá svůj štít a znovu zaujímá svou "
-"pozici.\n"
-"\n"
-"Zvláštní rysy: Protože nejsou vyzbrojeni žádnou útočnou zbraní, nemohou "
-"napadat nepřátele. Pokud jsou však sami napadnuti, provádějí odvetné údery "
-"svými štíty."
+"pozici."
 
 # Název jednotky
 #. [unit]: race=goblin
@@ -4544,7 +4472,6 @@ msgstr "Stepní vůdce voje"
 # Popis jednotky
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Vanguard.cfg:22
-#, fuzzy
 msgid ""
 "Having proven themselves in battle, Vanguards start to assert their "
 "authority others. Their experience is put to use on the battlefield, where "
@@ -4560,12 +4487,7 @@ msgstr ""
 "jako bojovníci hodni svého jména strhávají ostatní svým příkladem. Přesto se "
 "naučili se určitým způsobem při boji kontrolovat. Proto doplnili svou "
 "výzbroj, tvořenou řemdihem, i o standardní bitevní sekeru, takovou, jakou "
-"užívají stepní válečníci.\n"
-"\n"
-"Zvláštní rysy: Pokud použijí při útoku svůj zastrašující útok řemdihem, "
-"sníží velikost možného zásahu, kterou jim může udělit jejich protivník během "
-"protiúderů. To se však projeví pouze u protivníků na stejné nebo nižší "
-"úrovni."
+"užívají stepní válečníci."
 
 # Název jednotky
 #. [unit]: race=orc
@@ -4596,7 +4518,6 @@ msgstr "Dryáda"
 #: Extended_Era/units/sylvan_fairies/Faerie.cfg:19
 #: Extended_Era/units/sylvan_fairies/Spirit.cfg:34
 #: Extended_Era/units/sylvan_fairies/Dryad.cfg:20
-#, fuzzy
 msgid ""
 "Mischievous in nature, these fiery fairies are pranksters at heart, with a "
 "sense of humor that is often called nymph-like. While their command of the "
@@ -4606,11 +4527,9 @@ msgid ""
 msgstr ""
 "Od přirozenosti rozpustilé ohnivé víly jsou ve svém nitru šprýmařky se "
 "smyslem pro nymfí způsob humoru. Protože jejich ovládání elementu ohně je "
-"pozůstatek nejasné minulosti, bývají často považovány za příbuzné rarášků. "
+"pozůstatek tajemné minulosti, bývají často považovány za příbuzné rarášků. "
 "Přesto, jejich pečovatelský postoj k přírodě a rozmarná osobitost je snadno "
-"sbližuje s elfy.\n"
-"\n"
-"Zvláštní rysy:"
+"sbližuje s elfy."
 
 # zbraň
 #. [attack]: type=fire
@@ -4618,9 +4537,8 @@ msgstr ""
 #: Extended_Era/units/sylvan_fairies/Faerie.cfg:26
 #: Extended_Era/units/sylvan_fairies/Spirit.cfg:41
 #: Extended_Era/units/sylvan_fairies/Dryad.cfg:27
-#, fuzzy
 msgid "fire touch"
-msgstr "umrtvující dotek"
+msgstr "ohnivý dotek"
 
 # zbraň
 #. [attack]: type=fire
@@ -4682,12 +4600,11 @@ msgstr "Stromový šaman"
 # Popis jednotky
 #. [unit]: race=wose
 #: Extended_Era/units/woses/Shaman.cfg:26
-#, fuzzy
 msgid ""
 "These woses are able to command forest plants such as vines and creepers to "
 "hinder their enemies."
 msgstr ""
-"Stromoví šamani dovedou ovládat lesní rostliny, které svými plazivými "
+"Stromoví šamani dovedou ovládat popínavé a plazivé rostliny, které svými "
 "šlahouny zamotávají jejich nepřátele.\n"
 "\n"
 "Zvláštní rysy:"
