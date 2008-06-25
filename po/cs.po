@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Battle of Wesnoth\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2008-05-01 16:19+0200\n"
-"PO-Revision-Date: 2008-06-02 18:39+0100\n"
+"PO-Revision-Date: 2008-06-25 14:04+0100\n"
 "Last-Translator: Vladimír Slávik <slavik.vladimir@seznam.cz>\n"
 "Language-Team: Czech <wesnoth-cs-l@buchtovi.cz>\n"
 "MIME-Version: 1.0\n"
@@ -314,22 +314,22 @@ msgstr ""
 #. [era]
 #: Extended_Era/eras/default+extended+eom.cfg:18
 msgid "Extended Era + Era of Myths + Default"
-msgstr "Rozšířený + Mytologický + Standardní věk"
+msgstr "Expandovaný + Mytologický + Standardní věk"
 
 #. [era]
 #: Extended_Era/eras/default+extended.cfg:6
 msgid "Extended Era + Default"
-msgstr "Rozšířený + Standardní věk"
+msgstr "Expandovaný + Standardní věk"
 
 #. [era]
 #: Extended_Era/eras/extended.cfg:6
 msgid "Extended Era"
-msgstr "Rozšířený věk"
+msgstr "Expandovaný věk"
 
 #. [era]
 #: Extended_Era/eras/xrpg.cfg:6
 msgid "Extended RPG"
-msgstr "Rozšířený RPG věk"
+msgstr "Expandovaný RPG věk"
 
 # Název frakce
 #. [multiplayer_side]: type=Aragwaith Flagbearer
@@ -1093,6 +1093,12 @@ msgid ""
 "adopted a longer blade than the Swordsmen, yet they are able to wield it "
 "with equal grace and skill."
 msgstr ""
+"Ačkoli schopnosti Aragwaitských bojovníků s meči jsou při srovnání s "
+"podobnými jednotkami jiných ras nahlíženy s despektem, mezi vlastními "
+"Aragwaity požívají bojovníci s dlouhými meči obdiv. Z těchto válečníku se "
+"stali znalci umění výpadů a bloků, což vedlo k tomu, že si osvojili "
+"používání delších čepelí. Přitom je umí ovládat se stejnou elegancí a "
+"dovedností jako bojovníci s meči své kratší."
 
 # zbraň
 #. [attack]: type=blade
@@ -1129,6 +1135,12 @@ msgid ""
 "these ancient shields to remind the world and to honor these brave man and "
 "their sacrifice."
 msgstr ""
+"Tito válečníci třímají staré štíty svých předků. S těmito starobylými štíty "
+"jsou schopni udržet ve velkých bitvách linii, dokud nedorazí posily. Platí "
+"však za to velkou cenu. Mnoho z nich nepřežije bitvu a mnozí další zemřou v "
+"důsledků svých těžkých zranění. Pouze nejlepším válečníkům je umožněno nosit "
+"tyto starobylé štíty, které připomínají světu tyto statečné muže a oslavují "
+"jejich obět."
 
 # Název jednotky
 #. [unit]: race=aragwaith
@@ -1150,6 +1162,10 @@ msgid ""
 "in hand-to-hand combat. He is not as rugged as others of comparable skill, "
 "but far deadlier."
 msgstr ""
+"Ačkoli svou lukostřelbu zlepšili jen částečně, schopnosti přímého boje u "
+"sebe zabijáci dobře rozvinuli. Upouští od používání meče a raději bojují s "
+"kůsou. Nejsou tak drsní jako jiní bojovníci podobných schopností, ale mnohem "
+"smrtonosnější."
 
 # zbraň
 #. [attack]: type=blade
@@ -1303,6 +1319,11 @@ msgid ""
 "military, make for superb swordsmen. Swordsmen are clad in light chain mail "
 "- the better to resist the blades of their enemies."
 msgstr ""
+"Přestože Aragwaité nejsou mohutní vzrůstem, jsou naproti tomu rychlí a "
+"mrštní. Tyto jejich schopnosti ve spojení s intenzivním tréninkem, který je "
+"vlastní vojskům Aragwaitů, z nich dělají skvělé šermíře. Bojovníci s mečem "
+"jsou jako kroužky v kroužkové zbroji - jsou to nejlepší, co odolá čepelím "
+"nepřátel."
 
 # Název jednotky
 #. [unit]: race=aragwaith
@@ -1595,6 +1616,10 @@ msgid ""
 "ordinary nature. Evil crab's are one all too unfortunate result of this "
 "process, as the merfolk and naga can attest to."
 msgstr ""
+"Zhoubnost chaosu je proces záludný a pomalý. Dokonce i zvířata tak neškodná "
+"jako jsou krabi mohou být nevědomky zvrácena a deformována do podoby velmi "
+"vzdálené od své přirozenosti. Ďábelští krabi jsou právě takovým nešťastným "
+"výsledkem tohoto procesu, což leckterý vodní člověk či naga může potvrdit."
 
 # zbraň
 #. [attack]: type=blade
@@ -1637,6 +1662,11 @@ msgid ""
 "soldier's brave or indeed foolish enough to face off against such a "
 "creature, especially when night falls."
 msgstr ""
+"Pro Maguse, který je vytvořil, může být velkým překvapením, že mutanti časem "
+"sami nabývají na vzrůstu i síle. Vypadá to, že zabíjení je přirozeným "
+"stimulem pro růst těchto krvežíznivých potvor. Jen málo vojáků je dost "
+"statečných nebo bláznivých, aby čelili takové stvůře, obzvláště když padne "
+"noc."
 
 # Název jednotky
 #. [unit]: race=human
@@ -1679,6 +1709,11 @@ msgid ""
 "brought out. The Hell Crab is a powerful example of the potential all Evil "
 "Crabs carry inside them."
 msgstr ""
+"V každém druhu se často objevují odchylky, tvořené mimořádně odolnými a "
+"silnými jedinci, kteří se rodí jen se zdánlivě minimální šancí na přežití. "
+"Osvědčení služebníci chaosu mohou shledat, že jejich tělesné proporce se "
+"posouvají a rostou tak, jako by jim byly dány takové latentní rysy. Pekelný "
+"krab je jasným příkladem toho, v co se mohou všichni ďábelští kraby proměnit."
 
 # Jméno jednotky
 #. [unit]: race=human
@@ -1879,6 +1914,11 @@ msgid ""
 "Mutations were created. These warped monstrosities were gifted with a self "
 "healing body whose very touch other races find poisonous."
 msgstr ""
+"Nesčetné a neustále se proměňující armády chaosu rozpoznaly potřebu udržet "
+"dostatečnou sílu uvnitř svých řad. Proto byli v temných a vzdechuplných "
+"laboratořích vytvořeni mutanti. Tato deformovaná monstra jsou obdarována "
+"regenerujícím se tělem, které však příslušníky jiných ras při kontaktu "
+"otravuje jedem."
 
 # Název jednotky
 #. [unit]: race=human
@@ -2192,6 +2232,10 @@ msgid ""
 "lead their men in battle, and hold the law with an iron grip. They lead as "
 "an example to the life of a warrior in the realm of the Dark Elves."
 msgstr ""
+"Ti elfové, kteří získali titul lorda pro svou mazanost, statečnost, odvahu a "
+"sílu, pak užívají nádherně dekorované vybavení. Řídí své provincie, vedou "
+"své muže do bitev a vládnou svými zákony jako železnou rukou. Představují v "
+"říši temných elfů příklady pro život válečníka."
 
 # Název jednotky
 #. [unit]: race=dark elf
@@ -2264,6 +2308,10 @@ msgid ""
 "down a path toward the dark arts practiced by the Necromancers and Lichs. "
 "Their mighty cold blast can freeze any foe that dares to cross their path."
 msgstr ""
+"Kouzelníci jsou mágové, kteří se hlouběji ponořili do studia mystických "
+"umění. Jejich bádání je pohltilo do pátrání po větší moci, což je vedlo k "
+"temným praktikám nekromancerů a lichů. Jejich mocný oblak chladu může "
+"zmrazit kohokoli, kdo by se odvážil jim zkřížit cestu."
 
 # zbraň
 #. [attack]: type=cold
@@ -2315,7 +2363,7 @@ msgstr ""
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Warlock.cfg:5
 msgid "Dark Elf^Warlock"
-msgstr ""
+msgstr "Elfský černokněžník"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Warlock.cfg:19
@@ -2325,6 +2373,10 @@ msgid ""
 "and have the power to drain life from their opponents with a single touch, "
 "and add it to their own."
 msgstr ""
+"Nejlepší svého druhu, disponují tito černokněžníci obrovskou silou, s kterou "
+"mohou soupeřit dokonce i s arcimágy. Objevili tajemství temných umění a "
+"mohou vysávat ze svých oponentů životní sílu pouhým dotykem a tak se sami "
+"posilovat."
 
 # zbraň
 #. [attack]: type=arcane
@@ -2386,6 +2438,10 @@ msgid ""
 "that is his intent. His skill in runecrafting is unrivaled, and the glyphs "
 "he carves into his weapons and armor deflect the blows of his enemies."
 msgstr ""
+"Nejmocnější z runových řemeslníků, tajemní trpaslíci zabíjejí své nepřátele "
+"téměř okamžitě a jen vzácně selžou při ráně, když ji chtějí zasadit. Jejich "
+"schopnost runorytectví je nedostižitelná a znaky, které vyrývají do svých "
+"zbraní a zbroje, zneškodní údery jejich nepřátel."
 
 # zbraň
 #. [attack]: type=impact
@@ -2503,11 +2559,16 @@ msgid ""
 "their runes cause the physical blows of their enemies to deal less damage "
 "than would be expected."
 msgstr ""
+"S výjimkou těch s téměř nadpřirozenou schopností, nejvyšší hodnost, kterou "
+"může runový kovář dosáhnout je trpasličí runový mistr. Údery mají skoro tak "
+"silné, jak ti nejlepší z válečníků. Hrůzu by naháněli i bez svého runového "
+"umění, ale s ním jsou téměř neporazitelní. Jejich runy dokáží, že nepřátelé "
+"způsobují menší zranění než by kdokoliv očekával."
 
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Runesmith.cfg:5
 msgid "Dwarvish Runesmith"
-msgstr ""
+msgstr "Trpasličí runový kovář"
 
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Runesmith.cfg:23
@@ -2517,6 +2578,9 @@ msgid ""
 "and accuracy, and disrupt the blows of their enemies, causing them to strike "
 "softly, weakly and on the armor of the defender."
 msgstr ""
+"Trpasličí runoví kováři, zběhlí ve svém umění, ryjí tajemné runy do svých "
+"zbraní a brnění. Tyto runy zesilují a zpřesňují jejich údery, a naopak "
+"naruší útoky nepřátel tak, že oslabí a znepřesní výpady na obránce."
 
 # Jméno jednotky
 #. [unit]: race=dwarf
@@ -2540,7 +2604,7 @@ msgstr ""
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Steamcopter.cfg:5
 msgid "Steamcopter"
-msgstr "Parní monokoptéra"
+msgstr "Parokoptéra"
 
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Steamcopter.cfg:20
@@ -2548,6 +2612,8 @@ msgid ""
 "With the aid of steam genies, Steamcopters are able to move faster and carry "
 "more bombs than Gyrocopters."
 msgstr ""
+"S pomocí parních džinů jsou parokoptéry schopny pohybovat se rychleji a "
+"unést více bomb než gyrokoptéry."
 
 # Název jednotky
 #. [unit]: race=dwarf
@@ -2622,6 +2688,11 @@ msgid ""
 "rarer by the fact that Boreal Wyrms attack on sight. Only the most powerful "
 "of champions can face these creatures and survive."
 msgstr ""
+"Severští červáci jsou tak vzácným zjevem, že o nich mnozí smýšlejí jen jako "
+"o tvorech z legend. Vyvinuly se z těch mistrálových červáků, kteří žili "
+"nějaké to století. Jsou nebezpečně silní a neuvěřitelně rychlý. Málokdo o "
+"jejich existenci mohl svědčit, neboť severští červáci útočí již od pohledu. "
+"Pouze nejzdatnější šampióni mohli čelit těmto tvorům a přežít."
 
 # zbraň
 #. [attack]: type=impact
@@ -2657,6 +2728,10 @@ msgid ""
 "freeze their enemies from afar. When cornered, they use their powerful tails "
 "to pummel their enemies."
 msgstr ""
+"Ledový červáci, kteří žijí v moři, získávají více hadovité proporce a mění "
+"se na mrazivé červáky. Jejich jméno jim bylo dáno podle mrazivých oblaků, "
+"které vypouštějí. Mrazivý červáci raději zmrazují své nepřátele zdálky. Když "
+"jsou zahnáni do úzkých, tlučou do svých nepřátel silnými ocasy."
 
 # Název jednotky
 #. [unit]: race=wyrm
@@ -2675,6 +2750,13 @@ msgid ""
 "natural protection against a warrior's blade. It is fortunate that their "
 "natural environment has made them ill-suited to face fire."
 msgstr ""
+"Ledoví červáci, studenokrevní plazy severu, jsou mláděcími formami stvoření, "
+"která mohou žít po celá staletí. Navzdory relativnímu mládí jsou již dvakrát "
+"tak velcí než běžný člověk. Obávaní protivníci, kteří jsou schopni své "
+"nepřátele mrazit svým dechem či šlehat svým ocasem. A co horšího, jejich "
+"šupinatá kůže jim poskytuje přirozenou ochranu před protivníkovo čepelí. "
+"Jaké štěstí, že jejich přirozené prostředí z nich dělá tvory, kteří velmi "
+"špatně čelí ohni."
 
 # Název jednotky
 #. [unit]: race=wyrm
@@ -3228,7 +3310,7 @@ msgstr "Nága lovec"
 #. [unit]: race=naga
 #: Extended_Era/units/nagas/Sentinel.cfg:5
 msgid "Naga Sentinel"
-msgstr ""
+msgstr "Nága patrola"
 
 #. [unit]: race=naga
 #: Extended_Era/units/nagas/Sentinel.cfg:24
@@ -3239,6 +3321,12 @@ msgid ""
 "great awake of their civilization arrive. These nagas are mostly unknow in "
 "Wesnoth since they can only be found near Naga cities."
 msgstr ""
+"Tito těžce obrnění bojovníci jsou elitními hlídkami nág. Jsou vybíráni na "
+"základě svých schopností. Jejich zasvěcení a účel je ten, že brání své spící "
+"bratry před jakýmkoli ohrožením a stráží skrytá města před cizími "
+"nájezdníky, dokud nejsou nahrazeni probudivšími se posilami. Tyto jednotky "
+"nejsou ve Wesnothu příliš známé, neboť se zdržují pouze v blízkosti sídlišť "
+"nág."
 
 # Název jednotky
 #. [unit]: race=naga
@@ -3500,7 +3588,7 @@ msgstr ""
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Blizzardlord.cfg:5
 msgid "Blizzardlord"
-msgstr ""
+msgstr "Vánicový pán"
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Blizzardlord.cfg:18
@@ -3511,6 +3599,11 @@ msgid ""
 "Snowdancers. The expectation is that the Blizzardlords will keep their "
 "fellows loyal and obedient to the nobility and train new recruits."
 msgstr ""
+"Sidhelinská šlechta mezi sebe nepříjímá neurozené elfy, nicméně vybírá "
+"nejtalentovanější a oddané sněhové tanečníky, povyšuje je do hodnosti "
+"vánicových pánů, a uděluje jim autoritu nad mrazovými manipulátory a "
+"sněhovými tanečníky. Očekává se, že páni budou posilovat mezi svými druhy "
+"věrnost a poslušnost šlechtě a budou trénovat nové rekruty."
 
 # zbraň
 #. [attack]: type=cold
@@ -3569,6 +3662,12 @@ msgid ""
 "however, they discover that there is an element they can somewhat control -- "
 "frozen water. This is their claim to greatness."
 msgstr ""
+"Někteří neurození sidheliné touží po větší prestiži, které se dostává těm, "
+"co ovládají magii. Ze všech svých sil se snažili získat mistrovství v "
+"sesílání blesků na nepřátele se smrtící přesností, ale zjistili, že je to "
+"pro ně nedostižný cíl. Až nakonec našli element, který mohli částečně "
+"ovládnout - zmrzlou vodu. A to je příležitost pro získání žádaného obdivu a "
+"velikosti."
 
 # Název jednotky
 #. [unit]: race=sidhe
@@ -3635,6 +3734,12 @@ msgid ""
 "have established the rank of Snowdancer as a reward for Hoarfrosters who "
 "excel in both skill and loyalty."
 msgstr ""
+"Sidhelinská šlechta nenese lehce, že někdo z těch obyčejných se snaží "
+"dosáhnout hodnosti mága. Přistupuje však k této skutečnosti pragmaticky s "
+"vědomím, že tato tak jako tak slabá magie ledu může být vhodným doplňkem k "
+"jejich vlastním schopnostem, pokud jsou si ti, co ji praktikují, vědomi, kde "
+"je jejich místo v hiearchii. Proto ustanovila Sněhové tanečníky jako odměnu "
+"pro ty, co se osvědčili svými schopnostmi a oddaností."
 
 # Jméno jednotky
 #. [unit]: race=undead
@@ -3748,7 +3853,7 @@ msgstr ""
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Thunderblade.cfg:5
 msgid "Thunderblade"
-msgstr ""
+msgstr "Hromový mečíř"
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Thunderblade.cfg:18
@@ -3759,11 +3864,16 @@ msgid ""
 "be awarded a thunderblade, a special sword enchanted with a fragment of the "
 "sidhe lord's great weapon."
 msgstr ""
+"Od té doby, co první sidhelinští lordi padli v boji, jsou nejvyššími mágy "
+"divokých elfů schraňovány a uchovávány jako vzácnost úlomky jejich mocných "
+"mečů. Pokud se nějaký sidhelin ukáže být mocným válečníkem a ovládá magii "
+"vznešených, může mu být udělen titul hromového mečíře a speciální meč s "
+"vkovanými fragmenty nejlepších zbraní sidhelinských lordů. "
 
 #. [attack]: type=blade
 #: Extended_Era/units/sidhe/Thunderblade.cfg:23
 msgid "thunderblade"
-msgstr ""
+msgstr "hromová čepel"
 
 # Název jednotky
 #. [unit]: race=sidhe
@@ -3778,6 +3888,9 @@ msgid ""
 "skilled in both hand to hand and ranged combat when using short spears. "
 "Their complete lack of armor is a liability, though."
 msgstr ""
+"Stopaři divokých elfů patří mezi nejlepší známé průzkumníky. Jsou pohotoví a "
+"přizpůsobiví, dobře ovládají jak boj zblízka, tak vrhání oštěpů na dálku. "
+"Jejich nevýhodou je, že nepoužívají naprosto žádné brnění."
 
 # Jméno jednotky
 #. [unit]: race=sidhe
@@ -3850,6 +3963,11 @@ msgid ""
 "sword in hand. Their prowesses with the sword are easily those of a warrior "
 "and their magic is a welcome ally."
 msgstr ""
+"Jen málo sidhelinů je schopno zůstat po delší dobu mimo boj. Váleční mágové "
+"jsou šlechta divokých elfů, která ačkoli je trénována v ovládání magie, "
+"tráví též spoustu času s mečem v ruce. Jejich statečnost v boji s mečem je "
+"snadno srovnatelná s čistokrevnými válečníky a ovládání magie je vítanou "
+"výhodou navíc."
 
 # Popis jednotky
 #. [unit]: race=sidhe
@@ -3866,7 +3984,7 @@ msgstr ""
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Warsinger.cfg:5
 msgid "Warsinger"
-msgstr ""
+msgstr "Hlahol"
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Warsinger.cfg:21
@@ -3874,6 +3992,8 @@ msgid ""
 "The Warsinger is a master of the songs of combat. A powerful warrior "
 "himself, he can drive his companions into battle frenzies."
 msgstr ""
+"Hlaholové jsou mistři bojového zpěvu. Sami patří mezi silné válečníky a "
+"navíc dokážou vybudit své druhy do bojové zuřivosti."
 
 # Název jednotky
 #. [unit]: race=sidhe
@@ -3991,6 +4111,10 @@ msgid ""
 "raiding parties, they are undeniably useful and so their presence is "
 "tolerated, if grudgingly."
 msgstr ""
+"Někteří goblini zjistili, že dovednosti získané při lovu najdou své "
+"uplatnění i na bitevním poli. Ačkoli nejsou goblini příliš vítanými členy "
+"nájezdních tlup, jsou pro ně nepopiratelně užiteční a tak je jejich "
+"přítomnost, ač zdráhavě, tolerována."
 
 # zbraň
 #. [attack]: type=pierce
@@ -4157,6 +4281,12 @@ msgid ""
 "telling, an entire squad of elves scattered and ran at the sight of a single "
 "Juggernaut bearing down on them."
 msgstr ""
+"Někteří ze stepních skřetů při své usilování po větší moci zjišťují, že již "
+"jsou dostatečně způsobilí pro provádění silných výpadů. Takoví molochové pak "
+"přestávájí s rozvinováním svých velitelských schopností a vrhají se do bojů "
+"s naprosto zuřivou nedbalostí. O jednom legendárním střetnutí, které s "
+"každým vyprávěním získává na heroičnosti, se vypráví, jak se celá jednotka "
+"elfů rozutekla už při pohledu na jediného molocha, který k ní směřoval."
 
 # zbraň
 #. [attack]: type=impact
@@ -4278,6 +4408,12 @@ msgid ""
 "the clan and rarely fight except for an incentive. When they do, they "
 "specialise in flushing foes from fortified positions or difficult terrain."
 msgstr ""
+"Na ty, kteří opustili Řád severáku a dosáhli na této své cestě mistovství, "
+"je nahlíženo pomalu jak na zločince. Přesto ani pastýři nemohou popřít, že "
+"tito vyvrhelové mohou být dost užiteční. Vyvrhelové netrpí přehnanou "
+"loajalitou ke klanu a pokud nemají nějaký stimul, jen zřídkakdy bojují. "
+"Pokud se boje učastní, specializují se na odstraňování nepřátel z opevněných "
+"pozic nebo výhodného terénu."
 
 # Název jednotky
 #. [unit]: race=orc
@@ -4322,6 +4458,15 @@ msgid ""
 "and ease of movement but sacrificing the protection it gives. Few have been "
 "known to survive beyond early adulthood."
 msgstr ""
+"Na rozdíl od lidí či elfů, většina skřetů nalézá v chaosu a krvi bitev "
+"barbarské vzrušení. U některých tyto zážitky narušily jejich již natolik "
+"neklidnou a násilnou mysl, že se jejich myšlení nebezpečně přiblížilo k "
+"okraji zlomu. Balancujíce na tenké hranici mezi příčetností a spalujícími "
+"instinkty, představují skoro stejnou hrozbu pro své skřetí druhy jako pro "
+"své nepřátele. Vrhají se do rvaček a útočí na protivníky toliko svými pěstmi "
+"a zuby. Divoši vůbec nepoužívají brnění, protože by je brzdilo a protože na "
+"svou ochranu beztak nehledí. Jen o málo z nich je známo, že by se dožili "
+"vyššího věku."
 
 # zbraň
 #. [attack]: type=impact
@@ -4505,6 +4650,12 @@ msgid ""
 "conflict take the place of formal training. Not known for their finesse, "
 "Steppe Orcs fight with heavy two-handed battle axes."
 msgstr ""
+"Každý voják stepních skřetů svým postavením a hodnotou ztělesňuje kvality "
+"svého klanu. Vytvrzelý, odolný a když je třeba i intenzivně krutý. Ačkoli "
+"jsou loajální svému klanu, jsou tito bojovníci omezení a těžko "
+"kontrolovatelní. Vrozená síla jejich rasy a nevlídný život v nikdy "
+"nekončících konfliktech u nich zastupuje vojenský výcvik. Jsou poměrně "
+"neobratní a bojují těžkou obouruční bitevní sekerou."
 
 # Název jednotky
 #. [unit]: race=fairy
