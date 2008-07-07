@@ -1,4 +1,8 @@
-27/4/2008 v x.33.2 (unstable)
+1/5/2008 v x.33.3 (stable)
+    - Fix the main .cfg in the package (i did forgot to distribute the new one)
+    - Fix the loyalist faction in the RPG era
+
+27/4/2008 v x.33.2 (stable)
     - Version support in era the detection script (which might be renamed to
      "version.cfg" in the next release) & era id (does not provide EoM version
      since i don't know how to detect it 
@@ -7,7 +11,7 @@
     - Special notes normalization
     - Fairies animation tweaks
 
-24/3/2008 v x.33.1 (unstable)
+24/3/2008 v x.33.1 (stable)
     - Fixed a bunch of broken animations
     - other miscellanous chaos graphic updates
     - new Aragwaith Strongbow frames
