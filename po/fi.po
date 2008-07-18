@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2008-05-01 16:19+0200\n"
-"PO-Revision-Date: 2005-05-18 10:15+0200\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2008-07-15 18:41+0200\n"
+"Last-Translator: Mikko Nikkilä <miccoh@gmail.com>\n"
 "Language-Team: none\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,7 +18,7 @@ msgstr ""
 #: Extended_Era/abilities/allied_leadership.cfg:112
 #: Extended_Era/abilities/allied_leadership.cfg:172
 msgid "allied leadership"
-msgstr ""
+msgstr "liiton johtaja"
 
 #. [leadership]
 #: Extended_Era/abilities/allied_leadership.cfg:14
@@ -36,13 +36,20 @@ msgid ""
 "Leadership engages in combat, its attacks do 25% more damage times the "
 "difference in their levels."
 msgstr ""
+"Liiton johtaja:\n"
+"Tämä yksikkö voi johtaa viereisiä ystävällisiä yksiköitä, jolloin ne "
+"taistelevat paremmin.\n"
+"\n"
+"Kun tämän yksikön vieressä oleva ystävällinen alempitasoinen yksikkö joutuu "
+"taisteluun, sen hyökkäykset tekevät 25% enemmän vahinkoa jokaista tasoa "
+"kohti, jonka yksikkö on johtajaa alempana."
 
 #. [resistance]
 #: Extended_Era/abilities/allied_protection.cfg:11
 #: Extended_Era/abilities/allied_protection.cfg:34
 #: Extended_Era/abilities/allied_protection.cfg:60
 msgid "allied protection"
-msgstr ""
+msgstr "liittosuojelu"
 
 #. [resistance]
 #: Extended_Era/abilities/allied_protection.cfg:13
@@ -53,11 +60,14 @@ msgid ""
 "Adjacent friendly units of lower level receive a +20% bonus to all "
 "resistances (up to a maximum of 50%)."
 msgstr ""
+"Liittosuojelu:\n"
+"Viereiset ystävälliset alempitasoiset yksiköt saavat kaikkiin "
+"vastustuksiinsa ylimääräiset +20% (korkeintaan 50%)."
 
 #. [damage]
 #: Extended_Era/abilities/attack_only.cfg:8
 msgid "attack only"
-msgstr ""
+msgstr "vain hyökkäys"
 
 #. [damage]
 #: Extended_Era/abilities/attack_only.cfg:10
@@ -65,16 +75,19 @@ msgid ""
 "Attack only:\n"
 "This weapon will never be used on defense."
 msgstr ""
+"Vain hyökkäys:\n"
+"Tätä asetta ei voi käyttää puolustautuakseen."
 
 #: Extended_Era/abilities/attack_only.cfg:17
 msgid " One attack of this unit cannot be used to defend."
 msgstr ""
+" Yhtä tämän yksikön hyökkäyksistä ei voi käyttää puolustustarkoituksiin."
 
 #. [hides]
 #: Extended_Era/abilities/cavestalk.cfg:5
 #: Extended_Era/abilities/cavestalk.cfg:10
 msgid "cavestalk"
-msgstr ""
+msgstr "luolalymy"
 
 #. [hides]
 #: Extended_Era/abilities/cavestalk.cfg:9
@@ -87,6 +100,12 @@ msgid ""
 "any turn immediately after this unit has attacked, or if there are enemy "
 "units next to this unit."
 msgstr ""
+"Luolalymy:\n"
+"Tämä yksikkö voi piileskellä luolissa vihollistensa huomaamatta.\n"
+"\n"
+"Vihollisyksiköt eivät näe eivätkä voi hyökätä tämän yksikön kimppuun, kun "
+"yksikkö on luolassa, paitsi jos tämä yksikkö on hyökännyt edellisellä "
+"vuorolla, tai jos tämän yksikön vieressä on vihollisyksikkö."
 
 #: Extended_Era/abilities/cavestalk.cfg:29
 msgid ""
@@ -94,11 +113,14 @@ msgid ""
 "renders it invisible to enemies unless it is immediately adjacent or has "
 "revealed itself by attacking."
 msgstr ""
+" Maan alaisessa maastossa (paitsi valaistussa sellaisessa) tämän yksikön "
+"väijytyskyky saa sen vaikuttamaan huomaamattomalta, paitsi jos se on aivan "
+"vieressä tai on paljastanut itsensä hyökkäämällä."
 
 #. [damage]
 #: Extended_Era/abilities/defend_only.cfg:8
 msgid "defend only"
-msgstr ""
+msgstr "vain puolustus"
 
 #. [damage]
 #: Extended_Era/abilities/defend_only.cfg:10
@@ -106,15 +128,19 @@ msgid ""
 "Defend only:\n"
 "This weapon will only be available for defense."
 msgstr ""
+"Vain puolustus:\n"
+"Tämä ase on käytettävissä vain puolustautumista varten."
 
 #: Extended_Era/abilities/defend_only.cfg:16
 msgid " One attack of this unit can only be used to defend."
 msgstr ""
+" Yhtä tämän yksikön hyökkäyksistä voi käyttää ainoastaan "
+"puolustustarkoituksiin."
 
 #. [skirmisher]
 #: Extended_Era/abilities/distract.cfg:6
 msgid "distract"
-msgstr ""
+msgstr "häirintä"
 
 #. [skirmisher]
 #: Extended_Era/abilities/distract.cfg:8
@@ -123,18 +149,24 @@ msgid ""
 "This unit negates enemy Zones of Control around itself for friendly units "
 "(but not for itself)."
 msgstr ""
+"Häirintä:\n"
+"Tämä yksikkö kiinnittää ympärillään olevien vihollisyksiköiden huomion "
+"itseensä päästäen liittolaisyksiköt (itseään lukuun ottamatta) livahtamaan "
+"niiden hallitseman alueen ohi."
 
 #: Extended_Era/abilities/distract.cfg:17
 msgid ""
 " This unit is capable of distracting opponents, allowing friendly units to "
 "trespass their Zones of Control and move unhindered around them."
 msgstr ""
+" Tämä yksikkö kykenee häiritsemään vastustajia, sallien liittolaisyksiköiden "
+"livahtaa tämän yksikön lähellä olevien vihollisyksiköiden hallitsemien "
+"alueiden ohitse huomaamatta."
 
 #. [damage]
 #: Extended_Era/abilities/dread.cfg:6 Extended_Era/abilities/dread.cfg:7
-#, fuzzy
 msgid "dread"
-msgstr "Epäkuolleet"
+msgstr "kauhu"
 
 #. [damage]
 #: Extended_Era/abilities/dread.cfg:9 Extended_Era/abilities/dread.cfg:11
@@ -143,19 +175,24 @@ msgid ""
 "When this attack is used offensively, this unit takes one third less damage "
 "in retaliation."
 msgstr ""
+"Kauhu:\n"
+"Kun tätä hyökkäystä käytetään hyökkäystarkoitukseen, tämä yksikkö "
+"vastaanottaa kolmanneksen vähemmän vahinkoa vastaiskuvaiheessa."
 
 #: Extended_Era/abilities/dread.cfg:19
 msgid ""
 " The dread attack of this unit, when used offensively scare the defender, "
 "lowering the damage of his retaliation."
 msgstr ""
+" Hyökätessään tämän yksikön kauhu vähentää pelästyneen puolustajan "
+"vastaiskun aiheuttamaa vahinkoa."
 
 #. [resistance]
 #: Extended_Era/abilities/protection.cfg:9
 #: Extended_Era/abilities/protection.cfg:31
 #: Extended_Era/abilities/protection.cfg:56
 msgid "protection"
-msgstr ""
+msgstr "suojelu"
 
 #. [resistance]
 #: Extended_Era/abilities/protection.cfg:11
@@ -166,6 +203,9 @@ msgid ""
 "Adjacent units of lower level from this side receive a +20% bonus to all "
 "resistances (up to a maximum of 50%)."
 msgstr ""
+"Suojelu:\n"
+"Viereiset samalla puolella olevat alempitasoiset yksiköt saavat kaikkiin "
+"vastustuksiinsa ylimääräiset +20% (korkeintaan 50%)."
 
 #: Extended_Era/abilities/protection.cfg:79
 msgid ""
@@ -173,12 +213,15 @@ msgid ""
 "better, taking less damage in combat, though this only applies to units of "
 "lower level."
 msgstr ""
+" Tämän yksikön tärkeys motivoi sen vieressä olevia ystävällisiä yksiköitä "
+"puolustamaan paremmin, vastaanottamaan vähemmän vahinkoa taisteluissa, "
+"vaikkakin tämä pätee vain alemman tason yksiköihin."
 
 #. [regenerate]
 #: Extended_Era/abilities/sylvan_spark.cfg:10
 #: Extended_Era/abilities/sylvan_spark.cfg:13
 msgid "sylvan spark"
-msgstr ""
+msgstr "metsän lapsi"
 
 #. [regenerate]
 #: Extended_Era/abilities/sylvan_spark.cfg:12
@@ -188,18 +231,24 @@ msgid ""
 "While in the forest (or mushroom grove), the unit will heal itself 5 hp per "
 "turn. If it is poisoned, it will remove the poison instead of healing."
 msgstr ""
+"Metsän lapsi:\n"
+"Ollessaan metsässä (tai sienilehdossa) tämä yksikkö parantuu itsekseen 5 "
+"elämäpistettä vuorossa. Jos se on myrkyttynyt, myrkky poistuu parannuksen "
+"sijaan."
 
 #: Extended_Era/abilities/sylvan_spark.cfg:34
 msgid ""
 " This unit regenerates in forest, which allows it to heal, through not as "
 "much as stationed in a village."
 msgstr ""
+" Tämä yksikkö lepää metsässä, mikä mahdollistaa parantumisen, vaikkakaan ei "
+"yhtä tehokkaasti kuin kylässä."
 
 #. [leadership]
 #: Extended_Era/abilities/terror.cfg:8 Extended_Era/abilities/terror.cfg:44
 #: Extended_Era/abilities/terror.cfg:94
 msgid "terror"
-msgstr ""
+msgstr "terrori"
 
 #. [leadership]
 #: Extended_Era/abilities/terror.cfg:12 Extended_Era/abilities/terror.cfg:48
@@ -214,6 +263,15 @@ msgid ""
 "of the unit with Terror engages in combat, its attacks do 15% less damage "
 "times the difference in their levels + 15%."
 msgstr ""
+"Terrori:\n"
+"Tämä yksikkö voi säikäyttää viereisiä vihollisyksiköitä saaden ne "
+"taistelemaan huonommin.\n"
+"\n"
+"Viereiset alempitasoiset vihollisyksiköt tekevät vähemmän vahinkoa "
+"taistelussa. Kun viereinen saman- tai alempitasoinen vihollisyksikkö "
+"taistelee terroriyksikköä vastaan, sen hyökkäykset tekevät 15% vähemmän "
+"vahinkoa ja sen lisäksi 15% jokaista tasoa kohti, jonka yksikkö on "
+"terroriyksikköä alempana."
 
 #: Extended_Era/abilities/terror.cfg:154
 msgid ""
@@ -221,47 +279,50 @@ msgid ""
 "less damage in combat, though this only applies to units of lower or equal "
 "level."
 msgstr ""
+" Tämän yksikön terrorikyky pelottaa viereisiä vihollisyksiköitä, joten ne "
+"tekevät vähemmän vahinkoa taistelussa, vaikka tämä päteekin vain saman- ja "
+"alempitasoisiin yksiköihin."
 
 #. [era]
 #: Extended_Era/eras/default+extended+eom.cfg:18
 msgid "Extended Era + Era of Myths + Default"
-msgstr ""
+msgstr "Laajennettu aikakausi + Myyttien aikakausi + perus"
 
 #. [era]
 #: Extended_Era/eras/default+extended.cfg:6
 msgid "Extended Era + Default"
-msgstr ""
+msgstr "Laajennettu aikakausi + perus"
 
 #. [era]
 #: Extended_Era/eras/extended.cfg:6
 msgid "Extended Era"
-msgstr ""
+msgstr "Laajennettu aikakausi"
 
 #. [era]
 #: Extended_Era/eras/xrpg.cfg:6
 msgid "Extended RPG"
-msgstr ""
+msgstr "Laajennettu RPG"
 
 #. [multiplayer_side]: type=Aragwaith Flagbearer
 #. [multiplayer_side]: type=Aragwaith Swordsman
 #: Extended_Era/factions/aragwaithi-extended.cfg:5
 #: Extended_Era/factions/aragwaithi-xrpg.cfg:5
 msgid "Aragwaith"
-msgstr ""
+msgstr "Jalo kansa"
 
 #. [multiplayer_side]: type=Chaos Magus
 #. [multiplayer_side]: type=Lesser Daemon
 #: Extended_Era/factions/chaos-extended.cfg:5
 #: Extended_Era/factions/chaos-xrpg.cfg:5
 msgid "Chaos"
-msgstr ""
+msgstr "Kaaos"
 
 #. [multiplayer_side]: type=Dark Elf Captain
 #. [multiplayer_side]: type=XRPG Dark Elf Noble
 #: Extended_Era/factions/dark_elves-extended.cfg:5
 #: Extended_Era/factions/dark_elves-xrpg.cfg:5
 msgid "Dark Elves"
-msgstr ""
+msgstr "Pimeähaltiat"
 
 #. [multiplayer_side]: type=Drake Flare
 #. [multiplayer_side]: type=XRPG Drake Burner
@@ -275,14 +336,14 @@ msgstr "Draakit"
 #: Extended_Era/factions/dwarves-xrpg.cfg:5
 #: Extended_Era/factions/dwarves-extended.cfg:5
 msgid "Dwarves"
-msgstr ""
+msgstr "Kääpiöt"
 
 #. [multiplayer_side]: type=Kalifa Ahadath
 #. [multiplayer_side]: type=Kalifa Ghazi
 #: Extended_Era/factions/kalifa-xrpg.cfg:5
 #: Extended_Era/factions/kalifa-extended.cfg:5
 msgid "Kalifa"
-msgstr ""
+msgstr "Kalifit"
 
 #. [multiplayer_side]: type=Lieutenant
 #. [multiplayer_side]: type=XRPG Sergeant
@@ -294,18 +355,17 @@ msgstr "Uskolliset"
 #. [multiplayer_side]: type=Mermaid Initiate
 #: Extended_Era/factions/merfolk-xrpg.cfg:5
 msgid "Merfolk"
-msgstr ""
+msgstr "Merenkansa"
 
 #. [multiplayer_side]: type=Giant Scorpion
 #: Extended_Era/factions/misc-xrpg.cfg:5
 msgid "Miscellanous"
-msgstr ""
+msgstr "Sekalainen"
 
 #. [multiplayer_side]: type=XE Naga Fighter
 #: Extended_Era/factions/nagas-xrpg.cfg:5
-#, fuzzy
 msgid "Nagas"
-msgstr "torahampaat"
+msgstr "Nagat"
 
 #. [multiplayer_side]: type=Orcish Warrior
 #. [multiplayer_side]: type=Orcish Grunt
@@ -319,28 +379,28 @@ msgstr "Pohjalaiset"
 #: Extended_Era/factions/outlaws-extended.cfg:5
 #: Extended_Era/factions/outlaws-xrpg.cfg:5
 msgid "Outlaws"
-msgstr ""
+msgstr "Lainsuojattomat"
 
 #. [multiplayer_side]: type=Sidhe Raindancer
 #. [multiplayer_side]: type=Sidhe Warmage
 #: Extended_Era/factions/sidhe-xrpg.cfg:5
 #: Extended_Era/factions/sidhe-extended.cfg:5
 msgid "Sidhe"
-msgstr ""
+msgstr "Sidhehaltiat"
 
 #. [multiplayer_side]: type=Steppe Vanguard
 #. [multiplayer_side]: type=XRPG Steppe Spearhead
 #: Extended_Era/factions/steppe_orcs-extended.cfg:5
 #: Extended_Era/factions/steppe_orcs-xrpg.cfg:5
 msgid "Steppe Orcs"
-msgstr ""
+msgstr "Arojen örkit"
 
 #. [multiplayer_side]: type=XRPG Elvish Fighter
 #. [multiplayer_side]: type=Elvish Captain
 #: Extended_Era/factions/sylvans-xrpg.cfg:5
 #: Extended_Era/factions/sylvans-extended.cfg:5
 msgid "Sylvans"
-msgstr ""
+msgstr "Metsäsielut"
 
 #. [multiplayer_side]: type=XE Dark Adept
 #. [multiplayer_side]: type=XE Dark Sorcerer
@@ -352,32 +412,32 @@ msgstr "Epäkuolleet"
 #. [race]
 #: Extended_Era/races/aragwaithi.cfg:5
 msgid "race^Aragwaith Human"
-msgstr ""
+msgstr "Jalon kansan mies"
 
 #. [race]
 #: Extended_Era/races/aragwaithi.cfg:6
 msgid "race+female^Aragwaith Human"
-msgstr ""
+msgstr "Jalon kansan nainen"
 
 #. [race]
 #: Extended_Era/races/aragwaithi.cfg:7
 msgid "race^Aragwaithi"
-msgstr ""
+msgstr "Jalo kansa"
 
 #. [race]
 #: Extended_Era/races/chaos.cfg:5
 msgid "race^Demon"
-msgstr ""
+msgstr "Demoni"
 
 #. [race]
 #: Extended_Era/races/chaos.cfg:6
 msgid "race+female^Demon"
-msgstr ""
+msgstr "Demoni"
 
 #. [race]
 #: Extended_Era/races/chaos.cfg:7
 msgid "race^Demons"
-msgstr ""
+msgstr "Demonit"
 
 #. [race]
 #: Extended_Era/races/chaos.cfg:10
@@ -405,6 +465,28 @@ msgid ""
 "Turiel,Urobach,Valac,Valefar,Vapula,Vassago,Verrine,Vine,Vual,Xaphan,Yeqon,"
 "Yeter'el,Yomiel,Zagan,Zaqiel,Zepar"
 msgstr ""
+"Abalam,Abbadon,Abigor,Adramalech,Agaliarept,Agares,Aim,Akvan,Aldebaran,"
+"Alocer,Amducious,Amdusias,Amon,Ananiel,Andhaka,Andras,Andrealphus,"
+"Andromalius,Antares,Apep,Araqiel,Arioch,Armaros,Asael,Asag,Asb'el,Asmodeus,"
+"Astaroth,Azazel,Baal,Baalberith,Balam,Balberith,Babeal,Baphomet,Baraqel,"
+"Barbas,Barbatos,Batariel,Bathin,Beball,Beelzebub,Behamoth,Behemoth,Beleth,"
+"Belial,Beliel,Belzebuth,Beowulf,Berith,Beur,Bezaliel,Bifrons,Botis,Buer,Bune,"
+"Caim,Camal,Carniveau,Cerberus,Chamos,Chazaqiel,Corson,Daalberith,Dagon,"
+"Daniel,Dantalion,Decarabia,Demogorgon,Dumah,Eligos,Eurynomous,Fomalhaut,"
+"Flauros,Flereous,Focalor,Foras,Forcas,Forneus,Furcas,Furfur,Gaap,Gader'el,"
+"Glasya-Labolas,Gusion,Haagenti,Humbaba,Iblis,Ipos,Jutas,Juvart,Kabhanda,Karo,"
+"Kasadya,Kasdaye,Kimaris,Kobal,Kokabiel,Legion,Lempo,Leonard,Leraje,Lix "
+"Tetrax,Lucifer,Lucifuge Rofocale,Malphas,Malthus,Mammon,Marchocias,Maricha,"
+"Mastema,Melchom,Mephisto,Mephistopholes,Mesphito,Merihim,Moloch,Morax,"
+"Mulciber,Murmur,Naberius,Nebiros,Neqa'el,Nergal,Nisroch,Oeillet,Olivier,"
+"Orcus,Orias,Ornias,Orobas,Ose,Oulotep,Pan,Paimon,Pazuzu,Penemue,Phlegathon,"
+"Phenex,Pinem'e,Pithius,Piru,Pluto,Procell,Pruflas,Purson,Pytho,Pyhton,Rahab,"
+"Rahovart,Ramiel,Raum,Razakel,Regent,Regulus,Rimmon,Rhotomago,Ronove,Ronwe,"
+"Rosier,Sabnock,Saleos,Samael,Samigina,Samyaza,Sariel,Satan,Satanachia,"
+"Satariel,Seir,Shaitan,Shamsiel,Shax,Shezmu,Sidragasum,Sitri,Sonnillon,"
+"Soufflet,Stolas,Surgat,Tabaet,Tamiel,Tannin,Teeraal,Temeluchus,Thammuz,"
+"Turiel,Urobach,Valac,Valefar,Vapula,Vassago,Verrine,Vine,Vual,Xaphan,Yeqon,"
+"Yeter'el,Yomiel,Zagan,Zaqiel,Zepar"
 
 #. [race]
 #: Extended_Era/races/chaos.cfg:11
@@ -416,46 +498,52 @@ msgid ""
 "Onoskelis,Prosperpine,Rangda,Rusalka,Satana,Sheol,Selene,Sonnielion,Stheno,"
 "Sycorax,Taweret,Tzitzimime,Unsere,Uzza,Verrier,Vepar,Xena,Ziusudra"
 msgstr ""
+"Agiel,Agrat-bat-mahlaht,Ammit,Amy,Arkel,Ashtaroth,Astarte,Astoreth,Barbelo,"
+"Belphegore,Bruja,Delepitore,Eisheth Zenunil,Empusa,Euryale,Gordh,Gremory,"
+"Gresil,Hecate,Ixtara,Kindite,Lamashtu,Lamia,Leviathan,Lilim,Lilin,Lilith,"
+"Lilitu,Lusana,Mara,Medusa,Melchiresa,Melusine,Mercedes,Naamah,Neuralger,"
+"Onoskelis,Prosperpine,Rangda,Rusalka,Satana,Sheol,Selene,Sonnielion,Stheno,"
+"Sycorax,Taweret,Tzitzimime,Unsere,Uzza,Verrier,Vepar,Xena,Ziusudra"
 
 #. [race]
 #: Extended_Era/races/dark-elves.cfg:5
 msgid "race^Dark Elf"
-msgstr ""
+msgstr "Pimeähaltia"
 
 #. [race]
 #: Extended_Era/races/dark-elves.cfg:6
 msgid "race+female^Dark Elf"
-msgstr ""
+msgstr "Pimeähaltia"
 
 #. [race]
 #: Extended_Era/races/dark-elves.cfg:7
 msgid "race^Dark Elves"
-msgstr ""
+msgstr "Pimeähaltiat"
 
 #. [trait]
 #: Extended_Era/races/dwarves.cfg:7
 msgid "armored"
-msgstr ""
+msgstr "panssaroitu"
 
 #. [trait]
 #: Extended_Era/races/dwarves.cfg:8
 msgid "(+15% to all resistances, -1 movement)"
-msgstr ""
+msgstr "(+15% kaikkiin vastustuksiin, –1 liikkeeseen)"
 
 #. [race]
 #: Extended_Era/races/kalifa.cfg:5
 msgid "race^Kalifa Human"
-msgstr ""
+msgstr "Kalifimies"
 
 #. [race]
 #: Extended_Era/races/kalifa.cfg:6
 msgid "race+female^Kalifa Human"
-msgstr ""
+msgstr "Kalifinainen"
 
 #. [race]
 #: Extended_Era/races/kalifa.cfg:7
 msgid "race+plural^Kalifa"
-msgstr ""
+msgstr "Kalifit"
 
 #. [race]
 #: Extended_Era/races/kalifa.cfg:10
@@ -535,87 +623,160 @@ msgid ""
 "Yusuf,Zafar,Zafir,Zahid,Zahir,Zayd,Zaim,Zayn,Zarif,Zakarriya,Zaki,Zakwan,"
 "Ziyad,Zubayr,Zuhayr"
 msgstr ""
+"Aban,Abbas,Abbud,Abdul-'Adl,Abdul-Ahad,Abdul-Alim,Abdul-Aliyy,Abdul-Azim,"
+"Abdul-Aziz,Abdul-Badi,Abdul-Ba'ith,Abdul-Baqi,Abdul-Bari,Abdul-Barr,Abdul-"
+"Basir,Abdul-Basit,Abdul-Fattah,Abdul-Ghaffar,Abdul-Ghafur,Abdul-Ghani,Abdul-"
+"Hadi,Abdul-Hafiz,Abdul-Hakam,Abdul-Hakim,Abdul-Halim,Abdul-Hamid,Abdul-Haqq,"
+"Abdul-Hasib,Abdul-Hayy,Abdul-Jabbar,Abdul-Jalil,Abdul-Karim,Abdul-Khabir,"
+"Abdul-Khaliq,Abdul-Latif,Abdul-Malik,Abdul-Majid,Abdul-Matin,Abdul-Mubdi',"
+"Abdul-Mughni,Abdul-Muhaimin,Abdul-Muhsi,Abdul-Muhyi,Abdul-Mu'id,Abdul-Mu'izz,"
+"Abdul-Mujib,Abdul-Mumin,Abdul-Muqaddim,Abdul-Muqtadir,Abdul-Musawwir,Abdul-"
+"Muta'al,Abdul-Nafi,Abdul-Nasser,Abdul-Nasir,Abdul-Nur,Abdul-Qadir,Abdul-"
+"Qahhar,Abdul-Qawi,Abdul-Qayyum,Abdul-Quddus,Abdul-Rafi,Abdul-Rahim,Abdul-"
+"Rahman,Abdul-Rashid,Abdul-Ra'uf,Abdul-Razzaq,Abdul-Shakur,Abdul-Tawwab,Abdul-"
+"Wadud,Abdul-Wahhab,Abdul-Wahid,Abdul-Wajid,Abdul-Wakil,Abdul-Wali,Abdul-"
+"Waliy,Abdul-Warith,Abdul-Zahir,Abdullah,'Abid,'Abidin,Abu Bakr,Aby al-Khayr,"
+"Adil,Adham,Adib,'Adli,'Adnan,'Afif,Ahmad,'Ajib,'Akif,Akil,Akram,Ala',Ala' al-"
+"Din,Al' Abbas,Aladdin,Al-Bara,Al-Hakam,Al-Harith,Alhasan,Alhusain,Ali,Alim,"
+"Almahdi,Al-Safi,Altaf,Altair,Al-Tayyib,Al-Tijani,Al-Tufail,Amid,'Amid,Amin,"
+"Amir,'Amir,Amjad,'Ammar,'Amro,Anas,Anis,'Antarah,Anwar,'Aqil,Arfan,"
+"Arif,'Arif,Asad,As'ad,Asadel,Ashraf,Asif,'Asim,Aswad,Ata',Ata' Allah,Ata' al-"
+"Rahman,Athil,Athir,'Atif,'Awad,'Awf,Aws,Awwab,Ayham,Ayman,Ayser,Ayyub,"
+"Aza,'Azab,Azhar,Azim,'Aziz,'Azzam,Badi,Badi al-Zaman,Badr,Badr al-Din,Badri,"
+"Baha',Bahiyy al-Din,Bahij,Bahir,Bakr,Bakri,Baligh,Bandar,Barakah,Barir,"
+"Bashshar,Basil,Basim,Bassam,Bayezid,Bayhas,Bilal,Bishr,Boulos,Budail,Burhan,"
+"Bushr,Butrus,Dabir,Dani,Darwish,Da'ud,Dhakir,Dhakiy,Dhakwan,Dhul Fiqar,Dirar,"
+"Diya,Diya al-Din,Duqaq,Fadi,Fadil,Fadl,Fadl Allah,Fahd,Fahad,Fahmi,Faisal,"
+"Fa'iz,Fakhir,Fakhr al-Din,Fakhri,Fakih,Falah,Falih,Faraj,Farhan,Farid,Fariq,"
+"Fariq,Faris,Faruq,Fath,Fathi,Fatih,Fatin,Fawwaz,Fawzan,Fawzi,Fayyad,Ferran,"
+"Fida,Fikri,Firas,Fu'ad,Fudail,Gamal,Ghayth,Ghali,Ghalib,Ghanim,Ghassan,"
+"Ghawth,Ghazwan,Ghiyath,Habbab,Habib,Haddad,Hadi,Hafiz,Hakem,Hakim,Halim,"
+"Hamal,Hamas,Hamdan,Hamdi,Hamid,Hamim,Hamzah,Hana,Hana'i,Hanbal,Hani,Hanif,"
+"Hannad,Haris,Harith,Harun,Hashim,Hassan,Hatim,Haydar,Haytham,Hayyan,Hazim,"
+"Hilal,Hilmi,Hisham,Hud,Hudad,Hudhafah,Hudhayfah,Humam,Hussein,Husam,Husam al-"
+"Din,Ibrahim,'Id,Idris,Ihsan,Ihtisham,'Ikrimah,Ilias,'Imad,Imad al-Din,Imran,"
+"Imtiyaz,In'am,Iqbal,'Irfan,'Isa,'Isam,Ishaq,Isma'il,Iyad,Iyas,Izz al-Din,"
+"Jabbar,Jabr,Jabir,Jad Allah,Ja'far,Jal,Jalal,Jalal al-Din,Jalil,Jamal,Jamal "
+"al-Din,Jamil,Jarir,Jasim,Jaul,Jaun,Jawad,Jawdah,Jawhar,Jibran,Jibril,Jubair,"
+"Jul,Jumah,Junayd,Juwain,Kadar,Kadin,Kadir,Kahil,Kaliq,Kamal,Kamil,Karam,"
+"Kardal,Karif,Karim,Kasib,Kasim,Katib,Kazim,Khalaf,Khaldun,Khalid,Khalil,"
+"Khalil al-Allah,Khalis,Khatib,Khair al-Din,Khairi,Khoury,Khulus,Khuzaymah,"
+"Kutaiba,Labib,Lablab,Latif,Layth,Lu'ayLubayd,Luqman,Lut,Lutfi,Ma'd,Madani,"
+"Mahbub,Mahdi,Mahfuz,Mahir,Mahjub,Mahmud,Mahrus,Maimun,Majd,Majdy,Majd al-Din,"
+"Majid,Makin,Malik,Mamduh,Ma'mun,Ma'in,Mandhur,Mansur,Marghub,Marid,Ma'ruf,"
+"Marwan,Marzuq,Mash'al,Mashhur,Masrur,Mas'ud,Masun,Maysarah,Mazhar,Mazin,"
+"Mehmed,Mihran,Mihyar,Mika'il,Miqdad,Misbah,Mish'al,Miyaz,Mu'adh,Mu'awiyah,"
+"Mu'ayyad,Mubarak,Mubin,Mudar,Muddaththir,Mufid,Muflih,Muhab,Muhayr,Muhammad,"
+"Muhanna,Muhannad,Muhib,Muhibb,Muhsin,Muhtadi,Muhyi al-Din,Mu'in,Mu'izz,Mujab,"
+"Mujahid,Mukarram,Mukhlis,Mukhtar,Mulham,Mulhim,Mu'mmar,Mu'min,Mumtaz,Munahid,"
+"Mundhir,Munib,Munif,Munir,Mu'nis,Munjid,Munsif,Muntasir,Murad,Murid,Murshid,"
+"Murtada,Musa,Mus'ab,Musa'id,Mushtaq,Muslih,Muslim,Mutafa,Muta',Mu'tasim,"
+"Mutawalli,Mu'tazz,Muthanna,Muti,Muwaffaq,Muyassar,Muzaffar,Mussammil,Nabhan,"
+"Nabighah,Nabih,Nabil,Nadhir,Nadim,Nadir,Nafi',Nahid,Na'il,Na'im,Naji,Najib,"
+"Najid,Najjar,Najm al-Din,Na'aman,Namir,Nash'ah,Nash'at,Nashwan,Nasib,Nasih,"
+"Nasim,Nasir,Nasir al-Din,Nasr,Nasri,Nasuh,Nawaf,Nawfal,Nayif,Nazih,Nazim,"
+"Nazmi,Nibras,Nidal,Nijad,Nimr,Nizar,Nu'aym,Nuh,Nuhayd,Numair,Nu'man,Nur al-"
+"Din,Nuri,Nusrah,Nusrat,Omar,Orhan,Osman,Qasim,Qays,Qudamah,Qusay,Qatadah,"
+"Qutaybah,Qutb,Qutuz,Rabah,Rabi,Radi,Rafi,Rafid,Rafiq,Raghib,Rahman,Ra'id,"
+"Ra'if,Rais,Rajaa,Rajab,Raji,Rajih,Rakin,Rami,Ramih,Ramiz,Ramzi,Rani,Rashad,"
+"Rashid,Rasil,Rasin,Rasmi,Rasul,Ratib,Ra'uf,Rayhan,Rayyan,Razin,Ridha,Ridwan,"
+"Rihab,Riyad,Rizq,Ruhi,Rushd,Rushdi,Ruwayd,Saad,Sa'adah,Sab,Sabih,Sabir,Sabri,"
+"Sa'd,Sa'd al-Din,Sadad,Sadid,Sadiq,Sa'dun,Sa'id,Safi,Safiy,Safiy al-Din,"
+"Safuh,Safwah,Safwat,Safwan,Sahib,Sahir,Sahl,Sa'ib,Saif,Saif al-Din,Sajid,"
+"Sajjad,Sakhr,Salah,Salah al-Din,Salamah,Salih,Salim,Salman,Sami,Samih,Samir,"
+"Samman,Saqr,Sariyah,Sati,Saud,Sayyid,Sha'ban,Shadi,Shadin,Shafi,Shafiq,"
+"Shahid,Shahin,Shahir,Shakib,Shakir,Shams al-Din,Shamal,Shamil,Shamim,Sharaf,"
+"Sharif,Shawqi,Shihab,Shihab al-Din,Shihad,Shu'ayb,Shukri,Shumayl,Siddiq,"
+"Sinan,Siraj,Siraj al-Din,Sofian,Subhi,Sufyan,Suhayb,Suhayl,Suhaym,Sulaiman,"
+"Sumrah,Suraqah,Su'ud,Tahir,Tahsin,Taym Allah,Taj,Taj al-Din,Talal,Talib,"
+"Tamim,Tamir,Tamam,Tammam,Taqiy,Tarif,Tariq,Taslim,Tawfiq,Tawhid,Taymullah,"
+"Taysir,Tayyib,Thabit,Thamir,Thaqib,Thawab,Thawban,'Ubaidah,Ubaid,"
+"Ubayy,'Udayl,'Uday,'Umar,Umarah,Umair,'Urwah,Usaym,Usama,'Utbah,Uthal,Uthman,"
+"Waddah,Wadi,Wadid,Wafiq,Wahab,Wahhab,Wahid,Wa'il,Wajdi,Wajid,Wajih,Wakil,"
+"Walid,Walif,Waliy Allah,Waliy al-Din,Waqar,Waqqas,Ward,Wasif,Wasil,Wasim,"
+"Wazir,Yahya,Yaman,Ya'qub,Yasar,Yasin,Yasir,Yazan,Yazid,Yunus,Yushua,Yusri,"
+"Yusuf,Zafar,Zafir,Zahid,Zahir,Zayd,Zaim,Zayn,Zarif,Zakarriya,Zaki,Zakwan,"
+"Ziyad,Zubayr,Zuhayr"
 
 #. [race]
 #: Extended_Era/races/kalifa.cfg:15
 msgid "race^Falcon"
-msgstr ""
+msgstr "Haukka"
 
 #. [race]
 #: Extended_Era/races/kalifa.cfg:16
 msgid "race+female^Falcon"
-msgstr ""
+msgstr "Haukka"
 
 #. [race]
 #: Extended_Era/races/kalifa.cfg:17
 msgid "race^Falcons"
-msgstr ""
+msgstr "Haukat"
 
 #. [race]
 #: Extended_Era/races/sidhe.cfg:5
 msgid "race^Sidhe Elf"
-msgstr ""
+msgstr "Sidhehaltia"
 
 #. [race]
 #: Extended_Era/races/sidhe.cfg:6
 msgid "race+female^Sidhe Elf"
-msgstr ""
+msgstr "Sidhehaltia"
 
 #. [race]
 #: Extended_Era/races/sidhe.cfg:7
 msgid "race^Sidhe"
-msgstr ""
+msgstr "Sidhet"
 
 #. [race]
 #: Extended_Era/races/sidhe.cfg:15
-#, fuzzy
 msgid "race^Bear"
-msgstr "keihäs"
+msgstr "Karhu"
 
 #. [race]
 #: Extended_Era/races/sidhe.cfg:16
 msgid "race+female^Bear"
-msgstr ""
+msgstr "Karhu"
 
 #. [race]
 #: Extended_Era/races/sidhe.cfg:17
 msgid "race^Bears"
-msgstr ""
+msgstr "Karhut"
 
 #. [race]
 #: Extended_Era/races/sylvans.cfg:5
 msgid "race^Fairy"
-msgstr ""
+msgstr "Keiju"
 
 #. [race]
 #: Extended_Era/races/sylvans.cfg:6
 msgid "race+female^Fairy"
-msgstr ""
+msgstr "Keiju"
 
 #. [race]
 #: Extended_Era/races/sylvans.cfg:7
 msgid "race^Fairies"
-msgstr ""
+msgstr "Keijut"
 
 #. [race]
 #: Extended_Era/races/wyrm-ice.cfg:5
 msgid "race^Wyrm"
-msgstr ""
+msgstr "Käärme"
 
 #. [race]
 #: Extended_Era/races/wyrm-ice.cfg:6
 msgid "race+female^Wyrm"
-msgstr ""
+msgstr "Käärme"
 
 #. [race]
 #: Extended_Era/races/wyrm-ice.cfg:7
 msgid "race^Wyrms"
-msgstr ""
+msgstr "Käärmeet"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Ancient_Banner.cfg:5
 msgid "Ancient Banner"
-msgstr ""
+msgstr "Muinainen lippuherra"
 
 #. [attack]: type=pierce
 #: Extended_Era/units/aragwaith/Silver_Shield.cfg:73
@@ -700,7 +861,7 @@ msgstr "miekka"
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Archer.cfg:5
 msgid "Archer"
-msgstr ""
+msgstr "Jousimies"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Archer.cfg:18
@@ -735,12 +896,12 @@ msgstr "jousi"
 #: Extended_Era/units/aragwaith/Captain.cfg:5
 #: Extended_Era/units/dark_elves/Captain.cfg:5
 msgid "Captain"
-msgstr ""
+msgstr "Kapteeni"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Eagle_Master.cfg:5
 msgid "Eagle Master"
-msgstr ""
+msgstr "Kotkamestari"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Eagle_Master.cfg:19
@@ -764,14 +925,13 @@ msgstr "kynnet"
 #. [attack]: type=impact
 #: Extended_Era/units/aragwaith/Eagle_Master.cfg:36
 #: Extended_Era/units/aragwaith/Eagle_Rider.cfg:37
-#, fuzzy
 msgid "prey crush"
-msgstr "murskaus"
+msgstr "saaliinjauhanta"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Eagle_Rider.cfg:5
 msgid "Eagle Rider"
-msgstr ""
+msgstr "Kotkaratsastaja"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Eagle_Rider.cfg:20
@@ -785,12 +945,12 @@ msgstr ""
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Flagbearer.cfg:5
 msgid "Flagbearer"
-msgstr ""
+msgstr "Lipunkantaja"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Greatbow.cfg:5
 msgid "Greatbow"
-msgstr ""
+msgstr "Suurjousi"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Greatbow.cfg:19
@@ -821,7 +981,7 @@ msgstr ""
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Guardian.cfg:5
 msgid "Guardian"
-msgstr ""
+msgstr "Hovivartija"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Lancer.cfg:5
@@ -831,7 +991,7 @@ msgstr "Peitsimies"
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Longswordsman.cfg:5
 msgid "Longswordsman"
-msgstr ""
+msgstr "Pitkämiekkamies"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Longswordsman.cfg:18
@@ -846,9 +1006,8 @@ msgstr ""
 #. [attack]: type=blade
 #: Extended_Era/units/aragwaith/Longswordsman.cfg:64
 #: Extended_Era/units/aragwaith/Swordmaster.cfg:81
-#, fuzzy
 msgid "longsword"
-msgstr "miekka"
+msgstr "pitkämiekka"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Pikeman.cfg:5
@@ -858,12 +1017,12 @@ msgstr "Seiväsmies"
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Scout.cfg:5
 msgid "Scout"
-msgstr ""
+msgstr "Tiedustelija"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Shield_Guard.cfg:5
 msgid "Shield Guard"
-msgstr ""
+msgstr "Kilpivartija"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Shield_Guard.cfg:24
@@ -879,12 +1038,12 @@ msgstr ""
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Silver_Shield.cfg:5
 msgid "Silver Shield"
-msgstr ""
+msgstr "Hopeakilpi"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Slayer.cfg:5
 msgid "Slayer"
-msgstr ""
+msgstr "Surmaaja"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Slayer.cfg:22
@@ -903,7 +1062,7 @@ msgstr "kalpa"
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Sorcerer.cfg:5
 msgid "Aragwaith^Sorcerer"
-msgstr ""
+msgstr "Loitsuherra"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Sorcerer.cfg:19
@@ -937,12 +1096,12 @@ msgstr "sauva"
 #: Extended_Era/units/aragwaith/Sorcerer.cfg:37
 #: Extended_Era/units/aragwaith/Wizard.cfg:36
 msgid "mage-bolt"
-msgstr ""
+msgstr "maagivasama"
 
 #. [female]
 #: Extended_Era/units/aragwaith/Sorcerer.cfg:98
 msgid "Aragwaith^Sorceress"
-msgstr ""
+msgstr "Loitsuleidi"
 
 #. [female]
 #: Extended_Era/units/aragwaith/Sorcerer.cfg:103
@@ -972,7 +1131,7 @@ msgstr ""
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Strongbow.cfg:5
 msgid "Strongbow"
-msgstr ""
+msgstr "Vahvajousi"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Strongbow.cfg:35
@@ -986,7 +1145,7 @@ msgstr ""
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Swordmaster.cfg:5
 msgid "Swordmaster"
-msgstr ""
+msgstr "Miekkamestari"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Swordmaster.cfg:20
@@ -1003,7 +1162,7 @@ msgstr ""
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Swordsman.cfg:43
 msgid "Swordsman"
-msgstr ""
+msgstr "Miekkamies"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Swordsman.cfg:57
@@ -1017,7 +1176,7 @@ msgstr ""
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Warlock.cfg:5
 msgid "Aragwaith^Warlock"
-msgstr ""
+msgstr "Noita"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Warlock.cfg:21
@@ -1031,7 +1190,7 @@ msgstr ""
 #. [female]
 #: Extended_Era/units/aragwaith/Warlock.cfg:112
 msgid "female^Warlock"
-msgstr ""
+msgstr "Noita"
 
 #. [female]
 #: Extended_Era/units/aragwaith/Warlock.cfg:117
@@ -1048,18 +1207,17 @@ msgstr ""
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Wizard.cfg:5
 msgid "Aragwaith^Wizard"
-msgstr ""
+msgstr "Taikuri"
 
 #. [female]
 #: Extended_Era/units/aragwaith/Wizard.cfg:106
 msgid "female^Wizard"
-msgstr ""
+msgstr "Taikuri"
 
 #. [unit]: race=bear
 #: Extended_Era/units/bears/Bear.cfg:5
-#, fuzzy
 msgid "Bear"
-msgstr "keihäs"
+msgstr "Karhu"
 
 #. [unit]: race=bear
 #: Extended_Era/units/bears/Bear.cfg:18
@@ -1075,12 +1233,12 @@ msgstr ""
 #. [attack]: type=impact
 #: Extended_Era/units/bears/Young.cfg:22 Extended_Era/units/bears/Bear.cfg:23
 msgid "bearhug"
-msgstr ""
+msgstr "nallehali"
 
 #. [unit]: race=bear
 #: Extended_Era/units/bears/Young.cfg:5
 msgid "Young Bear"
-msgstr ""
+msgstr "Karhunpentu"
 
 #. [unit]: race=bear
 #: Extended_Era/units/bears/Young.cfg:17
@@ -1097,7 +1255,7 @@ msgstr ""
 #. [unit]: race=demon
 #: Extended_Era/units/chaos/Abomination.cfg:5
 msgid "Abomination"
-msgstr ""
+msgstr "Iljetys"
 
 #. [attack]: type=impact
 #: Extended_Era/units/chaos/Lesser_Mutation.cfg:26
@@ -1110,7 +1268,7 @@ msgstr "murskaus"
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Blood_Knight.cfg:5
 msgid "Blood Knight"
-msgstr ""
+msgstr "Veriritari"
 
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Blood_Knight.cfg:21
@@ -1145,7 +1303,7 @@ msgstr "kirves"
 #. [unit]: race=demon
 #: Extended_Era/units/chaos/Chaos_Daemon.cfg:5
 msgid "Chaos Daemon"
-msgstr ""
+msgstr "Kaaoksen demoni"
 
 #. [unit]: race=demon
 #: Extended_Era/units/chaos/Greater_Daemon.cfg:21
@@ -1169,12 +1327,12 @@ msgstr "tulipallo"
 #. [female]
 #: Extended_Era/units/chaos/Chaos_Daemon.cfg:113
 msgid "female^Chaos Demon"
-msgstr ""
+msgstr "Kaaoksen demonitar"
 
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Demonologist.cfg:5
 msgid "Demonologist"
-msgstr ""
+msgstr "Demonipappi"
 
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Demonologist.cfg:26
@@ -1190,22 +1348,22 @@ msgstr ""
 #: Extended_Era/units/chaos/Demonologist.cfg:40
 #: Extended_Era/units/chaos/Invoker.cfg:36
 msgid "chaos blast"
-msgstr ""
+msgstr "kaaospamaus"
 
 #. [attack]: type=fire
 #: Extended_Era/units/chaos/Demonologist.cfg:52
 msgid "infernal storm"
-msgstr ""
+msgstr "pirullinen myrsky"
 
 #. [female]
 #: Extended_Era/units/chaos/Demonologist.cfg:171
 msgid "female^Demonologist"
-msgstr ""
+msgstr "Demonipapitar"
 
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Doom_Guard.cfg:5
 msgid "Doom Guard"
-msgstr ""
+msgstr "Tuomiovartija"
 
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Doom_Guard.cfg:21
@@ -1229,7 +1387,7 @@ msgstr "kilpi"
 #. [unit]: race=demon
 #: Extended_Era/units/chaos/Evil_Crab.cfg:5
 msgid "Evil Crab"
-msgstr ""
+msgstr "Paha rapu"
 
 #. [unit]: race=demon
 #: Extended_Era/units/chaos/Evil_Crab.cfg:22
@@ -1243,31 +1401,29 @@ msgstr ""
 #. [attack]: type=blade
 #: Extended_Era/units/chaos/Evil_Crab.cfg:27
 #: Extended_Era/units/chaos/Hell_Crab.cfg:28
-#, fuzzy
 msgid "pincers"
-msgstr "lävistys"
+msgstr "pinsetit"
 
 #. [attack]: type=cold
 #: Extended_Era/units/chaos/Evil_Crab.cfg:35
 #: Extended_Era/units/chaos/Hell_Crab.cfg:36
-#, fuzzy
 msgid "evil eye"
-msgstr "lähitaistelu"
+msgstr "paha silmä"
 
 #. [unit]: race=demon
 #: Extended_Era/units/chaos/Greater_Daemon.cfg:5
 msgid "Greater Daemon"
-msgstr ""
+msgstr "Suurdemoni"
 
 #. [female]
 #: Extended_Era/units/chaos/Greater_Daemon.cfg:114
 msgid "female^Greater Demon"
-msgstr ""
+msgstr "Suurdemonitar"
 
 #. [unit]: race=demon
 #: Extended_Era/units/chaos/Greater_Mutation.cfg:5
 msgid "Greater Mutation"
-msgstr ""
+msgstr "Suurmutaatio"
 
 #. [unit]: race=demon
 #: Extended_Era/units/chaos/Greater_Mutation.cfg:21
@@ -1282,7 +1438,7 @@ msgstr ""
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Headhunter.cfg:5
 msgid "Headhunter"
-msgstr ""
+msgstr "Päänmetsästäjä"
 
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Headhunter.cfg:25
@@ -1302,7 +1458,7 @@ msgstr "puunuija"
 #. [unit]: race=demon
 #: Extended_Era/units/chaos/Hell_Crab.cfg:5
 msgid "Hell Crab"
-msgstr ""
+msgstr "Helvetinrapu"
 
 #. [unit]: race=demon
 #: Extended_Era/units/chaos/Hell_Crab.cfg:23
@@ -1317,7 +1473,7 @@ msgstr ""
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Hell_Guardian.cfg:5
 msgid "Hell Guardian"
-msgstr ""
+msgstr "Helvetinvartija"
 
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Hell_Guardian.cfg:22
@@ -1331,7 +1487,7 @@ msgstr ""
 #. [unit]: race=monster
 #: Extended_Era/units/chaos/Hound.cfg:5
 msgid "Hound"
-msgstr ""
+msgstr "Pentu"
 
 #. [unit]: race=monster
 #: Extended_Era/units/chaos/Hound.cfg:18
@@ -1350,7 +1506,7 @@ msgstr "torahampaat"
 #. [unit]: race=monster
 #: Extended_Era/units/chaos/Hound_Flesh.cfg:5
 msgid "Flesh Hound"
-msgstr ""
+msgstr "Raatelija"
 
 #. [unit]: race=monster
 #: Extended_Era/units/chaos/Hound_Flesh.cfg:19
@@ -1370,7 +1526,7 @@ msgstr "nyrkki"
 #. [unit]: race=monster
 #: Extended_Era/units/chaos/Hound_Rabid.cfg:5
 msgid "Rabid Hound"
-msgstr ""
+msgstr "Rakki"
 
 #. [unit]: race=monster
 #: Extended_Era/units/chaos/Hound_Rabid.cfg:18
@@ -1382,7 +1538,7 @@ msgstr ""
 #. [unit]: race=monster
 #: Extended_Era/units/chaos/Hound_Warp.cfg:5
 msgid "Warp Hound"
-msgstr ""
+msgstr "Hurtta"
 
 #. [unit]: race=monster
 #: Extended_Era/units/chaos/Hound_Warp.cfg:19
@@ -1396,7 +1552,7 @@ msgstr ""
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Invader.cfg:5
 msgid "Invader"
-msgstr ""
+msgstr "Valloittaja"
 
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Invader.cfg:20
@@ -1409,7 +1565,7 @@ msgstr ""
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Invoker.cfg:5
 msgid "Invoker"
-msgstr ""
+msgstr "Manaaja"
 
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Invoker.cfg:22
@@ -1425,12 +1581,12 @@ msgstr ""
 #. [female]
 #: Extended_Era/units/chaos/Invoker.cfg:116
 msgid "female^Invoker"
-msgstr ""
+msgstr "Manaajatar"
 
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Knight.cfg:5
 msgid "Dark Knight"
-msgstr ""
+msgstr "Pimeä ritari"
 
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Knight.cfg:17
@@ -1444,17 +1600,17 @@ msgstr ""
 #. [unit]: race=demon
 #: Extended_Era/units/chaos/Lesser_Daemon.cfg:5
 msgid "Lesser Daemon"
-msgstr ""
+msgstr "Vähempi demoni"
 
 #. [female]
 #: Extended_Era/units/chaos/Lesser_Daemon.cfg:106
 msgid "female^Lesser Demon"
-msgstr ""
+msgstr "Vähempi demonitar"
 
 #. [unit]: race=demon
 #: Extended_Era/units/chaos/Lesser_Mutation.cfg:5
 msgid "Lesser Mutation"
-msgstr ""
+msgstr "Vähempi mutaatio"
 
 #. [unit]: race=demon
 #: Extended_Era/units/chaos/Lesser_Mutation.cfg:21
@@ -1468,7 +1624,7 @@ msgstr ""
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Magus.cfg:5
 msgid "Magus"
-msgstr ""
+msgstr "Noitatohtori"
 
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Magus.cfg:25
@@ -1484,27 +1640,27 @@ msgstr ""
 #. [female]
 #: Extended_Era/units/chaos/Magus.cfg:147
 msgid "female^Magus"
-msgstr ""
+msgstr "Noitatohtori"
 
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Marauder.cfg:5
 msgid "Marauder"
-msgstr ""
+msgstr "Kiduttaja"
 
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Overlord.cfg:5
 msgid "Overlord"
-msgstr ""
+msgstr "Ylilordi"
 
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Soulhunter.cfg:5
 msgid "Soulhunter"
-msgstr ""
+msgstr "Sielunmetsästäjä"
 
 #. [unit]: race=demon
 #: Extended_Era/units/chaos/Winged_Daemon.cfg:5
 msgid "Winged Daemon"
-msgstr ""
+msgstr "Lentodemoni"
 
 #. [unit]: race=demon
 #: Extended_Era/units/chaos/Winged_Daemon.cfg:28
@@ -1518,7 +1674,7 @@ msgstr ""
 #. [female]
 #: Extended_Era/units/chaos/Winged_Daemon.cfg:116
 msgid "female^Winged Demon"
-msgstr ""
+msgstr "Lentodemonitar"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Captain.cfg:21
@@ -1532,7 +1688,7 @@ msgstr ""
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Cleric.cfg:5
 msgid "female^Cleric"
-msgstr ""
+msgstr "Pimeäpapitar"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Cleric.cfg:22
@@ -1565,12 +1721,12 @@ msgstr "helanuija"
 #: Extended_Era/units/dark_elves/Sorceress.cfg:34
 #: Extended_Era/units/dark_elves/Cleric.cfg:35
 msgid "magic torture"
-msgstr ""
+msgstr "taikakidutus"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Corsair.cfg:5
 msgid "Corsair"
-msgstr ""
+msgstr "Suursoturi"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Corsair.cfg:18
@@ -1583,7 +1739,7 @@ msgstr ""
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Enchantress.cfg:5
 msgid "female^Enchantress"
-msgstr ""
+msgstr "Pimeälumoojatar"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Enchantress.cfg:18
@@ -1598,7 +1754,7 @@ msgstr ""
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Fighter.cfg:5
 msgid "Fighter"
-msgstr "Soturi"
+msgstr "Taistelija"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Fighter.cfg:24
@@ -1611,7 +1767,7 @@ msgstr ""
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/High_Lord.cfg:5
 msgid "High Lord"
-msgstr ""
+msgstr "Suurlordi"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/High_Lord.cfg:21
@@ -1627,7 +1783,7 @@ msgstr ""
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Hunter.cfg:5
 msgid "Hunter"
-msgstr ""
+msgstr "Metsästäjä"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Hunter.cfg:21
@@ -1656,7 +1812,7 @@ msgstr "varsijousi"
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Lizard_Master.cfg:5
 msgid "Lizard Master"
-msgstr ""
+msgstr "Liskomestari"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Lizard_Master.cfg:19
@@ -1670,7 +1826,7 @@ msgstr ""
 #: Extended_Era/units/dark_elves/Lizard_Rider.cfg:23
 #: Extended_Era/units/dark_elves/Lizard_Master.cfg:24
 msgid "deathlance"
-msgstr ""
+msgstr "kuolonpeitsi"
 
 #. [attack]: type=blade
 #: Extended_Era/units/dark_elves/Lizard_Master.cfg:36
@@ -1680,7 +1836,7 @@ msgstr "puraisu"
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Lizard_Rider.cfg:5
 msgid "Lizard Rider"
-msgstr ""
+msgstr "Liskoratsastaja"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Lizard_Rider.cfg:18
@@ -1708,7 +1864,7 @@ msgstr ""
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Marshal.cfg:5
 msgid "Marshal"
-msgstr ""
+msgstr "Marsalkka"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Marshal.cfg:22
@@ -1722,7 +1878,7 @@ msgstr ""
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Noble.cfg:5
 msgid "Noble"
-msgstr ""
+msgstr "Aatelinen"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Noble.cfg:17
@@ -1749,7 +1905,7 @@ msgstr ""
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Sorcerer.cfg:5
 msgid "Dark Elf^Sorcerer"
-msgstr ""
+msgstr "Pimeävelho"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Sorcerer.cfg:19
@@ -1765,12 +1921,12 @@ msgstr ""
 #: Extended_Era/units/dark_elves/Sorcerer.cfg:24
 #: Extended_Era/units/dark_elves/Wizard.cfg:24
 msgid "dark wave"
-msgstr ""
+msgstr "pimeä aalto"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Sorceress.cfg:5
 msgid "Dark Elf^Sorceress"
-msgstr ""
+msgstr "Pimeävelhotar"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Sorceress.cfg:21
@@ -1785,7 +1941,7 @@ msgstr ""
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Stalker.cfg:5
 msgid "Stalker"
-msgstr ""
+msgstr "Vaanija"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Stalker.cfg:22
@@ -1798,7 +1954,7 @@ msgstr ""
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Warlock.cfg:5
 msgid "Dark Elf^Warlock"
-msgstr ""
+msgstr "Pimeänoita"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Warlock.cfg:19
@@ -1832,7 +1988,7 @@ msgstr ""
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Wizard.cfg:5
 msgid "Dark Elf^Wizard"
-msgstr ""
+msgstr "Pimeätaikuri"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Wizard.cfg:19
@@ -1846,7 +2002,7 @@ msgstr ""
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Arcanister.cfg:5
 msgid "Dwarvish Arcanister"
-msgstr ""
+msgstr "Vanha ja viisas"
 
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Arcanister.cfg:24
@@ -1867,7 +2023,7 @@ msgstr "vasara"
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Axemaster.cfg:5
 msgid "Dwarvish Axemaster"
-msgstr ""
+msgstr "Kääpiöiden kirvesmestari"
 
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Axemaster.cfg:25
@@ -1880,7 +2036,7 @@ msgstr ""
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Axethrower.cfg:5
 msgid "Dwarvish Axethrower"
-msgstr ""
+msgstr "Kääpiöiden kirveenheittäjä"
 
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Axethrower.cfg:24
@@ -1892,7 +2048,7 @@ msgstr ""
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Flamethower.cfg:5
 msgid "Dwarvish Flamethrower"
-msgstr ""
+msgstr "Kärventäjäkääpiö"
 
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Flamethower.cfg:27
@@ -1906,12 +2062,12 @@ msgstr ""
 #. [attack]: type=fire
 #: Extended_Era/units/dwarves/Flamethower.cfg:41
 msgid "firestick"
-msgstr ""
+msgstr "tulitikku"
 
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Gyrocopter.cfg:5
 msgid "Gyrocopter"
-msgstr ""
+msgstr "Gyrokopteri"
 
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Gyrocopter.cfg:19
@@ -1928,12 +2084,12 @@ msgstr ""
 #: Extended_Era/units/dwarves/Gyrocopter.cfg:36
 #: Extended_Era/units/dwarves/Steamcopter.cfg:37
 msgid "bombs"
-msgstr ""
+msgstr "pommit"
 
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Runemaster.cfg:5
 msgid "Dwarvish Runemaster"
-msgstr "Riimuherra"
+msgstr "Kääpiöiden riimumestari"
 
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Runemaster.cfg:23
@@ -1949,7 +2105,7 @@ msgstr ""
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Runesmith.cfg:5
 msgid "Dwarvish Runesmith"
-msgstr ""
+msgstr "Kääpiöiden riimunveistäjä"
 
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Runesmith.cfg:23
@@ -1963,7 +2119,7 @@ msgstr ""
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Runner.cfg:5
 msgid "Dwarvish Runner"
-msgstr ""
+msgstr "Pikajuoksijakääpiö"
 
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Runner.cfg:24
@@ -1976,7 +2132,7 @@ msgstr ""
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Steamcopter.cfg:5
 msgid "Steamcopter"
-msgstr ""
+msgstr "Höyrykopteri"
 
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Steamcopter.cfg:20
@@ -1988,7 +2144,7 @@ msgstr ""
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Steamwheel.cfg:5
 msgid "Steamwheel"
-msgstr ""
+msgstr "Höyrykärry"
 
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Steamwheel.cfg:20
@@ -2008,7 +2164,7 @@ msgstr "läimäys"
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Thunderwheel.cfg:5
 msgid "Thunderwheel"
-msgstr ""
+msgstr "Ukkoskärry"
 
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Thunderwheel.cfg:20
@@ -2020,7 +2176,7 @@ msgstr ""
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Warwheel.cfg:5
 msgid "Warwheel"
-msgstr ""
+msgstr "Sotakärry"
 
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Warwheel.cfg:21
@@ -2032,7 +2188,7 @@ msgstr ""
 #. [unit]: race=wyrm
 #: Extended_Era/units/ice_wyrms/Boreal.cfg:5
 msgid "Boreal Wyrm"
-msgstr ""
+msgstr "Pohjoistuulen käärme"
 
 #. [unit]: race=wyrm
 #: Extended_Era/units/ice_wyrms/Boreal.cfg:19
@@ -2051,7 +2207,7 @@ msgstr ""
 #: Extended_Era/units/ice_wyrms/Frost.cfg:23
 #: Extended_Era/units/ice_wyrms/Mistral.cfg:23
 msgid "tail"
-msgstr ""
+msgstr "häntä"
 
 #. [attack]: type=cold
 #: Extended_Era/units/ice_wyrms/Ice.cfg:32
@@ -2059,14 +2215,13 @@ msgstr ""
 #: Extended_Era/units/ice_wyrms/Rime.cfg:33
 #: Extended_Era/units/ice_wyrms/Frost.cfg:32
 #: Extended_Era/units/ice_wyrms/Mistral.cfg:32
-#, fuzzy
 msgid "cold breath"
-msgstr "tulihenkäys"
+msgstr "kylmä henkäys"
 
 #. [unit]: race=wyrm
 #: Extended_Era/units/ice_wyrms/Frost.cfg:5
 msgid "Frost Wyrm"
-msgstr ""
+msgstr "Routakäärme"
 
 #. [unit]: race=wyrm
 #: Extended_Era/units/ice_wyrms/Frost.cfg:18
@@ -2080,7 +2235,7 @@ msgstr ""
 #. [unit]: race=wyrm
 #: Extended_Era/units/ice_wyrms/Ice.cfg:5
 msgid "Ice Wyrm"
-msgstr ""
+msgstr "Jääkäärme"
 
 #. [unit]: race=wyrm
 #: Extended_Era/units/ice_wyrms/Ice.cfg:18
@@ -2097,7 +2252,7 @@ msgstr ""
 #. [unit]: race=wyrm
 #: Extended_Era/units/ice_wyrms/Mistral.cfg:5
 msgid "Mistral Wyrm"
-msgstr ""
+msgstr "Mistraalikäärme"
 
 #. [unit]: race=wyrm
 #: Extended_Era/units/ice_wyrms/Mistral.cfg:18
@@ -2110,7 +2265,7 @@ msgstr ""
 #. [unit]: race=wyrm
 #: Extended_Era/units/ice_wyrms/Rime.cfg:5
 msgid "Rime Wyrm"
-msgstr ""
+msgstr "Kuurakäärme"
 
 #. [unit]: race=wyrm
 #: Extended_Era/units/ice_wyrms/Rime.cfg:19
@@ -2123,7 +2278,7 @@ msgstr ""
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Ahadath.cfg:5
 msgid "Ahadath"
-msgstr ""
+msgstr "Ahadathi"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Ahadath.cfg:18
@@ -2143,12 +2298,12 @@ msgstr ""
 #: Extended_Era/units/kalifa/Elite_Ghazi.cfg:31
 #: Extended_Era/units/kalifa/Naffatun.cfg:37
 msgid "composite bow"
-msgstr ""
+msgstr "yhdistelmäjousi"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Amir.cfg:5
 msgid "Amir"
-msgstr ""
+msgstr "Amiiri"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Amir.cfg:18
@@ -2165,12 +2320,12 @@ msgstr ""
 #: Extended_Era/units/kalifa/Amir.cfg:31
 #: Extended_Era/units/kalifa/Immortal.cfg:40
 msgid "long sword"
-msgstr ""
+msgstr "pitkämiekka"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Arif.cfg:5
 msgid "Arif"
-msgstr ""
+msgstr "Ariifi"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Arif.cfg:18
@@ -2186,12 +2341,12 @@ msgstr ""
 #: Extended_Era/units/steppe_orcs/Stoic.cfg:31
 #: Extended_Era/units/steppe_orcs/Rigid.cfg:30
 msgid "shield bash"
-msgstr ""
+msgstr "kilpi-isku"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Ekim.cfg:5
 msgid "Ekim"
-msgstr ""
+msgstr "Ekiimi"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Ekim.cfg:24
@@ -2203,7 +2358,7 @@ msgstr ""
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Ekim_Haram.cfg:5
 msgid "Ekim Haram"
-msgstr ""
+msgstr "Ekiimiharaami"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Ekim_Haram.cfg:26
@@ -2215,7 +2370,7 @@ msgstr ""
 #. [unit]: race=falcon
 #: Extended_Era/units/kalifa/Elder_Falcon.cfg:5
 msgid "Elder Falcon"
-msgstr ""
+msgstr "Vanhempi haukka"
 
 #. [unit]: race=falcon
 #: Extended_Era/units/kalifa/Elder_Falcon.cfg:21
@@ -2229,12 +2384,12 @@ msgstr ""
 #: Extended_Era/units/kalifa/Falcon.cfg:33
 #: Extended_Era/units/kalifa/Elder_Falcon.cfg:35
 msgid "beak"
-msgstr ""
+msgstr "nokka"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Elite_Ghazi.cfg:5
 msgid "Elite Ghazi"
-msgstr ""
+msgstr "Ghazieliitti"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Elite_Ghazi.cfg:18
@@ -2246,12 +2401,12 @@ msgstr ""
 #. [unit]: race=falcon
 #: Extended_Era/units/kalifa/Falcon.cfg:5
 msgid "Falcon"
-msgstr ""
+msgstr "Haukka"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Ghazi.cfg:5
 msgid "Ghazi"
-msgstr ""
+msgstr "Ghazi"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Ghazi.cfg:18
@@ -2263,7 +2418,7 @@ msgstr ""
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Ghaznid.cfg:5
 msgid "Ghaznid"
-msgstr ""
+msgstr "Ghaznidi"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Ghaznid.cfg:18
@@ -2283,7 +2438,7 @@ msgstr "peitsi"
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Ghulam.cfg:5
 msgid "Ghulam"
-msgstr ""
+msgstr "Ghulaami"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Ghulam.cfg:19
@@ -2296,7 +2451,7 @@ msgstr ""
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Ghulam_al_Rami.cfg:5
 msgid "Ghulam al Rami"
-msgstr ""
+msgstr "Ghulaami al Rami"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Ghulam_al_Rami.cfg:20
@@ -2310,7 +2465,7 @@ msgstr ""
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Immortal.cfg:5
 msgid "Immortal"
-msgstr ""
+msgstr "Voittamaton"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Immortal.cfg:19
@@ -2318,11 +2473,13 @@ msgid ""
 "These Arif have become so skilled that thier foes wonder whether they can "
 "die at all."
 msgstr ""
+"Nämä arifit ovat tulleet niin taitaviksi, että heidän vastustajansa "
+"miettivät voivatko he ylipäätään kuolla."
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Karadis.cfg:5
 msgid "Karadis"
-msgstr ""
+msgstr "Karadis"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Karadis.cfg:19
@@ -2336,23 +2493,23 @@ msgstr ""
 #: Extended_Era/units/kalifa/Mamluk.cfg:25
 #: Extended_Era/units/kalifa/Karadis.cfg:24
 msgid "cavalry sword"
-msgstr ""
+msgstr "ratsuväenmiekka"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Life_Guard.cfg:5
 msgid "Life Guard"
-msgstr ""
+msgstr "Henkivartija"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Life_Guard.cfg:19
 msgid ""
 "Only the greatest mounter warriors in the land are taken into the Life Guard."
-msgstr ""
+msgstr "Ratsusotureista vain suurimmat kutsutaan henkivartiostoon."
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Mamluk.cfg:5
 msgid "Mamluk"
-msgstr ""
+msgstr "Mamelukki"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Mamluk.cfg:20
@@ -2364,7 +2521,7 @@ msgstr ""
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Mubarizan.cfg:5
 msgid "Mubarizan"
-msgstr ""
+msgstr "Mubarizaani"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Mubarizan.cfg:19
@@ -2377,22 +2534,22 @@ msgstr ""
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Naffatun.cfg:5
 msgid "Naffatun"
-msgstr ""
+msgstr "Naffatuni"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Naffatun.cfg:23
 msgid "Naffutun use naptha to show their enemies true fear."
-msgstr ""
+msgstr "Naffutunit käyttävät öljyä pelottaakseen vihollisiaan."
 
 #. [attack]: type=fire
 #: Extended_Era/units/kalifa/Naffatun.cfg:28
 msgid "naptha throw"
-msgstr ""
+msgstr "öljyruiske"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Rami.cfg:5
 msgid "Rami"
-msgstr ""
+msgstr "Rami"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Rami.cfg:18
@@ -2406,12 +2563,12 @@ msgstr ""
 #: Extended_Era/units/kalifa/Rami_al_Nuri.cfg:33
 #: Extended_Era/units/kalifa/Rami.cfg:32
 msgid "fire arrow"
-msgstr ""
+msgstr "tulinuoli"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Rami_al_Nuri.cfg:5
 msgid "Rami al Nuri"
-msgstr ""
+msgstr "Rami al Nuri"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Rami_al_Nuri.cfg:19
@@ -2423,17 +2580,17 @@ msgstr ""
 #. [unit]: race=naga
 #: Extended_Era/units/nagas/Abomination.cfg:5
 msgid "Naga Abomination"
-msgstr ""
+msgstr "Nagailjetys"
 
 #. [unit]: race=naga
 #: Extended_Era/units/nagas/Abomination.cfg:24
 msgid "These heavy fighters are elite forces of the nagas."
-msgstr ""
+msgstr "Nämä raskaat taistelijat ovat nagojen eliittijoukkoja."
 
 #. [unit]: race=naga
 #: Extended_Era/units/nagas/Assassin.cfg:5
 msgid "Naga Assassin"
-msgstr ""
+msgstr "Nagasalamurhaaja"
 
 #. [unit]: race=naga
 #: Extended_Era/units/nagas/Hunter.cfg:19
@@ -2448,7 +2605,7 @@ msgstr ""
 #. [unit]: race=naga
 #: Extended_Era/units/nagas/Depthprowler.cfg:5
 msgid "Naga Depthprowler"
-msgstr ""
+msgstr "Syvyyksien hiipijä"
 
 #. [unit]: race=naga
 #: Extended_Era/units/nagas/Depthstalker.cfg:21
@@ -2464,7 +2621,7 @@ msgstr ""
 #. [female]
 #: Extended_Era/units/nagas/Depthprowler.cfg:178
 msgid "Nagini Depthprowler"
-msgstr ""
+msgstr "Syvyyksien hiipijä"
 
 #. [female]
 #: Extended_Era/units/nagas/Depthstalker.cfg:183
@@ -2482,17 +2639,17 @@ msgstr ""
 #. [unit]: race=naga
 #: Extended_Era/units/nagas/Depthstalker.cfg:5
 msgid "Naga Depthstalker"
-msgstr ""
+msgstr "Syvyyksien väijyjä"
 
 #. [female]
 #: Extended_Era/units/nagas/Depthstalker.cfg:178
 msgid "Nagini Depthstalker"
-msgstr ""
+msgstr "Syvyyksien väijyjä"
 
 #. [unit]: race=naga
 #: Extended_Era/units/nagas/Guardian.cfg:5
 msgid "Naga Guardian"
-msgstr ""
+msgstr "Nagavartija"
 
 #. [unit]: race=naga
 #: Extended_Era/units/nagas/Guardian.cfg:23
@@ -2505,12 +2662,12 @@ msgstr ""
 #. [unit]: race=naga
 #: Extended_Era/units/nagas/Hunter.cfg:5
 msgid "Naga Hunter"
-msgstr ""
+msgstr "Nagametsästäjä"
 
 #. [unit]: race=naga
 #: Extended_Era/units/nagas/Sentinel.cfg:5
 msgid "Naga Sentinel"
-msgstr ""
+msgstr "Nagojen luottovartija"
 
 #. [unit]: race=naga
 #: Extended_Era/units/nagas/Sentinel.cfg:24
@@ -2525,7 +2682,7 @@ msgstr ""
 #. [unit]: race=naga
 #: Extended_Era/units/nagas/Warden.cfg:5
 msgid "Naga Warden"
-msgstr ""
+msgstr "Nagaesimies"
 
 #. [unit]: race=naga
 #: Extended_Era/units/nagas/Warden.cfg:23
@@ -2539,7 +2696,7 @@ msgstr ""
 #. [unit]: race=orc
 #: Extended_Era/units/orcs/Shaman.cfg:5
 msgid "Orcish Shaman"
-msgstr ""
+msgstr "Örkkishamaani"
 
 #. [unit]: race=orc
 #: Extended_Era/units/orcs/Witch_Doctor.cfg:21
@@ -2563,7 +2720,7 @@ msgstr "kirous"
 #. [unit]: race=orc
 #: Extended_Era/units/orcs/Warlock.cfg:5
 msgid "Orcish Warlock"
-msgstr ""
+msgstr "Örkkitaikuri"
 
 #. [unit]: race=orc
 #: Extended_Era/units/orcs/Warlock.cfg:21
@@ -2578,12 +2735,12 @@ msgstr ""
 #. [unit]: race=orc
 #: Extended_Era/units/orcs/Witch_Doctor.cfg:5
 msgid "Orcish Witch Doctor"
-msgstr ""
+msgstr "Örkkien noitatohtori"
 
 #. [unit]: race=human
 #: Extended_Era/units/outlaws/Brigand.cfg:5
 msgid "Brigand"
-msgstr ""
+msgstr "Kaakkirötöstelijä"
 
 #. [unit]: race=human
 #: Extended_Era/units/outlaws/Brigand.cfg:18
@@ -2597,12 +2754,12 @@ msgstr ""
 #. [attack]: type=blade
 #: Extended_Era/units/outlaws/Brigand.cfg:30
 msgid "sickle"
-msgstr ""
+msgstr "sirppi"
 
 #. [unit]: race=human
 #: Extended_Era/units/outlaws/Princess.cfg:4
 msgid "female^Outlaw Princess"
-msgstr ""
+msgstr "Lainsuojaton prinsessa"
 
 #. [unit]: race=human
 #: Extended_Era/units/outlaws/Princess.cfg:23
@@ -2612,6 +2769,10 @@ msgid ""
 "the life of an Outlaw. She dreams of founding her own Queendom with the "
 "plunder she finds on the road."
 msgstr ""
+"Syntyjään aatelinen, lainsuojaton prinsessa on oppinut miekkailua suurimpien "
+"mestareiden kanssa, mutta hän on epäonnistuneen aristokratian jälkeläinen, "
+"joka on valinnut lainsuojattoman elämän. Hän uneksii oman kuningatarkunnan "
+"perustamisesta saaliilla, jonka hän saa."
 
 #. [attack]: type=impact
 #: Extended_Era/units/outlaws/Princess.cfg:101
@@ -2622,7 +2783,7 @@ msgstr "linko"
 #. [unit]: race=human
 #: Extended_Era/units/outlaws/Queen.cfg:4
 msgid "female^Outlaw Queen"
-msgstr ""
+msgstr "Lainsuojaton kuningatar"
 
 #. [unit]: race=human
 #: Extended_Era/units/outlaws/Queen.cfg:26
@@ -2634,11 +2795,16 @@ msgid ""
 "Queendom with the plunder she finds on the road, and she is ever so close to "
 "that goal."
 msgstr ""
+"Syntyjään aatelinen, lainsuojaton kuningatar on oppinut miekkailua ja "
+"taistelutaktiikoita suurimpien mestareiden kanssa, tehden hänestä sekä "
+"suuren taistelijan että johtajan. Kuitenkin hän on epäonnistuneen "
+"aristokratian jälkeläinen, joka on valinnut lainsuojattoman elämän. Hän "
+"uneksii oman kuningatarkunnan perustamisesta saaliilla, jonka hän saa."
 
 #. [unit]: race=human
 #: Extended_Era/units/outlaws/Raider.cfg:5
 msgid "Raider"
-msgstr ""
+msgstr "Ryöstäjä ratsain"
 
 #. [unit]: race=human
 #: Extended_Era/units/outlaws/Raider.cfg:33
@@ -2658,7 +2824,7 @@ msgstr "säilä"
 #. [unit]: race=human
 #: Extended_Era/units/outlaws/Rogue_Mage.cfg:5
 msgid "Rogue Mage"
-msgstr ""
+msgstr "Hiipparimaagi"
 
 #. [attack]: type=blade
 #: Extended_Era/units/outlaws/Shadow_Mage.cfg:34
@@ -2674,37 +2840,37 @@ msgstr "tulipallo"
 #. [unit]: race=human
 #: Extended_Era/units/outlaws/Shadow_Lord.cfg:5
 msgid "Shadow Lord"
-msgstr ""
+msgstr "Varjolordi"
 
 #. [attack]: type=blade
 #: Extended_Era/units/outlaws/Shadow_Lord.cfg:74
 msgid "astral blade"
-msgstr ""
+msgstr "tähtimiekka"
 
 #. [attack]: type=cold
 #: Extended_Era/units/outlaws/Shadow_Lord.cfg:86
 msgid "shadow bolt"
-msgstr ""
+msgstr "varjovasama"
 
 #. [attack]: type=impact
 #: Extended_Era/units/outlaws/Shadow_Lord.cfg:98
 msgid "shadow blast"
-msgstr ""
+msgstr "varjopamaus"
 
 #. [unit]: race=human
 #: Extended_Era/units/outlaws/Shadow_Mage.cfg:5
 msgid "Shadow Mage"
-msgstr ""
+msgstr "Varjomaagi"
 
 #. [attack]: type=cold
 #: Extended_Era/units/outlaws/Shadow_Mage.cfg:46
 msgid "ice blast"
-msgstr ""
+msgstr "jääpamaus"
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Bladespinner.cfg:5
 msgid "Bladespinner"
-msgstr ""
+msgstr "Miekanpyöräyttelijä"
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Bladespinner.cfg:17
@@ -2716,7 +2882,7 @@ msgstr ""
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Blizzardlord.cfg:5
 msgid "Blizzardlord"
-msgstr ""
+msgstr "Lumimyrskylordi"
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Blizzardlord.cfg:18
@@ -2733,12 +2899,12 @@ msgstr ""
 #: Extended_Era/units/sidhe/Snowdancer.cfg:31
 #: Extended_Era/units/sidhe/Hoarfroster.cfg:31
 msgid "snow wind"
-msgstr ""
+msgstr "lumituuli"
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Fury.cfg:5
 msgid "Fury"
-msgstr ""
+msgstr "Kiihko"
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Fury.cfg:18
@@ -2751,7 +2917,7 @@ msgstr ""
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Herald.cfg:5
 msgid "Herald"
-msgstr ""
+msgstr "Airut"
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Herald.cfg:20
@@ -2762,9 +2928,8 @@ msgstr ""
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Hoarfroster.cfg:5
-#, fuzzy
 msgid "Hoarfroster"
-msgstr "puraisu"
+msgstr "Huurruttaja"
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Hoarfroster.cfg:17
@@ -2779,7 +2944,7 @@ msgstr ""
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Raindancer.cfg:5
 msgid "Raindancer"
-msgstr ""
+msgstr "Sadetanssija"
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Raindancer.cfg:18
@@ -2804,7 +2969,7 @@ msgstr "salama"
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Shadowdancer.cfg:5
 msgid "Shadowdancer"
-msgstr ""
+msgstr "Varjotanssija"
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Shadowdancer.cfg:21
@@ -2816,9 +2981,8 @@ msgstr ""
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Snowdancer.cfg:5
-#, fuzzy
 msgid "Snowdancer"
-msgstr "Peitsimies"
+msgstr "Lumitanssija"
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Snowdancer.cfg:17
@@ -2834,7 +2998,7 @@ msgstr ""
 #. [unit]: race=undead
 #: Extended_Era/units/sidhe/Spirit_Ancestor.cfg:5
 msgid "Sidhe Ancestor"
-msgstr ""
+msgstr "Sidhein isä"
 
 #. [unit]: race=undead
 #: Extended_Era/units/sidhe/Spirit_Ancestor.cfg:21
@@ -2850,18 +3014,18 @@ msgstr ""
 #: Extended_Era/units/sidhe/Spirit_Ancestor.cfg:26
 #: Extended_Era/units/sidhe/Spirit_Warrior.cfg:26
 msgid "ancient blade"
-msgstr ""
+msgstr "muinainen kalpa"
 
 #. [attack]: type=cold
 #: Extended_Era/units/sidhe/Spirit_Forefather.cfg:36
 #: Extended_Era/units/sidhe/Spirit_Ancestor.cfg:35
 msgid "requiem"
-msgstr ""
+msgstr "sielunmessu"
 
 #. [unit]: race=undead
 #: Extended_Era/units/sidhe/Spirit_Forefather.cfg:5
 msgid "Sidhe Forefather"
-msgstr ""
+msgstr "Sidhein esi-isä"
 
 #. [unit]: race=undead
 #: Extended_Era/units/sidhe/Spirit_Forefather.cfg:22
@@ -2874,7 +3038,7 @@ msgstr ""
 #. [unit]: race=undead
 #: Extended_Era/units/sidhe/Spirit_Warrior.cfg:5
 msgid "Warrior Spirit"
-msgstr ""
+msgstr "Soturihenki"
 
 #. [unit]: race=undead
 #: Extended_Era/units/sidhe/Spirit_Warrior.cfg:21
@@ -2887,7 +3051,7 @@ msgstr ""
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Stormlord.cfg:5
 msgid "Stormlord"
-msgstr ""
+msgstr "Myrskylordi"
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Stormlord.cfg:18
@@ -2901,7 +3065,7 @@ msgstr ""
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Tempest.cfg:5
 msgid "Tempest"
-msgstr ""
+msgstr "Rajuilma"
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Tempest.cfg:17
@@ -2914,7 +3078,7 @@ msgstr ""
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Thunderblade.cfg:5
 msgid "Thunderblade"
-msgstr ""
+msgstr "Ukkoskalpa"
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Thunderblade.cfg:18
@@ -2929,12 +3093,12 @@ msgstr ""
 #. [attack]: type=blade
 #: Extended_Era/units/sidhe/Thunderblade.cfg:23
 msgid "thunderblade"
-msgstr ""
+msgstr "ukkoskalpa"
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Tracker.cfg:5
 msgid "Tracker"
-msgstr ""
+msgstr "Jäljittäjä"
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Tracker.cfg:21
@@ -2947,7 +3111,7 @@ msgstr ""
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Veiledblade.cfg:5
 msgid "Veiledblade"
-msgstr ""
+msgstr "Huntukalpa"
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Veiledblade.cfg:20
@@ -2960,7 +3124,7 @@ msgstr ""
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Wanderer.cfg:5
 msgid "Wanderer"
-msgstr ""
+msgstr "Vaeltaja"
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Wanderer.cfg:22
@@ -2975,7 +3139,7 @@ msgstr ""
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Wardancer.cfg:5
 msgid "Wardancer"
-msgstr ""
+msgstr "Sotatanssija"
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Wardancer.cfg:18
@@ -2987,7 +3151,7 @@ msgstr ""
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Warmage.cfg:5
 msgid "War Mage"
-msgstr ""
+msgstr "Sotavelho"
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Warmage.cfg:17
@@ -3009,7 +3173,7 @@ msgstr ""
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Warsinger.cfg:5
 msgid "Warsinger"
-msgstr ""
+msgstr "Sotalaulaja"
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Warsinger.cfg:21
@@ -3021,7 +3185,7 @@ msgstr ""
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Whirlwind.cfg:5
 msgid "Whirlwind"
-msgstr ""
+msgstr "Tuulenpyörre"
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Whirlwind.cfg:21
@@ -3034,7 +3198,7 @@ msgstr ""
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Wildblade.cfg:5
 msgid "Wildblade"
-msgstr ""
+msgstr "Villikalpa"
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Wildblade.cfg:18
@@ -3047,7 +3211,7 @@ msgstr ""
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Windlasher.cfg:5
 msgid "Windlasher"
-msgstr ""
+msgstr "Tuulipiiskuri"
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Windlasher.cfg:17
@@ -3060,7 +3224,7 @@ msgstr ""
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Windrunner.cfg:5
 msgid "Windrunner"
-msgstr ""
+msgstr "Tuulijuoksija"
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Windrunner.cfg:22
@@ -3073,7 +3237,7 @@ msgstr ""
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Bladesman.cfg:5
 msgid "Steppe Bladesman"
-msgstr ""
+msgstr "Arojen miekkailija"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Bladesman.cfg:19
@@ -3092,12 +3256,12 @@ msgstr ""
 #: Extended_Era/units/steppe_orcs/Massif.cfg:25
 #: Extended_Era/units/steppe_orcs/Vanguard.cfg:39
 msgid "battle axe"
-msgstr ""
+msgstr "taistelukirves"
 
 #. [unit]: race=goblin
 #: Extended_Era/units/steppe_orcs/Flanker.cfg:5
 msgid "Steppe Flanker"
-msgstr ""
+msgstr "Arojen piiskuri"
 
 #. [unit]: race=goblin
 #: Extended_Era/units/steppe_orcs/Flanker.cfg:20
@@ -3113,12 +3277,12 @@ msgstr ""
 #: Extended_Era/units/steppe_orcs/Flanker.cfg:34
 #: Extended_Era/units/steppe_orcs/Striker.cfg:40
 msgid "harpoon"
-msgstr ""
+msgstr "harppuuna"
 
 #. [unit]: race=goblin
 #: Extended_Era/units/steppe_orcs/Hunter.cfg:5
 msgid "Steppe Hunter"
-msgstr ""
+msgstr "Arojen metsästäjä"
 
 #. [unit]: race=goblin
 #: Extended_Era/units/steppe_orcs/Hunter.cfg:19
@@ -3134,7 +3298,7 @@ msgstr ""
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Icewind_Drover.cfg:5
 msgid "Icewind Drover"
-msgstr ""
+msgstr "Jäätuulen karjapaimen"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Icewind_Drover.cfg:20
@@ -3156,14 +3320,13 @@ msgstr ""
 #: Extended_Era/units/steppe_orcs/Icewind_Master.cfg:41
 #: Extended_Era/units/steppe_orcs/Icewind_Herder.cfg:43
 #: Extended_Era/units/steppe_orcs/Icewind_Drover.cfg:41
-#, fuzzy
 msgid "frostbite"
-msgstr "puraisu"
+msgstr "pakkasenpurema"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Icewind_Herder.cfg:5
 msgid "Icewind Herder"
-msgstr ""
+msgstr "Jäätuulen karjankasvattaja"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Icewind_Herder.cfg:22
@@ -3192,7 +3355,7 @@ msgstr ""
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Icewind_Master.cfg:5
 msgid "Icewind Master"
-msgstr ""
+msgstr "Jäätuulen mestari"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Icewind_Master.cfg:20
@@ -3208,7 +3371,7 @@ msgstr ""
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Juggernaut.cfg:5
 msgid "Steppe Juggernaut"
-msgstr ""
+msgstr "Arojen voimamies"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Juggernaut.cfg:20
@@ -3227,12 +3390,12 @@ msgstr ""
 #: Extended_Era/units/steppe_orcs/Khan.cfg:29
 #: Extended_Era/units/steppe_orcs/Vanguard.cfg:27
 msgid "flail"
-msgstr ""
+msgstr "varsta"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Khan.cfg:5
 msgid "Steppe Khan"
-msgstr ""
+msgstr "Arojen khaani"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Khan.cfg:24
@@ -3253,7 +3416,7 @@ msgstr ""
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Massif.cfg:5
 msgid "Steppe Massif"
-msgstr ""
+msgstr "Arojen massa"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Massif.cfg:20
@@ -3266,7 +3429,7 @@ msgstr ""
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Outcast.cfg:5
 msgid "Steppe Outcast"
-msgstr ""
+msgstr "Arojen hylkiö"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Outcast.cfg:20
@@ -3289,12 +3452,12 @@ msgstr ""
 #: Extended_Era/units/steppe_orcs/Outcast.cfg:25
 #: Extended_Era/units/steppe_orcs/Pariah.cfg:24
 msgid "frigid touch"
-msgstr ""
+msgstr "jäätävä kosketus"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Pariah.cfg:4
 msgid "Steppe Pariah"
-msgstr ""
+msgstr "Arojen paaria"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Pariah.cfg:19
@@ -3309,7 +3472,7 @@ msgstr ""
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Rigid.cfg:5
 msgid "Steppe Rigid"
-msgstr ""
+msgstr "Arojen kilpiseinä"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Rigid.cfg:19
@@ -3325,7 +3488,7 @@ msgstr ""
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Savage.cfg:5
 msgid "Steppe Savage"
-msgstr ""
+msgstr "Arojen villi"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Savage.cfg:20
@@ -3343,14 +3506,13 @@ msgstr ""
 
 #. [attack]: type=impact
 #: Extended_Era/units/steppe_orcs/Savage.cfg:43
-#, fuzzy
 msgid "frenzy"
-msgstr "tuli"
+msgstr "hurmio"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Shieldbearer.cfg:5
 msgid "Steppe Shieldbearer"
-msgstr ""
+msgstr "Arojen kilvenkantaja"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Shieldbearer.cfg:19
@@ -3366,7 +3528,7 @@ msgstr ""
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Skewer.cfg:5
 msgid "Steppe Skewer"
-msgstr ""
+msgstr "Arojen varrastaja"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Skewer.cfg:20
@@ -3381,7 +3543,7 @@ msgstr ""
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Spearhead.cfg:5
 msgid "Steppe Spearhead"
-msgstr ""
+msgstr "Arojen keihäänpää"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Spearhead.cfg:19
@@ -3397,9 +3559,8 @@ msgstr ""
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Spearman.cfg:5
-#, fuzzy
 msgid "Steppe Spearman"
-msgstr "Keihäsmies"
+msgstr "Arojen keihäsmies"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Spearman.cfg:19
@@ -3413,7 +3574,7 @@ msgstr ""
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Stoic.cfg:5
 msgid "Steppe Stoic"
-msgstr ""
+msgstr "Arojen kilpimuuri"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Stoic.cfg:20
@@ -3428,7 +3589,7 @@ msgstr ""
 #. [unit]: race=goblin
 #: Extended_Era/units/steppe_orcs/Striker.cfg:5
 msgid "Steppe Striker"
-msgstr ""
+msgstr "Arojen iskijä"
 
 #. [unit]: race=goblin
 #: Extended_Era/units/steppe_orcs/Striker.cfg:23
@@ -3442,7 +3603,7 @@ msgstr ""
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Vanguard.cfg:5
 msgid "Steppe Vanguard"
-msgstr ""
+msgstr "Arojen esitaistelija"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Vanguard.cfg:22
@@ -3458,9 +3619,8 @@ msgstr ""
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Warrior.cfg:5
-#, fuzzy
 msgid "Steppe Warrior"
-msgstr "Soturi"
+msgstr "Arojen soturi"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Warrior.cfg:19
@@ -3475,9 +3635,8 @@ msgstr ""
 
 #. [unit]: race=fairy
 #: Extended_Era/units/sylvan_fairies/Dryad.cfg:4
-#, fuzzy
 msgid "Dryad"
-msgstr "Epäkuolleet"
+msgstr "Dryadi"
 
 #. [unit]: race=fairy
 #: Extended_Era/units/sylvan_fairies/Sprite.cfg:19
@@ -3497,9 +3656,8 @@ msgstr ""
 #: Extended_Era/units/sylvan_fairies/Faerie.cfg:26
 #: Extended_Era/units/sylvan_fairies/Spirit.cfg:41
 #: Extended_Era/units/sylvan_fairies/Dryad.cfg:27
-#, fuzzy
 msgid "fire touch"
-msgstr "kosketus"
+msgstr "tulikosketus"
 
 #. [attack]: type=fire
 #: Extended_Era/units/sylvan_fairies/Sprite.cfg:36
@@ -3507,23 +3665,22 @@ msgstr "kosketus"
 #: Extended_Era/units/sylvan_fairies/Spirit.cfg:54
 #: Extended_Era/units/sylvan_fairies/Dryad.cfg:37
 msgid "mystic fire"
-msgstr ""
+msgstr "salaperäinen tuli"
 
 #. [unit]: race=fairy
 #: Extended_Era/units/sylvan_fairies/Faerie.cfg:4
 msgid "Fire Faerie"
-msgstr ""
+msgstr "Tulikeiju"
 
 #. [unit]: race=fairy
 #: Extended_Era/units/sylvan_fairies/Spirit.cfg:4
 msgid "Faerie Spirit"
-msgstr ""
+msgstr "Keijuhenki"
 
 #. [unit]: race=fairy
 #: Extended_Era/units/sylvan_fairies/Sprite.cfg:4
-#, fuzzy
 msgid "Sprite"
-msgstr "puraisu"
+msgstr "Keijukainen"
 
 #. [unit]: race=troll
 #: Extended_Era/units/trolls/Shaman.cfg:4
@@ -3537,6 +3694,10 @@ msgid ""
 "or tough as other trolls, their true power lies in their fire magic, which "
 "they use to blast enemies with gouts of fire."
 msgstr ""
+"Peikkoshamaanit ovat peikkojen salaperäisiä johtajia. Vaikka he eivät "
+"olekaan yhtä vahvoja kuin muut peikot, heidän todellinen voimansa lymyää "
+"tulitaikuudessa, jota he käyttävät pamauttaakseen vihollisiansa "
+"tuliroiskeilla."
 
 #. [attack]: type=fire
 #: Extended_Era/units/trolls/Shaman.cfg:42
@@ -3546,7 +3707,7 @@ msgstr "tulenleimaus"
 #. [unit]: race=wose
 #: Extended_Era/units/woses/Shaman.cfg:6
 msgid "Wose Shaman"
-msgstr ""
+msgstr "Puupaimenshamaani"
 
 #. [unit]: race=wose
 #: Extended_Era/units/woses/Shaman.cfg:26
@@ -3554,6 +3715,8 @@ msgid ""
 "These woses are able to command forest plants such as vines and creepers to "
 "hinder their enemies."
 msgstr ""
+"Nämä puupaimenet pystyvät komentamaan metsäkasveja, kuten köynnöksiä, "
+"vaivaamaan vihollisiaan."
 
 #. [attack]: type=impact
 #: Extended_Era/units/woses/Shaman.cfg:40
