@@ -1,10 +1,37 @@
-1/5/2008 v x.33.3 (stable)
-    - Fix the main .cfg in the package (i did forgot to distribute the new one)
-    - Fix the loyalist faction in the RPG era
+23/8/2008 v x.34.0 (stable)
+    - New advancement for the Blood Bat : Dread Bat
+    - Fix more Special notes
+    - Fix undead & dwarf recruitement patterns
+    - Adjust a few undead variations
+    - Chaos:
+    	- Some new descriptions
+    	- Added Regeneration to the Flesh Hound
+	- Switched the Headhunter line movement type to elusivefoot
+    	- Decreased the Doom Guard sword attack from 9-3 to 8-3
+    	- Decreased the Doom Guard shield attack from 15-1 to 11-1
+    	- Decreased the Hell Guardian sword attack from 9-4 to 11-3
+    	- Decreased the Hell Guardian shield attack from 20-1 to 16-1
+    	- Decreased the Evil Crab cost from 18 to 16
+    	- Decreased the Headhunter HP from 34 to 26
+    	- Decreased the Marauder HP from 38 to 36
+    - Dark elves:
+    	- Gave level 1 Leadership to Nobles
+    - Dwarves:
+    	- New bomb and runic hammer attack icons
+    	- New copter flying animations
+    	- Increased the Steamwheel HP from 38 to 36
+    - Sidhe:
+    	- Spirit frames improvements
+    - Sylvans:
+    	- Decreased the Sprite XP from 70 to 60
+    	- Increased the Sprite HP from 22 to 23
+    	- Increased the Fairy HP from 32 to 36
+    	- Increased the Dryad HP from 43 to 49
+    	- Increased the Spirit physical resistances from 30 to 40%
+    	- Decreased the Spirit cold resistances from 0 to -10%
 
 27/4/2008 v x.33.2 (stable)
-    - Version support in era the detection script (which might be renamed to
-     "version.cfg" in the next release) & era id (does not provide EoM version
+    - Version support in era the detection script & era id (does not provide EoM version
      since i don't know how to detect it 
     - New Chaos descriptions
     - New Chaos graphics
