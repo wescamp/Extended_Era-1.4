@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ca\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2008-05-01 16:19+0200\n"
+"POT-Creation-Date: 2008-08-23 23:09+0200\n"
 "PO-Revision-Date: 2007-01-31 19:12+0100\n"
 "Last-Translator: Jose Gordillo <kilder@hotmail.com>\n"
 "Language-Team: Català <wesnoth-ca@ettin.org>\n"
@@ -808,9 +808,9 @@ msgstr "espasa antiga"
 #: Extended_Era/units/aragwaith/Flagbearer.cfg:34
 #: Extended_Era/units/aragwaith/Spearman.cfg:51
 #: Extended_Era/units/aragwaith/Ancient_Banner.cfg:35
-#: Extended_Era/units/chaos/Marauder.cfg:45
-#: Extended_Era/units/chaos/Headhunter.cfg:38
-#: Extended_Era/units/chaos/Soulhunter.cfg:47
+#: Extended_Era/units/chaos/Marauder.cfg:40
+#: Extended_Era/units/chaos/Headhunter.cfg:33
+#: Extended_Era/units/chaos/Soulhunter.cfg:42
 #: Extended_Era/units/nagas/Abomination.cfg:46
 #: Extended_Era/units/sidhe/Wanderer.cfg:27
 #: Extended_Era/units/sidhe/Wanderer.cfg:35
@@ -842,7 +842,7 @@ msgstr "llança"
 #: Extended_Era/units/chaos/Blood_Knight.cfg:26
 #: Extended_Era/units/chaos/Doom_Guard.cfg:26
 #: Extended_Era/units/chaos/Hell_Guardian.cfg:27
-#: Extended_Era/units/chaos/Overlord.cfg:33
+#: Extended_Era/units/chaos/Overlord.cfg:34
 #: Extended_Era/units/chaos/Knight.cfg:26
 #: Extended_Era/units/nagas/Hunter.cfg:42
 #: Extended_Era/units/nagas/Assassin.cfg:30
@@ -870,7 +870,7 @@ msgstr "llança"
 #: Extended_Era/units/dark_elves/Warrior.cfg:22
 #: Extended_Era/units/dark_elves/Marshal.cfg:27
 #: Extended_Era/units/dark_elves/Captain.cfg:26
-#: Extended_Era/units/dark_elves/Noble.cfg:22
+#: Extended_Era/units/dark_elves/Noble.cfg:25
 #: Extended_Era/units/dark_elves/Corsair.cfg:23
 #: Extended_Era/units/dark_elves/Lord.cfg:25
 #: Extended_Era/units/dark_elves/High_Lord.cfg:26
@@ -1156,16 +1156,15 @@ msgid "Aragwaith^Sorceress"
 msgstr "Fetillera"
 
 #. [female]
-#: Extended_Era/units/aragwaith/Sorcerer.cfg:103
+#: Extended_Era/units/aragwaith/Sorcerer.cfg:101
+#, fuzzy
 msgid ""
 "Sorceresses are like the wind they can stand in front of you and one second "
 "later behind you. On the battlefield they are fearful enemies and even the "
 "aragwaithi throw a carefull eye on them mostly from a prefered distance of a "
-"hundred feets.\n"
-"\n"
-"Special Notes:"
+"hundred feets."
 msgstr ""
-"Les fetilleres són com el vent: poden estar un moment davant teu i al moment "
+"Els fetillers són com el vent: poden estar un moment davant teu i al moment "
 "següent ja són darrere teu. En el camp de batalla són uns enemics temibles, "
 "fins i tot els aragwaith els miren cautelosament, a ser possible a una "
 "distància d'un centenar de peus.\n"
@@ -1270,22 +1269,20 @@ msgid "female^Warlock"
 msgstr "Maga"
 
 #. [female]
-#: Extended_Era/units/aragwaith/Warlock.cfg:117
+#: Extended_Era/units/aragwaith/Warlock.cfg:115
 #, fuzzy
 msgid ""
 "female^The magically inclined among the Aragwaith recieve not only the "
 "martial training so common in Aragwaithi society, but also in the art of "
 "healing, and of course in magic. Wielding powerful fire, competent with "
 "their staves, possessing a healing touch, Warlocks are the noblest of a "
-"noble people.\n"
-"\n"
-"Special Notes:"
+"noble people."
 msgstr ""
-"Aquelles inclinades cap a la màgia dins dels aragwaith no sols reben "
+"Aquells inclinats cap a la màgia dins dels aragwaith no sols reben "
 "l'entrenament marcial tan comú en la societat dels aragwaith, sinó que també "
 "en l'art de sanar i, per suposat, en la màgia. Servint-se d'una poderosa "
-"màgia de foc, competents amb els seus bastons i posseint un toc curatiu, les "
-"Magues són les més nobles dins d'un noble poble. \n"
+"màgia de foc, competents amb els seus bastons i posseint un toc curatiu, els "
+"Mags són els més nobles dins d'un noble poble. \n"
 "\n"
 "Notes especials:"
 
@@ -1343,10 +1340,22 @@ msgstr ""
 msgid "Abomination"
 msgstr "Abominació"
 
+#. [unit]: race=demon
+#: Extended_Era/units/chaos/Abomination.cfg:22
+msgid ""
+"Drenched in the blood of its enemies, an abomination bears little "
+"resemblance to the mutation it was created from. Enemy generals have been "
+"known to order full blown retreats at the mere sight of such a monster. An "
+"abomination's giant pus-laden body can withstand a dizzying amount of "
+"punishment, making it almost impossible to take down. This, combined with "
+"incredible raw strength, has turned abominations into veritable killing "
+"machines, something their chaos masters delight in."
+msgstr ""
+
 #. [attack]: type=impact
 #: Extended_Era/units/chaos/Lesser_Mutation.cfg:26
 #: Extended_Era/units/chaos/Greater_Mutation.cfg:26
-#: Extended_Era/units/chaos/Abomination.cfg:26
+#: Extended_Era/units/chaos/Abomination.cfg:27
 #: Extended_Era/units/woses/Shaman.cfg:31
 msgid "crush"
 msgstr "esclafa"
@@ -1371,13 +1380,13 @@ msgstr ""
 
 #. [attack]: type=blade
 #: Extended_Era/units/chaos/Greater_Daemon.cfg:26
-#: Extended_Era/units/chaos/Marauder.cfg:37
+#: Extended_Era/units/chaos/Marauder.cfg:32
 #: Extended_Era/units/chaos/Blood_Knight.cfg:35
 #: Extended_Era/units/chaos/Lesser_Daemon.cfg:25
-#: Extended_Era/units/chaos/Overlord.cfg:42
+#: Extended_Era/units/chaos/Overlord.cfg:43
 #: Extended_Era/units/chaos/Chaos_Daemon.cfg:25
 #: Extended_Era/units/chaos/Knight.cfg:35
-#: Extended_Era/units/chaos/Soulhunter.cfg:38
+#: Extended_Era/units/chaos/Soulhunter.cfg:33
 #: Extended_Era/units/dwarves/Axemaster.cfg:31
 #: Extended_Era/units/dwarves/Axemaster.cfg:39
 #: Extended_Era/units/dwarves/Runner.cfg:30
@@ -1456,7 +1465,7 @@ msgid "infernal storm"
 msgstr "tempesta infernal"
 
 #. [female]
-#: Extended_Era/units/chaos/Demonologist.cfg:171
+#: Extended_Era/units/chaos/Demonologist.cfg:162
 #, fuzzy
 msgid "female^Demonologist"
 msgstr "Demonologista"
@@ -1482,9 +1491,9 @@ msgstr ""
 "l'única que pot resistir contra qualsevol enemic."
 
 #. [attack]: type=impact
-#: Extended_Era/units/chaos/Doom_Guard.cfg:37
-#: Extended_Era/units/chaos/Hell_Guardian.cfg:38
-#: Extended_Era/units/dark_elves/Noble.cfg:31
+#: Extended_Era/units/chaos/Doom_Guard.cfg:35
+#: Extended_Era/units/chaos/Hell_Guardian.cfg:36
+#: Extended_Era/units/dark_elves/Noble.cfg:34
 #: Extended_Era/units/dark_elves/Lord.cfg:34
 #: Extended_Era/units/dark_elves/High_Lord.cfg:35
 msgid "shield"
@@ -1550,7 +1559,7 @@ msgid "Headhunter"
 msgstr "Caçador de caps"
 
 #. [unit]: race=human
-#: Extended_Era/units/chaos/Headhunter.cfg:25
+#: Extended_Era/units/chaos/Headhunter.cfg:20
 msgid ""
 "Given their souls to daemons, these lifeless scouts appear in the places, "
 "that will be infested with the daemonic plague. They are the ones to spread "
@@ -1561,9 +1570,9 @@ msgstr ""
 "escampen la por i el missatge de les invasions."
 
 #. [attack]: type=impact
-#: Extended_Era/units/chaos/Marauder.cfg:29
-#: Extended_Era/units/chaos/Headhunter.cfg:30
-#: Extended_Era/units/chaos/Soulhunter.cfg:30
+#: Extended_Era/units/chaos/Marauder.cfg:24
+#: Extended_Era/units/chaos/Headhunter.cfg:25
+#: Extended_Era/units/chaos/Soulhunter.cfg:25
 msgid "club"
 msgstr "garrot"
 
@@ -1617,6 +1626,7 @@ msgstr ""
 #: Extended_Era/units/chaos/Hound_Warp.cfg:26
 #: Extended_Era/units/chaos/Hound_Rabid.cfg:23
 #: Extended_Era/units/chaos/Hound.cfg:23
+#: Extended_Era/units/undead/Dread_Bat.cfg:34
 msgid "fangs"
 msgstr "ullals"
 
@@ -1626,7 +1636,7 @@ msgid "Flesh Hound"
 msgstr "Antropomastí"
 
 #. [unit]: race=monster
-#: Extended_Era/units/chaos/Hound_Flesh.cfg:19
+#: Extended_Era/units/chaos/Hound_Flesh.cfg:22
 msgid ""
 "A hound that becomes a host for a lesser daemon turns into a flesh hound. "
 "The unnatural fusion gives them a strange half dog, half human. With a "
@@ -1635,7 +1645,7 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=impact
-#: Extended_Era/units/chaos/Hound_Flesh.cfg:24
+#: Extended_Era/units/chaos/Hound_Flesh.cfg:27
 #: Extended_Era/units/trolls/Shaman.cfg:32
 msgid "fist"
 msgstr "puny"
@@ -1707,7 +1717,7 @@ msgstr ""
 "demoníacs."
 
 #. [female]
-#: Extended_Era/units/chaos/Invoker.cfg:116
+#: Extended_Era/units/chaos/Invoker.cfg:117
 #, fuzzy
 msgid "female^Invoker"
 msgstr "Invocador"
@@ -1719,11 +1729,12 @@ msgstr "Cavaller Obscur"
 
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Knight.cfg:17
+#, fuzzy
 msgid ""
-"Tougher than the averange chaos follower, the Dark Knight attempts to "
-"confuse it's opponent by wielding a different weapon in each hand, he lets "
-"his style on combat alter depending on the situation which makes him a tough "
-"warrior to fight."
+"Tougher than the average chaos follower, the Dark Knight attempts to confuse "
+"it's opponent by wielding a different weapon in each hand, he lets his style "
+"on combat alter depending on the situation which makes him a tough warrior "
+"to fight."
 msgstr ""
 "Més forts que l'habitual seguidor dels déus del caos, els Cavallers Obscurs "
 "confonen els seus enemics usant una arma en cada mà i canviant el seu estil "
@@ -1777,7 +1788,7 @@ msgstr ""
 "nucli del Caos."
 
 #. [female]
-#: Extended_Era/units/chaos/Magus.cfg:147
+#: Extended_Era/units/chaos/Magus.cfg:138
 #, fuzzy
 msgid "female^Magus"
 msgstr "Bruixa"
@@ -1791,6 +1802,19 @@ msgstr "Assaltador"
 #: Extended_Era/units/chaos/Overlord.cfg:5
 msgid "Overlord"
 msgstr "Gran Senyor"
+
+#. [unit]: race=human
+#: Extended_Era/units/chaos/Overlord.cfg:29
+msgid ""
+"Overlord is a title earned, not given. For such a rank to be claimed, blood "
+"knights of Chaos must undergo the harshest and most brutal of trials in "
+"order to appease their dark gods. Charred remains and broken bones attest to "
+"the difficulty of such tests, yet every year at least one warrior will make "
+"the (perhaps foolish) attempt. In the annals of history, only a select few "
+"have ever emerged from the trials alive. Granted unholy strength, inhuman "
+"resilience and a demonic mount, these are blood knights no longer but "
+"Overlords of Chaos."
+msgstr ""
 
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Soulhunter.cfg:5
@@ -2068,7 +2092,7 @@ msgid "Noble"
 msgstr "Noble"
 
 #. [unit]: race=dark elf
-#: Extended_Era/units/dark_elves/Noble.cfg:17
+#: Extended_Era/units/dark_elves/Noble.cfg:20
 msgid ""
 "The young Lords are rash and brave. They have spent their entire childhood "
 "training with the sword, and have been taught from the best Marshals "
@@ -2087,10 +2111,12 @@ msgstr "Ombra"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Shadow.cfg:21
+#, fuzzy
 msgid ""
 "Staying hidden safe in the shadows of the caves, they will hit you when you "
-"least expect it. Despite their frailty, they can inflict great damage over "
-"time, slowly taking the life away from their prey ."
+"least expect it. Despite their frailty, they can inflict great damage either "
+"by thrusting their daggers in the back of their target or by shooting fast a "
+"lot of bolts from their crossbow."
 msgstr ""
 "Fins que no t'ataquen, no mai sabràs sota quina ombra dins d'una caverna han "
 "estat amagant-se segurs. No obstant la seua fragilitat, poden infringir un "
@@ -2321,9 +2347,10 @@ msgstr ""
 "d'un raig. Ningú no sap quina estranya bèstia viu dins d'eixos ous."
 
 #. [attack]: type=impact
-#: Extended_Era/units/dwarves/Gyrocopter.cfg:36
-#: Extended_Era/units/dwarves/Steamcopter.cfg:37
-msgid "bombs"
+#: Extended_Era/units/dwarves/Gyrocopter.cfg:35
+#: Extended_Era/units/dwarves/Steamcopter.cfg:36
+#, fuzzy
+msgid "bomb"
 msgstr "bombes"
 
 #. [unit]: race=dwarf
@@ -2454,7 +2481,7 @@ msgid "Boreal Wyrm"
 msgstr ""
 
 #. [unit]: race=wyrm
-#: Extended_Era/units/ice_wyrms/Boreal.cfg:19
+#: Extended_Era/units/ice_wyrms/Boreal.cfg:20
 msgid ""
 "Ancient wyrms so rarely seen that many regard them as legends, Boreal Wyrms "
 "are evolved from Mistral Wyrms that have lived for over a century. Viciously "
@@ -2464,21 +2491,21 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=impact
-#: Extended_Era/units/ice_wyrms/Ice.cfg:23
-#: Extended_Era/units/ice_wyrms/Boreal.cfg:24
-#: Extended_Era/units/ice_wyrms/Rime.cfg:24
-#: Extended_Era/units/ice_wyrms/Frost.cfg:23
-#: Extended_Era/units/ice_wyrms/Mistral.cfg:23
+#: Extended_Era/units/ice_wyrms/Ice.cfg:24
+#: Extended_Era/units/ice_wyrms/Boreal.cfg:25
+#: Extended_Era/units/ice_wyrms/Rime.cfg:25
+#: Extended_Era/units/ice_wyrms/Frost.cfg:24
+#: Extended_Era/units/ice_wyrms/Mistral.cfg:24
 #, fuzzy
 msgid "tail"
 msgstr "flagel"
 
 #. [attack]: type=cold
-#: Extended_Era/units/ice_wyrms/Ice.cfg:32
-#: Extended_Era/units/ice_wyrms/Boreal.cfg:33
-#: Extended_Era/units/ice_wyrms/Rime.cfg:33
-#: Extended_Era/units/ice_wyrms/Frost.cfg:32
-#: Extended_Era/units/ice_wyrms/Mistral.cfg:32
+#: Extended_Era/units/ice_wyrms/Ice.cfg:33
+#: Extended_Era/units/ice_wyrms/Boreal.cfg:34
+#: Extended_Era/units/ice_wyrms/Rime.cfg:34
+#: Extended_Era/units/ice_wyrms/Frost.cfg:33
+#: Extended_Era/units/ice_wyrms/Mistral.cfg:33
 #, fuzzy
 msgid "cold breath"
 msgstr "alè de foc"
@@ -2489,7 +2516,7 @@ msgid "Frost Wyrm"
 msgstr ""
 
 #. [unit]: race=wyrm
-#: Extended_Era/units/ice_wyrms/Frost.cfg:18
+#: Extended_Era/units/ice_wyrms/Frost.cfg:19
 msgid ""
 "Ice wyrms that live in the sea become more serpentine, turning into Frost "
 "Wyrms. Named for the powerful icy blasts they emit, frost wyrms prefer to "
@@ -2503,7 +2530,7 @@ msgid "Ice Wyrm"
 msgstr ""
 
 #. [unit]: race=wyrm
-#: Extended_Era/units/ice_wyrms/Ice.cfg:18
+#: Extended_Era/units/ice_wyrms/Ice.cfg:19
 msgid ""
 "Cold-blooded reptiles from the north, ice wyrms are the youngling form of "
 "creatures that can live centuries. Despite their relative youth, they are "
@@ -2520,7 +2547,7 @@ msgid "Mistral Wyrm"
 msgstr ""
 
 #. [unit]: race=wyrm
-#: Extended_Era/units/ice_wyrms/Mistral.cfg:18
+#: Extended_Era/units/ice_wyrms/Mistral.cfg:19
 msgid ""
 "Ice Wyrms that dwell high in the mountains eventually grow wings and become "
 "capable of flight. Called Mistral Wyrms, they are far stronger and more "
@@ -2533,7 +2560,7 @@ msgid "Rime Wyrm"
 msgstr ""
 
 #. [unit]: race=wyrm
-#: Extended_Era/units/ice_wyrms/Rime.cfg:19
+#: Extended_Era/units/ice_wyrms/Rime.cfg:20
 msgid ""
 "Unlike humans, wyrms only grow stronger and more powerful with age. Rime "
 "wyrms are elder frost wyrms: stronger and capable of a more savage breath "
@@ -2960,17 +2987,15 @@ msgid "Nagini Depthprowler"
 msgstr "Naga Aguaitadora"
 
 #. [female]
-#: Extended_Era/units/nagas/Depthstalker.cfg:183
-#: Extended_Era/units/nagas/Depthprowler.cfg:183
+#: Extended_Era/units/nagas/Depthstalker.cfg:181
+#: Extended_Era/units/nagas/Depthprowler.cfg:181
 #, fuzzy
 msgid ""
-"female^Some nagas, whether through cowardice or cunning, develop a knack for "
+"Some naganis, whether through cowardice or cunning, develop a knack for "
 "surviving in darker depths of the water. After special training, this "
 "knowledge can develop into an entirely different branch of combat, although "
-"it is just as deadly. Naga Depthstalkers are especially valued as brood "
-"guardians, where they keep watch over eggs laid in hidden caves.\n"
-"\n"
-"Special Notes:"
+"it is just as deadly. Nagani Depthstalkers are especially valued as brood "
+"guardians, where they keep watch over eggs laid in hidden caves."
 msgstr ""
 "Algunes nagues, ja siga per covardia o per astúcia, desenvolupen una "
 "habilitat especial per a sobreviure en les profunditats més abissals. "
@@ -3195,6 +3220,16 @@ msgstr "sabre"
 msgid "Rogue Mage"
 msgstr "Mag rebel"
 
+#. [unit]: race=human
+#: Extended_Era/units/outlaws/Rogue_Mage.cfg:19
+msgid ""
+"Some mages are thrown out of the mage's guild for attempting to practice "
+"forbidden arts. Now completely outside the law, these rogue mages do "
+"whatever necessary to support their study of black magic. Although not as "
+"skilled as mages with more formal training, their magic can be quite lethal, "
+"while their banditry has resulted in moderate skill with the short sword."
+msgstr ""
+
 #. [attack]: type=blade
 #: Extended_Era/units/outlaws/Shadow_Mage.cfg:34
 #: Extended_Era/units/outlaws/Rogue_Mage.cfg:31
@@ -3210,6 +3245,16 @@ msgstr "distància"
 #: Extended_Era/units/outlaws/Shadow_Lord.cfg:5
 msgid "Shadow Lord"
 msgstr "Senyor de les ombres"
+
+#. [unit]: race=human
+#: Extended_Era/units/outlaws/Shadow_Lord.cfg:23
+msgid ""
+"Few humans fathom the secrets of light and dark magic and retain their "
+"sanity.  Those that can master that balance become Shadow Lords, fully "
+"existing neither in the world of light nor the world of darkness.  No longer "
+"needing physical weapons, they are fearsome to both their enemies and those "
+"they lord over."
+msgstr ""
 
 #. [attack]: type=blade
 #: Extended_Era/units/outlaws/Shadow_Lord.cfg:74
@@ -3230,6 +3275,18 @@ msgstr "míssil d'ombres"
 #: Extended_Era/units/outlaws/Shadow_Mage.cfg:5
 msgid "Shadow Mage"
 msgstr "Mag de les ombres"
+
+#. [unit]: race=human
+#: Extended_Era/units/outlaws/Shadow_Mage.cfg:22
+msgid ""
+"Years of violence and brutality to support the study of forbidden magical "
+"arts have turned the shadow mages into feared fighters. Now completely "
+"enthralled with power, they have been known to command small followings of "
+"henchmen. They are outmatched in direct magical combat with their magic-"
+"using peers, instead channeling their energies into devestating melee "
+"attacks. Despite their offensive power, the corruption in their souls has "
+"begun to adversely affect their health."
+msgstr ""
 
 #. [attack]: type=cold
 #: Extended_Era/units/outlaws/Shadow_Mage.cfg:46
@@ -3401,15 +3458,15 @@ msgstr ""
 "dels seus enemics."
 
 #. [attack]: type=arcane
-#: Extended_Era/units/sidhe/Spirit_Forefather.cfg:27
-#: Extended_Era/units/sidhe/Spirit_Ancestor.cfg:26
-#: Extended_Era/units/sidhe/Spirit_Warrior.cfg:26
+#: Extended_Era/units/sidhe/Spirit_Forefather.cfg:26
+#: Extended_Era/units/sidhe/Spirit_Ancestor.cfg:25
+#: Extended_Era/units/sidhe/Spirit_Warrior.cfg:25
 msgid "ancient blade"
 msgstr "espasa antiga"
 
 #. [attack]: type=cold
-#: Extended_Era/units/sidhe/Spirit_Forefather.cfg:36
-#: Extended_Era/units/sidhe/Spirit_Ancestor.cfg:35
+#: Extended_Era/units/sidhe/Spirit_Forefather.cfg:35
+#: Extended_Era/units/sidhe/Spirit_Ancestor.cfg:34
 msgid "requiem"
 msgstr "rèquiem"
 
@@ -4361,6 +4418,20 @@ msgstr ""
 msgid "flame blast"
 msgstr "cop de foc"
 
+#. [unit]: race=bats
+#: Extended_Era/units/undead/Dread_Bat.cfg:4
+msgid "Dread Bat"
+msgstr ""
+
+#. [unit]: race=bats
+#: Extended_Era/units/undead/Dread_Bat.cfg:19
+msgid ""
+"Dread Bats are fast and can drain the blood of those they attack, thereby "
+"healing themselves, even to the point where they become stronger than they "
+"began the battle. Bloated with blood they have grown to a huge size and can "
+"feast on bigger and bigger victims."
+msgstr ""
+
 #. [unit]: race=wose
 #: Extended_Era/units/woses/Shaman.cfg:6
 msgid "Wose Shaman"
@@ -4382,6 +4453,60 @@ msgstr ""
 #: Extended_Era/units/woses/Shaman.cfg:40
 msgid "entangle"
 msgstr "enredar"
+
+#~ msgid ""
+#~ "Sorceresses are like the wind they can stand in front of you and one "
+#~ "second later behind you. On the battlefield they are fearful enemies and "
+#~ "even the aragwaithi throw a carefull eye on them mostly from a prefered "
+#~ "distance of a hundred feets.\n"
+#~ "\n"
+#~ "Special Notes:"
+#~ msgstr ""
+#~ "Les fetilleres són com el vent: poden estar un moment davant teu i al "
+#~ "moment següent ja són darrere teu. En el camp de batalla són uns enemics "
+#~ "temibles, fins i tot els aragwaith els miren cautelosament, a ser "
+#~ "possible a una distància d'un centenar de peus.\n"
+#~ "\n"
+#~ "Notes especials:"
+
+#, fuzzy
+#~ msgid ""
+#~ "female^The magically inclined among the Aragwaith recieve not only the "
+#~ "martial training so common in Aragwaithi society, but also in the art of "
+#~ "healing, and of course in magic. Wielding powerful fire, competent with "
+#~ "their staves, possessing a healing touch, Warlocks are the noblest of a "
+#~ "noble people.\n"
+#~ "\n"
+#~ "Special Notes:"
+#~ msgstr ""
+#~ "Aquelles inclinades cap a la màgia dins dels aragwaith no sols reben "
+#~ "l'entrenament marcial tan comú en la societat dels aragwaith, sinó que "
+#~ "també en l'art de sanar i, per suposat, en la màgia. Servint-se d'una "
+#~ "poderosa màgia de foc, competents amb els seus bastons i posseint un toc "
+#~ "curatiu, les Magues són les més nobles dins d'un noble poble. \n"
+#~ "\n"
+#~ "Notes especials:"
+
+#, fuzzy
+#~ msgid ""
+#~ "female^Some nagas, whether through cowardice or cunning, develop a knack "
+#~ "for surviving in darker depths of the water. After special training, this "
+#~ "knowledge can develop into an entirely different branch of combat, "
+#~ "although it is just as deadly. Naga Depthstalkers are especially valued "
+#~ "as brood guardians, where they keep watch over eggs laid in hidden "
+#~ "caves.\n"
+#~ "\n"
+#~ "Special Notes:"
+#~ msgstr ""
+#~ "Algunes nagues, ja siga per covardia o per astúcia, desenvolupen una "
+#~ "habilitat especial per a sobreviure en les profunditats més abissals. "
+#~ "Després d'un entrenament especial, aquest coneixement pot arribar a "
+#~ "constituir una manera diferent de combatre, encara que igual de "
+#~ "mortífera. Les nagues aguaitadores són especialment valorades com a "
+#~ "guardians de progènie, ja que fan guàrdia en les ocultes caves on s'han "
+#~ "emplaçat els ous. \n"
+#~ "\n"
+#~ "Notes especials:"
 
 #, fuzzy
 #~ msgid "fire aura"

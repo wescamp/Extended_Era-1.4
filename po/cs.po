@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle of Wesnoth\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2008-05-01 16:19+0200\n"
+"POT-Creation-Date: 2008-08-23 23:09+0200\n"
 "PO-Revision-Date: 2008-06-25 14:04+0100\n"
 "Last-Translator: Vladimír Slávik <slavik.vladimir@seznam.cz>\n"
 "Language-Team: Czech <wesnoth-cs-l@buchtovi.cz>\n"
@@ -835,9 +835,9 @@ msgstr "Staršina se standartou"
 #: Extended_Era/units/aragwaith/Flagbearer.cfg:34
 #: Extended_Era/units/aragwaith/Spearman.cfg:51
 #: Extended_Era/units/aragwaith/Ancient_Banner.cfg:35
-#: Extended_Era/units/chaos/Marauder.cfg:45
-#: Extended_Era/units/chaos/Headhunter.cfg:38
-#: Extended_Era/units/chaos/Soulhunter.cfg:47
+#: Extended_Era/units/chaos/Marauder.cfg:40
+#: Extended_Era/units/chaos/Headhunter.cfg:33
+#: Extended_Era/units/chaos/Soulhunter.cfg:42
 #: Extended_Era/units/nagas/Abomination.cfg:46
 #: Extended_Era/units/sidhe/Wanderer.cfg:27
 #: Extended_Era/units/sidhe/Wanderer.cfg:35
@@ -870,7 +870,7 @@ msgstr "oštěp"
 #: Extended_Era/units/chaos/Blood_Knight.cfg:26
 #: Extended_Era/units/chaos/Doom_Guard.cfg:26
 #: Extended_Era/units/chaos/Hell_Guardian.cfg:27
-#: Extended_Era/units/chaos/Overlord.cfg:33
+#: Extended_Era/units/chaos/Overlord.cfg:34
 #: Extended_Era/units/chaos/Knight.cfg:26
 #: Extended_Era/units/nagas/Hunter.cfg:42
 #: Extended_Era/units/nagas/Assassin.cfg:30
@@ -898,7 +898,7 @@ msgstr "oštěp"
 #: Extended_Era/units/dark_elves/Warrior.cfg:22
 #: Extended_Era/units/dark_elves/Marshal.cfg:27
 #: Extended_Era/units/dark_elves/Captain.cfg:26
-#: Extended_Era/units/dark_elves/Noble.cfg:22
+#: Extended_Era/units/dark_elves/Noble.cfg:25
 #: Extended_Era/units/dark_elves/Corsair.cfg:23
 #: Extended_Era/units/dark_elves/Lord.cfg:25
 #: Extended_Era/units/dark_elves/High_Lord.cfg:26
@@ -1227,20 +1227,17 @@ msgstr "Aragwaitská kouzelnice"
 
 # Popis jednotky
 #. [female]
-#: Extended_Era/units/aragwaith/Sorcerer.cfg:103
+#: Extended_Era/units/aragwaith/Sorcerer.cfg:101
+#, fuzzy
 msgid ""
 "Sorceresses are like the wind they can stand in front of you and one second "
 "later behind you. On the battlefield they are fearful enemies and even the "
 "aragwaithi throw a carefull eye on them mostly from a prefered distance of a "
-"hundred feets.\n"
-"\n"
-"Special Notes:"
+"hundred feets."
 msgstr ""
-"Kouzelnice dovedou být jako vítr, v jednu chvíli stojí ještě před někým a o "
+"Kouzelníci dovedou být jako vítr, v jednu chvíli stojí ještě před někým a o "
 "chvilku později již za ním. Na bojišti platí za obávané nepřátele. I sami "
-"Aragwaiti je bedlivě sledují radši dokonce už ze vzdálenosti stovky stop.\n"
-"\n"
-"Zvláštní rysy:"
+"Aragwaiti je bedlivě sledují radši dokonce už ze vzdálenosti stovky stop."
 
 # Název jednotky
 #. [unit]: race=aragwaith
@@ -1353,22 +1350,19 @@ msgstr "Aragwaitská černokněžka"
 
 # Popis jednotky
 #. [female]
-#: Extended_Era/units/aragwaith/Warlock.cfg:117
+#: Extended_Era/units/aragwaith/Warlock.cfg:115
+#, fuzzy
 msgid ""
 "female^The magically inclined among the Aragwaith recieve not only the "
 "martial training so common in Aragwaithi society, but also in the art of "
 "healing, and of course in magic. Wielding powerful fire, competent with "
 "their staves, possessing a healing touch, Warlocks are the noblest of a "
-"noble people.\n"
-"\n"
-"Special Notes:"
+"noble people."
 msgstr ""
-"K magii inklinující Aragwaitky neprocházejí pouze bojovým výcvikem jako "
-"ostatní, ale také výcvikem v umění léčení a samozřejmě v magii. Černokněžky, "
-"třímající své ohnivé hole a ovládající doteky uzdravení, jsou ty "
-"nejvznešenější ze vznešených Aragwaitek.\n"
-"\n"
-"Zvláštní rysy:"
+"K magii inklinující Aragwaité neprocházejí pouze bojovým výcvikem jako "
+"ostatní, ale také výcvikem v umění léčení a samozřejmě v magii. "
+"Černokněžníci, třímající své ohnivé hole a ovládající doteky uzdravení, jsou "
+"ti nejvznešenější ze vznešených Aragwaitů."
 
 # Název jednotky
 #. [unit]: race=aragwaith
@@ -1444,11 +1438,23 @@ msgstr ""
 msgid "Abomination"
 msgstr "Ohavnost"
 
+#. [unit]: race=demon
+#: Extended_Era/units/chaos/Abomination.cfg:22
+msgid ""
+"Drenched in the blood of its enemies, an abomination bears little "
+"resemblance to the mutation it was created from. Enemy generals have been "
+"known to order full blown retreats at the mere sight of such a monster. An "
+"abomination's giant pus-laden body can withstand a dizzying amount of "
+"punishment, making it almost impossible to take down. This, combined with "
+"incredible raw strength, has turned abominations into veritable killing "
+"machines, something their chaos masters delight in."
+msgstr ""
+
 # zbraň
 #. [attack]: type=impact
 #: Extended_Era/units/chaos/Lesser_Mutation.cfg:26
 #: Extended_Era/units/chaos/Greater_Mutation.cfg:26
-#: Extended_Era/units/chaos/Abomination.cfg:26
+#: Extended_Era/units/chaos/Abomination.cfg:27
 #: Extended_Era/units/woses/Shaman.cfg:31
 msgid "crush"
 msgstr "rozdrcení"
@@ -1475,13 +1481,13 @@ msgstr ""
 # zbraň
 #. [attack]: type=blade
 #: Extended_Era/units/chaos/Greater_Daemon.cfg:26
-#: Extended_Era/units/chaos/Marauder.cfg:37
+#: Extended_Era/units/chaos/Marauder.cfg:32
 #: Extended_Era/units/chaos/Blood_Knight.cfg:35
 #: Extended_Era/units/chaos/Lesser_Daemon.cfg:25
-#: Extended_Era/units/chaos/Overlord.cfg:42
+#: Extended_Era/units/chaos/Overlord.cfg:43
 #: Extended_Era/units/chaos/Chaos_Daemon.cfg:25
 #: Extended_Era/units/chaos/Knight.cfg:35
-#: Extended_Era/units/chaos/Soulhunter.cfg:38
+#: Extended_Era/units/chaos/Soulhunter.cfg:33
 #: Extended_Era/units/dwarves/Axemaster.cfg:31
 #: Extended_Era/units/dwarves/Axemaster.cfg:39
 #: Extended_Era/units/dwarves/Runner.cfg:30
@@ -1566,7 +1572,7 @@ msgstr "pekelná bouře"
 
 # Název jednotky
 #. [female]
-#: Extended_Era/units/chaos/Demonologist.cfg:171
+#: Extended_Era/units/chaos/Demonologist.cfg:162
 msgid "female^Demonologist"
 msgstr "Démonoložka"
 
@@ -1594,9 +1600,9 @@ msgstr ""
 
 # zbraň
 #. [attack]: type=impact
-#: Extended_Era/units/chaos/Doom_Guard.cfg:37
-#: Extended_Era/units/chaos/Hell_Guardian.cfg:38
-#: Extended_Era/units/dark_elves/Noble.cfg:31
+#: Extended_Era/units/chaos/Doom_Guard.cfg:35
+#: Extended_Era/units/chaos/Hell_Guardian.cfg:36
+#: Extended_Era/units/dark_elves/Noble.cfg:34
 #: Extended_Era/units/dark_elves/Lord.cfg:34
 #: Extended_Era/units/dark_elves/High_Lord.cfg:35
 msgid "shield"
@@ -1676,7 +1682,7 @@ msgstr "Lovec hlav"
 
 # Popis jednotky
 #. [unit]: race=human
-#: Extended_Era/units/chaos/Headhunter.cfg:25
+#: Extended_Era/units/chaos/Headhunter.cfg:20
 msgid ""
 "Given their souls to daemons, these lifeless scouts appear in the places, "
 "that will be infested with the daemonic plague. They are the ones to spread "
@@ -1688,9 +1694,9 @@ msgstr ""
 
 # zbraň
 #. [attack]: type=impact
-#: Extended_Era/units/chaos/Marauder.cfg:29
-#: Extended_Era/units/chaos/Headhunter.cfg:30
-#: Extended_Era/units/chaos/Soulhunter.cfg:30
+#: Extended_Era/units/chaos/Marauder.cfg:24
+#: Extended_Era/units/chaos/Headhunter.cfg:25
+#: Extended_Era/units/chaos/Soulhunter.cfg:25
 msgid "club"
 msgstr "kyj"
 
@@ -1755,6 +1761,7 @@ msgstr ""
 #: Extended_Era/units/chaos/Hound_Warp.cfg:26
 #: Extended_Era/units/chaos/Hound_Rabid.cfg:23
 #: Extended_Era/units/chaos/Hound.cfg:23
+#: Extended_Era/units/undead/Dread_Bat.cfg:34
 msgid "fangs"
 msgstr "tesáky"
 
@@ -1766,7 +1773,7 @@ msgstr "Lidožravý pes"
 
 # Popis jednotky
 #. [unit]: race=monster
-#: Extended_Era/units/chaos/Hound_Flesh.cfg:19
+#: Extended_Era/units/chaos/Hound_Flesh.cfg:22
 msgid ""
 "A hound that becomes a host for a lesser daemon turns into a flesh hound. "
 "The unnatural fusion gives them a strange half dog, half human. With a "
@@ -1780,7 +1787,7 @@ msgstr ""
 
 # zbraň
 #. [attack]: type=impact
-#: Extended_Era/units/chaos/Hound_Flesh.cfg:24
+#: Extended_Era/units/chaos/Hound_Flesh.cfg:27
 #: Extended_Era/units/trolls/Shaman.cfg:32
 msgid "fist"
 msgstr "pěst"
@@ -1865,7 +1872,7 @@ msgstr ""
 
 # Název jednotky
 #. [female]
-#: Extended_Era/units/chaos/Invoker.cfg:116
+#: Extended_Era/units/chaos/Invoker.cfg:117
 msgid "female^Invoker"
 msgstr "Vyvolávačka"
 
@@ -1878,11 +1885,12 @@ msgstr "Temný rytíř"
 # Popis jednotky
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Knight.cfg:17
+#, fuzzy
 msgid ""
-"Tougher than the averange chaos follower, the Dark Knight attempts to "
-"confuse it's opponent by wielding a different weapon in each hand, he lets "
-"his style on combat alter depending on the situation which makes him a tough "
-"warrior to fight."
+"Tougher than the average chaos follower, the Dark Knight attempts to confuse "
+"it's opponent by wielding a different weapon in each hand, he lets his style "
+"on combat alter depending on the situation which makes him a tough warrior "
+"to fight."
 msgstr ""
 "Temný rytíř je zdatnější bojovník než běžný stoupenec chaosu. Svého oponenta "
 "se pokouší zmást tím, že každou rukou ovládá jinou zbraň a svůj způsob boje "
@@ -1946,7 +1954,7 @@ msgstr ""
 
 # Název jednotky
 #. [female]
-#: Extended_Era/units/chaos/Magus.cfg:147
+#: Extended_Era/units/chaos/Magus.cfg:138
 msgid "female^Magus"
 msgstr "Maga"
 
@@ -1961,6 +1969,19 @@ msgstr "Nájezdník"
 #: Extended_Era/units/chaos/Overlord.cfg:5
 msgid "Overlord"
 msgstr "Temný pán"
+
+#. [unit]: race=human
+#: Extended_Era/units/chaos/Overlord.cfg:29
+msgid ""
+"Overlord is a title earned, not given. For such a rank to be claimed, blood "
+"knights of Chaos must undergo the harshest and most brutal of trials in "
+"order to appease their dark gods. Charred remains and broken bones attest to "
+"the difficulty of such tests, yet every year at least one warrior will make "
+"the (perhaps foolish) attempt. In the annals of history, only a select few "
+"have ever emerged from the trials alive. Granted unholy strength, inhuman "
+"resilience and a demonic mount, these are blood knights no longer but "
+"Overlords of Chaos."
+msgstr ""
 
 # Jméno jednotky
 #. [unit]: race=human
@@ -2264,7 +2285,7 @@ msgstr "Urozený elf"
 
 # Popis jednotky
 #. [unit]: race=dark elf
-#: Extended_Era/units/dark_elves/Noble.cfg:17
+#: Extended_Era/units/dark_elves/Noble.cfg:20
 msgid ""
 "The young Lords are rash and brave. They have spent their entire childhood "
 "training with the sword, and have been taught from the best Marshals "
@@ -2285,10 +2306,12 @@ msgstr "Stín"
 # Popis jednotky
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Shadow.cfg:21
+#, fuzzy
 msgid ""
 "Staying hidden safe in the shadows of the caves, they will hit you when you "
-"least expect it. Despite their frailty, they can inflict great damage over "
-"time, slowly taking the life away from their prey ."
+"least expect it. Despite their frailty, they can inflict great damage either "
+"by thrusting their daggers in the back of their target or by shooting fast a "
+"lot of bolts from their crossbow."
 msgstr ""
 "Skryti bezpečně ve stínech jeskynní, zaútočí, když je to nejméně očekáváno. "
 "Navzdory své fyzické slabosti mohou časem způsobit velká zranění pomalým "
@@ -2538,9 +2561,10 @@ msgstr ""
 
 # zbraň
 #. [attack]: type=impact
-#: Extended_Era/units/dwarves/Gyrocopter.cfg:36
-#: Extended_Era/units/dwarves/Steamcopter.cfg:37
-msgid "bombs"
+#: Extended_Era/units/dwarves/Gyrocopter.cfg:35
+#: Extended_Era/units/dwarves/Steamcopter.cfg:36
+#, fuzzy
+msgid "bomb"
 msgstr "bomby"
 
 # Název jednotky
@@ -2680,7 +2704,7 @@ msgid "Boreal Wyrm"
 msgstr "Severský červák"
 
 #. [unit]: race=wyrm
-#: Extended_Era/units/ice_wyrms/Boreal.cfg:19
+#: Extended_Era/units/ice_wyrms/Boreal.cfg:20
 msgid ""
 "Ancient wyrms so rarely seen that many regard them as legends, Boreal Wyrms "
 "are evolved from Mistral Wyrms that have lived for over a century. Viciously "
@@ -2696,21 +2720,21 @@ msgstr ""
 
 # zbraň
 #. [attack]: type=impact
-#: Extended_Era/units/ice_wyrms/Ice.cfg:23
-#: Extended_Era/units/ice_wyrms/Boreal.cfg:24
-#: Extended_Era/units/ice_wyrms/Rime.cfg:24
-#: Extended_Era/units/ice_wyrms/Frost.cfg:23
-#: Extended_Era/units/ice_wyrms/Mistral.cfg:23
+#: Extended_Era/units/ice_wyrms/Ice.cfg:24
+#: Extended_Era/units/ice_wyrms/Boreal.cfg:25
+#: Extended_Era/units/ice_wyrms/Rime.cfg:25
+#: Extended_Era/units/ice_wyrms/Frost.cfg:24
+#: Extended_Era/units/ice_wyrms/Mistral.cfg:24
 msgid "tail"
 msgstr "ocas"
 
 # zbraň
 #. [attack]: type=cold
-#: Extended_Era/units/ice_wyrms/Ice.cfg:32
-#: Extended_Era/units/ice_wyrms/Boreal.cfg:33
-#: Extended_Era/units/ice_wyrms/Rime.cfg:33
-#: Extended_Era/units/ice_wyrms/Frost.cfg:32
-#: Extended_Era/units/ice_wyrms/Mistral.cfg:32
+#: Extended_Era/units/ice_wyrms/Ice.cfg:33
+#: Extended_Era/units/ice_wyrms/Boreal.cfg:34
+#: Extended_Era/units/ice_wyrms/Rime.cfg:34
+#: Extended_Era/units/ice_wyrms/Frost.cfg:33
+#: Extended_Era/units/ice_wyrms/Mistral.cfg:33
 msgid "cold breath"
 msgstr "ledový dech"
 
@@ -2721,7 +2745,7 @@ msgid "Frost Wyrm"
 msgstr "Mrazivý červák"
 
 #. [unit]: race=wyrm
-#: Extended_Era/units/ice_wyrms/Frost.cfg:18
+#: Extended_Era/units/ice_wyrms/Frost.cfg:19
 msgid ""
 "Ice wyrms that live in the sea become more serpentine, turning into Frost "
 "Wyrms. Named for the powerful icy blasts they emit, frost wyrms prefer to "
@@ -2740,7 +2764,7 @@ msgid "Ice Wyrm"
 msgstr "Ledový červák"
 
 #. [unit]: race=wyrm
-#: Extended_Era/units/ice_wyrms/Ice.cfg:18
+#: Extended_Era/units/ice_wyrms/Ice.cfg:19
 msgid ""
 "Cold-blooded reptiles from the north, ice wyrms are the youngling form of "
 "creatures that can live centuries. Despite their relative youth, they are "
@@ -2766,7 +2790,7 @@ msgstr "Mistrálový červák"
 
 # Popis jednotky
 #. [unit]: race=wyrm
-#: Extended_Era/units/ice_wyrms/Mistral.cfg:18
+#: Extended_Era/units/ice_wyrms/Mistral.cfg:19
 msgid ""
 "Ice Wyrms that dwell high in the mountains eventually grow wings and become "
 "capable of flight. Called Mistral Wyrms, they are far stronger and more "
@@ -2784,7 +2808,7 @@ msgstr "Zmrazující červák"
 
 # Popis jednotky
 #. [unit]: race=wyrm
-#: Extended_Era/units/ice_wyrms/Rime.cfg:19
+#: Extended_Era/units/ice_wyrms/Rime.cfg:20
 msgid ""
 "Unlike humans, wyrms only grow stronger and more powerful with age. Rime "
 "wyrms are elder frost wyrms: stronger and capable of a more savage breath "
@@ -3251,25 +3275,21 @@ msgstr "Nagini hlubinná slídička"
 
 # Popis jednotky
 #. [female]
-#: Extended_Era/units/nagas/Depthstalker.cfg:183
-#: Extended_Era/units/nagas/Depthprowler.cfg:183
+#: Extended_Era/units/nagas/Depthstalker.cfg:181
+#: Extended_Era/units/nagas/Depthprowler.cfg:181
+#, fuzzy
 msgid ""
-"female^Some nagas, whether through cowardice or cunning, develop a knack for "
+"Some naganis, whether through cowardice or cunning, develop a knack for "
 "surviving in darker depths of the water. After special training, this "
 "knowledge can develop into an entirely different branch of combat, although "
-"it is just as deadly. Naga Depthstalkers are especially valued as brood "
-"guardians, where they keep watch over eggs laid in hidden caves.\n"
-"\n"
-"Special Notes:"
+"it is just as deadly. Nagani Depthstalkers are especially valued as brood "
+"guardians, where they keep watch over eggs laid in hidden caves."
 msgstr ""
 "Některé nágy si, ať už z důvodu zbabělosti nebo mazanosti, osvojily "
-"dovednost přežití v temných hloubinách vod. Po zvláštním výcviku jsou "
-"schopny toto umění rozvinout do naprosto odlišného, přesto smrtícího způsobu "
-"boje, než je u nág obvyklé. Hlubinné slídičky jsou obzvláště oceňovány jako "
-"ochránkyně mláďat, neboť stráží vejce umístěná v skrytých podvodních "
-"jeskyních.\n"
-"\n"
-"Zvláštní rysy:"
+"dovednost přežití v temných hlubinách vod. Po zvláštním výcviku jsou schopny "
+"toto umění rozvinout do naprosto odlišného, přesto však smrtícího způsobu "
+"boje, než je u nág obvyklé. Hlubinní slídiči jsou obzvláště oceňováni jako "
+"ochránci mláďat, neboť stráží vejce umístěná v skrytých podvodních jeskyních."
 
 # Název jednotky
 #. [unit]: race=naga
@@ -3520,6 +3540,16 @@ msgstr "šavle"
 msgid "Rogue Mage"
 msgstr "Potulný mág"
 
+#. [unit]: race=human
+#: Extended_Era/units/outlaws/Rogue_Mage.cfg:19
+msgid ""
+"Some mages are thrown out of the mage's guild for attempting to practice "
+"forbidden arts. Now completely outside the law, these rogue mages do "
+"whatever necessary to support their study of black magic. Although not as "
+"skilled as mages with more formal training, their magic can be quite lethal, "
+"while their banditry has resulted in moderate skill with the short sword."
+msgstr ""
+
 # zbraň
 #. [attack]: type=blade
 #: Extended_Era/units/outlaws/Shadow_Mage.cfg:34
@@ -3538,6 +3568,16 @@ msgstr "střela"
 #: Extended_Era/units/outlaws/Shadow_Lord.cfg:5
 msgid "Shadow Lord"
 msgstr "Lord stínů"
+
+#. [unit]: race=human
+#: Extended_Era/units/outlaws/Shadow_Lord.cfg:23
+msgid ""
+"Few humans fathom the secrets of light and dark magic and retain their "
+"sanity.  Those that can master that balance become Shadow Lords, fully "
+"existing neither in the world of light nor the world of darkness.  No longer "
+"needing physical weapons, they are fearsome to both their enemies and those "
+"they lord over."
+msgstr ""
 
 # zbraň
 #. [attack]: type=blade
@@ -3562,6 +3602,18 @@ msgstr "stínová střela"
 #: Extended_Era/units/outlaws/Shadow_Mage.cfg:5
 msgid "Shadow Mage"
 msgstr "Mág stínů"
+
+#. [unit]: race=human
+#: Extended_Era/units/outlaws/Shadow_Mage.cfg:22
+msgid ""
+"Years of violence and brutality to support the study of forbidden magical "
+"arts have turned the shadow mages into feared fighters. Now completely "
+"enthralled with power, they have been known to command small followings of "
+"henchmen. They are outmatched in direct magical combat with their magic-"
+"using peers, instead channeling their energies into devestating melee "
+"attacks. Despite their offensive power, the corruption in their souls has "
+"begun to adversely affect their health."
+msgstr ""
 
 # zbraň
 #. [attack]: type=cold
@@ -3763,16 +3815,16 @@ msgstr ""
 
 # zbraň
 #. [attack]: type=arcane
-#: Extended_Era/units/sidhe/Spirit_Forefather.cfg:27
-#: Extended_Era/units/sidhe/Spirit_Ancestor.cfg:26
-#: Extended_Era/units/sidhe/Spirit_Warrior.cfg:26
+#: Extended_Era/units/sidhe/Spirit_Forefather.cfg:26
+#: Extended_Era/units/sidhe/Spirit_Ancestor.cfg:25
+#: Extended_Era/units/sidhe/Spirit_Warrior.cfg:25
 msgid "ancient blade"
 msgstr "starobylá čepel"
 
 # zbraň
 #. [attack]: type=cold
-#: Extended_Era/units/sidhe/Spirit_Forefather.cfg:36
-#: Extended_Era/units/sidhe/Spirit_Ancestor.cfg:35
+#: Extended_Era/units/sidhe/Spirit_Forefather.cfg:35
+#: Extended_Era/units/sidhe/Spirit_Ancestor.cfg:34
 msgid "requiem"
 msgstr "rekviem"
 
@@ -4742,6 +4794,20 @@ msgstr ""
 msgid "flame blast"
 msgstr "ohnivá střela"
 
+#. [unit]: race=bats
+#: Extended_Era/units/undead/Dread_Bat.cfg:4
+msgid "Dread Bat"
+msgstr ""
+
+#. [unit]: race=bats
+#: Extended_Era/units/undead/Dread_Bat.cfg:19
+msgid ""
+"Dread Bats are fast and can drain the blood of those they attack, thereby "
+"healing themselves, even to the point where they become stronger than they "
+"began the battle. Bloated with blood they have grown to a huge size and can "
+"feast on bigger and bigger victims."
+msgstr ""
+
 # Název jednotky
 #. [unit]: race=wose
 #: Extended_Era/units/woses/Shaman.cfg:6
@@ -4765,6 +4831,59 @@ msgstr ""
 #: Extended_Era/units/woses/Shaman.cfg:40
 msgid "entangle"
 msgstr "zamotání"
+
+# Popis jednotky
+#~ msgid ""
+#~ "Sorceresses are like the wind they can stand in front of you and one "
+#~ "second later behind you. On the battlefield they are fearful enemies and "
+#~ "even the aragwaithi throw a carefull eye on them mostly from a prefered "
+#~ "distance of a hundred feets.\n"
+#~ "\n"
+#~ "Special Notes:"
+#~ msgstr ""
+#~ "Kouzelnice dovedou být jako vítr, v jednu chvíli stojí ještě před někým a "
+#~ "o chvilku později již za ním. Na bojišti platí za obávané nepřátele. I "
+#~ "sami Aragwaiti je bedlivě sledují radši dokonce už ze vzdálenosti stovky "
+#~ "stop.\n"
+#~ "\n"
+#~ "Zvláštní rysy:"
+
+# Popis jednotky
+#~ msgid ""
+#~ "female^The magically inclined among the Aragwaith recieve not only the "
+#~ "martial training so common in Aragwaithi society, but also in the art of "
+#~ "healing, and of course in magic. Wielding powerful fire, competent with "
+#~ "their staves, possessing a healing touch, Warlocks are the noblest of a "
+#~ "noble people.\n"
+#~ "\n"
+#~ "Special Notes:"
+#~ msgstr ""
+#~ "K magii inklinující Aragwaitky neprocházejí pouze bojovým výcvikem jako "
+#~ "ostatní, ale také výcvikem v umění léčení a samozřejmě v magii. "
+#~ "Černokněžky, třímající své ohnivé hole a ovládající doteky uzdravení, "
+#~ "jsou ty nejvznešenější ze vznešených Aragwaitek.\n"
+#~ "\n"
+#~ "Zvláštní rysy:"
+
+# Popis jednotky
+#~ msgid ""
+#~ "female^Some nagas, whether through cowardice or cunning, develop a knack "
+#~ "for surviving in darker depths of the water. After special training, this "
+#~ "knowledge can develop into an entirely different branch of combat, "
+#~ "although it is just as deadly. Naga Depthstalkers are especially valued "
+#~ "as brood guardians, where they keep watch over eggs laid in hidden "
+#~ "caves.\n"
+#~ "\n"
+#~ "Special Notes:"
+#~ msgstr ""
+#~ "Některé nágy si, ať už z důvodu zbabělosti nebo mazanosti, osvojily "
+#~ "dovednost přežití v temných hloubinách vod. Po zvláštním výcviku jsou "
+#~ "schopny toto umění rozvinout do naprosto odlišného, přesto smrtícího "
+#~ "způsobu boje, než je u nág obvyklé. Hlubinné slídičky jsou obzvláště "
+#~ "oceňovány jako ochránkyně mláďat, neboť stráží vejce umístěná v skrytých "
+#~ "podvodních jeskyních.\n"
+#~ "\n"
+#~ "Zvláštní rysy:"
 
 #~ msgid ""
 #~ "\n"
