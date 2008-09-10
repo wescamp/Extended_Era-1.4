@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Battle of Wesnoth\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2008-08-23 23:09+0200\n"
-"PO-Revision-Date: 2008-06-25 14:04+0100\n"
+"PO-Revision-Date: 2008-09-09 21:02+0100\n"
 "Last-Translator: Vladimír Slávik <slavik.vladimir@seznam.cz>\n"
 "Language-Team: Czech <wesnoth-cs-l@buchtovi.cz>\n"
 "MIME-Version: 1.0\n"
@@ -1228,14 +1228,13 @@ msgstr "Aragwaitská kouzelnice"
 # Popis jednotky
 #. [female]
 #: Extended_Era/units/aragwaith/Sorcerer.cfg:101
-#, fuzzy
 msgid ""
 "Sorceresses are like the wind they can stand in front of you and one second "
 "later behind you. On the battlefield they are fearful enemies and even the "
 "aragwaithi throw a carefull eye on them mostly from a prefered distance of a "
 "hundred feets."
 msgstr ""
-"Kouzelníci dovedou být jako vítr, v jednu chvíli stojí ještě před někým a o "
+"Kouzelnice dovedou být jako vítr, v jednu chvíli stojí ještě před někým a o "
 "chvilku později již za ním. Na bojišti platí za obávané nepřátele. I sami "
 "Aragwaiti je bedlivě sledují radši dokonce už ze vzdálenosti stovky stop."
 
@@ -1351,7 +1350,6 @@ msgstr "Aragwaitská černokněžka"
 # Popis jednotky
 #. [female]
 #: Extended_Era/units/aragwaith/Warlock.cfg:115
-#, fuzzy
 msgid ""
 "female^The magically inclined among the Aragwaith recieve not only the "
 "martial training so common in Aragwaithi society, but also in the art of "
@@ -1359,10 +1357,10 @@ msgid ""
 "their staves, possessing a healing touch, Warlocks are the noblest of a "
 "noble people."
 msgstr ""
-"K magii inklinující Aragwaité neprocházejí pouze bojovým výcvikem jako "
+"K magii inklinující Aragwaitky neprocházejí pouze bojovým výcvikem jako "
 "ostatní, ale také výcvikem v umění léčení a samozřejmě v magii. "
-"Černokněžníci, třímající své ohnivé hole a ovládající doteky uzdravení, jsou "
-"ti nejvznešenější ze vznešených Aragwaitů."
+"Černokněžnice, třímající své ohnivé hole a ovládající doteky uzdravení, jsou "
+"ty nejvznešenější ze vznešených Aragwaitek."
 
 # Název jednotky
 #. [unit]: race=aragwaith
@@ -1449,6 +1447,12 @@ msgid ""
 "incredible raw strength, has turned abominations into veritable killing "
 "machines, something their chaos masters delight in."
 msgstr ""
+"Ohavnosti, promáčené krví svých nepřátel nesou už malou podobnost s mutanty, "
+"z kterých vznikly. I pouhá přítomnost takových monster na obzoru nutí "
+"nepřátelské generály nařídit rychlý nekontrolovaný ústup. Obrovská "
+"\"obtěžkaná\" masa těl ohavností dokáže snést závratné množství poškození a "
+"je tak skoro nemožné je zabít. To spolu s jejich neuvěřitelnou hrubou silou "
+"z nich dělá opravdové stroje na zabíjení a tak i miláčky vládců Chaosu."
 
 # zbraň
 #. [attack]: type=impact
@@ -1885,7 +1889,6 @@ msgstr "Temný rytíř"
 # Popis jednotky
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Knight.cfg:17
-#, fuzzy
 msgid ""
 "Tougher than the average chaos follower, the Dark Knight attempts to confuse "
 "it's opponent by wielding a different weapon in each hand, he lets his style "
@@ -1968,7 +1971,7 @@ msgstr "Nájezdník"
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Overlord.cfg:5
 msgid "Overlord"
-msgstr "Temný pán"
+msgstr "Vladař"
 
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Overlord.cfg:29
@@ -1982,6 +1985,14 @@ msgid ""
 "resilience and a demonic mount, these are blood knights no longer but "
 "Overlords of Chaos."
 msgstr ""
+"Titul vladaře se získává, neuděluje. Aby se mohli stát někým takovým, musí "
+"krvaví rytíři projít nejdrsnějšími a nejbrutálnějšími zkouškami, aby ukojili "
+"své temné bohy. Spáleniny a zlomené kosti dokládají obtížnost těchto "
+"zkoušek, nicméně každý rok se je (možná bláhově) pokusí splnit nejméně jeden "
+"válečník. V historii je zaznamenáno, že jen několika vybraným se kdy vůbec "
+"podařilo vrátit se ze zkoušek naživu. Je jim udělena nesvatá síla, nadlidská "
+"odolnost a démonický kůň a již to nejsou krvaví rytíři, ale skuteční vládci "
+"Chaosu."
 
 # Jméno jednotky
 #. [unit]: race=human
@@ -2306,7 +2317,6 @@ msgstr "Stín"
 # Popis jednotky
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Shadow.cfg:21
-#, fuzzy
 msgid ""
 "Staying hidden safe in the shadows of the caves, they will hit you when you "
 "least expect it. Despite their frailty, they can inflict great damage either "
@@ -2314,8 +2324,8 @@ msgid ""
 "lot of bolts from their crossbow."
 msgstr ""
 "Skryti bezpečně ve stínech jeskynní, zaútočí, když je to nejméně očekáváno. "
-"Navzdory své fyzické slabosti mohou časem způsobit velká zranění pomalým "
-"ubíjením svých obětí."
+"Navzdory své fyzické slabosti mohou způsobit cílům svých útoků velká "
+"zranění, ať už je to zákeřné bodání dýkou nebo rychlá střelba z kuše."
 
 # Název jednotky
 #. [unit]: race=dark elf
@@ -2563,9 +2573,8 @@ msgstr ""
 #. [attack]: type=impact
 #: Extended_Era/units/dwarves/Gyrocopter.cfg:35
 #: Extended_Era/units/dwarves/Steamcopter.cfg:36
-#, fuzzy
 msgid "bomb"
-msgstr "bomby"
+msgstr "bomba"
 
 # Název jednotky
 #. [unit]: race=dwarf
@@ -3277,7 +3286,6 @@ msgstr "Nagini hlubinná slídička"
 #. [female]
 #: Extended_Era/units/nagas/Depthstalker.cfg:181
 #: Extended_Era/units/nagas/Depthprowler.cfg:181
-#, fuzzy
 msgid ""
 "Some naganis, whether through cowardice or cunning, develop a knack for "
 "surviving in darker depths of the water. After special training, this "
@@ -3285,11 +3293,12 @@ msgid ""
 "it is just as deadly. Nagani Depthstalkers are especially valued as brood "
 "guardians, where they keep watch over eggs laid in hidden caves."
 msgstr ""
-"Některé nágy si, ať už z důvodu zbabělosti nebo mazanosti, osvojily "
+"Některé naginy si, ať už z důvodu zbabělosti nebo mazanosti, osvojily "
 "dovednost přežití v temných hlubinách vod. Po zvláštním výcviku jsou schopny "
 "toto umění rozvinout do naprosto odlišného, přesto však smrtícího způsobu "
-"boje, než je u nág obvyklé. Hlubinní slídiči jsou obzvláště oceňováni jako "
-"ochránci mláďat, neboť stráží vejce umístěná v skrytých podvodních jeskyních."
+"boje, než je u nág obvyklé. Hlubinné slídičky jsou obzvláště oceňovány jako "
+"ochránkyně mláďat, neboť stráží vejce umístěná v skrytých podvodních "
+"jeskyních."
 
 # Název jednotky
 #. [unit]: race=naga
@@ -3549,6 +3558,12 @@ msgid ""
 "skilled as mages with more formal training, their magic can be quite lethal, "
 "while their banditry has resulted in moderate skill with the short sword."
 msgstr ""
+"Někteří mágové jsou vyloučeni z magických cechů kvůli pokusům provozovat "
+"zapomenutá umění. Když jsou nyní kompletně mimo zákon, tito mágové se snaží "
+"dělat vše nezbytné, aby podpořili své studium černé magie. I když nejsou tak "
+"zkušení jako mágové s klasičtějším výcvikem, jejich magie může být celkem "
+"smrtící, zatímco jejich banditství je zdokonalilo v dovednostech s kratkým "
+"mečem."
 
 # zbraň
 #. [attack]: type=blade
@@ -3578,6 +3593,10 @@ msgid ""
 "needing physical weapons, they are fearsome to both their enemies and those "
 "they lord over."
 msgstr ""
+"Nemnoho lidí odhalí tajemství světlé i temné magie a udrží si zdravý rozum. "
+"Mistři této rovnováhy se stanou Stínovými Lordy, plně neexistujícími ve "
+"světě světla ani ve světě temnoty. Už nepotřebuji fyzické zbraně a nahánějí "
+"strach svým nepřátelům i těm, kterým vládnou."
 
 # zbraň
 #. [attack]: type=blade
@@ -3614,6 +3633,12 @@ msgid ""
 "attacks. Despite their offensive power, the corruption in their souls has "
 "begun to adversely affect their health."
 msgstr ""
+"Roky násilí a brutality kvůli podpoře svých studií zavrhnutých magických "
+"umění proměnilo stínové mágy v obávané bojovníky. Plně fascinováni mocí, "
+"kterou ovládli, vedou malé skupinky následovníků. Při přímé konfrontaci za "
+"použití kouzel s ostatními mágy jsou v nevýhodě, proto spíše používají "
+"ničivé magické efekty pro posílení fyzických úderů. Navzdory jejich útočné "
+"moci, zkaženost v jejich duších zanechala patřičné následky na jejich zdraví."
 
 # zbraň
 #. [attack]: type=cold
@@ -4797,7 +4822,7 @@ msgstr "ohnivá střela"
 #. [unit]: race=bats
 #: Extended_Era/units/undead/Dread_Bat.cfg:4
 msgid "Dread Bat"
-msgstr ""
+msgstr "Děsivý netopýr"
 
 #. [unit]: race=bats
 #: Extended_Era/units/undead/Dread_Bat.cfg:19
@@ -4807,6 +4832,10 @@ msgid ""
 "began the battle. Bloated with blood they have grown to a huge size and can "
 "feast on bigger and bigger victims."
 msgstr ""
+"Děsiví netopýři jsou velmi rychlí a mohou vysávat z nepřátel krev, čímž se "
+"sami uzdravují. Není výjimkou, že vyjdou z boje silnější, než do něj "
+"vstupovali. Jedinci vypasení spolykanou krví rostou do obřích velikostí a "
+"tak mohou hodovat na stále větších obětech."
 
 # Název jednotky
 #. [unit]: race=wose
