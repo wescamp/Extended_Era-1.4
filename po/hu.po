@@ -3,16 +3,16 @@
 # Kelemen Zoltán <kelemen_zoltan@freemail.hu>, 2008.
 msgid ""
 msgstr ""
-"Project-Id-Version: hu-ee2_1.4\n"
+"Project-Id-Version: hu-ee_1.4\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2008-08-23 23:09+0200\n"
-"PO-Revision-Date: 2008-09-26 19:26+0200\n"
-"Last-Translator: Kádár-Németh Krisztián <krisztian.kad@gmail.com>\n"
+"PO-Revision-Date: 2008-10-01 15:20+0100\n"
+"Last-Translator: kele <kelemen_zoltan@freemail.hu>\n"
 "Language-Team: Hungarian <nplurals=2; plural=(n != 1);>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: KBabel 1.11.4\n"
 
 #. [leadership]
@@ -403,7 +403,7 @@ msgstr "Sztyeppi orkok"
 #: Extended_Era/factions/sylvans-xrpg.cfg:5
 #: Extended_Era/factions/sylvans-extended.cfg:5
 msgid "Sylvans"
-msgstr "Szilvániai"
+msgstr "Szilvániaiak"
 
 #. [multiplayer_side]: type=XE Dark Adept
 #. [multiplayer_side]: type=XE Dark Sorcerer
@@ -425,7 +425,7 @@ msgstr "Aragwaith nő"
 #. [race]
 #: Extended_Era/races/aragwaithi.cfg:7
 msgid "race^Aragwaithi"
-msgstr "Aragwaithi"
+msgstr "Aragwaithok"
 
 #. [race]
 #: Extended_Era/races/chaos.cfg:5
@@ -1150,14 +1150,13 @@ msgstr "Boszorkány"
 
 #. [female]
 #: Extended_Era/units/aragwaith/Sorcerer.cfg:101
-#, fuzzy
 msgid ""
 "Sorceresses are like the wind they can stand in front of you and one second "
 "later behind you. On the battlefield they are fearful enemies and even the "
 "aragwaithi throw a carefull eye on them mostly from a prefered distance of a "
 "hundred feets."
 msgstr ""
-"A boszorkánymesterek olyanok, mint a szél, előtted állnak, majd a következő "
+"A boszorkányok olyanok, mint a szél, előtted állnak, majd a következő "
 "pillanatban már mögötted. A csatatéren rettegett ellenségek, és még az "
 "aragwaithok is erősen szemmel tartják őket, általában a kedvelt száz lépés "
 "távolságból."
@@ -1265,7 +1264,6 @@ msgstr "Táltosnő"
 
 #. [female]
 #: Extended_Era/units/aragwaith/Warlock.cfg:115
-#, fuzzy
 msgid ""
 "female^The magically inclined among the Aragwaith recieve not only the "
 "martial training so common in Aragwaithi society, but also in the art of "
@@ -1356,6 +1354,12 @@ msgid ""
 "incredible raw strength, has turned abominations into veritable killing "
 "machines, something their chaos masters delight in."
 msgstr ""
+"Ellenségei vérében fürödve az undormány már alig hasonlít arra a korcsra, "
+"amiből teremtették. Az ellenséges vezérek egy ilyen szörny megpillantásakor "
+"azonnali hátraarcot szoktak vezényelni. Óriási gennyzacskókkal teli testük "
+"elképesztő módon ellenáll a fizikai behatásoknak, szinte lehetetlen őket "
+"elpusztítani. Mindez, kombinálva brutális erejükkel, az undormányokat igazi "
+"gyilkológépekké teszi, kaotikus mestereik nem kis gyönyörűségére. "
 
 #. [attack]: type=impact
 #: Extended_Era/units/chaos/Lesser_Mutation.cfg:26
@@ -1750,7 +1754,6 @@ msgstr "Sötét lovag"
 
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Knight.cfg:17
-#, fuzzy
 msgid ""
 "Tougher than the average chaos follower, the Dark Knight attempts to confuse "
 "it's opponent by wielding a different weapon in each hand, he lets his style "
@@ -1838,6 +1841,15 @@ msgid ""
 "resilience and a demonic mount, these are blood knights no longer but "
 "Overlords of Chaos."
 msgstr ""
+"Hűbérúrrá válik az ember, nem kinevezik. Azok a vérlovagok, akik ezt a célt "
+"tűzik maguk elé, a legdurvább, legerőszakosabb próbákat vállalják, hogy "
+"kiérdemeljék a sötét istenek figyelmét. Elszenesedett maradványok, törött "
+"csontok bizonyítják e próbák kegyetlenségét, mégis minden évben akad "
+"legalább egy harcos, aki belevág. A történelmi krónikák nagyon kevés nevet "
+"jegyeztek fel, akik élve kerültek ki a megpróbáltatásokból. Ezeket a "
+"vérlovagokat szentségtelen erővel, emberfeletti ruganyossággal ruházzák fel, "
+"hátasaik démoni erővel bírnak. Többé nem is nevezik őket vérlovagoknak, ők a "
+"Káosz hűbérurai."
 
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Soulhunter.cfg:5
@@ -2132,16 +2144,16 @@ msgstr "Árny"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Shadow.cfg:21
-#, fuzzy
 msgid ""
 "Staying hidden safe in the shadows of the caves, they will hit you when you "
 "least expect it. Despite their frailty, they can inflict great damage either "
 "by thrusting their daggers in the back of their target or by shooting fast a "
 "lot of bolts from their crossbow."
 msgstr ""
-"Biztonsággal megbújva a barlangokban a legváratlanabb pillanatban támadnak. "
-"Törékeny alkatuk ellenére idővel hatalmas sebeket okozhatnak, lassan kioltva "
-"az életet áldozatukból."
+"Biztonsággal megbújva a barlangokban homályában a legváratlanabb pillanatban "
+"támadnak. Törékeny alkatuk ellenére súlyos sebeket okozhatnak, ha tőrüket "
+"áldozatuk hátába mártják, vagy ha számszeríjukból pusztító nyilak tömkelegét "
+"lövik ki."
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Sorcerer.cfg:5
@@ -2288,7 +2300,7 @@ msgstr ""
 #: Extended_Era/units/dwarves/Arcanister.cfg:29
 #: Extended_Era/units/dwarves/Runesmith.cfg:28
 msgid "hammer"
-msgstr "kalapács"
+msgstr "pöröly"
 
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Axemaster.cfg:5
@@ -2368,9 +2380,8 @@ msgstr ""
 #. [attack]: type=impact
 #: Extended_Era/units/dwarves/Gyrocopter.cfg:35
 #: Extended_Era/units/dwarves/Steamcopter.cfg:36
-#, fuzzy
 msgid "bomb"
-msgstr "bombák"
+msgstr "bomba"
 
 #. [unit]: race=dwarf
 #: Extended_Era/units/dwarves/Runemaster.cfg:5
@@ -3017,7 +3028,6 @@ msgstr "Nagini mélységi portyázó"
 #. [female]
 #: Extended_Era/units/nagas/Depthstalker.cfg:181
 #: Extended_Era/units/nagas/Depthprowler.cfg:181
-#, fuzzy
 msgid ""
 "Some naganis, whether through cowardice or cunning, develop a knack for "
 "surviving in darker depths of the water. After special training, this "
@@ -3028,8 +3038,8 @@ msgstr ""
 "Néhány naga, talán gyávaságból vagy ravaszságból, egy trükköt agyalt ki, "
 "hogy a víz sötét mélységeiben is kitartsanak. Különleges kiképzés után, ez a "
 "tudás egy teljesen más csatába fejlődhet, ami ugyanakkor halálos is. A naga "
-"mélységi cserkészőket költőhelyi őrként különösen nagyra értékelik, mivel "
-"vigyázni tudnak a barlangokba rejtett tojásokra."
+"mélységi cserkészőket a költőhelyek őreiként különösen nagyra értékelik, "
+"mivel vigyázni tudnak a barlangokba rejtett tojásokra."
 
 #. [unit]: race=naga
 #: Extended_Era/units/nagas/Depthstalker.cfg:5
@@ -3264,6 +3274,12 @@ msgid ""
 "skilled as mages with more formal training, their magic can be quite lethal, "
 "while their banditry has resulted in moderate skill with the short sword."
 msgstr ""
+"Néhány mágust a tiltott művészetek gyakorlása miatt eltávolítottak a "
+"mágusképzőből. Ezek a törvényen kívülivé lett csavargó mágusok mindent "
+"elkövetnek, hogy a feketemágiát tovább űzhessék. Bár mágikus képességeik "
+"elmaradnak a mágusképzőt végzettekétől, tudásuk életveszélyes is lehet, "
+"emellett bandita életmódjukból kifolyólag némi gyakorlatra tettek szert a "
+"rövid kard forgatásában is."
 
 #. [attack]: type=blade
 #: Extended_Era/units/outlaws/Shadow_Mage.cfg:34
@@ -3290,6 +3306,11 @@ msgid ""
 "needing physical weapons, they are fearsome to both their enemies and those "
 "they lord over."
 msgstr ""
+"Néhány embernek sikerült a fény és árnyék mágiájának a mélyére eljutni, s "
+"mégis megőrizték tisztaságukat. Azok, akik képesek a két mágiát egyensúlyban "
+"tartani, s nem merülnek el sem a fényesség, sem a sötétség világában, árny "
+"úrrá válnak. Nincs szükségük fizikai fegyverekre sem, így is rettegik őket "
+"mind ellenségeik, mind alattvalóik."
 
 #. [attack]: type=blade
 #: Extended_Era/units/outlaws/Shadow_Lord.cfg:74
@@ -3322,6 +3343,13 @@ msgid ""
 "attacks. Despite their offensive power, the corruption in their souls has "
 "begun to adversely affect their health."
 msgstr ""
+"A nyerseség és az erőszak, amivel a tiltott mágikus művészetek "
+"tanulmányozása során találkoztak, az árnymágusokat rettegett harcossá "
+"nevelte. Teljesen az erő bűvöletében vezetik maroknyi követőiket. A "
+"közvetlen mágikus összetűzéseket kerülik a hasonló mágia-használókkal, "
+"ehelyett energiájukat pusztító közelharci csapásokba áramoltatják. "
+"Figyelemreméltó ellenállásuk dacára a lelkükben lévő romlottság negatívan "
+"befolyásolja egészségüket."
 
 #. [attack]: type=cold
 #: Extended_Era/units/outlaws/Shadow_Mage.cfg:46
@@ -4411,7 +4439,7 @@ msgstr "lángfuvallat"
 #. [unit]: race=bats
 #: Extended_Era/units/undead/Dread_Bat.cfg:4
 msgid "Dread Bat"
-msgstr ""
+msgstr "Rettenetes denevér"
 
 #. [unit]: race=bats
 #: Extended_Era/units/undead/Dread_Bat.cfg:19
@@ -4421,6 +4449,10 @@ msgid ""
 "began the battle. Bloated with blood they have grown to a huge size and can "
 "feast on bigger and bigger victims."
 msgstr ""
+"A rettenetes denevérek gyorsak, s áldozataik vérével táplálkoznak, ezáltal "
+"gyógyulnak is, egészen addig a pontig, ahol már erősebbekké válnak, mint a "
+"csata kezdetén. Vérrel telítődve óriási méretűre nőnek, s egyre nagyobb és "
+"nagyobb áldozatot szemelnek ki maguknak."
 
 #. [unit]: race=wose
 #: Extended_Era/units/woses/Shaman.cfg:6
@@ -4440,53 +4472,3 @@ msgstr ""
 #: Extended_Era/units/woses/Shaman.cfg:40
 msgid "entangle"
 msgstr "behálózás"
-
-#~ msgid ""
-#~ "Sorceresses are like the wind they can stand in front of you and one "
-#~ "second later behind you. On the battlefield they are fearful enemies and "
-#~ "even the aragwaithi throw a carefull eye on them mostly from a prefered "
-#~ "distance of a hundred feets.\n"
-#~ "\n"
-#~ "Special Notes:"
-#~ msgstr ""
-#~ "A boszorkányok olyanok, mint a szél, előtted állnak, majd a következő "
-#~ "szempillanatban már mögötted. A csatatéren rettegett ellenségek, és még "
-#~ "az aragwaithok is óvakodva figyelik őket, általában a kedvelt száz lépés "
-#~ "távolságból. \n"
-#~ "\n"
-#~ "Különleges megjegyzés:"
-
-#~ msgid ""
-#~ "female^The magically inclined among the Aragwaith recieve not only the "
-#~ "martial training so common in Aragwaithi society, but also in the art of "
-#~ "healing, and of course in magic. Wielding powerful fire, competent with "
-#~ "their staves, possessing a healing touch, Warlocks are the noblest of a "
-#~ "noble people.\n"
-#~ "\n"
-#~ "Special Notes:"
-#~ msgstr ""
-#~ "Az aragwaithok között a varázslatra hajlamosak nem csak az aragwaith "
-#~ "társadalomban oly gyakori harcművészeti képzést kapják meg, hanem "
-#~ "jártasak a gyógyítás művészetében, és természetesen a varázslásban is. "
-#~ "Hatalmas tűz birtokában, botjuk mesterei, gyógyító érintéssel "
-#~ "rendelkezve, a táltosnők a nemes emberek legnemesebbjei.\n"
-#~ "\n"
-#~ "Különleges megjegyzés:"
-
-#~ msgid ""
-#~ "female^Some nagas, whether through cowardice or cunning, develop a knack "
-#~ "for surviving in darker depths of the water. After special training, this "
-#~ "knowledge can develop into an entirely different branch of combat, "
-#~ "although it is just as deadly. Naga Depthstalkers are especially valued "
-#~ "as brood guardians, where they keep watch over eggs laid in hidden "
-#~ "caves.\n"
-#~ "\n"
-#~ "Special Notes:"
-#~ msgstr ""
-#~ "Néhány naga, talán gyávaságból vagy ravaszságból, egy trükköt agyalt ki, "
-#~ "hogy a víz sötét mélységeiben is kitartsanak. Különleges kiképzés után, "
-#~ "ez a tudás egy teljesen más csatába fejlődhet, ami ugyanakkor halálos is. "
-#~ "A naga mélységi cserkészőket költőhelyi őrként különösen nagyra "
-#~ "értékelik, mivel vigyázni tudnak a barlangokba rejtett tojásokra.\n"
-#~ "\n"
-#~ "Különleges megjegyzés:"
