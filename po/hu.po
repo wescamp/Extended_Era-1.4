@@ -6,14 +6,14 @@ msgstr ""
 "Project-Id-Version: hu-ee_1.4\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2008-08-23 23:09+0200\n"
-"PO-Revision-Date: 2008-10-01 15:20+0100\n"
-"Last-Translator: kele <kelemen_zoltan@freemail.hu>\n"
-"Language-Team: Hungarian <nplurals=2; plural=(n != 1);>\n"
+"PO-Revision-Date: 2008-11-21 15:20+0100\n"
+"Last-Translator: Kádár-Németh Krisztián <krisztian.kad@gmail.com>\n"
+"Language-Team: Hungarian <>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Lokalize 0.2\n"
 
 #. [leadership]
 #: Extended_Era/abilities/allied_leadership.cfg:10
@@ -304,7 +304,7 @@ msgstr "Kibővített Korszak"
 #. [era]
 #: Extended_Era/eras/xrpg.cfg:6
 msgid "Extended RPG"
-msgstr "Kibővített szerepjáték"
+msgstr "Kibővített Szerepjáték"
 
 #. [multiplayer_side]: type=Aragwaith Flagbearer
 #. [multiplayer_side]: type=Aragwaith Swordsman
@@ -526,7 +526,7 @@ msgstr "Sötét tündék"
 #. [trait]
 #: Extended_Era/races/dwarves.cfg:7
 msgid "armored"
-msgstr "páncélban"
+msgstr "páncélos"
 
 #. [trait]
 #: Extended_Era/races/dwarves.cfg:8
@@ -779,7 +779,7 @@ msgstr "Sárkánykígyók"
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Ancient_Banner.cfg:5
 msgid "Ancient Banner"
-msgstr "Ősi Lobogó Hordozó"
+msgstr "Ősi Lobogó hordozó"
 
 #. [attack]: type=pierce
 #: Extended_Era/units/aragwaith/Silver_Shield.cfg:73
@@ -908,7 +908,7 @@ msgstr "Kapitány"
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Eagle_Master.cfg:5
 msgid "Eagle Master"
-msgstr "Sas mester"
+msgstr "Sasmester"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Eagle_Master.cfg:19
@@ -942,7 +942,7 @@ msgstr "zúzás"
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Eagle_Rider.cfg:5
 msgid "Eagle Rider"
-msgstr "Sas lovas"
+msgstr "Saslovas"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Eagle_Rider.cfg:20
@@ -1075,7 +1075,7 @@ msgstr ""
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Silver_Shield.cfg:5
 msgid "Silver Shield"
-msgstr "Ezüst pajzs"
+msgstr "Ezüstpajzs"
 
 #. [unit]: race=aragwaith
 #: Extended_Era/units/aragwaith/Slayer.cfg:5
@@ -1141,7 +1141,7 @@ msgstr "bot"
 #: Extended_Era/units/aragwaith/Sorcerer.cfg:37
 #: Extended_Era/units/aragwaith/Wizard.cfg:36
 msgid "mage-bolt"
-msgstr "varázs-villám"
+msgstr "varázsvillám"
 
 #. [female]
 #: Extended_Era/units/aragwaith/Sorcerer.cfg:98
@@ -1410,7 +1410,7 @@ msgstr "bárd"
 #. [unit]: race=demon
 #: Extended_Era/units/chaos/Chaos_Daemon.cfg:5
 msgid "Chaos Daemon"
-msgstr "Káosz démon"
+msgstr "Káoszdémon"
 
 #. [unit]: race=demon
 #: Extended_Era/units/chaos/Greater_Daemon.cfg:21
@@ -1438,7 +1438,7 @@ msgstr "tűzgolyó"
 #. [female]
 #: Extended_Era/units/chaos/Chaos_Daemon.cfg:113
 msgid "female^Chaos Demon"
-msgstr "Káosz démonnő"
+msgstr "Káoszdémonnő"
 
 #. [unit]: race=human
 #: Extended_Era/units/chaos/Demonologist.cfg:5
@@ -2040,7 +2040,7 @@ msgstr "számszeríj"
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Lizard_Master.cfg:5
 msgid "Lizard Master"
-msgstr "Hüllő mester"
+msgstr "Hüllőmester"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Lizard_Master.cfg:19
@@ -2067,7 +2067,7 @@ msgstr "harapás"
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Lizard_Rider.cfg:5
 msgid "Lizard Rider"
-msgstr "Hüllő lovas"
+msgstr "Hüllőlovas"
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Lizard_Rider.cfg:18
@@ -2077,10 +2077,10 @@ msgid ""
 "unknown, to go where no Dark Elf has gone before. Some day, they will become "
 "Master of the Lizard."
 msgstr ""
-"Gyerekkoruk óta fenevadaikkal képezik őket, etetik, gyógyítják és velük is "
-"alszanak. Az ő kötelességük az ismeretlent kifürkészni, olyan terepre "
-"merészkedni, ahol sötét tünde még sohasem járt. Egy nap hüllő mesterré "
-"válhatnak."
+"Gyerekkoruk óta fenevadaikkal képezik őket, etetik, gyógyítják azokat és "
+"velük is alszanak. Az ő kötelességük az ismeretlent kifürkészni, olyan "
+"terepre merészkedni, ahol sötét tünde még sohasem járt. Egy nap hüllő "
+"mesterré válhatnak."
 
 #. [unit]: race=dark elf
 #: Extended_Era/units/dark_elves/Lord.cfg:5
@@ -2435,7 +2435,7 @@ msgid ""
 "Dwarves' natural endurance serves the runners well, who are trained to throw "
 "their axes to protect themselves on patrol."
 msgstr ""
-"Azok a törpök, akik képesek gyorsan mozogni könnyű páncélzatú felderítők "
+"Azok a törpök, akik képesek gyorsan mozogni, könnyű páncélzatú felderítők "
 "lesznek. A törpök természetes kitartása jó szolgálatot tesz a futároknál, "
 "akiket arra képeztek ki, hogy baltáikat elhajítva megvédjék magukat az "
 "őrjáraton."
@@ -2670,7 +2670,7 @@ msgstr ""
 #: Extended_Era/units/kalifa/Amir.cfg:31
 #: Extended_Era/units/kalifa/Immortal.cfg:40
 msgid "long sword"
-msgstr "hosszú kard"
+msgstr "hosszúkard"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Arif.cfg:5
@@ -2687,6 +2687,8 @@ msgstr ""
 "képzettekké váltak pajzsuk használatában, amivel kifárasztják és lebénítják "
 "az ellenséget."
 
+# a pajzs ütés kétértelmű - pajzs ütése ill. pajzzsal való ütés
+# bár támadásnál eghyértelműen az utóbbi értelemben használatos, de így nyelvileg is egyértelmű szvsz
 #. [attack]: type=impact
 #: Extended_Era/units/kalifa/Arif.cfg:51
 #: Extended_Era/units/kalifa/Immortal.cfg:52
@@ -2694,7 +2696,7 @@ msgstr ""
 #: Extended_Era/units/steppe_orcs/Stoic.cfg:31
 #: Extended_Era/units/steppe_orcs/Rigid.cfg:30
 msgid "shield bash"
-msgstr "pajzs ütés"
+msgstr "pajzsos ütés"
 
 #. [unit]: race=kalifa
 #: Extended_Era/units/kalifa/Ekim.cfg:5
@@ -2925,7 +2927,7 @@ msgstr "Naffatun"
 #: Extended_Era/units/kalifa/Naffatun.cfg:23
 msgid "Naffutun use naptha to show their enemies true fear."
 msgstr ""
-"A naffutunok benzint használnak, hogy ellenségeiket igazán megfélemlítsék."
+"A naffatunok benzint használnak, hogy ellenségeiket igazán megfélemlítsék."
 
 #. [attack]: type=fire
 #: Extended_Era/units/kalifa/Naffatun.cfg:28
@@ -3215,7 +3217,7 @@ msgstr "parittya"
 #. [unit]: race=human
 #: Extended_Era/units/outlaws/Queen.cfg:4
 msgid "female^Outlaw Queen"
-msgstr "törvényen kívüli királynő"
+msgstr "Törvényen kívüli királynő"
 
 #. [unit]: race=human
 #: Extended_Era/units/outlaws/Queen.cfg:26
@@ -3234,10 +3236,12 @@ msgstr ""
 "úton \"talált\" zsákmányból megalapítja saját királyságát, és nagyon is "
 "közel jár ehhez a célhoz."
 
+# Fosztogató egység már van a 'pillager' magyarítására;
+# azért javaslom a prédálót, hogy a jövőben is szét lehessen választani, ha szaporodnak a jelzők - Atna:)
 #. [unit]: race=human
 #: Extended_Era/units/outlaws/Raider.cfg:5
 msgid "Raider"
-msgstr "Fosztogató"
+msgstr "Prédáló"
 
 #. [unit]: race=human
 #: Extended_Era/units/outlaws/Raider.cfg:33
@@ -3315,17 +3319,17 @@ msgstr ""
 #. [attack]: type=blade
 #: Extended_Era/units/outlaws/Shadow_Lord.cfg:74
 msgid "astral blade"
-msgstr "csillag penge"
+msgstr "csillagpenge"
 
 #. [attack]: type=cold
 #: Extended_Era/units/outlaws/Shadow_Lord.cfg:86
 msgid "shadow bolt"
-msgstr "árny villám"
+msgstr "árnyvillám"
 
 #. [attack]: type=impact
 #: Extended_Era/units/outlaws/Shadow_Lord.cfg:98
 msgid "shadow blast"
-msgstr "árny fuvallat"
+msgstr "árnyfuvallat"
 
 #. [unit]: race=human
 #: Extended_Era/units/outlaws/Shadow_Mage.cfg:5
@@ -3565,7 +3569,7 @@ msgstr ""
 #. [unit]: race=undead
 #: Extended_Era/units/sidhe/Spirit_Warrior.cfg:5
 msgid "Warrior Spirit"
-msgstr "Szellem harcos"
+msgstr "Szellemharcos"
 
 #. [unit]: race=undead
 #: Extended_Era/units/sidhe/Spirit_Warrior.cfg:21
@@ -3767,7 +3771,7 @@ msgstr ""
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Wildblade.cfg:5
 msgid "Wildblade"
-msgstr "Vad penge"
+msgstr "Vadpenge"
 
 #. [unit]: race=sidhe
 #: Extended_Era/units/sidhe/Wildblade.cfg:18
@@ -3776,7 +3780,7 @@ msgid ""
 "behold. Hitting left and right with a strength and a devotion rarely seen, "
 "he cares not for pain, or even death..."
 msgstr ""
-"Egy vad penge, amint csatadühöngése elkezdődött, rémisztő látványt nyújt. "
+"Egy vadpenge, amint csatadühöngése elkezdődött, rémisztő látványt nyújt. "
 "Balra és jobbra csap olyan erővel és elszántsággal, amit ritkán látni, nem "
 "érdekli a fájdalom, de még a halál sem."
 
@@ -4117,7 +4121,7 @@ msgstr "fagyos érintés"
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Pariah.cfg:4
 msgid "Steppe Pariah"
-msgstr "Sztyepp kiközösített"
+msgstr "Sztyeppi kiközösített"
 
 #. [unit]: race=orc
 #: Extended_Era/units/steppe_orcs/Pariah.cfg:19
