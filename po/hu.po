@@ -1,21 +1,22 @@
 # translation of hu-ee_1.4.po to Hungarian
 # Gabor Udvari <gabor.udvari@gmail.com>, 2008.
 # Kelemen Zoltán <kelemen_zoltan@freemail.hu>, 2008.
+# Kádár-Németh Krisztián <krisztian.kad@gmail.com>, 2008.
 msgid ""
 msgstr ""
 "Project-Id-Version: hu-ee_1.4\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2008-08-23 23:09+0200\n"
-"PO-Revision-Date: 2008-11-21 15:20+0100\n"
-"Last-Translator: Kádár-Németh Krisztián <krisztian.kad@gmail.com>\n"
-"Language-Team: Hungarian <>\n"
+"POT-Creation-Date: 2009-03-18 11:28+0100\n"
+"PO-Revision-Date: 2009-03-08 12:57+0100\n"
+"Last-Translator: kele <kelemen_zoltan@freemail.hu>\n"
+"Language-Team: Hungarian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 0.2\n"
+"X-Generator: KBabel 1.11.4\n"
 
-#. [leadership]
+#. [leadership]: id=allied_leadership
 #: Extended_Era/abilities/allied_leadership.cfg:10
 #: Extended_Era/abilities/allied_leadership.cfg:31
 #: Extended_Era/abilities/allied_leadership.cfg:65
@@ -24,7 +25,7 @@ msgstr ""
 msgid "allied leadership"
 msgstr "szövetségi vezetés"
 
-#. [leadership]
+#. [leadership]: id=allied_leadership
 #: Extended_Era/abilities/allied_leadership.cfg:14
 #: Extended_Era/abilities/allied_leadership.cfg:35
 #: Extended_Era/abilities/allied_leadership.cfg:69
@@ -50,14 +51,14 @@ msgstr ""
 "egység által okozott sebzés annyiszor 25%-kal nő, mint a szintjeik közt lévő "
 "különbség."
 
-#. [resistance]
+#. [resistance]: id=allied_protection
 #: Extended_Era/abilities/allied_protection.cfg:11
 #: Extended_Era/abilities/allied_protection.cfg:34
 #: Extended_Era/abilities/allied_protection.cfg:60
 msgid "allied protection"
 msgstr "szövetségi védelem"
 
-#. [resistance]
+#. [resistance]: id=allied_protection
 #: Extended_Era/abilities/allied_protection.cfg:13
 #: Extended_Era/abilities/allied_protection.cfg:36
 #: Extended_Era/abilities/allied_protection.cfg:62
@@ -70,12 +71,12 @@ msgstr ""
 "A szomszédos baráti, alacsonyabb szintű egységek ellenállása minden hatásra "
 "20%-kal nő (de nem nőhet 50% fölé)."
 
-#. [damage]
+#. [damage]: id=attack_only
 #: Extended_Era/abilities/attack_only.cfg:8
 msgid "attack only"
 msgstr "csak támadásra"
 
-#. [damage]
+#. [damage]: id=attack_only
 #: Extended_Era/abilities/attack_only.cfg:10
 msgid ""
 "Attack only:\n"
@@ -123,12 +124,12 @@ msgstr ""
 "rejtőzködő képessége láthatatlanná teszi őt az ellenség számára, hacsak nem "
 "közvetlenül mellette áll, vagy támadás során nem leplezte le magát."
 
-#. [damage]
+#. [damage]: id=attack_only
 #: Extended_Era/abilities/defend_only.cfg:8
 msgid "defend only"
 msgstr "csak védekezésre"
 
-#. [damage]
+#. [damage]: id=attack_only
 #: Extended_Era/abilities/defend_only.cfg:10
 msgid ""
 "Defend only:\n"
@@ -141,12 +142,12 @@ msgstr ""
 msgid " One attack of this unit can only be used to defend."
 msgstr " Ennek az egységnek egyik fegyvere csak védekezésre használható."
 
-#. [skirmisher]
+#. [skirmisher]: id=distract
 #: Extended_Era/abilities/distract.cfg:6
 msgid "distract"
 msgstr "zavarás"
 
-#. [skirmisher]
+#. [skirmisher]: id=distract
 #: Extended_Era/abilities/distract.cfg:8
 msgid ""
 "Distract:\n"
@@ -166,12 +167,12 @@ msgstr ""
 "egységeknek, hogy átjárják az ellenséges ellenőrzési zónát és akadálytalanul "
 "mozogjanak."
 
-#. [damage]
+#. [damage]: id=dread
 #: Extended_Era/abilities/dread.cfg:6 Extended_Era/abilities/dread.cfg:7
 msgid "dread"
 msgstr "rettegett"
 
-#. [damage]
+#. [damage]: id=dread
 #: Extended_Era/abilities/dread.cfg:9 Extended_Era/abilities/dread.cfg:11
 msgid ""
 "Dread:\n"
@@ -190,14 +191,14 @@ msgstr ""
 " Ennek az egységnek a rettegett támadása megfélemlíti a célpontot, "
 "lecsökkentve ezzel annak sebzését az ellentámadásnál."
 
-#. [resistance]
+#. [resistance]: id=protection
 #: Extended_Era/abilities/protection.cfg:9
 #: Extended_Era/abilities/protection.cfg:31
 #: Extended_Era/abilities/protection.cfg:56
 msgid "protection"
 msgstr "védelem"
 
-#. [resistance]
+#. [resistance]: id=protection
 #: Extended_Era/abilities/protection.cfg:11
 #: Extended_Era/abilities/protection.cfg:33
 #: Extended_Era/abilities/protection.cfg:58
@@ -221,13 +222,13 @@ msgstr ""
 "hogy elszántabban védekezzenek, ezáltal kisebb sérülést szereznek csatában, "
 "de ez csak alacsonyabb szintű egységekre érvényes."
 
-#. [regenerate]
+#. [regenerate]: id=sylvan_spark
 #: Extended_Era/abilities/sylvan_spark.cfg:10
 #: Extended_Era/abilities/sylvan_spark.cfg:13
 msgid "sylvan spark"
 msgstr "erdei szikra"
 
-#. [regenerate]
+#. [regenerate]: id=sylvan_spark
 #: Extended_Era/abilities/sylvan_spark.cfg:12
 #: Extended_Era/abilities/sylvan_spark.cfg:15
 msgid ""
@@ -247,13 +248,13 @@ msgstr ""
 " Ez az egység erdőkben regenerálódik, ami lehetővé teszi számára a "
 "gyógyulást, habár nem oly mértékben, mintha egy faluban lenne."
 
-#. [leadership]
+#. [leadership]: id=terror
 #: Extended_Era/abilities/terror.cfg:8 Extended_Era/abilities/terror.cfg:44
 #: Extended_Era/abilities/terror.cfg:94
 msgid "terror"
 msgstr "terror"
 
-#. [leadership]
+#. [leadership]: id=terror
 #: Extended_Era/abilities/terror.cfg:12 Extended_Era/abilities/terror.cfg:48
 #: Extended_Era/abilities/terror.cfg:98
 msgid ""
@@ -286,163 +287,163 @@ msgstr ""
 "ellenséget, így azok kevesebbet sebeznek a csatában, de ez csak az "
 "alacsonyabb vagy azonos szintű egységekre érvényes."
 
-#. [era]
+#. [era]: id=era_extended_eom_{EXTENDED_ERA_VERSION}
 #: Extended_Era/eras/default+extended+eom.cfg:18
 msgid "Extended Era + Era of Myths + Default"
 msgstr "Kibővített Korszak + Mítoszok Korszaka + Alapértelmezett"
 
-#. [era]
+#. [era]: id=era_extended_default_{EXTENDED_ERA_VERSION}
 #: Extended_Era/eras/default+extended.cfg:6
 msgid "Extended Era + Default"
 msgstr "Kibővített Korszak + Alapértelmezett"
 
-#. [era]
+#. [era]: id=era_extended_{EXTENDED_ERA_VERSION}
 #: Extended_Era/eras/extended.cfg:6
 msgid "Extended Era"
 msgstr "Kibővített Korszak"
 
-#. [era]
+#. [era]: id=era_extended_rpg_{EXTENDED_ERA_VERSION}
 #: Extended_Era/eras/xrpg.cfg:6
 msgid "Extended RPG"
 msgstr "Kibővített Szerepjáték"
 
-#. [multiplayer_side]: type=Aragwaith Flagbearer
-#. [multiplayer_side]: type=Aragwaith Swordsman
+#. [multiplayer_side]: id=Aragwaith, type=Aragwaith Flagbearer
+#. [multiplayer_side]: id=Aragwaith, type=Aragwaith Swordsman
 #: Extended_Era/factions/aragwaithi-extended.cfg:5
 #: Extended_Era/factions/aragwaithi-xrpg.cfg:5
 msgid "Aragwaith"
 msgstr "Aragwaith"
 
-#. [multiplayer_side]: type=Chaos Magus
-#. [multiplayer_side]: type=Lesser Daemon
+#. [multiplayer_side]: id=Chaos, type=Chaos Magus
+#. [multiplayer_side]: id=Chaos, type=Lesser Daemon
 #: Extended_Era/factions/chaos-extended.cfg:5
 #: Extended_Era/factions/chaos-xrpg.cfg:5
 msgid "Chaos"
 msgstr "Kaotikus"
 
-#. [multiplayer_side]: type=Dark Elf Captain
-#. [multiplayer_side]: type=XRPG Dark Elf Noble
+#. [multiplayer_side]: id=Dark Elves, type=Dark Elf Captain
+#. [multiplayer_side]: id=Dark Elves, type=XRPG Dark Elf Noble
 #: Extended_Era/factions/dark_elves-extended.cfg:5
 #: Extended_Era/factions/dark_elves-xrpg.cfg:5
 msgid "Dark Elves"
 msgstr "Sötét tündék"
 
-#. [multiplayer_side]: type=Drake Flare
-#. [multiplayer_side]: type=XRPG Drake Burner
+#. [multiplayer_side]: id=Drakes, type=Drake Flare
+#. [multiplayer_side]: id=Drakes, type=XRPG Drake Burner
 #: Extended_Era/factions/drakes-extended.cfg:5
 #: Extended_Era/factions/drakes-xrpg.cfg:5
 msgid "Drakes"
 msgstr "Perzsekények"
 
-#. [multiplayer_side]: type=XE Dwarvish Fighter
-#. [multiplayer_side]: type=Dwarvish Steelclad
-#: Extended_Era/factions/dwarves-xrpg.cfg:5
+#. [multiplayer_side]: id=Dwarves, type=Dwarvish Steelclad
+#. [multiplayer_side]: id=Dwarves, type=XE Dwarvish Fighter
 #: Extended_Era/factions/dwarves-extended.cfg:5
+#: Extended_Era/factions/dwarves-xrpg.cfg:5
 msgid "Dwarves"
 msgstr "Törpök"
 
-#. [multiplayer_side]: type=Kalifa Ahadath
-#. [multiplayer_side]: type=Kalifa Ghazi
-#: Extended_Era/factions/kalifa-xrpg.cfg:5
+#. [multiplayer_side]: id=Kalifa, type=Kalifa Ghazi
+#. [multiplayer_side]: id=Kalifa, type=Kalifa Ahadath
 #: Extended_Era/factions/kalifa-extended.cfg:5
+#: Extended_Era/factions/kalifa-xrpg.cfg:5
 msgid "Kalifa"
 msgstr "Kalifa"
 
-#. [multiplayer_side]: type=Lieutenant
-#. [multiplayer_side]: type=XRPG Sergeant
+#. [multiplayer_side]: id=Loyalists, type=Lieutenant
+#. [multiplayer_side]: id=Loyalists, type=XRPG Sergeant
 #: Extended_Era/factions/loyalists-extended.cfg:5
 #: Extended_Era/factions/loyalists-xrpg.cfg:5
 msgid "Loyalists"
 msgstr "Hűségesek"
 
-#. [multiplayer_side]: type=Mermaid Initiate
+#. [multiplayer_side]: id=Merfolk, type=Mermaid Initiate
 #: Extended_Era/factions/merfolk-xrpg.cfg:5
 msgid "Merfolk"
 msgstr "Sellők"
 
-#. [multiplayer_side]: type=Giant Scorpion
+#. [multiplayer_side]: id=Miscellanous, type=Giant Scorpion
 #: Extended_Era/factions/misc-xrpg.cfg:5
 msgid "Miscellanous"
 msgstr "Egyéb"
 
-#. [multiplayer_side]: type=XE Naga Fighter
+#. [multiplayer_side]: id=Nagas, type=XE Naga Fighter
 #: Extended_Era/factions/nagas-xrpg.cfg:5
 msgid "Nagas"
 msgstr "Nagák"
 
-#. [multiplayer_side]: type=Orcish Warrior
-#. [multiplayer_side]: type=Orcish Grunt
-#: Extended_Era/factions/northerners-extended.cfg:5
+#. [multiplayer_side]: id=Northerners, type=Orcish Grunt
+#. [multiplayer_side]: id=Northerners, type=Orcish Warrior
 #: Extended_Era/factions/northerners-xrpg.cfg:5
+#: Extended_Era/factions/northerners-extended.cfg:5
 msgid "Northerners"
 msgstr "Északiak"
 
-#. [multiplayer_side]: type=Rogue
-#. [multiplayer_side]: type=Thief
-#: Extended_Era/factions/outlaws-extended.cfg:5
+#. [multiplayer_side]: id=Outlaws, type=Thief
+#. [multiplayer_side]: id=Outlaws, type=Rogue
 #: Extended_Era/factions/outlaws-xrpg.cfg:5
+#: Extended_Era/factions/outlaws-extended.cfg:5
 msgid "Outlaws"
 msgstr "Törvényen kívüliek"
 
-#. [multiplayer_side]: type=Sidhe Raindancer
-#. [multiplayer_side]: type=Sidhe Warmage
-#: Extended_Era/factions/sidhe-xrpg.cfg:5
+#. [multiplayer_side]: id=Sidhe, type=Sidhe Warmage
+#. [multiplayer_side]: id=Sidhe, type=Sidhe Raindancer
 #: Extended_Era/factions/sidhe-extended.cfg:5
+#: Extended_Era/factions/sidhe-xrpg.cfg:5
 msgid "Sidhe"
 msgstr "Sidhe"
 
-#. [multiplayer_side]: type=Steppe Vanguard
-#. [multiplayer_side]: type=XRPG Steppe Spearhead
+#. [multiplayer_side]: id=Steppe Orcs, type=Steppe Vanguard
+#. [multiplayer_side]: id=Steppe Orcs, type=XRPG Steppe Spearhead
 #: Extended_Era/factions/steppe_orcs-extended.cfg:5
 #: Extended_Era/factions/steppe_orcs-xrpg.cfg:5
 msgid "Steppe Orcs"
 msgstr "Sztyeppi orkok"
 
-#. [multiplayer_side]: type=XRPG Elvish Fighter
-#. [multiplayer_side]: type=Elvish Captain
-#: Extended_Era/factions/sylvans-xrpg.cfg:5
+#. [multiplayer_side]: id=Sylvans, type=Elvish Captain
+#. [multiplayer_side]: id=Sylvans, type=XRPG Elvish Fighter
 #: Extended_Era/factions/sylvans-extended.cfg:5
+#: Extended_Era/factions/sylvans-xrpg.cfg:5
 msgid "Sylvans"
 msgstr "Szilvániaiak"
 
-#. [multiplayer_side]: type=XE Dark Adept
-#. [multiplayer_side]: type=XE Dark Sorcerer
-#: Extended_Era/factions/undead-xrpg.cfg:5
+#. [multiplayer_side]: id=Undead, type=XE Dark Sorcerer
+#. [multiplayer_side]: id=Undead, type=XE Dark Adept
 #: Extended_Era/factions/undead-extended.cfg:5
+#: Extended_Era/factions/undead-xrpg.cfg:5
 msgid "Undead"
 msgstr "Élőholt"
 
-#. [race]
+#. [race]: id=aragwaith
 #: Extended_Era/races/aragwaithi.cfg:5
 msgid "race^Aragwaith Human"
 msgstr "Aragwaith férfi"
 
-#. [race]
+#. [race]: id=aragwaith
 #: Extended_Era/races/aragwaithi.cfg:6
 msgid "race+female^Aragwaith Human"
 msgstr "Aragwaith nő"
 
-#. [race]
+#. [race]: id=aragwaith
 #: Extended_Era/races/aragwaithi.cfg:7
 msgid "race^Aragwaithi"
 msgstr "Aragwaithok"
 
-#. [race]
+#. [race]: id=demon
 #: Extended_Era/races/chaos.cfg:5
 msgid "race^Demon"
 msgstr "Démon"
 
-#. [race]
+#. [race]: id=demon
 #: Extended_Era/races/chaos.cfg:6
 msgid "race+female^Demon"
 msgstr "Démonnő"
 
-#. [race]
+#. [race]: id=demon
 #: Extended_Era/races/chaos.cfg:7
 msgid "race^Demons"
 msgstr "Démonok"
 
-#. [race]
+#. [race]: id=demon
 #: Extended_Era/races/chaos.cfg:10
 msgid ""
 "Abalam,Abbadon,Abigor,Adramalech,Agaliarept,Agares,Aim,Akvan,Aldebaran,"
@@ -491,7 +492,7 @@ msgstr ""
 "Turiel,Urobach,Valac,Valefar,Vapula,Vassago,Verrine,Vine,Vual,Xaphan,Yeqon,"
 "Yeter'el,Yomiel,Zagan,Zaqiel,Zepar"
 
-#. [race]
+#. [race]: id=demon
 #: Extended_Era/races/chaos.cfg:11
 msgid ""
 "Agiel,Agrat-bat-mahlaht,Ammit,Amy,Arkel,Ashtaroth,Astarte,Astoreth,Barbelo,"
@@ -508,47 +509,47 @@ msgstr ""
 "Onoskelis,Prosperpine,Rangda,Rusalka,Satana,Sheol,Selene,Sonnielion,Stheno,"
 "Sycorax,Taweret,Tzitzimime,Unsere,Uzza,Verrier,Vepar,Xena,Ziusudra"
 
-#. [race]
+#. [race]: id=dark elf
 #: Extended_Era/races/dark-elves.cfg:5
 msgid "race^Dark Elf"
 msgstr "Sötét tünde"
 
-#. [race]
+#. [race]: id=dark elf
 #: Extended_Era/races/dark-elves.cfg:6
 msgid "race+female^Dark Elf"
 msgstr "Sötét tünde nő"
 
-#. [race]
+#. [race]: id=dark elf
 #: Extended_Era/races/dark-elves.cfg:7
 msgid "race^Dark Elves"
 msgstr "Sötét tündék"
 
-#. [trait]
+#. [trait]: id=armored
 #: Extended_Era/races/dwarves.cfg:7
 msgid "armored"
 msgstr "páncélos"
 
-#. [trait]
+#. [trait]: id=armored
 #: Extended_Era/races/dwarves.cfg:8
 msgid "(+15% to all resistances, -1 movement)"
 msgstr "(+15% minden ellenállásnak, -1 mozgás)"
 
-#. [race]
+#. [race]: id=kalifa
 #: Extended_Era/races/kalifa.cfg:5
 msgid "race^Kalifa Human"
 msgstr "Kalifa férfi"
 
-#. [race]
+#. [race]: id=kalifa
 #: Extended_Era/races/kalifa.cfg:6
 msgid "race+female^Kalifa Human"
 msgstr "Kalifa nő"
 
-#. [race]
+#. [race]: id=kalifa
 #: Extended_Era/races/kalifa.cfg:7
 msgid "race+plural^Kalifa"
 msgstr "Kalifák"
 
-#. [race]
+#. [race]: id=kalifa
 #: Extended_Era/races/kalifa.cfg:10
 msgid ""
 "Aban,Abbas,Abbud,Abdul-'Adl,Abdul-Ahad,Abdul-Alim,Abdul-Aliyy,Abdul-Azim,"
@@ -701,172 +702,172 @@ msgstr ""
 "Yusuf,Zafar,Zafir,Zahid,Zahir,Zayd,Zaim,Zayn,Zarif,Zakarriya,Zaki,Zakwan,"
 "Ziyad,Zubayr,Zuhayr"
 
-#. [race]
+#. [race]: id=falcon
 #: Extended_Era/races/kalifa.cfg:15
 msgid "race^Falcon"
 msgstr "Sólyom"
 
-#. [race]
+#. [race]: id=falcon
 #: Extended_Era/races/kalifa.cfg:16
 msgid "race+female^Falcon"
 msgstr "Sólyom tojó"
 
-#. [race]
+#. [race]: id=falcon
 #: Extended_Era/races/kalifa.cfg:17
 msgid "race^Falcons"
 msgstr "Sólymok"
 
-#. [race]
+#. [race]: id=sidhe
 #: Extended_Era/races/sidhe.cfg:5
 msgid "race^Sidhe Elf"
 msgstr "Sidhe tünde"
 
-#. [race]
+#. [race]: id=sidhe
 #: Extended_Era/races/sidhe.cfg:6
 msgid "race+female^Sidhe Elf"
 msgstr "Sidhe tünde nő"
 
-#. [race]
+#. [race]: id=sidhe
 #: Extended_Era/races/sidhe.cfg:7
 msgid "race^Sidhe"
 msgstr "Sidhe"
 
-#. [race]
+#. [race]: id=bear
 #: Extended_Era/races/sidhe.cfg:15
 msgid "race^Bear"
 msgstr "Medve"
 
-#. [race]
+#. [race]: id=bear
 #: Extended_Era/races/sidhe.cfg:16
 msgid "race+female^Bear"
 msgstr "Nőstény medve"
 
-#. [race]
+#. [race]: id=bear
 #: Extended_Era/races/sidhe.cfg:17
 msgid "race^Bears"
 msgstr "Medvék"
 
-#. [race]
+#. [race]: id=fairy
 #: Extended_Era/races/sylvans.cfg:5
 msgid "race^Fairy"
 msgstr "Tündér"
 
-#. [race]
+#. [race]: id=fairy
 #: Extended_Era/races/sylvans.cfg:6
 msgid "race+female^Fairy"
 msgstr "Tündérnő"
 
-#. [race]
+#. [race]: id=fairy
 #: Extended_Era/races/sylvans.cfg:7
 msgid "race^Fairies"
 msgstr "Tündérek"
 
-#. [race]
+#. [race]: id=wyrm
 #: Extended_Era/races/wyrm-ice.cfg:5
 msgid "race^Wyrm"
 msgstr "Sárkánykígyó"
 
-#. [race]
+#. [race]: id=wyrm
 #: Extended_Era/races/wyrm-ice.cfg:6
 msgid "race+female^Wyrm"
 msgstr "Sárkánykígyó"
 
-#. [race]
+#. [race]: id=wyrm
 #: Extended_Era/races/wyrm-ice.cfg:7
 msgid "race^Wyrms"
 msgstr "Sárkánykígyók"
 
-#. [unit]: race=aragwaith
+#. [unit]: id=Aragwaith Ancient Banner, race=aragwaith
 #: Extended_Era/units/aragwaith/Ancient_Banner.cfg:5
 msgid "Ancient Banner"
 msgstr "Ősi Lobogó hordozó"
 
 #. [attack]: type=pierce
 #: Extended_Era/units/aragwaith/Silver_Shield.cfg:73
-#: Extended_Era/units/aragwaith/Lancer.cfg:72
-#: Extended_Era/units/aragwaith/Scout.cfg:67
-#: Extended_Era/units/aragwaith/Guardian.cfg:29
-#: Extended_Era/units/aragwaith/Captain.cfg:34
-#: Extended_Era/units/aragwaith/Pikeman.cfg:28
-#: Extended_Era/units/aragwaith/Flagbearer.cfg:34
-#: Extended_Era/units/aragwaith/Spearman.cfg:51
 #: Extended_Era/units/aragwaith/Ancient_Banner.cfg:35
-#: Extended_Era/units/chaos/Marauder.cfg:40
-#: Extended_Era/units/chaos/Headhunter.cfg:33
-#: Extended_Era/units/chaos/Soulhunter.cfg:42
-#: Extended_Era/units/nagas/Abomination.cfg:46
-#: Extended_Era/units/sidhe/Wanderer.cfg:27
-#: Extended_Era/units/sidhe/Wanderer.cfg:35
-#: Extended_Era/units/sidhe/Tracker.cfg:26
-#: Extended_Era/units/sidhe/Tracker.cfg:34
-#: Extended_Era/units/sidhe/Windrunner.cfg:27
-#: Extended_Era/units/sidhe/Windrunner.cfg:35
-#: Extended_Era/units/kalifa/Mubarizan.cfg:24
-#: Extended_Era/units/kalifa/Arif.cfg:31 Extended_Era/units/kalifa/Amir.cfg:23
-#: Extended_Era/units/kalifa/Immortal.cfg:32
-#: Extended_Era/units/steppe_orcs/Skewer.cfg:25
-#: Extended_Era/units/steppe_orcs/Spearman.cfg:24
+#: Extended_Era/units/aragwaith/Scout.cfg:67
+#: Extended_Era/units/aragwaith/Flagbearer.cfg:34
+#: Extended_Era/units/aragwaith/Pikeman.cfg:28
+#: Extended_Era/units/aragwaith/Spearman.cfg:51
+#: Extended_Era/units/aragwaith/Lancer.cfg:72
+#: Extended_Era/units/aragwaith/Captain.cfg:34
+#: Extended_Era/units/aragwaith/Guardian.cfg:29
 #: Extended_Era/units/dark_elves/Marshal.cfg:36
 #: Extended_Era/units/dark_elves/Marshal.cfg:44
 #: Extended_Era/units/dark_elves/Captain.cfg:35
 #: Extended_Era/units/dark_elves/Captain.cfg:43
+#: Extended_Era/units/chaos/Headhunter.cfg:33
+#: Extended_Era/units/chaos/Marauder.cfg:40
+#: Extended_Era/units/chaos/Soulhunter.cfg:42
+#: Extended_Era/units/sidhe/Wanderer.cfg:27
+#: Extended_Era/units/sidhe/Wanderer.cfg:35
+#: Extended_Era/units/sidhe/Windrunner.cfg:27
+#: Extended_Era/units/sidhe/Windrunner.cfg:35
+#: Extended_Era/units/sidhe/Tracker.cfg:26
+#: Extended_Era/units/sidhe/Tracker.cfg:34
+#: Extended_Era/units/nagas/Abomination.cfg:46
+#: Extended_Era/units/steppe_orcs/Spearman.cfg:24
+#: Extended_Era/units/steppe_orcs/Skewer.cfg:25
+#: Extended_Era/units/kalifa/Mubarizan.cfg:24
+#: Extended_Era/units/kalifa/Amir.cfg:23 Extended_Era/units/kalifa/Arif.cfg:31
+#: Extended_Era/units/kalifa/Immortal.cfg:32
 msgid "spear"
 msgstr "dárda"
 
 #. [attack]: type=blade
-#: Extended_Era/units/aragwaith/Guard.cfg:74
+#: Extended_Era/units/aragwaith/Ancient_Banner.cfg:43
 #: Extended_Era/units/aragwaith/Greatbow.cfg:62
-#: Extended_Era/units/aragwaith/Captain.cfg:42
+#: Extended_Era/units/aragwaith/Shield_Guard.cfg:29
 #: Extended_Era/units/aragwaith/Flagbearer.cfg:42
 #: Extended_Era/units/aragwaith/Swordsman.cfg:101
-#: Extended_Era/units/aragwaith/Shield_Guard.cfg:29
-#: Extended_Era/units/aragwaith/Ancient_Banner.cfg:43
-#: Extended_Era/units/chaos/Invader.cfg:26
-#: Extended_Era/units/chaos/Blood_Knight.cfg:26
-#: Extended_Era/units/chaos/Doom_Guard.cfg:26
-#: Extended_Era/units/chaos/Hell_Guardian.cfg:27
-#: Extended_Era/units/chaos/Overlord.cfg:34
-#: Extended_Era/units/chaos/Knight.cfg:26
-#: Extended_Era/units/nagas/Hunter.cfg:42
-#: Extended_Era/units/nagas/Assassin.cfg:30
-#: Extended_Era/units/nagas/Depthstalker.cfg:52
-#: Extended_Era/units/nagas/Depthprowler.cfg:52
-#: Extended_Era/units/nagas/Abomination.cfg:29
-#: Extended_Era/units/sidhe/Warsinger.cfg:26
-#: Extended_Era/units/sidhe/Windlasher.cfg:22
-#: Extended_Era/units/sidhe/Wardancer.cfg:23
-#: Extended_Era/units/sidhe/Warrior.cfg:23
-#: Extended_Era/units/sidhe/Blizzardlord.cfg:23
-#: Extended_Era/units/sidhe/Tempest.cfg:22
-#: Extended_Era/units/sidhe/Raindancer.cfg:23
-#: Extended_Era/units/sidhe/Bladespinner.cfg:22
-#: Extended_Era/units/sidhe/Snowdancer.cfg:22
-#: Extended_Era/units/sidhe/Veiledblade.cfg:25
-#: Extended_Era/units/sidhe/Herald.cfg:25
-#: Extended_Era/units/sidhe/Whirlwind.cfg:26
-#: Extended_Era/units/sidhe/Stormlord.cfg:23
-#: Extended_Era/units/sidhe/Warmage.cfg:22
-#: Extended_Era/units/sidhe/Wildblade.cfg:23
-#: Extended_Era/units/sidhe/Fury.cfg:23
-#: Extended_Era/units/sidhe/Hoarfroster.cfg:22
-#: Extended_Era/units/sidhe/Shadowdancer.cfg:26
-#: Extended_Era/units/dark_elves/Warrior.cfg:22
-#: Extended_Era/units/dark_elves/Marshal.cfg:27
-#: Extended_Era/units/dark_elves/Captain.cfg:26
-#: Extended_Era/units/dark_elves/Noble.cfg:25
-#: Extended_Era/units/dark_elves/Corsair.cfg:23
+#: Extended_Era/units/aragwaith/Guard.cfg:74
+#: Extended_Era/units/aragwaith/Captain.cfg:42
 #: Extended_Era/units/dark_elves/Lord.cfg:25
 #: Extended_Era/units/dark_elves/High_Lord.cfg:26
+#: Extended_Era/units/dark_elves/Marshal.cfg:27
+#: Extended_Era/units/dark_elves/Warrior.cfg:22
+#: Extended_Era/units/dark_elves/Corsair.cfg:23
+#: Extended_Era/units/dark_elves/Noble.cfg:25
 #: Extended_Era/units/dark_elves/Fighter.cfg:29
+#: Extended_Era/units/dark_elves/Captain.cfg:26
+#: Extended_Era/units/chaos/Doom_Guard.cfg:26
+#: Extended_Era/units/chaos/Invader.cfg:26
+#: Extended_Era/units/chaos/Overlord.cfg:34
+#: Extended_Era/units/chaos/Blood_Knight.cfg:26
+#: Extended_Era/units/chaos/Hell_Guardian.cfg:27
+#: Extended_Era/units/chaos/Knight.cfg:26
+#: Extended_Era/units/sidhe/Tempest.cfg:22
+#: Extended_Era/units/sidhe/Veiledblade.cfg:25
+#: Extended_Era/units/sidhe/Hoarfroster.cfg:22
+#: Extended_Era/units/sidhe/Stormlord.cfg:23
+#: Extended_Era/units/sidhe/Wardancer.cfg:23
+#: Extended_Era/units/sidhe/Wildblade.cfg:23
+#: Extended_Era/units/sidhe/Shadowdancer.cfg:26
+#: Extended_Era/units/sidhe/Blizzardlord.cfg:23
+#: Extended_Era/units/sidhe/Warrior.cfg:23
+#: Extended_Era/units/sidhe/Fury.cfg:23
+#: Extended_Era/units/sidhe/Warmage.cfg:22
+#: Extended_Era/units/sidhe/Bladespinner.cfg:22
+#: Extended_Era/units/sidhe/Warsinger.cfg:26
+#: Extended_Era/units/sidhe/Raindancer.cfg:23
+#: Extended_Era/units/sidhe/Herald.cfg:25
+#: Extended_Era/units/sidhe/Snowdancer.cfg:22
+#: Extended_Era/units/sidhe/Whirlwind.cfg:26
+#: Extended_Era/units/sidhe/Windlasher.cfg:22
+#: Extended_Era/units/nagas/Depthprowler.cfg:52
+#: Extended_Era/units/nagas/Depthstalker.cfg:52
+#: Extended_Era/units/nagas/Abomination.cfg:29
+#: Extended_Era/units/nagas/Hunter.cfg:42
+#: Extended_Era/units/nagas/Assassin.cfg:30
 msgid "sword"
 msgstr "kard"
 
-#. [unit]: race=aragwaith
+#. [unit]: id=Aragwaith Archer, race=aragwaith
 #: Extended_Era/units/aragwaith/Archer.cfg:5
 msgid "Archer"
 msgstr "Nyilas"
 
-#. [unit]: race=aragwaith
+#. [unit]: id=Aragwaith Archer, race=aragwaith
 #: Extended_Era/units/aragwaith/Archer.cfg:18
 msgid ""
 "The Aragwaithi are a noble people, fragile in body, but their training makes "
@@ -880,37 +881,37 @@ msgstr ""
 "is."
 
 #. [attack]: type=blade
-#: Extended_Era/units/aragwaith/Archer.cfg:85
 #: Extended_Era/units/aragwaith/Strongbow.cfg:20
+#: Extended_Era/units/aragwaith/Archer.cfg:85
+#: Extended_Era/units/steppe_orcs/Striker.cfg:28
 #: Extended_Era/units/steppe_orcs/Hunter.cfg:24
 #: Extended_Era/units/steppe_orcs/Flanker.cfg:25
-#: Extended_Era/units/steppe_orcs/Striker.cfg:28
 msgid "knife"
 msgstr "kés"
 
 #. [attack]: type=pierce
 #: Extended_Era/units/aragwaith/Greatbow.cfg:71
-#: Extended_Era/units/aragwaith/Archer.cfg:94
 #: Extended_Era/units/aragwaith/Slayer.cfg:36
 #: Extended_Era/units/aragwaith/Strongbow.cfg:29
+#: Extended_Era/units/aragwaith/Archer.cfg:94
 #: Extended_Era/units/nagas/Hunter.cfg:51
 #: Extended_Era/units/nagas/Assassin.cfg:39
 msgid "bow"
 msgstr "íj"
 
-#. [unit]: race=aragwaith
-#. [unit]: race=dark elf
+#. [unit]: id=Aragwaith Captain, race=aragwaith
+#. [unit]: id=Dark Elf Captain, race=dark elf
 #: Extended_Era/units/aragwaith/Captain.cfg:5
 #: Extended_Era/units/dark_elves/Captain.cfg:5
 msgid "Captain"
 msgstr "Kapitány"
 
-#. [unit]: race=aragwaith
+#. [unit]: id=Aragwaith Eagle Master, race=aragwaith
 #: Extended_Era/units/aragwaith/Eagle_Master.cfg:5
 msgid "Eagle Master"
 msgstr "Sasmester"
 
-#. [unit]: race=aragwaith
+#. [unit]: id=Aragwaith Eagle Master, race=aragwaith
 #: Extended_Era/units/aragwaith/Eagle_Master.cfg:19
 msgid ""
 "With experience, Eagle riders become more skilled and the relation with "
@@ -923,13 +924,13 @@ msgstr ""
 "megérzik azokat."
 
 #. [attack]: type=blade
+#: Extended_Era/units/bears/Young.cfg:31 Extended_Era/units/bears/Bear.cfg:32
 #: Extended_Era/units/aragwaith/Eagle_Master.cfg:27
 #: Extended_Era/units/aragwaith/Eagle_Rider.cfg:28
-#: Extended_Era/units/bears/Young.cfg:31 Extended_Era/units/bears/Bear.cfg:32
+#: Extended_Era/units/dark_elves/Lizard_Rider.cfg:35
 #: Extended_Era/units/chaos/Winged_Daemon.cfg:33
 #: Extended_Era/units/kalifa/Falcon.cfg:24
 #: Extended_Era/units/kalifa/Elder_Falcon.cfg:26
-#: Extended_Era/units/dark_elves/Lizard_Rider.cfg:35
 msgid "claws"
 msgstr "karmok"
 
@@ -939,12 +940,12 @@ msgstr "karmok"
 msgid "prey crush"
 msgstr "zúzás"
 
-#. [unit]: race=aragwaith
+#. [unit]: id=Aragwaith Eagle Rider, race=aragwaith
 #: Extended_Era/units/aragwaith/Eagle_Rider.cfg:5
 msgid "Eagle Rider"
 msgstr "Saslovas"
 
-#. [unit]: race=aragwaith
+#. [unit]: id=Aragwaith Eagle Rider, race=aragwaith
 #: Extended_Era/units/aragwaith/Eagle_Rider.cfg:20
 msgid ""
 "Some Aragwaithi youths take young eagles as a pet. These are not the common "
@@ -957,17 +958,17 @@ msgstr ""
 "nőttek, gyakran örömmel szolgálnak hátasként legjobb barátaiknak, és fiatal "
 "társaik megtanulják a hatalmas madarak megülésének művészetét."
 
-#. [unit]: race=aragwaith
+#. [unit]: id=Aragwaith Flagbearer, race=aragwaith
 #: Extended_Era/units/aragwaith/Flagbearer.cfg:5
 msgid "Flagbearer"
 msgstr "Zászlótartó"
 
-#. [unit]: race=aragwaith
+#. [unit]: id=Aragwaith Greatbow, race=aragwaith
 #: Extended_Era/units/aragwaith/Greatbow.cfg:5
 msgid "Greatbow"
 msgstr "Visszacsapóíjász"
 
-#. [unit]: race=aragwaith
+#. [unit]: id=Aragwaith Greatbow, race=aragwaith
 #: Extended_Era/units/aragwaith/Greatbow.cfg:19
 msgid ""
 "Finally moving on from the dirk and dagger to the sword, the Greatbow is "
@@ -986,12 +987,12 @@ msgstr ""
 "meghajlításához  kell, a készítőjén kívül bárki, aki megpróbálja felajzani "
 "azt, súlyos sérüléseket szerezhet."
 
-#. [unit]: race=aragwaith
+#. [unit]: id=Aragwaith Guard, race=aragwaith
 #: Extended_Era/units/aragwaith/Guard.cfg:5
 msgid "Guard"
 msgstr "Őr"
 
-#. [unit]: race=aragwaith
+#. [unit]: id=Aragwaith Guard, race=aragwaith
 #: Extended_Era/units/aragwaith/Guard.cfg:24
 msgid ""
 "Chosen from the toughest Swordsmen, Guards willingly forgo some of thier "
@@ -1004,22 +1005,22 @@ msgstr ""
 "posztokon békeidőben, vagy a csatatéren háború idején, szerepük mindig "
 "ugyanaz: megvédeni a táltos nemességet."
 
-#. [unit]: race=aragwaith
+#. [unit]: id=Aragwaith Guardian, race=aragwaith
 #: Extended_Era/units/aragwaith/Guardian.cfg:5
 msgid "Guardian"
 msgstr "Őrző"
 
-#. [unit]: race=aragwaith
+#. [unit]: id=Aragwaith Lancer, race=aragwaith
 #: Extended_Era/units/aragwaith/Lancer.cfg:5
 msgid "Lancer"
-msgstr "Lándzsás"
+msgstr "Kopjás"
 
-#. [unit]: race=aragwaith
+#. [unit]: id=Aragwaith Longswordsman, race=aragwaith
 #: Extended_Era/units/aragwaith/Longswordsman.cfg:5
 msgid "Longswordsman"
 msgstr "Pallosforgató"
 
-#. [unit]: race=aragwaith
+#. [unit]: id=Aragwaith Longswordsman, race=aragwaith
 #: Extended_Era/units/aragwaith/Longswordsman.cfg:18
 msgid ""
 "While Aragwaithi Swordsmen seem uncannily skilled to blade-wielders of other "
@@ -1035,27 +1036,27 @@ msgstr ""
 "ugyanolyan fenségesen és tehetségesen forgatják azt."
 
 #. [attack]: type=blade
-#: Extended_Era/units/aragwaith/Longswordsman.cfg:64
 #: Extended_Era/units/aragwaith/Swordmaster.cfg:81
+#: Extended_Era/units/aragwaith/Longswordsman.cfg:64
 msgid "longsword"
 msgstr "pallos"
 
-#. [unit]: race=aragwaith
+#. [unit]: id=Aragwaith Pikeman, race=aragwaith
 #: Extended_Era/units/aragwaith/Pikeman.cfg:5
 msgid "Pikeman"
 msgstr "Pikás"
 
-#. [unit]: race=aragwaith
+#. [unit]: id=Aragwaith Scout, race=aragwaith
 #: Extended_Era/units/aragwaith/Scout.cfg:5
 msgid "Scout"
 msgstr "Felderítő"
 
-#. [unit]: race=aragwaith
+#. [unit]: id=Aragwaith Shield Guard, race=aragwaith
 #: Extended_Era/units/aragwaith/Shield_Guard.cfg:5
 msgid "Shield Guard"
 msgstr "Pajzs Őre"
 
-#. [unit]: race=aragwaith
+#. [unit]: id=Aragwaith Shield Guard, race=aragwaith
 #: Extended_Era/units/aragwaith/Shield_Guard.cfg:24
 msgid ""
 "These warriors wear the old shields of their ancients. These ancients could "
@@ -1072,17 +1073,17 @@ msgstr ""
 "ősi pajzsokat, hogy emlékeztessék a világot, és tisztelegjenek elődeik "
 "bátorsága és áldozata előtt."
 
-#. [unit]: race=aragwaith
+#. [unit]: id=Aragwaith Silver Shield, race=aragwaith
 #: Extended_Era/units/aragwaith/Silver_Shield.cfg:5
 msgid "Silver Shield"
 msgstr "Ezüstpajzs"
 
-#. [unit]: race=aragwaith
+#. [unit]: id=Aragwaith Slayer, race=aragwaith
 #: Extended_Era/units/aragwaith/Slayer.cfg:5
 msgid "Slayer"
 msgstr "Vérengző"
 
-#. [unit]: race=aragwaith
+#. [unit]: id=Aragwaith Slayer, race=aragwaith
 #: Extended_Era/units/aragwaith/Slayer.cfg:22
 msgid ""
 "While improving only marginally on the power of their bow, the Slayer "
@@ -1100,12 +1101,12 @@ msgstr ""
 msgid "glaive"
 msgstr "gladius"
 
-#. [unit]: race=aragwaith
+#. [unit]: id=Aragwaith Sorcerer, race=aragwaith
 #: Extended_Era/units/aragwaith/Sorcerer.cfg:5
 msgid "Aragwaith^Sorcerer"
 msgstr "Boszorkánymester"
 
-#. [unit]: race=aragwaith
+#. [unit]: id=Aragwaith Sorcerer, race=aragwaith
 #: Extended_Era/units/aragwaith/Sorcerer.cfg:19
 msgid ""
 "Sorcerers are like the wind they can stand in front of you and one second "
@@ -1122,23 +1123,23 @@ msgstr ""
 #: Extended_Era/units/orcs/Warlock.cfg:26
 #: Extended_Era/units/orcs/Witch_Doctor.cfg:26
 #: Extended_Era/units/orcs/Shaman.cfg:26
-#: Extended_Era/units/aragwaith/Warlock.cfg:28
+#: Extended_Era/units/outlaws/Queen.cfg:95
+#: Extended_Era/units/outlaws/Princess.cfg:92
 #: Extended_Era/units/aragwaith/Sorcerer.cfg:28
+#: Extended_Era/units/aragwaith/Warlock.cfg:28
 #: Extended_Era/units/aragwaith/Wizard.cfg:27
 #: Extended_Era/units/chaos/Magus.cfg:42
-#: Extended_Era/units/chaos/Demonologist.cfg:31
 #: Extended_Era/units/chaos/Invoker.cfg:27
+#: Extended_Era/units/chaos/Demonologist.cfg:31
 #: Extended_Era/units/steppe_orcs/Icewind_Master.cfg:32
 #: Extended_Era/units/steppe_orcs/Icewind_Herder.cfg:34
 #: Extended_Era/units/steppe_orcs/Icewind_Drover.cfg:32
-#: Extended_Era/units/outlaws/Princess.cfg:92
-#: Extended_Era/units/outlaws/Queen.cfg:95
 msgid "staff"
 msgstr "bot"
 
 #. [attack]: type=fire
-#: Extended_Era/units/aragwaith/Warlock.cfg:37
 #: Extended_Era/units/aragwaith/Sorcerer.cfg:37
+#: Extended_Era/units/aragwaith/Warlock.cfg:37
 #: Extended_Era/units/aragwaith/Wizard.cfg:36
 msgid "mage-bolt"
 msgstr "varázsvillám"
@@ -1161,12 +1162,12 @@ msgstr ""
 "aragwaithok is erősen szemmel tartják őket, általában a kedvelt száz lépés "
 "távolságból."
 
-#. [unit]: race=aragwaith
+#. [unit]: id=Aragwaith Spearman, race=aragwaith
 #: Extended_Era/units/aragwaith/Spearman.cfg:5
 msgid "Spearman"
 msgstr "Dárdás"
 
-#. [unit]: race=aragwaith
+#. [unit]: id=Aragwaith Spearman, race=aragwaith
 #: Extended_Era/units/aragwaith/Spearman.cfg:18
 msgid ""
 "The less dextrous and stronger Aragwaith take up the spear. Useful in "
@@ -1178,12 +1179,12 @@ msgstr ""
 "vadászatban, de ez a fegyver a csatatéren is halálos. Sok meggondolatlan "
 "lovag találta már magát vagy hátasát egy aragwaith dárda hegyére tűzve."
 
-#. [unit]: race=aragwaith
+#. [unit]: id=Aragwaith Strongbow, race=aragwaith
 #: Extended_Era/units/aragwaith/Strongbow.cfg:5
 msgid "Strongbow"
 msgstr "Erősíjas"
 
-#. [unit]: race=aragwaith
+#. [unit]: id=Aragwaith Strongbow, race=aragwaith
 #: Extended_Era/units/aragwaith/Strongbow.cfg:35
 msgid ""
 "By wielding a stronger bow and training almost constantly, the Aragwaith "
@@ -1196,12 +1197,12 @@ msgstr ""
 "mint az átlag nyilasok. Tőreik hosszabbak, mint a tipikus nyilasokéi, és "
 "messzemenően hatékonyabban is használják azt."
 
-#. [unit]: race=aragwaith
+#. [unit]: id=Aragwaith Swordmaster, race=aragwaith
 #: Extended_Era/units/aragwaith/Swordmaster.cfg:5
 msgid "Swordmaster"
 msgstr "Kardmester"
 
-#. [unit]: race=aragwaith
+#. [unit]: id=Aragwaith Swordmaster, race=aragwaith
 #: Extended_Era/units/aragwaith/Swordmaster.cfg:20
 msgid ""
 "Swordmasters do not come into their title lightly. They have endured years "
@@ -1220,12 +1221,12 @@ msgstr ""
 "tanításában, továbbadva a büszke aragwaithi hagyományokat. Még Wesnoth "
 "udvari testőrei is tisztelik a kardmestereket."
 
-#. [unit]: race=aragwaith
+#. [unit]: id=Aragwaith Swordsman, race=aragwaith
 #: Extended_Era/units/aragwaith/Swordsman.cfg:43
 msgid "Swordsman"
 msgstr "Kardforgató"
 
-#. [unit]: race=aragwaith
+#. [unit]: id=Aragwaith Swordsman, race=aragwaith
 #: Extended_Era/units/aragwaith/Swordsman.cfg:57
 msgid ""
 "While the Aragwaithi are slight of body, they are also fast and nimble. "
@@ -1238,12 +1239,12 @@ msgstr ""
 "kap, nagyszerű kardforgatókat nevelnek. A kardforgatók könnyű páncélinget "
 "viselnek -  hogy ellenségeik pengéinek jobban ellenálljanak."
 
-#. [unit]: race=aragwaith
+#. [unit]: id=Aragwaith Warlock, race=aragwaith
 #: Extended_Era/units/aragwaith/Warlock.cfg:5
 msgid "Aragwaith^Warlock"
 msgstr "Táltos"
 
-#. [unit]: race=aragwaith
+#. [unit]: id=Aragwaith Warlock, race=aragwaith
 #: Extended_Era/units/aragwaith/Warlock.cfg:21
 msgid ""
 "The magically inclined among the Aragwaith recieve not only the martial "
@@ -1277,7 +1278,7 @@ msgstr ""
 "birtokában, botjuk mestereiként, gyógyító érintéssel rendelkezve a táltosok "
 "a nemes emberek legnemesebbjei."
 
-#. [unit]: race=aragwaith
+#. [unit]: id=Aragwaith Wizard, race=aragwaith
 #: Extended_Era/units/aragwaith/Wizard.cfg:5
 msgid "Aragwaith^Wizard"
 msgstr "Varázsló"
@@ -1287,12 +1288,12 @@ msgstr "Varázsló"
 msgid "female^Wizard"
 msgstr "Varázslónő"
 
-#. [unit]: race=bear
+#. [unit]: id=Bear, race=bear
 #: Extended_Era/units/bears/Bear.cfg:5
 msgid "Bear"
 msgstr "Medve"
 
-#. [unit]: race=bear
+#. [unit]: id=Bear, race=bear
 #: Extended_Era/units/bears/Bear.cfg:18
 msgid ""
 "Adult bears are known for going their own way; most bears would sooner flee "
@@ -1314,12 +1315,12 @@ msgstr ""
 msgid "bearhug"
 msgstr "medveölelés"
 
-#. [unit]: race=bear
+#. [unit]: id=Young Bear, race=bear
 #: Extended_Era/units/bears/Young.cfg:5
 msgid "Young Bear"
 msgstr "Medvebocs"
 
-#. [unit]: race=bear
+#. [unit]: id=Young Bear, race=bear
 #: Extended_Era/units/bears/Young.cfg:17
 msgid ""
 "It's rare to see bears motivated enough to enter a fight in a meaningful "
@@ -1338,12 +1339,12 @@ msgstr ""
 "tépve, erőteljes végtagjaival és puszta termetével zúzva. Nehéz bundája, "
 "vastag bőre és megdöbbentő alkata ellentmond meglepő kitartásának az erdőben."
 
-#. [unit]: race=demon
+#. [unit]: id=Abomination, race=demon
 #: Extended_Era/units/chaos/Abomination.cfg:5
 msgid "Abomination"
 msgstr "Undormány"
 
-#. [unit]: race=demon
+#. [unit]: id=Abomination, race=demon
 #: Extended_Era/units/chaos/Abomination.cfg:22
 msgid ""
 "Drenched in the blood of its enemies, an abomination bears little "
@@ -1362,19 +1363,19 @@ msgstr ""
 "gyilkológépekké teszi, kaotikus mestereik nem kis gyönyörűségére. "
 
 #. [attack]: type=impact
-#: Extended_Era/units/chaos/Lesser_Mutation.cfg:26
 #: Extended_Era/units/chaos/Greater_Mutation.cfg:26
 #: Extended_Era/units/chaos/Abomination.cfg:27
+#: Extended_Era/units/chaos/Lesser_Mutation.cfg:26
 #: Extended_Era/units/woses/Shaman.cfg:31
 msgid "crush"
 msgstr "döngölés"
 
-#. [unit]: race=human
+#. [unit]: id=Chaos Blood Knight, race=human
 #: Extended_Era/units/chaos/Blood_Knight.cfg:5
 msgid "Blood Knight"
 msgstr "Vérlovag"
 
-#. [unit]: race=human
+#. [unit]: id=Chaos Blood Knight, race=human
 #: Extended_Era/units/chaos/Blood_Knight.cfg:21
 msgid ""
 "Ultimate mastery comes with the greatest sacrifice. Dark Knights open their "
@@ -1387,35 +1388,37 @@ msgstr ""
 "Urakat, előléptetik őket a vérlovagok, a Káosz hatalmas harcosainak soraiba."
 
 #. [attack]: type=blade
+#: Extended_Era/units/chaos/Lesser_Daemon.cfg:25
+#: Extended_Era/units/chaos/Chaos_Daemon.cfg:25
+#: Extended_Era/units/chaos/Overlord.cfg:43
+#: Extended_Era/units/chaos/Blood_Knight.cfg:35
 #: Extended_Era/units/chaos/Greater_Daemon.cfg:26
 #: Extended_Era/units/chaos/Marauder.cfg:32
-#: Extended_Era/units/chaos/Blood_Knight.cfg:35
-#: Extended_Era/units/chaos/Lesser_Daemon.cfg:25
-#: Extended_Era/units/chaos/Overlord.cfg:43
-#: Extended_Era/units/chaos/Chaos_Daemon.cfg:25
 #: Extended_Era/units/chaos/Knight.cfg:35
 #: Extended_Era/units/chaos/Soulhunter.cfg:33
+#: Extended_Era/units/dwarves/Axethrower.cfg:30
+#: Extended_Era/units/dwarves/Axethrower.cfg:38
 #: Extended_Era/units/dwarves/Axemaster.cfg:31
 #: Extended_Era/units/dwarves/Axemaster.cfg:39
 #: Extended_Era/units/dwarves/Runner.cfg:30
 #: Extended_Era/units/dwarves/Runner.cfg:38
-#: Extended_Era/units/dwarves/Axethrower.cfg:30
-#: Extended_Era/units/dwarves/Axethrower.cfg:38
 #: Extended_Era/units/kalifa/Ghazi.cfg:23
-#: Extended_Era/units/kalifa/Ahadath.cfg:23
 #: Extended_Era/units/kalifa/Elite_Ghazi.cfg:23
+#: Extended_Era/units/kalifa/Ahadath.cfg:23
 msgid "axe"
 msgstr "bárd"
 
-#. [unit]: race=demon
+#. [unit]: id=Chaos Daemon, race=demon
 #: Extended_Era/units/chaos/Chaos_Daemon.cfg:5
 msgid "Chaos Daemon"
 msgstr "Káoszdémon"
 
-#. [unit]: race=demon
-#: Extended_Era/units/chaos/Greater_Daemon.cfg:21
+#. [unit]: id=Lesser Daemon, race=demon
+#. [unit]: id=Chaos Daemon, race=demon
+#. [unit]: id=Greater Daemon, race=demon
 #: Extended_Era/units/chaos/Lesser_Daemon.cfg:20
 #: Extended_Era/units/chaos/Chaos_Daemon.cfg:20
+#: Extended_Era/units/chaos/Greater_Daemon.cfg:21
 msgid ""
 "The lesser demons are the gift of the Gods of Chaos to those who have shown "
 "to be worthy enough to recieve aid from their sides, though barely any "
@@ -1428,10 +1431,10 @@ msgstr ""
 "fürge mozgásukat szívós küzdelmükkel párosítva..."
 
 #. [attack]: type=fire
-#: Extended_Era/units/chaos/Greater_Daemon.cfg:35
 #: Extended_Era/units/chaos/Lesser_Daemon.cfg:33
-#: Extended_Era/units/chaos/Winged_Daemon.cfg:42
 #: Extended_Era/units/chaos/Chaos_Daemon.cfg:34
+#: Extended_Era/units/chaos/Winged_Daemon.cfg:42
+#: Extended_Era/units/chaos/Greater_Daemon.cfg:35
 msgid "fireball"
 msgstr "tűzgolyó"
 
@@ -1440,12 +1443,12 @@ msgstr "tűzgolyó"
 msgid "female^Chaos Demon"
 msgstr "Káoszdémonnő"
 
-#. [unit]: race=human
+#. [unit]: id=Chaos Demonologist, race=human
 #: Extended_Era/units/chaos/Demonologist.cfg:5
 msgid "Demonologist"
 msgstr "Démonológus"
 
-#. [unit]: race=human
+#. [unit]: id=Chaos Demonologist, race=human
 #: Extended_Era/units/chaos/Demonologist.cfg:26
 msgid ""
 "The mastery of daemons lies in the changing into daemon oneself. "
@@ -1460,8 +1463,8 @@ msgstr ""
 
 #. [attack]: type=cold
 #: Extended_Era/units/chaos/Magus.cfg:51
-#: Extended_Era/units/chaos/Demonologist.cfg:40
 #: Extended_Era/units/chaos/Invoker.cfg:36
+#: Extended_Era/units/chaos/Demonologist.cfg:40
 msgid "chaos blast"
 msgstr "kaotikus löket"
 
@@ -1475,12 +1478,12 @@ msgstr "pokoli vihar"
 msgid "female^Demonologist"
 msgstr "Démonológusnő"
 
-#. [unit]: race=human
+#. [unit]: id=Chaos Armorer, race=human
 #: Extended_Era/units/chaos/Doom_Guard.cfg:5
 msgid "Doom Guard"
 msgstr "Végzetőr"
 
-#. [unit]: race=human
+#. [unit]: id=Chaos Armorer, race=human
 #: Extended_Era/units/chaos/Doom_Guard.cfg:21
 msgid ""
 "Daemons know that, the only thing than can stop a tidal wave is a powerful "
@@ -1496,20 +1499,20 @@ msgstr ""
 "szemben megállják a helyüket."
 
 #. [attack]: type=impact
-#: Extended_Era/units/chaos/Doom_Guard.cfg:35
-#: Extended_Era/units/chaos/Hell_Guardian.cfg:36
-#: Extended_Era/units/dark_elves/Noble.cfg:34
 #: Extended_Era/units/dark_elves/Lord.cfg:34
 #: Extended_Era/units/dark_elves/High_Lord.cfg:35
+#: Extended_Era/units/dark_elves/Noble.cfg:34
+#: Extended_Era/units/chaos/Doom_Guard.cfg:35
+#: Extended_Era/units/chaos/Hell_Guardian.cfg:36
 msgid "shield"
 msgstr "pajzs"
 
-#. [unit]: race=demon
+#. [unit]: id=Lesser Crab, race=demon
 #: Extended_Era/units/chaos/Evil_Crab.cfg:5
 msgid "Evil Crab"
 msgstr "Gonosz rák"
 
-#. [unit]: race=demon
+#. [unit]: id=Lesser Crab, race=demon
 #: Extended_Era/units/chaos/Evil_Crab.cfg:22
 msgid ""
 "The corruption of chaos is a subtle and slow process. Even animals as "
@@ -1535,7 +1538,7 @@ msgstr "ollók"
 msgid "evil eye"
 msgstr "gonosz szem"
 
-#. [unit]: race=demon
+#. [unit]: id=Greater Daemon, race=demon
 #: Extended_Era/units/chaos/Greater_Daemon.cfg:5
 msgid "Greater Daemon"
 msgstr "Méretes démon"
@@ -1545,12 +1548,12 @@ msgstr "Méretes démon"
 msgid "female^Greater Demon"
 msgstr "Méretes démonnő"
 
-#. [unit]: race=demon
+#. [unit]: id=Greater Mutation, race=demon
 #: Extended_Era/units/chaos/Greater_Mutation.cfg:5
 msgid "Greater Mutation"
 msgstr "Méretes korcs"
 
-#. [unit]: race=demon
+#. [unit]: id=Greater Mutation, race=demon
 #: Extended_Era/units/chaos/Greater_Mutation.cfg:21
 msgid ""
 "It came as a great surprise to the Magus who created them that Mutations "
@@ -1565,12 +1568,12 @@ msgstr ""
 "kevés katona van, aki elég bátor, vagy inkább ostoba, hogy megmérkőzzön egy "
 "ilyen lénnyel, különösen, ha leszáll az éj."
 
-#. [unit]: race=human
+#. [unit]: id=Chaos Headhunter, race=human
 #: Extended_Era/units/chaos/Headhunter.cfg:5
 msgid "Headhunter"
 msgstr "Fejvadász"
 
-#. [unit]: race=human
+#. [unit]: id=Chaos Headhunter, race=human
 #: Extended_Era/units/chaos/Headhunter.cfg:20
 msgid ""
 "Given their souls to daemons, these lifeless scouts appear in the places, "
@@ -1582,18 +1585,18 @@ msgstr ""
 "félelmet és a démoni invázió hírét."
 
 #. [attack]: type=impact
-#: Extended_Era/units/chaos/Marauder.cfg:24
 #: Extended_Era/units/chaos/Headhunter.cfg:25
+#: Extended_Era/units/chaos/Marauder.cfg:24
 #: Extended_Era/units/chaos/Soulhunter.cfg:25
 msgid "club"
 msgstr "fütykös"
 
-#. [unit]: race=demon
+#. [unit]: id=Greater Crab, race=demon
 #: Extended_Era/units/chaos/Hell_Crab.cfg:5
 msgid "Hell Crab"
 msgstr "Pokoli rák"
 
-#. [unit]: race=demon
+#. [unit]: id=Greater Crab, race=demon
 #: Extended_Era/units/chaos/Hell_Crab.cfg:23
 msgid ""
 "Within each species there are often freakishly strong and powerful "
@@ -1608,12 +1611,12 @@ msgstr ""
 "rák tökéletes példája annak a lehetőségnek, amit a gonosz rákok magukban "
 "hordoznak."
 
-#. [unit]: race=human
+#. [unit]: id=Chaos Elite Armorer, race=human
 #: Extended_Era/units/chaos/Hell_Guardian.cfg:5
 msgid "Hell Guardian"
 msgstr "Pokolőrző"
 
-#. [unit]: race=human
+#. [unit]: id=Chaos Elite Armorer, race=human
 #: Extended_Era/units/chaos/Hell_Guardian.cfg:22
 msgid ""
 "Only the toughest of armorers are worthy of greatest armors, that are forged "
@@ -1625,12 +1628,12 @@ msgstr ""
 "amiket a démonok forrongó otthonában kovácsolnak. Azt mondják, ha arra "
 "parancsolnák őket, könnyedén ellenállnának a jégviharnak moccanás nélkül."
 
-#. [unit]: race=monster
+#. [unit]: id=Chaos Hound, race=monster
 #: Extended_Era/units/chaos/Hound.cfg:5
 msgid "Hound"
 msgstr "Véreb"
 
-#. [unit]: race=monster
+#. [unit]: id=Chaos Hound, race=monster
 #: Extended_Era/units/chaos/Hound.cfg:18
 msgid ""
 "Trained hunting dog are ferocious animals, eager to attack in an "
@@ -1640,19 +1643,19 @@ msgstr ""
 "őrülettel támadhassanak."
 
 #. [attack]: type=blade
-#: Extended_Era/units/chaos/Hound_Warp.cfg:26
 #: Extended_Era/units/chaos/Hound_Rabid.cfg:23
 #: Extended_Era/units/chaos/Hound.cfg:23
+#: Extended_Era/units/chaos/Hound_Warp.cfg:26
 #: Extended_Era/units/undead/Dread_Bat.cfg:34
 msgid "fangs"
 msgstr "agyar"
 
-#. [unit]: race=monster
+#. [unit]: id=Chaos Flesh Hound, race=monster
 #: Extended_Era/units/chaos/Hound_Flesh.cfg:5
 msgid "Flesh Hound"
 msgstr "Megszállott véreb"
 
-#. [unit]: race=monster
+#. [unit]: id=Chaos Flesh Hound, race=monster
 #: Extended_Era/units/chaos/Hound_Flesh.cfg:22
 msgid ""
 "A hound that becomes a host for a lesser daemon turns into a flesh hound. "
@@ -1666,17 +1669,17 @@ msgstr ""
 "megszállottak a vér szagát követik."
 
 #. [attack]: type=impact
-#: Extended_Era/units/chaos/Hound_Flesh.cfg:27
 #: Extended_Era/units/trolls/Shaman.cfg:32
+#: Extended_Era/units/chaos/Hound_Flesh.cfg:27
 msgid "fist"
 msgstr "ököl"
 
-#. [unit]: race=monster
+#. [unit]: id=Chaos Rabid Hound, race=monster
 #: Extended_Era/units/chaos/Hound_Rabid.cfg:5
 msgid "Rabid Hound"
 msgstr "Veszett véreb"
 
-#. [unit]: race=monster
+#. [unit]: id=Chaos Rabid Hound, race=monster
 #: Extended_Era/units/chaos/Hound_Rabid.cfg:18
 msgid ""
 "Dog infused with chaotic magic turn rabid. The magic degrades their mind and "
@@ -1685,12 +1688,12 @@ msgstr ""
 "A kaotikus varázslattal megfertőzött kutyák veszetté válnak. A varázslat "
 "elhomályosítja elméiket és vérontásra éhes szolgaszörnyekké változtatja őket."
 
-#. [unit]: race=monster
+#. [unit]: id=Chaos Warp Hound, race=monster
 #: Extended_Era/units/chaos/Hound_Warp.cfg:5
 msgid "Warp Hound"
 msgstr "Tébolyodott véreb"
 
-#. [unit]: race=monster
+#. [unit]: id=Chaos Warp Hound, race=monster
 #: Extended_Era/units/chaos/Hound_Warp.cfg:19
 msgid ""
 "With time, Rabid Hounds become mutated by the insidious magic of chaos "
@@ -1703,12 +1706,12 @@ msgstr ""
 "tébolyodott vérebbé válnak. Egyetlen vágyuk agyaraikkal és karmaikkal "
 "széttépni az ellenséget."
 
-#. [unit]: race=human
+#. [unit]: id=Chaos Invader, race=human
 #: Extended_Era/units/chaos/Invader.cfg:5
 msgid "Invader"
 msgstr "Megszálló"
 
-#. [unit]: race=human
+#. [unit]: id=Chaos Invader, race=human
 #: Extended_Era/units/chaos/Invader.cfg:20
 msgid ""
 "Chaos warriors share the common believe that any goverment and any god is "
@@ -1720,12 +1723,12 @@ msgstr ""
 "ajánlatait, akik nem rejtik véka alá uralkodásukat, és embereiket "
 "szembesítik a kegyetlen igazsággal."
 
-#. [unit]: race=human
+#. [unit]: id=Chaos Invoker, race=human
 #: Extended_Era/units/chaos/Invoker.cfg:5
 msgid "Invoker"
 msgstr "Idéző"
 
-#. [unit]: race=human
+#. [unit]: id=Chaos Invoker, race=human
 #: Extended_Era/units/chaos/Invoker.cfg:22
 msgid ""
 "You can spot them at the first line of Chaos flood. Standing with small "
@@ -1747,12 +1750,12 @@ msgstr ""
 msgid "female^Invoker"
 msgstr "Idézőnő"
 
-#. [unit]: race=human
+#. [unit]: id=Chaos Knight, race=human
 #: Extended_Era/units/chaos/Knight.cfg:5
 msgid "Dark Knight"
 msgstr "Sötét lovag"
 
-#. [unit]: race=human
+#. [unit]: id=Chaos Knight, race=human
 #: Extended_Era/units/chaos/Knight.cfg:17
 msgid ""
 "Tougher than the average chaos follower, the Dark Knight attempts to confuse "
@@ -1764,7 +1767,7 @@ msgstr ""
 "ellenfelét azáltal, hogy mindkét kezében különböző fegyvert forgat, az adott "
 "helyzethez igazítja küzdési stílusát, ami szívós ellenféllé teszi."
 
-#. [unit]: race=demon
+#. [unit]: id=Lesser Daemon, race=demon
 #: Extended_Era/units/chaos/Lesser_Daemon.cfg:5
 msgid "Lesser Daemon"
 msgstr "Kicsiny démon"
@@ -1774,12 +1777,12 @@ msgstr "Kicsiny démon"
 msgid "female^Lesser Demon"
 msgstr "Kicsiny démonnő"
 
-#. [unit]: race=demon
+#. [unit]: id=Lesser Mutation, race=demon
 #: Extended_Era/units/chaos/Lesser_Mutation.cfg:5
 msgid "Lesser Mutation"
 msgstr "Kicsiny korcs"
 
-#. [unit]: race=demon
+#. [unit]: id=Lesser Mutation, race=demon
 #: Extended_Era/units/chaos/Lesser_Mutation.cfg:21
 msgid ""
 "Myriad and ever-changing the forces of chaos recognize the need for staying "
@@ -1792,12 +1795,12 @@ msgstr ""
 "megalkották a korcsokat. Ezeket a tébolyodott szörnyszülötteket öngyógyító "
 "testtel áldották meg, aminek puszta érintése más fajokra mérgező hatású."
 
-#. [unit]: race=human
+#. [unit]: id=Chaos Magus, race=human
 #: Extended_Era/units/chaos/Magus.cfg:5
 msgid "Magus"
 msgstr "Mágus"
 
-#. [unit]: race=human
+#. [unit]: id=Chaos Magus, race=human
 #: Extended_Era/units/chaos/Magus.cfg:25
 msgid ""
 "It is they, who rally with the larger groups of chaos warriors, supporting "
@@ -1819,17 +1822,17 @@ msgstr ""
 msgid "female^Magus"
 msgstr "Mágusnő"
 
-#. [unit]: race=human
+#. [unit]: id=Chaos Marauder, race=human
 #: Extended_Era/units/chaos/Marauder.cfg:5
 msgid "Marauder"
 msgstr "Martalóc"
 
-#. [unit]: race=human
+#. [unit]: id=Chaos Overlord, race=human
 #: Extended_Era/units/chaos/Overlord.cfg:5
 msgid "Overlord"
 msgstr "Hűbérúr"
 
-#. [unit]: race=human
+#. [unit]: id=Chaos Overlord, race=human
 #: Extended_Era/units/chaos/Overlord.cfg:29
 msgid ""
 "Overlord is a title earned, not given. For such a rank to be claimed, blood "
@@ -1851,17 +1854,17 @@ msgstr ""
 "hátasaik démoni erővel bírnak. Többé nem is nevezik őket vérlovagoknak, ők a "
 "Káosz hűbérurai."
 
-#. [unit]: race=human
+#. [unit]: id=Chaos Soulhunter, race=human
 #: Extended_Era/units/chaos/Soulhunter.cfg:5
 msgid "Soulhunter"
 msgstr "Lélekvadász"
 
-#. [unit]: race=demon
+#. [unit]: id=Winged Daemon, race=demon
 #: Extended_Era/units/chaos/Winged_Daemon.cfg:5
 msgid "Winged Daemon"
 msgstr "Szárnyas démon"
 
-#. [unit]: race=demon
+#. [unit]: id=Winged Daemon, race=demon
 #: Extended_Era/units/chaos/Winged_Daemon.cfg:28
 msgid ""
 "Some daemons are given with power, some are given with speed. Winged Daemons "
@@ -1879,7 +1882,7 @@ msgstr ""
 msgid "female^Winged Demon"
 msgstr "Szárnyas démonnő"
 
-#. [unit]: race=dark elf
+#. [unit]: id=Dark Elf Captain, race=dark elf
 #: Extended_Era/units/dark_elves/Captain.cfg:21
 msgid ""
 "These Elves have been an example to their fellow soldiers, and have gained "
@@ -1891,12 +1894,12 @@ msgstr ""
 "szerezték meg. Habár sohasem lehetnek urak, ugyanúgy igyekeznek a legjobb "
 "tudásuk szerint védeni a Védelmező Anyát kardjaikkal és tőrösbotjaikkal."
 
-#. [unit]: race=dark elf
+#. [unit]: id=Dark Elf Cleric, race=dark elf
 #: Extended_Era/units/dark_elves/Cleric.cfg:5
 msgid "female^Cleric"
 msgstr "Papnő"
 
-#. [unit]: race=dark elf
+#. [unit]: id=Dark Elf Cleric, race=dark elf
 #: Extended_Era/units/dark_elves/Cleric.cfg:22
 msgid ""
 "A Cleric is adapt at both their magical abilities and the use of their "
@@ -1910,19 +1913,19 @@ msgstr ""
 "rettegik és imádják őket szépségükért és kegyetlenségükért."
 
 #. [attack]: type=impact
-#: Extended_Era/units/nagas/Guardian.cfg:28
-#: Extended_Era/units/nagas/Sentinel.cfg:29
-#: Extended_Era/units/nagas/Warden.cfg:28
-#: Extended_Era/units/nagas/Abomination.cfg:38
-#: Extended_Era/units/kalifa/Life_Guard.cfg:32
-#: Extended_Era/units/kalifa/Ghulam.cfg:36
-#: Extended_Era/units/kalifa/Ekim_Haram.cfg:31
-#: Extended_Era/units/kalifa/Ghulam_al_Rami.cfg:29
-#: Extended_Era/units/kalifa/Ekim.cfg:29
-#: Extended_Era/units/kalifa/Ghaznid.cfg:31
 #: Extended_Era/units/dark_elves/Enchantress.cfg:23
 #: Extended_Era/units/dark_elves/Sorceress.cfg:26
 #: Extended_Era/units/dark_elves/Cleric.cfg:27
+#: Extended_Era/units/nagas/Sentinel.cfg:29
+#: Extended_Era/units/nagas/Warden.cfg:28
+#: Extended_Era/units/nagas/Abomination.cfg:38
+#: Extended_Era/units/nagas/Guardian.cfg:28
+#: Extended_Era/units/kalifa/Ekim.cfg:29
+#: Extended_Era/units/kalifa/Life_Guard.cfg:32
+#: Extended_Era/units/kalifa/Ghulam_al_Rami.cfg:29
+#: Extended_Era/units/kalifa/Ghaznid.cfg:31
+#: Extended_Era/units/kalifa/Ekim_Haram.cfg:31
+#: Extended_Era/units/kalifa/Ghulam.cfg:36
 msgid "mace"
 msgstr "buzogány"
 
@@ -1933,12 +1936,12 @@ msgstr "buzogány"
 msgid "magic torture"
 msgstr "mágikus kín"
 
-#. [unit]: race=dark elf
+#. [unit]: id=Dark Elf Corsair, race=dark elf
 #: Extended_Era/units/dark_elves/Corsair.cfg:5
 msgid "Corsair"
 msgstr "Könyörtelen"
 
-#. [unit]: race=dark elf
+#. [unit]: id=Dark Elf Corsair, race=dark elf
 #: Extended_Era/units/dark_elves/Corsair.cfg:18
 msgid ""
 "No single being can stand before a Dark Elf Corsair. If you every see one, "
@@ -1949,12 +1952,12 @@ msgstr ""
 "könyörtelennel szemben. Bármikor látnál egyet, rohanj! Borotvaéles "
 "kardjaikkal még a törpök szakállát is miszlikbe aprítják."
 
-#. [unit]: race=dark elf
+#. [unit]: id=Dark Elf Enchantress, race=dark elf
 #: Extended_Era/units/dark_elves/Enchantress.cfg:5
 msgid "female^Enchantress"
 msgstr "Beavatott"
 
-#. [unit]: race=dark elf
+#. [unit]: id=Dark Elf Enchantress, race=dark elf
 #: Extended_Era/units/dark_elves/Enchantress.cfg:18
 msgid ""
 "The women of the Dark Elves often join the Order of the Clerics at a very "
@@ -1968,12 +1971,12 @@ msgstr ""
 "hogy csak elkezdték kínzó módszereiket gyakorolni. A papnők vezetésével egy "
 "nap hatalmas varázslónők lehetnek."
 
-#. [unit]: race=dark elf
+#. [unit]: id=Dark Elf Fighter, race=dark elf
 #: Extended_Era/units/dark_elves/Fighter.cfg:5
 msgid "Fighter"
 msgstr "Katona"
 
-#. [unit]: race=dark elf
+#. [unit]: id=Dark Elf Fighter, race=dark elf
 #: Extended_Era/units/dark_elves/Fighter.cfg:24
 msgid ""
 "The initiates in their House army, many Fighters die because of lack of "
@@ -1984,12 +1987,12 @@ msgstr ""
 "tündék úgy hiszik, csak a legjobbaknak jár ki a megtiszteltetés, a Védelmező "
 "Anyáért harcolni."
 
-#. [unit]: race=dark elf
+#. [unit]: id=Dark Elf High Lord, race=dark elf
 #: Extended_Era/units/dark_elves/High_Lord.cfg:5
 msgid "High Lord"
 msgstr "Nagyúr"
 
-#. [unit]: race=dark elf
+#. [unit]: id=Dark Elf High Lord, race=dark elf
 #: Extended_Era/units/dark_elves/High_Lord.cfg:21
 msgid ""
 "When in his castle, the High Lord watches his slaves, feeds the lizards, and "
@@ -2006,12 +2009,12 @@ msgstr ""
 "nem ismerve követik őket, bizton tudva, hogy uruk vezérletével senki nem "
 "állhatja útjukat."
 
-#. [unit]: race=dark elf
+#. [unit]: id=Dark Elf Hunter, race=dark elf
 #: Extended_Era/units/dark_elves/Hunter.cfg:5
 msgid "Hunter"
 msgstr "Vadász"
 
-#. [unit]: race=dark elf
+#. [unit]: id=Dark Elf Hunter, race=dark elf
 #: Extended_Era/units/dark_elves/Hunter.cfg:21
 msgid ""
 "Lurking in the ever dark depths of the caves, the Hunters move around with "
@@ -2021,28 +2024,28 @@ msgstr ""
 "kivéve ha néha számszeríjuk húrja megpendül."
 
 #. [attack]: type=blade
-#: Extended_Era/units/dwarves/Flamethower.cfg:32
+#: Extended_Era/units/dark_elves/Stalker.cfg:27
 #: Extended_Era/units/dark_elves/Hunter.cfg:27
 #: Extended_Era/units/dark_elves/Shadow.cfg:26
-#: Extended_Era/units/dark_elves/Stalker.cfg:27
+#: Extended_Era/units/dwarves/Flamethower.cfg:32
 msgid "dagger"
 msgstr "tőr"
 
 #. [attack]: type=pierce
-#: Extended_Era/units/dark_elves/Hunter.cfg:36
-#: Extended_Era/units/dark_elves/Shadow.cfg:38
-#: Extended_Era/units/dark_elves/Stalker.cfg:39
 #: Extended_Era/units/outlaws/Brigand.cfg:38
 #: Extended_Era/units/outlaws/Raider.cfg:46
+#: Extended_Era/units/dark_elves/Stalker.cfg:39
+#: Extended_Era/units/dark_elves/Hunter.cfg:36
+#: Extended_Era/units/dark_elves/Shadow.cfg:38
 msgid "crossbow"
 msgstr "számszeríj"
 
-#. [unit]: race=dark elf
+#. [unit]: id=Dark Elf Lizard Master, race=dark elf
 #: Extended_Era/units/dark_elves/Lizard_Master.cfg:5
 msgid "Lizard Master"
 msgstr "Hüllőmester"
 
-#. [unit]: race=dark elf
+#. [unit]: id=Dark Elf Lizard Master, race=dark elf
 #: Extended_Era/units/dark_elves/Lizard_Master.cfg:19
 msgid ""
 "Though the Lizards are not as fast as horses, they are much more powerful. "
@@ -2064,12 +2067,12 @@ msgstr "halállándzsa"
 msgid "bite"
 msgstr "harapás"
 
-#. [unit]: race=dark elf
+#. [unit]: id=Dark Elf Lizard Rider, race=dark elf
 #: Extended_Era/units/dark_elves/Lizard_Rider.cfg:5
 msgid "Lizard Rider"
 msgstr "Hüllőlovas"
 
-#. [unit]: race=dark elf
+#. [unit]: id=Dark Elf Lizard Rider, race=dark elf
 #: Extended_Era/units/dark_elves/Lizard_Rider.cfg:18
 msgid ""
 "From childhood, they have been training with their beast, feeding it, "
@@ -2082,12 +2085,12 @@ msgstr ""
 "terepre merészkedni, ahol sötét tünde még sohasem járt. Egy nap hüllő "
 "mesterré válhatnak."
 
-#. [unit]: race=dark elf
+#. [unit]: id=Dark Elf Lord, race=dark elf
 #: Extended_Era/units/dark_elves/Lord.cfg:5
 msgid "Lord"
 msgstr "Úr"
 
-#. [unit]: race=dark elf
+#. [unit]: id=Dark Elf Lord, race=dark elf
 #: Extended_Era/units/dark_elves/Lord.cfg:20
 msgid ""
 "Highly decorated, These men have gained the title of Lord through their "
@@ -2101,12 +2104,12 @@ msgstr ""
 "törvényt. Életük mintául szolgál a többi harcosnak a sötét tündék "
 "birodalmában."
 
-#. [unit]: race=dark elf
+#. [unit]: id=Dark Elf Marshal, race=dark elf
 #: Extended_Era/units/dark_elves/Marshal.cfg:5
 msgid "Marshal"
 msgstr "Marsall"
 
-#. [unit]: race=dark elf
+#. [unit]: id=Dark Elf Marshal, race=dark elf
 #: Extended_Era/units/dark_elves/Marshal.cfg:22
 msgid ""
 "These Elves have proven themselves on and off the battle field with their "
@@ -2119,12 +2122,12 @@ msgstr ""
 "válhatnak úrrá, a legjobb tudásuk szerint védelmezik a Védelmező Anyát "
 "kardjaikkal és tőrösbotjaikkal."
 
-#. [unit]: race=dark elf
+#. [unit]: id=Dark Elf Noble, race=dark elf
 #: Extended_Era/units/dark_elves/Noble.cfg:5
 msgid "Noble"
 msgstr "Nemes"
 
-#. [unit]: race=dark elf
+#. [unit]: id=Dark Elf Noble, race=dark elf
 #: Extended_Era/units/dark_elves/Noble.cfg:20
 msgid ""
 "The young Lords are rash and brave. They have spent their entire childhood "
@@ -2137,12 +2140,12 @@ msgstr ""
 "csatatéri taktikát. Szépen díszített pajzsaikat támadásra és csapataik "
 "biztatására használják a harcban."
 
-#. [unit]: race=dark elf
+#. [unit]: id=Dark Elf Shadow, race=dark elf
 #: Extended_Era/units/dark_elves/Shadow.cfg:5
 msgid "Shadow"
 msgstr "Árny"
 
-#. [unit]: race=dark elf
+#. [unit]: id=Dark Elf Shadow, race=dark elf
 #: Extended_Era/units/dark_elves/Shadow.cfg:21
 msgid ""
 "Staying hidden safe in the shadows of the caves, they will hit you when you "
@@ -2155,12 +2158,12 @@ msgstr ""
 "áldozatuk hátába mártják, vagy ha számszeríjukból pusztító nyilak tömkelegét "
 "lövik ki."
 
-#. [unit]: race=dark elf
+#. [unit]: id=Dark Elf Sorcerer, race=dark elf
 #: Extended_Era/units/dark_elves/Sorcerer.cfg:5
 msgid "Dark Elf^Sorcerer"
 msgstr "Boszorkánymester"
 
-#. [unit]: race=dark elf
+#. [unit]: id=Dark Elf Sorcerer, race=dark elf
 #: Extended_Era/units/dark_elves/Sorcerer.cfg:19
 msgid ""
 "Sorcerers are Wizards that have gone deeper into the studying of the arcane "
@@ -2175,18 +2178,18 @@ msgstr ""
 "megfagyaszt, aki útjukat meri állni."
 
 #. [attack]: type=cold
-#: Extended_Era/units/dark_elves/Warlock.cfg:36
 #: Extended_Era/units/dark_elves/Sorcerer.cfg:24
+#: Extended_Era/units/dark_elves/Warlock.cfg:36
 #: Extended_Era/units/dark_elves/Wizard.cfg:24
 msgid "dark wave"
 msgstr "sötét hullám"
 
-#. [unit]: race=dark elf
+#. [unit]: id=Dark Elf Sorceress, race=dark elf
 #: Extended_Era/units/dark_elves/Sorceress.cfg:5
 msgid "Dark Elf^Sorceress"
 msgstr "Boszorkány"
 
-#. [unit]: race=dark elf
+#. [unit]: id=Dark Elf Sorceress, race=dark elf
 #: Extended_Era/units/dark_elves/Sorceress.cfg:21
 msgid ""
 "The women of the Dark Elves often join the Order of the Clerics at a very "
@@ -2201,12 +2204,12 @@ msgstr ""
 "meggyógyításának módszerét. Nemsokára iszonyúan vonzó, de kegyetlenül gyötrő "
 "papnőkké válnak."
 
-#. [unit]: race=dark elf
+#. [unit]: id=Dark Elf Stalker, race=dark elf
 #: Extended_Era/units/dark_elves/Stalker.cfg:5
 msgid "Stalker"
 msgstr "Cserkésző"
 
-#. [unit]: race=dark elf
+#. [unit]: id=Dark Elf Stalker, race=dark elf
 #: Extended_Era/units/dark_elves/Stalker.cfg:22
 msgid ""
 "Cunning, agile warriors, the Stalkers are powerful in both the use of their "
@@ -2217,12 +2220,12 @@ msgstr ""
 "számszeríjaikat használva erősek. Teljesen el vannak rejtve a barlangokban, "
 "csupán az élettelen testek tompa puffanása árulja el, hogy közel vannak."
 
-#. [unit]: race=dark elf
+#. [unit]: id=Dark Elf Warlock, race=dark elf
 #: Extended_Era/units/dark_elves/Warlock.cfg:5
 msgid "Dark Elf^Warlock"
 msgstr "Táltos"
 
-#. [unit]: race=dark elf
+#. [unit]: id=Dark Elf Warlock, race=dark elf
 #: Extended_Era/units/dark_elves/Warlock.cfg:19
 msgid ""
 "The best of their kind, these Warlocks have immense power, rivaling even "
@@ -2240,14 +2243,14 @@ msgstr ""
 msgid "touch"
 msgstr "érintés"
 
-#. [unit]: race=sidhe
-#. [unit]: race=dark elf
-#: Extended_Era/units/sidhe/Warrior.cfg:5
+#. [unit]: id=Dark Elf Warrior, race=dark elf
+#. [unit]: id=Sidhe Warrior, race=sidhe
 #: Extended_Era/units/dark_elves/Warrior.cfg:5
+#: Extended_Era/units/sidhe/Warrior.cfg:5
 msgid "Warrior"
 msgstr "Harcos"
 
-#. [unit]: race=dark elf
+#. [unit]: id=Dark Elf Warrior, race=dark elf
 #: Extended_Era/units/dark_elves/Warrior.cfg:17
 msgid ""
 "These Warriors have devoted themselves totally to mastering the use of dual "
@@ -2258,12 +2261,12 @@ msgstr ""
 "szentelték. Kiegyensúlyozott pengéikkel akár egy törpöt is megborotválnak. "
 "Csak kevesen válnak könyörtelenné."
 
-#. [unit]: race=dark elf
+#. [unit]: id=Dark Elf Wizard, race=dark elf
 #: Extended_Era/units/dark_elves/Wizard.cfg:5
 msgid "Dark Elf^Wizard"
 msgstr "Varázsló"
 
-#. [unit]: race=dark elf
+#. [unit]: id=Dark Elf Wizard, race=dark elf
 #: Extended_Era/units/dark_elves/Wizard.cfg:19
 msgid ""
 "Some Dark Elves prefer studying the arcane arts over close-combat. Usually "
@@ -2277,12 +2280,12 @@ msgstr ""
 "idején hatalmas sebzést okozhatnak, annak ellenére, hogy hiányos a "
 "közelharci kiképzésük."
 
-#. [unit]: race=dwarf
+#. [unit]: id=XE Dwarvish Arcanister, race=dwarf
 #: Extended_Era/units/dwarves/Arcanister.cfg:5
 msgid "Dwarvish Arcanister"
 msgstr "Törp rúnateremtő"
 
-#. [unit]: race=dwarf
+#. [unit]: id=XE Dwarvish Arcanister, race=dwarf
 #: Extended_Era/units/dwarves/Arcanister.cfg:24
 msgid ""
 "The most powerful of all the runecrafters, the Dwarvish Arcanister destroys "
@@ -2296,18 +2299,18 @@ msgstr ""
 "fegyvereibe vésett jelek valamint páncélzata visszaveri ellenségei csapásait."
 
 #. [attack]: type=impact
-#: Extended_Era/units/dwarves/Runemaster.cfg:28
 #: Extended_Era/units/dwarves/Arcanister.cfg:29
 #: Extended_Era/units/dwarves/Runesmith.cfg:28
+#: Extended_Era/units/dwarves/Runemaster.cfg:28
 msgid "hammer"
 msgstr "pöröly"
 
-#. [unit]: race=dwarf
+#. [unit]: id=Dwarvish Axemaster, race=dwarf
 #: Extended_Era/units/dwarves/Axemaster.cfg:5
 msgid "Dwarvish Axemaster"
 msgstr "Törp bárdmester"
 
-#. [unit]: race=dwarf
+#. [unit]: id=Dwarvish Axemaster, race=dwarf
 #: Extended_Era/units/dwarves/Axemaster.cfg:25
 msgid ""
 "The axemaster is something of a dwarvish oddity - fast, nimble, armored, and "
@@ -2318,12 +2321,12 @@ msgstr ""
 "halálosak villámgyors pengéikkel. Nem a legerősebb harcosai a törp "
 "királyságoknak, de vitathatatlanul tiszteletre méltóak."
 
-#. [unit]: race=dwarf
+#. [unit]: id=Dwarvish Axethrower, race=dwarf
 #: Extended_Era/units/dwarves/Axethrower.cfg:5
 msgid "Dwarvish Axethrower"
 msgstr "Törp bárdhajítók"
 
-#. [unit]: race=dwarf
+#. [unit]: id=Dwarvish Axethrower, race=dwarf
 #: Extended_Era/units/dwarves/Axethrower.cfg:24
 msgid ""
 "Axethrowers have improved their skill hurling their bladed weapons while "
@@ -2333,12 +2336,12 @@ msgstr ""
 "elhajított éles fegyvereik sokáig megőrizzék természetes sebességüket - ami "
 "nagyon veszélyes kombináció."
 
-#. [unit]: race=dwarf
+#. [unit]: id=Dwarvish Flamethrower, race=dwarf
 #: Extended_Era/units/dwarves/Flamethower.cfg:5
 msgid "Dwarvish Flamethrower"
 msgstr "Törp lángszórós"
 
-#. [unit]: race=dwarf
+#. [unit]: id=Dwarvish Flamethrower, race=dwarf
 #: Extended_Era/units/dwarves/Flamethower.cfg:27
 msgid ""
 "It is said that the Dwarven Flamethrowers have strange staves of wood and "
@@ -2355,12 +2358,12 @@ msgstr ""
 msgid "firestick"
 msgstr "tűzbot"
 
-#. [unit]: race=dwarf
+#. [unit]: id=Dwarven Gyrocopter, race=dwarf
 #: Extended_Era/units/dwarves/Gyrocopter.cfg:5
 msgid "Gyrocopter"
 msgstr "Forgókopter"
 
-#. [unit]: race=dwarf
+#. [unit]: id=Dwarven Gyrocopter, race=dwarf
 #: Extended_Era/units/dwarves/Gyrocopter.cfg:19
 msgid ""
 "Some dwarves have crafted strange machines they call 'Gyrocopters'. Capable "
@@ -2383,12 +2386,12 @@ msgstr ""
 msgid "bomb"
 msgstr "bomba"
 
-#. [unit]: race=dwarf
+#. [unit]: id=XE Dwarvish Runemaster, race=dwarf
 #: Extended_Era/units/dwarves/Runemaster.cfg:5
 msgid "Dwarvish Runemaster"
 msgstr "Törp rúnamester"
 
-#. [unit]: race=dwarf
+#. [unit]: id=XE Dwarvish Runemaster, race=dwarf
 #: Extended_Era/units/dwarves/Runemaster.cfg:23
 msgid ""
 "Except for those with almost supernatural skill, the highest rank a "
@@ -2405,12 +2408,12 @@ msgstr ""
 "a rúnák ellenségeik fizikai csapásait kevésbé sebzővé teszi, mint anélkül "
 "lennének."
 
-#. [unit]: race=dwarf
+#. [unit]: id=Dwarvish Runesmith, race=dwarf
 #: Extended_Era/units/dwarves/Runesmith.cfg:5
 msgid "Dwarvish Runesmith"
 msgstr "Törp rúnakovács"
 
-#. [unit]: race=dwarf
+#. [unit]: id=Dwarvish Runesmith, race=dwarf
 #: Extended_Era/units/dwarves/Runesmith.cfg:23
 msgid ""
 "Dwarvish runesmiths, now practiced at their craft, carve arcane runes into "
@@ -2423,12 +2426,12 @@ msgstr ""
 "erővel és pontossággal, és bomlasztják ellenségeik csapásait, azokat finommá "
 "és gyengévé téve, valamint a védekező páncéljára irányítva."
 
-#. [unit]: race=dwarf
+#. [unit]: id=Dwarvish Runner, race=dwarf
 #: Extended_Era/units/dwarves/Runner.cfg:5
 msgid "Dwarvish Runner"
 msgstr "Törp futár"
 
-#. [unit]: race=dwarf
+#. [unit]: id=Dwarvish Runner, race=dwarf
 #: Extended_Era/units/dwarves/Runner.cfg:24
 msgid ""
 "Those dwarves capable of moving quickly are made lightly-armored scouts.  "
@@ -2440,12 +2443,12 @@ msgstr ""
 "akiket arra képeztek ki, hogy baltáikat elhajítva megvédjék magukat az "
 "őrjáraton."
 
-#. [unit]: race=dwarf
+#. [unit]: id=Dwarven Steamcopter, race=dwarf
 #: Extended_Era/units/dwarves/Steamcopter.cfg:5
 msgid "Steamcopter"
 msgstr "Gőzkopter"
 
-#. [unit]: race=dwarf
+#. [unit]: id=Dwarven Steamcopter, race=dwarf
 #: Extended_Era/units/dwarves/Steamcopter.cfg:20
 msgid ""
 "With the aid of steam genies, Steamcopters are able to move faster and carry "
@@ -2454,12 +2457,12 @@ msgstr ""
 "Gőzdzsinek segítségével a gőzkopterek gyorsabban képesek mozogni, és több "
 "bombát tudnak szállítani, mint a forgókopterek."
 
-#. [unit]: race=dwarf
+#. [unit]: id=Dwarven Steamwheel, race=dwarf
 #: Extended_Era/units/dwarves/Steamwheel.cfg:5
 msgid "Steamwheel"
 msgstr "Gőzszekér"
 
-#. [unit]: race=dwarf
+#. [unit]: id=Dwarven Steamwheel, race=dwarf
 #: Extended_Era/units/dwarves/Steamwheel.cfg:20
 msgid ""
 "Some Dwarves use strange vehicles that can move fast without a horse. It is "
@@ -2471,18 +2474,18 @@ msgstr ""
 "hajtják, ezért hívják őket gőzszekérnek."
 
 #. [attack]: type=impact
+#: Extended_Era/units/dwarves/Warwheel.cfg:34
 #: Extended_Era/units/dwarves/Thunderwheel.cfg:33
 #: Extended_Era/units/dwarves/Steamwheel.cfg:33
-#: Extended_Era/units/dwarves/Warwheel.cfg:34
 msgid "slam"
 msgstr "becsapódás"
 
-#. [unit]: race=dwarf
+#. [unit]: id=Dwarven Thunderwheel, race=dwarf
 #: Extended_Era/units/dwarves/Thunderwheel.cfg:5
 msgid "Thunderwheel"
 msgstr "Villámszekér"
 
-#. [unit]: race=dwarf
+#. [unit]: id=Dwarven Thunderwheel, race=dwarf
 #: Extended_Era/units/dwarves/Thunderwheel.cfg:20
 msgid ""
 "With the help of one more steam genie, those noisy vehicles are able to move "
@@ -2491,12 +2494,12 @@ msgstr ""
 "Eggyel több gőzdzsin segítségével ezek a hangos járművek gyorsabban képesek "
 "haladni, mint a lovak."
 
-#. [unit]: race=dwarf
+#. [unit]: id=Dwarven Warwheel, race=dwarf
 #: Extended_Era/units/dwarves/Warwheel.cfg:5
 msgid "Warwheel"
 msgstr "Harci szekér"
 
-#. [unit]: race=dwarf
+#. [unit]: id=Dwarven Warwheel, race=dwarf
 #: Extended_Era/units/dwarves/Warwheel.cfg:21
 msgid ""
 "Warwheels are faster and more heavily armored than Steamwheels, and can "
@@ -2505,12 +2508,12 @@ msgstr ""
 "A harci szekerek gyorsabbak és jobban páncélozottak, mint a gőzszekerek, és "
 "rettentő rohamukkal át tudják törni az ellenséges vonalakat."
 
-#. [unit]: race=wyrm
+#. [unit]: id=Boreal Wyrm, race=wyrm
 #: Extended_Era/units/ice_wyrms/Boreal.cfg:5
 msgid "Boreal Wyrm"
 msgstr "Északi sárkánykígyó"
 
-#. [unit]: race=wyrm
+#. [unit]: id=Boreal Wyrm, race=wyrm
 #: Extended_Era/units/ice_wyrms/Boreal.cfg:20
 msgid ""
 "Ancient wyrms so rarely seen that many regard them as legends, Boreal Wyrms "
@@ -2527,29 +2530,29 @@ msgstr ""
 "találkozást."
 
 #. [attack]: type=impact
-#: Extended_Era/units/ice_wyrms/Ice.cfg:24
-#: Extended_Era/units/ice_wyrms/Boreal.cfg:25
 #: Extended_Era/units/ice_wyrms/Rime.cfg:25
-#: Extended_Era/units/ice_wyrms/Frost.cfg:24
+#: Extended_Era/units/ice_wyrms/Boreal.cfg:25
 #: Extended_Era/units/ice_wyrms/Mistral.cfg:24
+#: Extended_Era/units/ice_wyrms/Frost.cfg:24
+#: Extended_Era/units/ice_wyrms/Ice.cfg:24
 msgid "tail"
 msgstr "farok"
 
 #. [attack]: type=cold
-#: Extended_Era/units/ice_wyrms/Ice.cfg:33
-#: Extended_Era/units/ice_wyrms/Boreal.cfg:34
 #: Extended_Era/units/ice_wyrms/Rime.cfg:34
-#: Extended_Era/units/ice_wyrms/Frost.cfg:33
+#: Extended_Era/units/ice_wyrms/Boreal.cfg:34
 #: Extended_Era/units/ice_wyrms/Mistral.cfg:33
+#: Extended_Era/units/ice_wyrms/Frost.cfg:33
+#: Extended_Era/units/ice_wyrms/Ice.cfg:33
 msgid "cold breath"
 msgstr "fagyos lehelet"
 
-#. [unit]: race=wyrm
+#. [unit]: id=Frost Wyrm, race=wyrm
 #: Extended_Era/units/ice_wyrms/Frost.cfg:5
 msgid "Frost Wyrm"
 msgstr "Fagyos sárkánykígyó"
 
-#. [unit]: race=wyrm
+#. [unit]: id=Frost Wyrm, race=wyrm
 #: Extended_Era/units/ice_wyrms/Frost.cfg:19
 msgid ""
 "Ice wyrms that live in the sea become more serpentine, turning into Frost "
@@ -2562,12 +2565,12 @@ msgstr ""
 "fagyos sárkánykígyók örömmel fagyasztják meg távolról ellenségeiket. Ha "
 "sarokba vannak szorítva, erős farkukkal csapkodják ellenfelüket."
 
-#. [unit]: race=wyrm
+#. [unit]: id=Ice Wyrm, race=wyrm
 #: Extended_Era/units/ice_wyrms/Ice.cfg:5
 msgid "Ice Wyrm"
 msgstr "Jeges sárkánykígyó"
 
-#. [unit]: race=wyrm
+#. [unit]: id=Ice Wyrm, race=wyrm
 #: Extended_Era/units/ice_wyrms/Ice.cfg:19
 msgid ""
 "Cold-blooded reptiles from the north, ice wyrms are the youngling form of "
@@ -2586,12 +2589,12 @@ msgstr ""
 "harcosok pengéi ellen. Szerencse, hogy állandó környezetük védtelenné tette "
 "őket a tűzzel szemben."
 
-#. [unit]: race=wyrm
+#. [unit]: id=Mistral Wyrm, race=wyrm
 #: Extended_Era/units/ice_wyrms/Mistral.cfg:5
 msgid "Mistral Wyrm"
 msgstr "Köd sárkánykígyó"
 
-#. [unit]: race=wyrm
+#. [unit]: id=Mistral Wyrm, race=wyrm
 #: Extended_Era/units/ice_wyrms/Mistral.cfg:19
 msgid ""
 "Ice Wyrms that dwell high in the mountains eventually grow wings and become "
@@ -2603,12 +2606,12 @@ msgstr ""
 "és sokkal erősebbek és szívósabbak, mint a jeges sárkánykígyók. Jobban "
 "teszed, ha elkerülöd ezeket a lényeket."
 
-#. [unit]: race=wyrm
+#. [unit]: id=Rime Wyrm, race=wyrm
 #: Extended_Era/units/ice_wyrms/Rime.cfg:5
 msgid "Rime Wyrm"
 msgstr "Zúzmara sárkánykígyó"
 
-#. [unit]: race=wyrm
+#. [unit]: id=Rime Wyrm, race=wyrm
 #: Extended_Era/units/ice_wyrms/Rime.cfg:20
 msgid ""
 "Unlike humans, wyrms only grow stronger and more powerful with age. Rime "
@@ -2619,12 +2622,12 @@ msgstr ""
 "nagyobbra. A zúzmara sárkánykígyók idősebb fagyos sárkánykígyók: erősebbek, "
 "és sokkal viharosabb leheletre képesek."
 
-#. [unit]: race=kalifa
+#. [unit]: id=Kalifa Ahadath, race=kalifa
 #: Extended_Era/units/kalifa/Ahadath.cfg:5
 msgid "Ahadath"
 msgstr "Ahadath"
 
-#. [unit]: race=kalifa
+#. [unit]: id=Kalifa Ahadath, race=kalifa
 #: Extended_Era/units/kalifa/Ahadath.cfg:18
 msgid ""
 "The Kalifa uses these Hillmen as their foot force.  The are versatile and "
@@ -2634,24 +2637,24 @@ msgstr ""
 "kiválóak hegyes terepen."
 
 #. [attack]: type=pierce
-#: Extended_Era/units/kalifa/Rami_al_Nuri.cfg:42
 #: Extended_Era/units/kalifa/Rami.cfg:41
-#: Extended_Era/units/kalifa/Mamluk.cfg:34
-#: Extended_Era/units/kalifa/Ghazi.cfg:31
 #: Extended_Era/units/kalifa/Karadis.cfg:33
-#: Extended_Era/units/kalifa/Ghulam_al_Rami.cfg:37
-#: Extended_Era/units/kalifa/Ahadath.cfg:31
-#: Extended_Era/units/kalifa/Elite_Ghazi.cfg:31
 #: Extended_Era/units/kalifa/Naffatun.cfg:37
+#: Extended_Era/units/kalifa/Ghazi.cfg:31
+#: Extended_Era/units/kalifa/Ghulam_al_Rami.cfg:37
+#: Extended_Era/units/kalifa/Elite_Ghazi.cfg:31
+#: Extended_Era/units/kalifa/Mamluk.cfg:34
+#: Extended_Era/units/kalifa/Rami_al_Nuri.cfg:42
+#: Extended_Era/units/kalifa/Ahadath.cfg:31
 msgid "composite bow"
 msgstr "összetett íj"
 
-#. [unit]: race=kalifa
+#. [unit]: id=Kalifa Amir, race=kalifa
 #: Extended_Era/units/kalifa/Amir.cfg:5
 msgid "Amir"
 msgstr "Amir"
 
-#. [unit]: race=kalifa
+#. [unit]: id=Kalifa Amir, race=kalifa
 #: Extended_Era/units/kalifa/Amir.cfg:18
 msgid ""
 "The Amir form the backbone of any Kalifa foot advance.  They are often sent "
@@ -2664,20 +2667,20 @@ msgstr ""
 "védelmet törjenek át."
 
 #. [attack]: type=blade
-#: Extended_Era/units/kalifa/Rami_al_Nuri.cfg:24
+#: Extended_Era/units/kalifa/Rami.cfg:23
 #: Extended_Era/units/kalifa/Mubarizan.cfg:35
-#: Extended_Era/units/kalifa/Rami.cfg:23 Extended_Era/units/kalifa/Arif.cfg:39
-#: Extended_Era/units/kalifa/Amir.cfg:31
+#: Extended_Era/units/kalifa/Amir.cfg:31 Extended_Era/units/kalifa/Arif.cfg:39
+#: Extended_Era/units/kalifa/Rami_al_Nuri.cfg:24
 #: Extended_Era/units/kalifa/Immortal.cfg:40
 msgid "long sword"
 msgstr "hosszúkard"
 
-#. [unit]: race=kalifa
+#. [unit]: id=Kalifa Arif, race=kalifa
 #: Extended_Era/units/kalifa/Arif.cfg:5
 msgid "Arif"
 msgstr "Arif"
 
-#. [unit]: race=kalifa
+#. [unit]: id=Kalifa Arif, race=kalifa
 #: Extended_Era/units/kalifa/Arif.cfg:18
 msgid ""
 "The Arif are made up of the more defensive minded Amir veterans.  They have "
@@ -2687,23 +2690,21 @@ msgstr ""
 "képzettekké váltak pajzsuk használatában, amivel kifárasztják és lebénítják "
 "az ellenséget."
 
-# a pajzs ütés kétértelmű - pajzs ütése ill. pajzzsal való ütés
-# bár támadásnál eghyértelműen az utóbbi értelemben használatos, de így nyelvileg is egyértelmű szvsz
 #. [attack]: type=impact
-#: Extended_Era/units/kalifa/Arif.cfg:51
-#: Extended_Era/units/kalifa/Immortal.cfg:52
 #: Extended_Era/units/steppe_orcs/Shieldbearer.cfg:30
 #: Extended_Era/units/steppe_orcs/Stoic.cfg:31
 #: Extended_Era/units/steppe_orcs/Rigid.cfg:30
+#: Extended_Era/units/kalifa/Arif.cfg:51
+#: Extended_Era/units/kalifa/Immortal.cfg:52
 msgid "shield bash"
 msgstr "pajzsos ütés"
 
-#. [unit]: race=kalifa
+#. [unit]: id=Kalifa Ekim, race=kalifa
 #: Extended_Era/units/kalifa/Ekim.cfg:5
 msgid "Ekim"
 msgstr "Ekim"
 
-#. [unit]: race=kalifa
+#. [unit]: id=Kalifa Ekim, race=kalifa
 #: Extended_Era/units/kalifa/Ekim.cfg:24
 msgid ""
 "Ekim use their knowledge of ancient medicine and herbal concoctions to "
@@ -2712,12 +2713,12 @@ msgstr ""
 "Az ekimek ősi gyógyító tudásukat és gyógynövény főzeteiket arra használják, "
 "hogy a kalifa embereket gyorsan újra a frontvonalba küldhessék."
 
-#. [unit]: race=kalifa
+#. [unit]: id=Kalifa Ekim Haram, race=kalifa
 #: Extended_Era/units/kalifa/Ekim_Haram.cfg:5
 msgid "Ekim Haram"
 msgstr "Ekim haram"
 
-#. [unit]: race=kalifa
+#. [unit]: id=Kalifa Ekim Haram, race=kalifa
 #: Extended_Era/units/kalifa/Ekim_Haram.cfg:26
 msgid ""
 "These sages have reached the absolute epitome medical knowledge and freely "
@@ -2727,12 +2728,12 @@ msgstr ""
 "használják gyógynövényes főzeteiket saját magukon anélkül, hogy "
 "mellékhatásoktól kellene tartaniuk."
 
-#. [unit]: race=falcon
+#. [unit]: id=Kalifa Elder Falcon, race=falcon
 #: Extended_Era/units/kalifa/Elder_Falcon.cfg:5
 msgid "Elder Falcon"
 msgstr "Idős sólyom"
 
-#. [unit]: race=falcon
+#. [unit]: id=Kalifa Elder Falcon, race=falcon
 #: Extended_Era/units/kalifa/Elder_Falcon.cfg:21
 msgid ""
 "These falcons have been through many perils and somehow managed to surivive "
@@ -2749,12 +2750,12 @@ msgstr ""
 msgid "beak"
 msgstr "csőr"
 
-#. [unit]: race=kalifa
+#. [unit]: id=Kalifa Elite Ghazi, race=kalifa
 #: Extended_Era/units/kalifa/Elite_Ghazi.cfg:5
 msgid "Elite Ghazi"
 msgstr "Elit ghazi"
 
-#. [unit]: race=kalifa
+#. [unit]: id=Kalifa Elite Ghazi, race=kalifa
 #: Extended_Era/units/kalifa/Elite_Ghazi.cfg:18
 msgid ""
 "The Elite Ghazi are simply heros among their people.  Winner of countless "
@@ -2763,17 +2764,17 @@ msgstr ""
 "Az elit ghazik egyszerűen hősök népük körében. Számtalan csata győztesei és "
 "a győzelem előhírnökei."
 
-#. [unit]: race=falcon
+#. [unit]: id=Kalifa Falcon, race=falcon
 #: Extended_Era/units/kalifa/Falcon.cfg:5
 msgid "Falcon"
 msgstr "Sólyom"
 
-#. [unit]: race=kalifa
+#. [unit]: id=Kalifa Ghazi, race=kalifa
 #: Extended_Era/units/kalifa/Ghazi.cfg:5
 msgid "Ghazi"
 msgstr "Ghazi"
 
-#. [unit]: race=kalifa
+#. [unit]: id=Kalifa Ghazi, race=kalifa
 #: Extended_Era/units/kalifa/Ghazi.cfg:18
 msgid ""
 "The Ghazi rise from only the most talented and fiercest fighters among the "
@@ -2782,12 +2783,12 @@ msgstr ""
 "Ghazi csak a legtehetségesebb, és legkeményebb harcos válhat az ahadathok "
 "közül."
 
-#. [unit]: race=kalifa
+#. [unit]: id=Kalifa Ghaznid, race=kalifa
 #: Extended_Era/units/kalifa/Ghaznid.cfg:5
 msgid "Ghaznid"
 msgstr "Ghaznid"
 
-#. [unit]: race=kalifa
+#. [unit]: id=Kalifa Ghaznid, race=kalifa
 #: Extended_Era/units/kalifa/Ghaznid.cfg:18
 msgid ""
 "A Ghaznid charge is a fearsome thing to behold.  A huge weight of man, "
@@ -2800,17 +2801,17 @@ msgstr ""
 
 #. [attack]: type=pierce
 #: Extended_Era/units/kalifa/Life_Guard.cfg:24
-#: Extended_Era/units/kalifa/Ghulam.cfg:28
 #: Extended_Era/units/kalifa/Ghaznid.cfg:23
+#: Extended_Era/units/kalifa/Ghulam.cfg:28
 msgid "lance"
 msgstr "lándzsa"
 
-#. [unit]: race=kalifa
+#. [unit]: id=Kalifa Ghulam, race=kalifa
 #: Extended_Era/units/kalifa/Ghulam.cfg:5
 msgid "Ghulam"
 msgstr "Ghulam"
 
-#. [unit]: race=kalifa
+#. [unit]: id=Kalifa Ghulam, race=kalifa
 #: Extended_Era/units/kalifa/Ghulam.cfg:19
 msgid ""
 "The Ghulam wear truly heavy armor, and thus close with a single high impact "
@@ -2821,12 +2822,12 @@ msgstr ""
 "rohamot tesznek, hogy megőrizzék lovuk állóképességét mielőtt becses "
 "buzogányukra váltanak."
 
-#. [unit]: race=kalifa
+#. [unit]: id=Kalifa Ghulam al Rami, race=kalifa
 #: Extended_Era/units/kalifa/Ghulam_al_Rami.cfg:5
 msgid "Ghulam al Rami"
 msgstr "Ghulam al rami"
 
-#. [unit]: race=kalifa
+#. [unit]: id=Kalifa Ghulam al Rami, race=kalifa
 #: Extended_Era/units/kalifa/Ghulam_al_Rami.cfg:20
 msgid ""
 "Ghulam al Rami combine the some fo the best features of the karadis and the "
@@ -2839,12 +2840,12 @@ msgstr ""
 "az ellenség nyilaitól, így viszonylag büntetlenül használhatják íjaikat. A "
 "ghulam al ramikat nagyon jól szolgálják közelharcban a nehéz buzogányaik is."
 
-#. [unit]: race=kalifa
+#. [unit]: id=Kalifa Immortal, race=kalifa
 #: Extended_Era/units/kalifa/Immortal.cfg:5
 msgid "Immortal"
 msgstr "Halhatatlan"
 
-#. [unit]: race=kalifa
+#. [unit]: id=Kalifa Immortal, race=kalifa
 #: Extended_Era/units/kalifa/Immortal.cfg:19
 msgid ""
 "These Arif have become so skilled that thier foes wonder whether they can "
@@ -2853,12 +2854,12 @@ msgstr ""
 "Ezek az arifok annyira képzettekké váltak, hogy ellenségeik kételkednek még "
 "abban is, vajon meghalhatnak-e egyáltalán."
 
-#. [unit]: race=kalifa
+#. [unit]: id=Kalifa Karadis, race=kalifa
 #: Extended_Era/units/kalifa/Karadis.cfg:5
 msgid "Karadis"
 msgstr "Karadis"
 
-#. [unit]: race=kalifa
+#. [unit]: id=Kalifa Karadis, race=kalifa
 #: Extended_Era/units/kalifa/Karadis.cfg:19
 msgid ""
 "Karadis are excellent horsemen and few can shoot as well from horseback as "
@@ -2871,29 +2872,29 @@ msgstr ""
 "visszatámadásokat."
 
 #. [attack]: type=blade
-#: Extended_Era/units/kalifa/Mamluk.cfg:25
 #: Extended_Era/units/kalifa/Karadis.cfg:24
+#: Extended_Era/units/kalifa/Mamluk.cfg:25
 msgid "cavalry sword"
 msgstr "lovassági szablya"
 
-#. [unit]: race=kalifa
+#. [unit]: id=Kalifa Life Guard, race=kalifa
 #: Extended_Era/units/kalifa/Life_Guard.cfg:5
 msgid "Life Guard"
 msgstr "Élet védelmezője"
 
-#. [unit]: race=kalifa
+#. [unit]: id=Kalifa Life Guard, race=kalifa
 #: Extended_Era/units/kalifa/Life_Guard.cfg:19
 msgid ""
 "Only the greatest mounter warriors in the land are taken into the Life Guard."
 msgstr ""
 "Csak a leghatalmasabb lovas harcosokat veszik be az élet védelmezői közé."
 
-#. [unit]: race=kalifa
+#. [unit]: id=Kalifa Mamluk, race=kalifa
 #: Extended_Era/units/kalifa/Mamluk.cfg:5
 msgid "Mamluk"
 msgstr "Mameluk"
 
-#. [unit]: race=kalifa
+#. [unit]: id=Kalifa Mamluk, race=kalifa
 #: Extended_Era/units/kalifa/Mamluk.cfg:20
 msgid ""
 "Mamluks are the absolute best shots from among the Karadis and are allotted "
@@ -2902,12 +2903,12 @@ msgstr ""
 "A mamelukok a lehető legjobb lövők a karadisok között, és rendelkezésükre "
 "bocsátják a legjobb lovakat, hogy tehetségük ne vesszen kárba."
 
-#. [unit]: race=kalifa
+#. [unit]: id=Kalifa Mubarizan, race=kalifa
 #: Extended_Era/units/kalifa/Mubarizan.cfg:5
 msgid "Mubarizan"
 msgstr "Mubarizan"
 
-#. [unit]: race=kalifa
+#. [unit]: id=Kalifa Mubarizan, race=kalifa
 #: Extended_Era/units/kalifa/Mubarizan.cfg:19
 msgid ""
 "Mubarizan take pride in always manning the front lines of an offensive.  "
@@ -2918,12 +2919,12 @@ msgstr ""
 "Rendszeresen döntenek le erősen védett kastélyokat, és ritkán hibázzák el, "
 "hogy ellenségeiken fájdalmas sebet ejtsenek."
 
-#. [unit]: race=kalifa
+#. [unit]: id=Kalifa Naffatun, race=kalifa
 #: Extended_Era/units/kalifa/Naffatun.cfg:5
 msgid "Naffatun"
 msgstr "Naffatun"
 
-#. [unit]: race=kalifa
+#. [unit]: id=Kalifa Naffatun, race=kalifa
 #: Extended_Era/units/kalifa/Naffatun.cfg:23
 msgid "Naffutun use naptha to show their enemies true fear."
 msgstr ""
@@ -2934,12 +2935,12 @@ msgstr ""
 msgid "naptha throw"
 msgstr "benzinspriccelés"
 
-#. [unit]: race=kalifa
+#. [unit]: id=Kalifa Rami, race=kalifa
 #: Extended_Era/units/kalifa/Rami.cfg:5
 msgid "Rami"
 msgstr "Rami"
 
-#. [unit]: race=kalifa
+#. [unit]: id=Kalifa Rami, race=kalifa
 #: Extended_Era/units/kalifa/Rami.cfg:18
 msgid ""
 "Rami frequently use burning arrows to set fire to enemy fortifications and "
@@ -2952,17 +2953,17 @@ msgstr ""
 "csodák országában."
 
 #. [attack]: type=fire
-#: Extended_Era/units/kalifa/Rami_al_Nuri.cfg:33
 #: Extended_Era/units/kalifa/Rami.cfg:32
+#: Extended_Era/units/kalifa/Rami_al_Nuri.cfg:33
 msgid "fire arrow"
 msgstr "égő nyíl"
 
-#. [unit]: race=kalifa
+#. [unit]: id=Kalifa Rami al Nuri, race=kalifa
 #: Extended_Era/units/kalifa/Rami_al_Nuri.cfg:5
 msgid "Rami al Nuri"
 msgstr "Rami al nuri"
 
-#. [unit]: race=kalifa
+#. [unit]: id=Kalifa Rami al Nuri, race=kalifa
 #: Extended_Era/units/kalifa/Rami_al_Nuri.cfg:19
 msgid ""
 "The maelstrom created by even a few Rami al Nuri can turn the tide of many a "
@@ -2971,22 +2972,23 @@ msgstr ""
 "A lángörvény, amit még kevés rami al nuri is elő tud idézni rengeteg csata "
 "kimenetelét megfordíthatja. Bölcsen használd őket."
 
-#. [unit]: race=naga
+#. [unit]: id=Naga Abomination, race=naga
 #: Extended_Era/units/nagas/Abomination.cfg:5
 msgid "Naga Abomination"
 msgstr "Rettenetes naga "
 
-#. [unit]: race=naga
+#. [unit]: id=Naga Abomination, race=naga
 #: Extended_Era/units/nagas/Abomination.cfg:24
 msgid "These heavy fighters are elite forces of the nagas."
 msgstr "Ezek a nehéz harcosok a nagák elit haderejét alkotják."
 
-#. [unit]: race=naga
+#. [unit]: id=XE Naga Assassin, race=naga
 #: Extended_Era/units/nagas/Assassin.cfg:5
 msgid "Naga Assassin"
 msgstr "Naga orgyilkos"
 
-#. [unit]: race=naga
+#. [unit]: id=XE Naga Hunter, race=naga
+#. [unit]: id=XE Naga Assassin, race=naga
 #: Extended_Era/units/nagas/Hunter.cfg:19
 #: Extended_Era/units/nagas/Assassin.cfg:21
 msgid ""
@@ -3001,14 +3003,15 @@ msgstr ""
 "hosszú nyílvesszők, amik hegyét erős méregbe mártják, híresek arról, hogy "
 "sokfajta áldozatot szednek."
 
-#. [unit]: race=naga
+#. [unit]: id=Naga Depthprowler, race=naga
 #: Extended_Era/units/nagas/Depthprowler.cfg:5
 msgid "Naga Depthprowler"
-msgstr "Naga mélységi portyázó"
+msgstr "Naga mélységi kalandor"
 
-#. [unit]: race=naga
-#: Extended_Era/units/nagas/Depthstalker.cfg:21
+#. [unit]: id=Naga Depthprowler, race=naga
+#. [unit]: id=Naga Depthstalker, race=naga
 #: Extended_Era/units/nagas/Depthprowler.cfg:21
+#: Extended_Era/units/nagas/Depthstalker.cfg:21
 msgid ""
 "Some nagas, whether through cowardice or cunning, develop a knack for "
 "surviving in darker depths of the water. After special training, this "
@@ -3025,11 +3028,11 @@ msgstr ""
 #. [female]
 #: Extended_Era/units/nagas/Depthprowler.cfg:178
 msgid "Nagini Depthprowler"
-msgstr "Nagini mélységi portyázó"
+msgstr "Nagini mélységi kalandor"
 
 #. [female]
-#: Extended_Era/units/nagas/Depthstalker.cfg:181
 #: Extended_Era/units/nagas/Depthprowler.cfg:181
+#: Extended_Era/units/nagas/Depthstalker.cfg:181
 msgid ""
 "Some naganis, whether through cowardice or cunning, develop a knack for "
 "surviving in darker depths of the water. After special training, this "
@@ -3043,7 +3046,7 @@ msgstr ""
 "mélységi cserkészőket a költőhelyek őreiként különösen nagyra értékelik, "
 "mivel vigyázni tudnak a barlangokba rejtett tojásokra."
 
-#. [unit]: race=naga
+#. [unit]: id=Naga Depthstalker, race=naga
 #: Extended_Era/units/nagas/Depthstalker.cfg:5
 msgid "Naga Depthstalker"
 msgstr "Naga mélységi cserkésző"
@@ -3053,12 +3056,12 @@ msgstr "Naga mélységi cserkésző"
 msgid "Nagini Depthstalker"
 msgstr "Nagini mélységi cserkésző"
 
-#. [unit]: race=naga
+#. [unit]: id=XE Naga Guardian, race=naga
 #: Extended_Era/units/nagas/Guardian.cfg:5
 msgid "Naga Guardian"
 msgstr "Naga őr"
 
-#. [unit]: race=naga
+#. [unit]: id=XE Naga Guardian, race=naga
 #: Extended_Era/units/nagas/Guardian.cfg:23
 msgid ""
 "These heavy fighters are slower and more heavily armored than most naga and "
@@ -3069,17 +3072,17 @@ msgstr ""
 "hatalmas buzogányokat forgatnak, amivel összezúzzák ellenségeiket. Leginkább "
 "naga őrsöket védenek, de alkalomadtán részt vesznek támadásban is."
 
-#. [unit]: race=naga
+#. [unit]: id=XE Naga Hunter, race=naga
 #: Extended_Era/units/nagas/Hunter.cfg:5
 msgid "Naga Hunter"
 msgstr "Naga vadász"
 
-#. [unit]: race=naga
+#. [unit]: id=XE Naga Sentinel, race=naga
 #: Extended_Era/units/nagas/Sentinel.cfg:5
 msgid "Naga Sentinel"
 msgstr "Naga őrszem"
 
-#. [unit]: race=naga
+#. [unit]: id=XE Naga Sentinel, race=naga
 #: Extended_Era/units/nagas/Sentinel.cfg:24
 msgid ""
 "These heavy fighters are elite guards of the naga, choosen by their "
@@ -3094,12 +3097,12 @@ msgstr ""
 "el nem érkezik. Ezek a nagák majdnem ismeretlenek Wesnothban, mivel "
 "kizárólag a naga városok közelében lehet őket megtalálni."
 
-#. [unit]: race=naga
+#. [unit]: id=XE Naga Warden, race=naga
 #: Extended_Era/units/nagas/Warden.cfg:5
 msgid "Naga Warden"
 msgstr "Naga őrző"
 
-#. [unit]: race=naga
+#. [unit]: id=XE Naga Warden, race=naga
 #: Extended_Era/units/nagas/Warden.cfg:23
 msgid ""
 "These heavy fighters are the elite guards of the naga. They are slower and "
@@ -3111,12 +3114,13 @@ msgstr ""
 "hatalmas buzogányokat forgatnak, amivel összezúzzák ellenségeiket. Leginkább "
 "naga őrsöket védenek, de alkalomadtán részt vesznek támadásban is."
 
-#. [unit]: race=orc
+#. [unit]: id=XE Orcish Shaman, race=orc
 #: Extended_Era/units/orcs/Shaman.cfg:5
 msgid "Orcish Shaman"
 msgstr "Ork sámán"
 
-#. [unit]: race=orc
+#. [unit]: id=Orcish Witch Doctor, race=orc
+#. [unit]: id=XE Orcish Shaman, race=orc
 #: Extended_Era/units/orcs/Witch_Doctor.cfg:21
 #: Extended_Era/units/orcs/Shaman.cfg:20
 msgid ""
@@ -3141,12 +3145,12 @@ msgstr ""
 msgid "curse"
 msgstr "átok"
 
-#. [unit]: race=orc
+#. [unit]: id=Orcish Warlock, race=orc
 #: Extended_Era/units/orcs/Warlock.cfg:5
 msgid "Orcish Warlock"
 msgstr "Ork táltos"
 
-#. [unit]: race=orc
+#. [unit]: id=Orcish Warlock, race=orc
 #: Extended_Era/units/orcs/Warlock.cfg:21
 msgid ""
 "Orcish Shamans are the guardians of orcish magic. Respected among orcish "
@@ -3162,17 +3166,17 @@ msgstr ""
 "képest), az ork sámánok jól bánnak a bűbájjal és meg tudják átkozni az "
 "ellenséget elvéve életerejüket."
 
-#. [unit]: race=orc
+#. [unit]: id=Orcish Witch Doctor, race=orc
 #: Extended_Era/units/orcs/Witch_Doctor.cfg:5
 msgid "Orcish Witch Doctor"
 msgstr "Ork boszorkánygyógyító"
 
-#. [unit]: race=human
+#. [unit]: id=Brigand, race=human
 #: Extended_Era/units/outlaws/Brigand.cfg:5
 msgid "Brigand"
 msgstr "Briganti"
 
-#. [unit]: race=human
+#. [unit]: id=Brigand, race=human
 #: Extended_Era/units/outlaws/Brigand.cfg:18
 msgid ""
 "Mounted and wielding wicked-looking sickles, brigands left behind the "
@@ -3190,12 +3194,12 @@ msgstr ""
 msgid "sickle"
 msgstr "sarló"
 
-#. [unit]: race=human
+#. [unit]: id=Outlaw Princess, race=human
 #: Extended_Era/units/outlaws/Princess.cfg:4
 msgid "female^Outlaw Princess"
 msgstr "Törvényen kívüli hercegnő"
 
-#. [unit]: race=human
+#. [unit]: id=Outlaw Princess, race=human
 #: Extended_Era/units/outlaws/Princess.cfg:23
 msgid ""
 "A noble by birth, the Outlaw Princess has learnt swordplay with the greatest "
@@ -3209,17 +3213,17 @@ msgstr ""
 "álmodik az úton \"talált\" zsákmányból."
 
 #. [attack]: type=impact
-#: Extended_Era/units/outlaws/Princess.cfg:101
 #: Extended_Era/units/outlaws/Queen.cfg:104
+#: Extended_Era/units/outlaws/Princess.cfg:101
 msgid "sling"
 msgstr "parittya"
 
-#. [unit]: race=human
+#. [unit]: id=Outlaw Queen, race=human
 #: Extended_Era/units/outlaws/Queen.cfg:4
 msgid "female^Outlaw Queen"
 msgstr "Törvényen kívüli királynő"
 
-#. [unit]: race=human
+#. [unit]: id=Outlaw Queen, race=human
 #: Extended_Era/units/outlaws/Queen.cfg:26
 msgid ""
 "A noble by birth, the Outlaw Queen has learnt swordplay with the greatest "
@@ -3236,14 +3240,12 @@ msgstr ""
 "úton \"talált\" zsákmányból megalapítja saját királyságát, és nagyon is "
 "közel jár ehhez a célhoz."
 
-# Fosztogató egység már van a 'pillager' magyarítására;
-# azért javaslom a prédálót, hogy a jövőben is szét lehessen választani, ha szaporodnak a jelzők - Atna:)
-#. [unit]: race=human
+#. [unit]: id=Human Raider, race=human
 #: Extended_Era/units/outlaws/Raider.cfg:5
 msgid "Raider"
 msgstr "Prédáló"
 
-#. [unit]: race=human
+#. [unit]: id=Human Raider, race=human
 #: Extended_Era/units/outlaws/Raider.cfg:33
 msgid ""
 "After a four or five robbings any Brigands that last that long will usually "
@@ -3264,12 +3266,12 @@ msgstr ""
 msgid "sabre"
 msgstr "szablya"
 
-#. [unit]: race=human
+#. [unit]: id=Rogue Mage, race=human
 #: Extended_Era/units/outlaws/Rogue_Mage.cfg:5
 msgid "Rogue Mage"
 msgstr "Csavargó mágus"
 
-#. [unit]: race=human
+#. [unit]: id=Rogue Mage, race=human
 #: Extended_Era/units/outlaws/Rogue_Mage.cfg:19
 msgid ""
 "Some mages are thrown out of the mage's guild for attempting to practice "
@@ -3296,12 +3298,12 @@ msgstr "rövidkard"
 msgid "missile"
 msgstr "lövedék"
 
-#. [unit]: race=human
+#. [unit]: id=Shadow Lord, race=human
 #: Extended_Era/units/outlaws/Shadow_Lord.cfg:5
 msgid "Shadow Lord"
 msgstr "Árny úr"
 
-#. [unit]: race=human
+#. [unit]: id=Shadow Lord, race=human
 #: Extended_Era/units/outlaws/Shadow_Lord.cfg:23
 msgid ""
 "Few humans fathom the secrets of light and dark magic and retain their "
@@ -3331,12 +3333,12 @@ msgstr "árnyvillám"
 msgid "shadow blast"
 msgstr "árnyfuvallat"
 
-#. [unit]: race=human
+#. [unit]: id=Shadow Mage, race=human
 #: Extended_Era/units/outlaws/Shadow_Mage.cfg:5
 msgid "Shadow Mage"
 msgstr "Árnymágus"
 
-#. [unit]: race=human
+#. [unit]: id=Shadow Mage, race=human
 #: Extended_Era/units/outlaws/Shadow_Mage.cfg:22
 msgid ""
 "Years of violence and brutality to support the study of forbidden magical "
@@ -3360,12 +3362,12 @@ msgstr ""
 msgid "ice blast"
 msgstr "jeges fuvallat"
 
-#. [unit]: race=sidhe
+#. [unit]: id=Sidhe Bladespinner, race=sidhe
 #: Extended_Era/units/sidhe/Bladespinner.cfg:5
 msgid "Bladespinner"
 msgstr "Pengeforgató"
 
-#. [unit]: race=sidhe
+#. [unit]: id=Sidhe Bladespinner, race=sidhe
 #: Extended_Era/units/sidhe/Bladespinner.cfg:17
 msgid ""
 "The better warriors of the sidhe are known as bladespinners. They can, it is "
@@ -3374,12 +3376,12 @@ msgstr ""
 "A jobb sidhe harcosokat pengeforgatóknak hívják. Azt mondják három különböző "
 "helyen vágják meg az embert, mire az felemeli fegyverét."
 
-#. [unit]: race=sidhe
+#. [unit]: id=Sidhe Blizzardlord, race=sidhe
 #: Extended_Era/units/sidhe/Blizzardlord.cfg:5
 msgid "Blizzardlord"
 msgstr "Hóvihar úr"
 
-#. [unit]: race=sidhe
+#. [unit]: id=Sidhe Blizzardlord, race=sidhe
 #: Extended_Era/units/sidhe/Blizzardlord.cfg:18
 msgid ""
 "The Sidhe nobility, though not accepting commoners into their ranks, "
@@ -3395,18 +3397,18 @@ msgstr ""
 "kiképezzék az újoncokat."
 
 #. [attack]: type=cold
+#: Extended_Era/units/sidhe/Hoarfroster.cfg:31
 #: Extended_Era/units/sidhe/Blizzardlord.cfg:32
 #: Extended_Era/units/sidhe/Snowdancer.cfg:31
-#: Extended_Era/units/sidhe/Hoarfroster.cfg:31
 msgid "snow wind"
 msgstr "hófúvás"
 
-#. [unit]: race=sidhe
+#. [unit]: id=Sidhe Fury, race=sidhe
 #: Extended_Era/units/sidhe/Fury.cfg:5
 msgid "Fury"
 msgstr "Őrjöngő"
 
-#. [unit]: race=sidhe
+#. [unit]: id=Sidhe Fury, race=sidhe
 #: Extended_Era/units/sidhe/Fury.cfg:18
 msgid ""
 "The fury is a peculiar sidhe warrior, half-mystic half crazed. In the heat "
@@ -3417,12 +3419,12 @@ msgstr ""
 "csata hevében, teljes egészében átadja magát a támadásnak, addig küzd, amíg "
 "ő vagy ellensége meg nem hal."
 
-#. [unit]: race=sidhe
+#. [unit]: id=Sidhe Herald, race=sidhe
 #: Extended_Era/units/sidhe/Herald.cfg:5
 msgid "Herald"
 msgstr "Lantos"
 
-#. [unit]: race=sidhe
+#. [unit]: id=Sidhe Herald, race=sidhe
 #: Extended_Era/units/sidhe/Herald.cfg:20
 msgid ""
 "The Heralds are sidhe who go out onto the battlefield, singing the warrior "
@@ -3431,12 +3433,12 @@ msgstr ""
 "A lantosok azok a sidhék, akik a csatatéren énekelik a harci dalokat előre "
 "vezetve a többieket."
 
-#. [unit]: race=sidhe
+#. [unit]: id=Sidhe Hoarfroster, race=sidhe
 #: Extended_Era/units/sidhe/Hoarfroster.cfg:5
 msgid "Hoarfroster"
 msgstr "Dérfagyasztó"
 
-#. [unit]: race=sidhe
+#. [unit]: id=Sidhe Hoarfroster, race=sidhe
 #: Extended_Era/units/sidhe/Hoarfroster.cfg:17
 msgid ""
 "Some Sidhe commoners long for the prestige of their magic-using betters. "
@@ -3452,12 +3454,12 @@ msgstr ""
 "egy elem, amit valamennyire uralni tudnak - a fagyott vizet. Ez az útjuk a "
 "nagyság felé."
 
-#. [unit]: race=sidhe
+#. [unit]: id=Sidhe Raindancer, race=sidhe
 #: Extended_Era/units/sidhe/Raindancer.cfg:5
 msgid "Raindancer"
 msgstr "Esőtáncos"
 
-#. [unit]: race=sidhe
+#. [unit]: id=Sidhe Raindancer, race=sidhe
 #: Extended_Era/units/sidhe/Raindancer.cfg:18
 msgid ""
 "The sidhe nobility are powerful mages. They have concentrated their powers "
@@ -3473,21 +3475,21 @@ msgstr ""
 "varázslatot."
 
 #. [attack]: type=fire
-#: Extended_Era/units/sidhe/Thunderblade.cfg:35
-#: Extended_Era/units/sidhe/Windlasher.cfg:31
 #: Extended_Era/units/sidhe/Tempest.cfg:31
-#: Extended_Era/units/sidhe/Raindancer.cfg:32
 #: Extended_Era/units/sidhe/Stormlord.cfg:32
 #: Extended_Era/units/sidhe/Warmage.cfg:31
+#: Extended_Era/units/sidhe/Thunderblade.cfg:35
+#: Extended_Era/units/sidhe/Raindancer.cfg:32
+#: Extended_Era/units/sidhe/Windlasher.cfg:31
 msgid "lightning"
 msgstr "villám"
 
-#. [unit]: race=sidhe
+#. [unit]: id=Sidhe Shadowdancer, race=sidhe
 #: Extended_Era/units/sidhe/Shadowdancer.cfg:5
 msgid "Shadowdancer"
 msgstr "Árnytáncos"
 
-#. [unit]: race=sidhe
+#. [unit]: id=Sidhe Shadowdancer, race=sidhe
 #: Extended_Era/units/sidhe/Shadowdancer.cfg:21
 msgid ""
 "Some may look down upon the shadowdancer's specialty, but they would be well "
@@ -3497,12 +3499,12 @@ msgstr ""
 "Vannak, akik lenézik az árnytáncosok különlegességét, de tanácsos ezt nem az "
 "arcukba mondani, hacsak nem óhajtod a kardjukat a hátadban tudni."
 
-#. [unit]: race=sidhe
+#. [unit]: id=Sidhe Snowdancer, race=sidhe
 #: Extended_Era/units/sidhe/Snowdancer.cfg:5
 msgid "Snowdancer"
 msgstr "Hótáncos"
 
-#. [unit]: race=sidhe
+#. [unit]: id=Sidhe Snowdancer, race=sidhe
 #: Extended_Era/units/sidhe/Snowdancer.cfg:17
 msgid ""
 "The Sidhe nobility do not lightly accept the fact that some among their "
@@ -3519,12 +3521,12 @@ msgstr ""
 "ezért létrehozták a hótáncosok rendjét jutalomképpen azoknak a "
 "dérfagyasztóknak, akik tehetségben és hűségben is kiemelkednek."
 
-#. [unit]: race=undead
+#. [unit]: id=Sidhe Spirit Ancestor, race=undead
 #: Extended_Era/units/sidhe/Spirit_Ancestor.cfg:5
 msgid "Sidhe Ancestor"
 msgstr "Sidhe ős"
 
-#. [unit]: race=undead
+#. [unit]: id=Sidhe Spirit Ancestor, race=undead
 #: Extended_Era/units/sidhe/Spirit_Ancestor.cfg:21
 msgid ""
 "Revered warriors of old roam through the woods of the sidhe, visible only "
@@ -3550,12 +3552,12 @@ msgstr "ősi penge"
 msgid "requiem"
 msgstr "gyászének"
 
-#. [unit]: race=undead
+#. [unit]: id=Sidhe Spirit Forefather, race=undead
 #: Extended_Era/units/sidhe/Spirit_Forefather.cfg:5
 msgid "Sidhe Forefather"
 msgstr "Sidhe ősatya"
 
-#. [unit]: race=undead
+#. [unit]: id=Sidhe Spirit Forefather, race=undead
 #: Extended_Era/units/sidhe/Spirit_Forefather.cfg:22
 msgid ""
 "The greatest warriors of the sidhe are far from gone. When you hear their "
@@ -3566,12 +3568,12 @@ msgstr ""
 "gyászéneküket visszhangozni a fák közt, tudd, hogy ezüst pengéik szintén "
 "közel járnak."
 
-#. [unit]: race=undead
+#. [unit]: id=Sidhe Spirit Warrior, race=undead
 #: Extended_Era/units/sidhe/Spirit_Warrior.cfg:5
 msgid "Warrior Spirit"
 msgstr "Szellemharcos"
 
-#. [unit]: race=undead
+#. [unit]: id=Sidhe Spirit Warrior, race=undead
 #: Extended_Era/units/sidhe/Spirit_Warrior.cfg:21
 msgid ""
 "The great sidhe warriors of times past are not quite gone. They roam through "
@@ -3582,12 +3584,12 @@ msgstr ""
 "otthonaik erdeiben kóborolnak, és keresik a módot, hogy múltjuk "
 "hadiművészetét tovább űzhessék, és a halál nem akadály ebben..."
 
-#. [unit]: race=sidhe
+#. [unit]: id=Sidhe Stormlord, race=sidhe
 #: Extended_Era/units/sidhe/Stormlord.cfg:5
 msgid "Stormlord"
 msgstr "Égzengés úr"
 
-#. [unit]: race=sidhe
+#. [unit]: id=Sidhe Stormlord, race=sidhe
 #: Extended_Era/units/sidhe/Stormlord.cfg:18
 msgid ""
 "The stormlord has spent his entire life studying magic. He has given up "
@@ -3600,12 +3602,12 @@ msgstr ""
 "tünde bizalmatlan velük emiatt, de ennél sokkal jobban félik őket. És ha egy "
 "sidhe fél valakitől..."
 
-#. [unit]: race=sidhe
+#. [unit]: id=Sidhe Tempest, race=sidhe
 #: Extended_Era/units/sidhe/Tempest.cfg:5
 msgid "Tempest"
 msgstr "Vihar úr"
 
-#. [unit]: race=sidhe
+#. [unit]: id=Sidhe Tempest, race=sidhe
 #: Extended_Era/units/sidhe/Tempest.cfg:17
 msgid ""
 "Elder mages, seen as sages among the sidhe are given the name of tempest. "
@@ -3616,12 +3618,12 @@ msgstr ""
 "uraknak neveznek. Könnyedén lecsillapítják a villámokat és olyan varázslatot "
 "használnak, minek puszta ereje majdhogynem páratlan."
 
-#. [unit]: race=sidhe
+#. [unit]: id=Sidhe Thunderblade, race=sidhe
 #: Extended_Era/units/sidhe/Thunderblade.cfg:5
 msgid "Thunderblade"
 msgstr "Mennydörgő penge"
 
-#. [unit]: race=sidhe
+#. [unit]: id=Sidhe Thunderblade, race=sidhe
 #: Extended_Era/units/sidhe/Thunderblade.cfg:18
 msgid ""
 "When the first sidhe lord died in battle, the shards of his mighty sword "
@@ -3641,12 +3643,12 @@ msgstr ""
 msgid "thunderblade"
 msgstr "mennydörgő penge"
 
-#. [unit]: race=sidhe
+#. [unit]: id=Sidhe Tracker, race=sidhe
 #: Extended_Era/units/sidhe/Tracker.cfg:5
 msgid "Tracker"
 msgstr "Nyomolvasó"
 
-#. [unit]: race=sidhe
+#. [unit]: id=Sidhe Tracker, race=sidhe
 #: Extended_Era/units/sidhe/Tracker.cfg:21
 msgid ""
 "Among the finest scouts known, wild elf trackers are swift and versatile, "
@@ -3658,12 +3660,12 @@ msgstr ""
 "amikor tőrösbotjaikat használják. A páncélzat teljes hiánya azonban egy "
 "gyenge pontjuk."
 
-#. [unit]: race=sidhe
+#. [unit]: id=Sidhe Veiledblade, race=sidhe
 #: Extended_Era/units/sidhe/Veiledblade.cfg:5
 msgid "Veiledblade"
 msgstr "Lepelpenge"
 
-#. [unit]: race=sidhe
+#. [unit]: id=Sidhe Veiledblade, race=sidhe
 #: Extended_Era/units/sidhe/Veiledblade.cfg:20
 msgid ""
 "Not all sidhe like to fight up front. The shadowy veiledblades can slip in "
@@ -3674,12 +3676,12 @@ msgstr ""
 "tudnak siklani az ellenség védelmén, és lopakodva meg tudnak sebezni egy "
 "meglepődött ellenséget, akár még halálosan is."
 
-#. [unit]: race=sidhe
+#. [unit]: id=Sidhe Wanderer, race=sidhe
 #: Extended_Era/units/sidhe/Wanderer.cfg:5
 msgid "Wanderer"
 msgstr "Vándor"
 
-#. [unit]: race=sidhe
+#. [unit]: id=Sidhe Wanderer, race=sidhe
 #: Extended_Era/units/sidhe/Wanderer.cfg:22
 msgid ""
 "The sidhe sometimes have more lonesome among them who prefer the tracking "
@@ -3694,12 +3696,12 @@ msgstr ""
 "előnyük a gyorsaságuk. Különleges gyorsaságuk azonban egy hátránnyal jár, "
 "szinte teljesen védtelenül harcolnak és gyorsan halnak csatában."
 
-#. [unit]: race=sidhe
+#. [unit]: id=Sidhe Wardancer, race=sidhe
 #: Extended_Era/units/sidhe/Wardancer.cfg:5
 msgid "Wardancer"
 msgstr "Pengetáncos"
 
-#. [unit]: race=sidhe
+#. [unit]: id=Sidhe Wardancer, race=sidhe
 #: Extended_Era/units/sidhe/Wardancer.cfg:18
 msgid ""
 "Wardancers are legends among the sidhe. The skill of a bladespinner may seem "
@@ -3709,12 +3711,12 @@ msgstr ""
 "hihetetlennek tűnhetnek, de összehasonlítva egy félelmetes pengetáncossal, "
 "csak nyeretlen kétévesnek tűnnek."
 
-#. [unit]: race=sidhe
+#. [unit]: id=Sidhe Warmage, race=sidhe
 #: Extended_Era/units/sidhe/Warmage.cfg:5
 msgid "War Mage"
 msgstr "Harcimágus"
 
-#. [unit]: race=sidhe
+#. [unit]: id=Sidhe Warmage, race=sidhe
 #: Extended_Era/units/sidhe/Warmage.cfg:17
 msgid ""
 "Few sidhe are capable of staying away from battle for long. The war mages "
@@ -3727,7 +3729,7 @@ msgstr ""
 "kézben töltik el. Karddal való vitézkedésük és mágikus tudásuk révén "
 "szívesen látott szövetségesek."
 
-#. [unit]: race=sidhe
+#. [unit]: id=Sidhe Warrior, race=sidhe
 #: Extended_Era/units/sidhe/Warrior.cfg:18
 msgid ""
 "The lithe and strong sidhe warriors are deadly swordsmen, capable of dealing "
@@ -3738,12 +3740,12 @@ msgstr ""
 "csapásokra és ugyanilyen könnyűszerrel ki is kerülik őket. Egyetlen "
 "gyengeségük sebezhetőségük, mivel nem szeretik a páncélt."
 
-#. [unit]: race=sidhe
+#. [unit]: id=Sidhe Warsinger, race=sidhe
 #: Extended_Era/units/sidhe/Warsinger.cfg:5
 msgid "Warsinger"
 msgstr "Harci dalnok"
 
-#. [unit]: race=sidhe
+#. [unit]: id=Sidhe Warsinger, race=sidhe
 #: Extended_Era/units/sidhe/Warsinger.cfg:21
 msgid ""
 "The Warsinger is a master of the songs of combat. A powerful warrior "
@@ -3752,12 +3754,12 @@ msgstr ""
 "A harci dalnok mestere a csata énekeinek. Önmaga is erős harcos, és társait "
 "dühöngésbe tudja hozni a csatatéren."
 
-#. [unit]: race=sidhe
+#. [unit]: id=Sidhe Whirlwind, race=sidhe
 #: Extended_Era/units/sidhe/Whirlwind.cfg:5
 msgid "Whirlwind"
 msgstr "Forgószél"
 
-#. [unit]: race=sidhe
+#. [unit]: id=Sidhe Whirlwind, race=sidhe
 #: Extended_Era/units/sidhe/Whirlwind.cfg:21
 msgid ""
 "The whirlwind is a wildblade who has survived many battles. A legend in his "
@@ -3768,12 +3770,12 @@ msgstr ""
 "haragjától retteg minden sidhe. Ha ölni kíván, senki és semmi nem állhatja "
 "útját."
 
-#. [unit]: race=sidhe
+#. [unit]: id=Sidhe Wildblade, race=sidhe
 #: Extended_Era/units/sidhe/Wildblade.cfg:5
 msgid "Wildblade"
 msgstr "Vadpenge"
 
-#. [unit]: race=sidhe
+#. [unit]: id=Sidhe Wildblade, race=sidhe
 #: Extended_Era/units/sidhe/Wildblade.cfg:18
 msgid ""
 "A wildblade, once its battle rage has started, is a terrifying thing to "
@@ -3784,12 +3786,12 @@ msgstr ""
 "Balra és jobbra csap olyan erővel és elszántsággal, amit ritkán látni, nem "
 "érdekli a fájdalom, de még a halál sem."
 
-#. [unit]: race=sidhe
+#. [unit]: id=Sidhe Windlasher, race=sidhe
 #: Extended_Era/units/sidhe/Windlasher.cfg:5
 msgid "Windlasher"
 msgstr "Széltámasztó"
 
-#. [unit]: race=sidhe
+#. [unit]: id=Sidhe Windlasher, race=sidhe
 #: Extended_Era/units/sidhe/Windlasher.cfg:17
 msgid ""
 "The sidhe who dedicates himself to the windlasher's life will find it a hard "
@@ -3800,12 +3802,12 @@ msgstr ""
 "kell hagynia minden fegyveres kiképzést, és magát a mágia tanulásának kell "
 "szentelnie. Kevesen választják ezt az utat, de érdemes ezt választani."
 
-#. [unit]: race=sidhe
+#. [unit]: id=Sidhe Windrunner, race=sidhe
 #: Extended_Era/units/sidhe/Windrunner.cfg:5
 msgid "Windrunner"
 msgstr "Szélsebes"
 
-#. [unit]: race=sidhe
+#. [unit]: id=Sidhe Windrunner, race=sidhe
 #: Extended_Era/units/sidhe/Windrunner.cfg:22
 msgid ""
 "The windrunners are the finest scouts available to the sidhe. Their speed is "
@@ -3816,12 +3818,12 @@ msgstr ""
 "vitézségük dárdáikkal, akár dobják, akár közelharcban, elképesztő. Azonban "
 "szemtől szembeni csatában hamar eleshetnek."
 
-#. [unit]: race=orc
+#. [unit]: id=Steppe Bladesman, race=orc
 #: Extended_Era/units/steppe_orcs/Bladesman.cfg:5
 msgid "Steppe Bladesman"
 msgstr "Sztyeppi pengeforgató"
 
-#. [unit]: race=orc
+#. [unit]: id=Steppe Bladesman, race=orc
 #: Extended_Era/units/steppe_orcs/Bladesman.cfg:19
 msgid ""
 "Those orcs who excell in the use of the battle axe are informally known to "
@@ -3838,19 +3840,19 @@ msgstr ""
 
 #. [attack]: type=blade
 #: Extended_Era/units/steppe_orcs/Warrior.cfg:24
-#: Extended_Era/units/steppe_orcs/Bladesman.cfg:24
 #: Extended_Era/units/steppe_orcs/Khan.cfg:41
 #: Extended_Era/units/steppe_orcs/Massif.cfg:25
 #: Extended_Era/units/steppe_orcs/Vanguard.cfg:39
+#: Extended_Era/units/steppe_orcs/Bladesman.cfg:24
 msgid "battle axe"
 msgstr "fokos"
 
-#. [unit]: race=goblin
+#. [unit]: id=Steppe Flanker, race=goblin
 #: Extended_Era/units/steppe_orcs/Flanker.cfg:5
 msgid "Steppe Flanker"
 msgstr "Sztyeppi tőrvető"
 
-#. [unit]: race=goblin
+#. [unit]: id=Steppe Flanker, race=goblin
 #: Extended_Era/units/steppe_orcs/Flanker.cfg:20
 msgid ""
 "Some goblins have discovered that the skills gained on the hunt can be put "
@@ -3864,18 +3866,18 @@ msgstr ""
 "elviselik."
 
 #. [attack]: type=pierce
+#: Extended_Era/units/steppe_orcs/Striker.cfg:40
 #: Extended_Era/units/steppe_orcs/Hunter.cfg:33
 #: Extended_Era/units/steppe_orcs/Flanker.cfg:34
-#: Extended_Era/units/steppe_orcs/Striker.cfg:40
 msgid "harpoon"
 msgstr "szigony"
 
-#. [unit]: race=goblin
+#. [unit]: id=Steppe Hunter, race=goblin
 #: Extended_Era/units/steppe_orcs/Hunter.cfg:5
 msgid "Steppe Hunter"
 msgstr "Sztyeppi vadász"
 
-#. [unit]: race=goblin
+#. [unit]: id=Steppe Hunter, race=goblin
 #: Extended_Era/units/steppe_orcs/Hunter.cfg:19
 msgid ""
 "The cruel life on the steppes tends to weed out the weak early on and harden "
@@ -3889,16 +3891,16 @@ msgstr ""
 "megmaradtakat. Ebből az okból a koboldok egyáltalán nem olyan gyakoriak a "
 "sztyeppén, mint másutt. Azok, akik túlélik a nehézségeket gyakran "
 "felfedezőként vagy fosztogatóként teszik magukat hasznossá. Vadászó "
-"csoportokban a horgos szigony használatát sajátították el, amivel "
+"csoportokban a horgas szigony használatát sajátították el, amivel "
 "megbénítják az áldozatot, lehetővé téve nagyobb ork testvéreiknek a könnyebb "
 "leölést."
 
-#. [unit]: race=orc
+#. [unit]: id=Steppe Drover, race=orc
 #: Extended_Era/units/steppe_orcs/Icewind_Drover.cfg:5
 msgid "Icewind Drover"
 msgstr "Jegesszél hajcsár"
 
-#. [unit]: race=orc
+#. [unit]: id=Steppe Drover, race=orc
 #: Extended_Era/units/steppe_orcs/Icewind_Drover.cfg:20
 msgid ""
 "A Herder of sufficiant ability can become what the Steppe Orcs call a "
@@ -3931,12 +3933,12 @@ msgstr ""
 msgid "frostbite"
 msgstr "fagymarás"
 
-#. [unit]: race=orc
+#. [unit]: id=Steppe Herder, race=orc
 #: Extended_Era/units/steppe_orcs/Icewind_Herder.cfg:5
 msgid "Icewind Herder"
 msgstr "Jegesszél pásztor"
 
-#. [unit]: race=orc
+#. [unit]: id=Steppe Herder, race=orc
 #: Extended_Era/units/steppe_orcs/Icewind_Herder.cfg:22
 msgid ""
 "There is an old tale about the creation of the the IceWind order: A gang of "
@@ -3978,12 +3980,12 @@ msgstr ""
 "A gyermek nyíltan megtagadta elárulni, hogy mi történt vele a fagyott tóban, "
 "és mikor sok év múlva meghalt, titkát is magával vitte."
 
-#. [unit]: race=orc
+#. [unit]: id=Steppe Master, race=orc
 #: Extended_Era/units/steppe_orcs/Icewind_Master.cfg:5
 msgid "Icewind Master"
 msgstr "Jegesszél mester"
 
-#. [unit]: race=orc
+#. [unit]: id=Steppe Master, race=orc
 #: Extended_Era/units/steppe_orcs/Icewind_Master.cfg:20
 msgid ""
 "Masters are a rare thing indeed, especially in a race with little aptitude "
@@ -4000,12 +4002,12 @@ msgstr ""
 "fő klántól. Azonban az egyedüllét okai testvéreikben nagyon nagy tiszteletet "
 "ébresztenek."
 
-#. [unit]: race=orc
+#. [unit]: id=Steppe Juggernaut, race=orc
 #: Extended_Era/units/steppe_orcs/Juggernaut.cfg:5
 msgid "Steppe Juggernaut"
 msgstr "Sztyeppi eltipró"
 
-#. [unit]: race=orc
+#. [unit]: id=Steppe Juggernaut, race=orc
 #: Extended_Era/units/steppe_orcs/Juggernaut.cfg:20
 msgid ""
 "Some of the Steppe Orcs aspiring to power realise that they actually have a "
@@ -4023,19 +4025,19 @@ msgstr ""
 "rohanó eltipró látványától."
 
 #. [attack]: type=impact
-#: Extended_Era/units/steppe_orcs/Juggernaut.cfg:25
 #: Extended_Era/units/steppe_orcs/Spearhead.cfg:24
+#: Extended_Era/units/steppe_orcs/Juggernaut.cfg:25
 #: Extended_Era/units/steppe_orcs/Khan.cfg:29
 #: Extended_Era/units/steppe_orcs/Vanguard.cfg:27
 msgid "flail"
 msgstr "láncos buzogány"
 
-#. [unit]: race=orc
+#. [unit]: id=Steppe Khan, race=orc
 #: Extended_Era/units/steppe_orcs/Khan.cfg:5
 msgid "Steppe Khan"
 msgstr "Sztyeppi kán"
 
-#. [unit]: race=orc
+#. [unit]: id=Steppe Khan, race=orc
 #: Extended_Era/units/steppe_orcs/Khan.cfg:24
 msgid ""
 "The steppe chieftains are titled Khans, serving as both statesmen and "
@@ -4062,12 +4064,12 @@ msgstr ""
 "Gyakran váltanak át  a bárd használatára, mivel láncos buzogányaikat túl "
 "értékesnek tartják ahhoz, hogy a fergeteges rohamokban esetleg elveszítsék."
 
-#. [unit]: race=orc
+#. [unit]: id=Steppe Massif, race=orc
 #: Extended_Era/units/steppe_orcs/Massif.cfg:5
 msgid "Steppe Massif"
 msgstr "Sztyeppi masszívum"
 
-#. [unit]: race=orc
+#. [unit]: id=Steppe Massif, race=orc
 #: Extended_Era/units/steppe_orcs/Massif.cfg:20
 msgid ""
 "Clad in crude armour with full-face helms and swinging weapons too heavy for "
@@ -4079,12 +4081,12 @@ msgstr ""
 "masszívumok borzasztó látványt nyújtanak. Fáradhatatlanul képzik magukat a "
 "fokos használatában, amit félelmetes eredménnyel forgatnak."
 
-#. [unit]: race=orc
+#. [unit]: id=Steppe Outcast, race=orc
 #: Extended_Era/units/steppe_orcs/Outcast.cfg:5
 msgid "Steppe Outcast"
 msgstr "Sztyeppi számkivetett"
 
-#. [unit]: race=orc
+#. [unit]: id=Steppe Outcast, race=orc
 #: Extended_Era/units/steppe_orcs/Outcast.cfg:20
 msgid ""
 "Not all initiates to the IceWind order are successful. Some lack the "
@@ -4118,12 +4120,12 @@ msgstr ""
 msgid "frigid touch"
 msgstr "fagyos érintés"
 
-#. [unit]: race=orc
+#. [unit]: id=Steppe Pariah, race=orc
 #: Extended_Era/units/steppe_orcs/Pariah.cfg:4
 msgid "Steppe Pariah"
 msgstr "Sztyeppi kiközösített"
 
-#. [unit]: race=orc
+#. [unit]: id=Steppe Pariah, race=orc
 #: Extended_Era/units/steppe_orcs/Pariah.cfg:19
 msgid ""
 "Those rejects of the IceWind order who achieve veteran status in their art "
@@ -4140,12 +4142,12 @@ msgstr ""
 "lerohanásához kitörve megerősített helyzetükből, vagy nehéz terepen lévő "
 "leseikből."
 
-#. [unit]: race=orc
+#. [unit]: id=Steppe Rigid, race=orc
 #: Extended_Era/units/steppe_orcs/Rigid.cfg:5
 msgid "Steppe Rigid"
 msgstr "Sztyeppi rideg"
 
-#. [unit]: race=orc
+#. [unit]: id=Steppe Rigid, race=orc
 #: Extended_Era/units/steppe_orcs/Rigid.cfg:19
 msgid ""
 "Aptly named, the Rigid are a near unbreakable foe. They often form fall-back "
@@ -4162,12 +4164,12 @@ msgstr ""
 "vas fal mögött. Szerepük aligha fenséges és gyakran éri el őket a vég "
 "reménytelen tömegek szorításában."
 
-#. [unit]: race=orc
+#. [unit]: id=Steppe Savage, race=orc
 #: Extended_Era/units/steppe_orcs/Savage.cfg:5
 msgid "Steppe Savage"
 msgstr "Sztyeppi szilaj"
 
-#. [unit]: race=orc
+#. [unit]: id=Steppe Savage, race=orc
 #: Extended_Era/units/steppe_orcs/Savage.cfg:20
 msgid ""
 "Unlike humans or elves, most orcs find a barbaric thrill in the chaos and "
@@ -4196,12 +4198,12 @@ msgstr ""
 msgid "frenzy"
 msgstr "őrjöngés"
 
-#. [unit]: race=orc
+#. [unit]: id=Steppe Shieldbearer, race=orc
 #: Extended_Era/units/steppe_orcs/Shieldbearer.cfg:5
 msgid "Steppe Shieldbearer"
 msgstr "Sztyeppi pajzshordó"
 
-#. [unit]: race=orc
+#. [unit]: id=Steppe Shieldbearer, race=orc
 #: Extended_Era/units/steppe_orcs/Shieldbearer.cfg:19
 msgid ""
 "Some soldiers are given a special role, quite different from any of their "
@@ -4219,12 +4221,12 @@ msgstr ""
 "pajzshordók sosem biztosítottak győzelmet, számtalan alkalommal akadályoztak "
 "meg csúfos vereséget."
 
-#. [unit]: race=orc
+#. [unit]: id=Steppe Skewer, race=orc
 #: Extended_Era/units/steppe_orcs/Skewer.cfg:5
 msgid "Steppe Skewer"
 msgstr "Sztyeppi nyársaló"
 
-#. [unit]: race=orc
+#. [unit]: id=Steppe Skewer, race=orc
 #: Extended_Era/units/steppe_orcs/Skewer.cfg:20
 msgid ""
 "While orcs may not be renowned for their intellectual capacity, it is well "
@@ -4239,12 +4241,12 @@ msgstr ""
 "kovácsolnak tüskés hegyet dárdáiknak, tovább növelve ezzel hátborzongató "
 "hatékonyságukat."
 
-#. [unit]: race=orc
+#. [unit]: id=Steppe Spearhead, race=orc
 #: Extended_Era/units/steppe_orcs/Spearhead.cfg:5
 msgid "Steppe Spearhead"
 msgstr "Sztyeppi dárdahegy"
 
-#. [unit]: race=orc
+#. [unit]: id=Steppe Spearhead, race=orc
 #: Extended_Era/units/steppe_orcs/Spearhead.cfg:19
 msgid ""
 "Any Steppe Orcs wishing to lead their comrades must first show their worth "
@@ -4263,12 +4265,12 @@ msgstr ""
 "nyers, de hatékony fegyver társul. Egy lánchoz rögzített nehezék tökéletesen "
 "megteszi egy működő láncos buzogánynak."
 
-#. [unit]: race=orc
+#. [unit]: id=Steppe Spearman, race=orc
 #: Extended_Era/units/steppe_orcs/Spearman.cfg:5
 msgid "Steppe Spearman"
 msgstr "Sztyeppi dárdás"
 
-#. [unit]: race=orc
+#. [unit]: id=Steppe Spearman, race=orc
 #: Extended_Era/units/steppe_orcs/Spearman.cfg:19
 msgid ""
 "The orcs of the steppe learnt early on that their axes were simply not "
@@ -4281,12 +4283,12 @@ msgstr ""
 "használatát és magához vesz néhány tőrösbotot. Ez szükséges, de valamelyest "
 "ellentmondásos változás."
 
-#. [unit]: race=orc
+#. [unit]: id=Steppe Stoic, race=orc
 #: Extended_Era/units/steppe_orcs/Stoic.cfg:5
 msgid "Steppe Stoic"
 msgstr "Sztyeppi sztoikus"
 
-#. [unit]: race=orc
+#. [unit]: id=Steppe Stoic, race=orc
 #: Extended_Era/units/steppe_orcs/Stoic.cfg:20
 msgid ""
 "The Stoic are embodiments of endurance, plain and simple. They are "
@@ -4301,12 +4303,12 @@ msgstr ""
 "látja felemelkedni a nehézkes orkot a halottak tetemei közül, felemelni "
 "pajzsát és újból elfoglalni helyzetét."
 
-#. [unit]: race=goblin
+#. [unit]: id=Steppe Striker, race=goblin
 #: Extended_Era/units/steppe_orcs/Striker.cfg:5
 msgid "Steppe Striker"
 msgstr "Sztyeppi lesújtó"
 
-#. [unit]: race=goblin
+#. [unit]: id=Steppe Striker, race=goblin
 #: Extended_Era/units/steppe_orcs/Striker.cfg:23
 msgid ""
 "Rather then weaken foes for others to finish off, Strikers seek the killing "
@@ -4320,12 +4322,12 @@ msgstr ""
 "küzdelmet. Ehelyett végigszáguldanak a nagyobb felfordulásokon, kutatva az "
 "elfoglalt ellenségeket, hogy meglephessék őket."
 
-#. [unit]: race=orc
+#. [unit]: id=Steppe Vanguard, race=orc
 #: Extended_Era/units/steppe_orcs/Vanguard.cfg:5
 msgid "Steppe Vanguard"
 msgstr "Sztyeppi gárdista"
 
-#. [unit]: race=orc
+#. [unit]: id=Steppe Vanguard, race=orc
 #: Extended_Era/units/steppe_orcs/Vanguard.cfg:22
 msgid ""
 "Having proven themselves in battle, Vanguards start to assert their "
@@ -4343,12 +4345,12 @@ msgstr ""
 "tanultak valamennyi önmérsékletet, és láncos buzogányukat kipótolták a "
 "szokásos fokossal, amit a sztyeppi harcosok is használnak."
 
-#. [unit]: race=orc
+#. [unit]: id=Steppe Warrior, race=orc
 #: Extended_Era/units/steppe_orcs/Warrior.cfg:5
 msgid "Steppe Warrior"
 msgstr "Sztyeppi harcos"
 
-#. [unit]: race=orc
+#. [unit]: id=Steppe Warrior, race=orc
 #: Extended_Era/units/steppe_orcs/Warrior.cfg:19
 msgid ""
 "The rank and file Steppe Orc soldier epitomizes the qualities of his clan. "
@@ -4365,15 +4367,18 @@ msgstr ""
 "életük átveszi az intézményes kiképzés helyét. A sztyeppi orkok nem "
 "ravaszságukról híresek, nehéz, kétkezi fokosokkal harcolnak."
 
-#. [unit]: race=fairy
+#. [unit]: id=Faerie Dryad, race=fairy
 #: Extended_Era/units/sylvan_fairies/Dryad.cfg:4
 msgid "Dryad"
 msgstr "Driád"
 
-#. [unit]: race=fairy
-#: Extended_Era/units/sylvan_fairies/Sprite.cfg:19
-#: Extended_Era/units/sylvan_fairies/Faerie.cfg:19
+#. [unit]: id=Faerie Spirit, race=fairy
+#. [unit]: id=Fire Faerie, race=fairy
+#. [unit]: id=Faerie Sprite, race=fairy
+#. [unit]: id=Faerie Dryad, race=fairy
 #: Extended_Era/units/sylvan_fairies/Spirit.cfg:34
+#: Extended_Era/units/sylvan_fairies/Faerie.cfg:19
+#: Extended_Era/units/sylvan_fairies/Sprite.cfg:19
 #: Extended_Era/units/sylvan_fairies/Dryad.cfg:20
 msgid ""
 "Mischievous in nature, these fiery fairies are pranksters at heart, with a "
@@ -4389,42 +4394,42 @@ msgstr ""
 "természetük hamar a tündék barátaivá teszik őket."
 
 #. [attack]: type=fire
-#: Extended_Era/units/sylvan_fairies/Sprite.cfg:26
-#: Extended_Era/units/sylvan_fairies/Faerie.cfg:26
 #: Extended_Era/units/sylvan_fairies/Spirit.cfg:41
+#: Extended_Era/units/sylvan_fairies/Faerie.cfg:26
+#: Extended_Era/units/sylvan_fairies/Sprite.cfg:26
 #: Extended_Era/units/sylvan_fairies/Dryad.cfg:27
 msgid "fire touch"
 msgstr "tüzes érintés"
 
 #. [attack]: type=fire
-#: Extended_Era/units/sylvan_fairies/Sprite.cfg:36
-#: Extended_Era/units/sylvan_fairies/Faerie.cfg:36
 #: Extended_Era/units/sylvan_fairies/Spirit.cfg:54
+#: Extended_Era/units/sylvan_fairies/Faerie.cfg:36
+#: Extended_Era/units/sylvan_fairies/Sprite.cfg:36
 #: Extended_Era/units/sylvan_fairies/Dryad.cfg:37
 msgid "mystic fire"
 msgstr "misztikus tűz"
 
-#. [unit]: race=fairy
+#. [unit]: id=Fire Faerie, race=fairy
 #: Extended_Era/units/sylvan_fairies/Faerie.cfg:4
 msgid "Fire Faerie"
 msgstr "Tűztündér"
 
-#. [unit]: race=fairy
+#. [unit]: id=Faerie Spirit, race=fairy
 #: Extended_Era/units/sylvan_fairies/Spirit.cfg:4
 msgid "Faerie Spirit"
 msgstr "Tündér szellem"
 
-#. [unit]: race=fairy
+#. [unit]: id=Faerie Sprite, race=fairy
 #: Extended_Era/units/sylvan_fairies/Sprite.cfg:4
 msgid "Sprite"
 msgstr "Tündér"
 
-#. [unit]: race=troll
+#. [unit]: id=XE Troll Shaman, race=troll
 #: Extended_Era/units/trolls/Shaman.cfg:4
 msgid "Troll Shaman"
 msgstr "Troll sámán"
 
-#. [unit]: race=troll
+#. [unit]: id=XE Troll Shaman, race=troll
 #: Extended_Era/units/trolls/Shaman.cfg:25
 msgid ""
 "Troll shamans are the mystical leaders of the trolls. Though not as strong "
@@ -4440,12 +4445,12 @@ msgstr ""
 msgid "flame blast"
 msgstr "lángfuvallat"
 
-#. [unit]: race=bats
+#. [unit]: id=Dread Bat, race=bats
 #: Extended_Era/units/undead/Dread_Bat.cfg:4
 msgid "Dread Bat"
 msgstr "Rettenetes denevér"
 
-#. [unit]: race=bats
+#. [unit]: id=Dread Bat, race=bats
 #: Extended_Era/units/undead/Dread_Bat.cfg:19
 msgid ""
 "Dread Bats are fast and can drain the blood of those they attack, thereby "
@@ -4458,12 +4463,12 @@ msgstr ""
 "csata kezdetén. Vérrel telítődve óriási méretűre nőnek, s egyre nagyobb és "
 "nagyobb áldozatot szemelnek ki maguknak."
 
-#. [unit]: race=wose
+#. [unit]: id=Wose Shaman, race=wose
 #: Extended_Era/units/woses/Shaman.cfg:6
 msgid "Wose Shaman"
 msgstr "Fapásztor sámán"
 
-#. [unit]: race=wose
+#. [unit]: id=Wose Shaman, race=wose
 #: Extended_Era/units/woses/Shaman.cfg:26
 msgid ""
 "These woses are able to command forest plants such as vines and creepers to "
